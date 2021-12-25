@@ -34,7 +34,7 @@ uglyurls = true
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "MakeHuman and MPFB"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
@@ -75,11 +75,6 @@ uglyurls = true
         name = "Home"
         url = "/"
         weight = 1
-
-    [[menu.main]]
-        name = "Twitter"
-        url = "https://twitter.com/thingsym"
-        weight = 2
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
