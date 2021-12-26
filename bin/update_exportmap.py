@@ -32,7 +32,7 @@ for page in pages:
     newpage["id"] = int(page["id"])
     newpage["category"] = category
     
-    filename = re.sub(r'[?./!()]', "", page["title"])
+    filename = re.sub(r'[^a-zA-Z0-9_:]', "", page["title"])
     filename = re.sub(r'\:', "_", filename) + ".md"
     
     newpage["filename"] = str(filename).lower()
@@ -42,5 +42,6 @@ for page in pages:
     newpage["title"] = title
     exportmap["pages"].append(newpage)
 
-print(json.dumps(exportmap, indent=4, sort_keys=True))
+with open("exportmap.json", "w") as json_file:
+    json.dump(exportmap, json_file, indent=4, sort_keys=True)
     
