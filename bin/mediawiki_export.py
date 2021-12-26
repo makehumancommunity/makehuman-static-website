@@ -66,10 +66,20 @@ for source_page in pages:
         images = images_pattern.findall(content)
         if len(images) > 0:
             for image in images:
+                found_file = False
                 for match in Path(exportmap["settings"]["imagesSource"]).rglob(image):
                     if not "thumb" in str(match):
                         shutil.copy(str(match), os.path.join(dest_page["target"], image))
-                        print(" -- " + str(match))
+                        found_file = True
+                        #print(" -- " + str(match))
+                if not found_file:
+                    for match in Path(exportmap["settings"]["imagesSource"]).rglob(str(image).capitalize()):
+                        if not "thumb" in str(match):
+                            shutil.copy(str(match), os.path.join(dest_page["target"], image))
+                            found_file = True
+                            #print(" -- " + str(match))
+                if not found_file:
+                    print("-- Found no match for " + str(image) + "!")
                         
             #print(images)
         
