@@ -18,9 +18,9 @@ def chdir_to_root():
 
 def get_mediawiki_db_page_list():
     CATEGORIES = {
-        0: "UNCATEGORIZED",
+        0: "Uncategorized",
         6: "IMAGE",    
-        3000: "DOCUMENTATION",
+        3000: "Documentation",
         3002: "FAQ"
         }
     

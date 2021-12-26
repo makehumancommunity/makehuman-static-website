@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "ignorePagesWithNumericCategory": true,
+    "ignoreCategories": ["IMAGE"],
+    "exportUnmatchedToQuarantine": true,
+    "exportMatchedToGivenDestination": true,
+    "quarantineRoot": "content/Quarantine"
+  },
+  "pages": []
+}
+
