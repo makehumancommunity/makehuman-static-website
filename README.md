@@ -15,6 +15,10 @@ Simply create a new markdown file in the appropriate location. Take a look at ho
 The site is rendered to HTML using [Hugo](https://gohugo.io/). You can download a self-contained instance of hugo from https://github.com/gohugoio/hugo/releases. 
 Note that you need hugo **extended**, which is found at the bottom of the list of available files (which is located under the "assets" header).
 
+The hugo theme is included as a git submodule. So when you clone the repo, be sure to include "--recursive", for example 
+
+    git clone --recursive https://github.com/makehumancommunity/makehuman-static-website.git
+
 To start a local hugo webserver on port 1313, run 
 
     hugo server -D 
