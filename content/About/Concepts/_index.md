@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Concepts"
 draft: false
 weight: 5
 ---
