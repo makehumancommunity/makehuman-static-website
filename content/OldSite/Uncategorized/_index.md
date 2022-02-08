@@ -1,7 +1,7 @@
 ---
-title: "Quarantine Uncategorized"
-date: 2017-10-17T15:26:15Z
+title: "The uncategorized pages from mediawiki"
 draft: false
 ---
 
-Text about quarantine uncategorized
+These are the mediawiki pages which did not belong to a category.
+

@@ -1,7 +1,7 @@
 ---
-title: "Quarantine FAQ"
-date: 2017-10-17T15:26:15Z
+title: "The FAQ category from mediawiki"
 draft: false
 ---
 
-Text about quarantine faq
+These are the mediawiki pages from the "FAQ" category.
+

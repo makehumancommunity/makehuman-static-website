@@ -1,9 +1,8 @@
 ---
-title: "Quarantine"
-date: 2017-10-17T15:26:15Z
+title: "Old site"
 draft: false
 ---
 
-This is where pages which were not explicitly marked for export end up. Ideally this directory should be empty when the review is finished and the exportmap.json
-file has been properly updated.
+This is where all pages from the old site has ended up, before they have revised and move to their proper location.
+Ideally, this hierarchy should be be empty/removed once the site migration has finished.
 

@@ -1,7 +1,7 @@
 ---
-title: "Quarantine Documentation"
-date: 2017-10-17T15:26:15Z
+title: "The Documentation category from mediawiki"
 draft: false
 ---
 
-Text about quarantine documentation
+These are the "Documentation" pages from mediawiki.
+
