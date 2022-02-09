@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "http://static.makehumancommunity.org"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "MakeHuman and MPFB"
+title = "MakeHuman Community"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -26,15 +26,15 @@ uglyurls = true
     #github_doc_repository_path = ""
 
     # Analytic section
-    google_analytics_id = "" # Your Google Analytics tracking id
-    tag_manager_container_id = "" # Your Google Tag Manager container id
-    google_site_verification = "" # Your Google Site Verification for Search Console
+    #google_analytics_id = "" # Your Google Analytics tracking id
+    #tag_manager_container_id = "" # Your Google Tag Manager container id
+    #google_site_verification = "" # Your Google Site Verification for Search Console
 
     # Open Graph and Twitter Cards settings section
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "MakeHuman and MPFB"
+    title = "MakeHuman Community"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
@@ -63,10 +63,10 @@ uglyurls = true
 
     # Algolia site search section
     # See https://www.algolia.com/doc/
-    algolia_search_enable = true
-    algolia_indexName = "hugo-demo-techdoc"
-    algolia_appId = "7W4SAN4PLK"
-    algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
+    #algolia_search_enable = true
+    #algolia_indexName = "hugo-demo-techdoc"
+    #algolia_appId = "7W4SAN4PLK"
+    #algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 
 # Global menu section
 # See https://gohugo.io/content-management/menus/
@@ -85,7 +85,7 @@ uglyurls = true
     [markup.tableOfContents]
         startLevel = 2
         endLevel = 6
-        ordered = false
+        ordered = true
 
 [outputs]
     home = ["HTML", "RSS", "Algolia"]
