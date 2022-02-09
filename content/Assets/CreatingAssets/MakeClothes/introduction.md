@@ -1,9 +1,8 @@
 ---
-title: "ClothesV2"
+title: "Introduction to MakeClothes"
 draft: false
+weight: 5
 ---
-
-# Makeclothes Version 2
 
 
 
@@ -287,4 +286,5 @@ The material is also loaded, when MakeSkin is available. The illustration shows 
 
 
 ![Mc2_importclothes.png](Mc2_importclothes.png)
+
 
