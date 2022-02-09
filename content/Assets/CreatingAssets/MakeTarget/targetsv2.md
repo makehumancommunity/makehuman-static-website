@@ -3,6 +3,11 @@ title: "TargetsV2"
 draft: false
 ---
 
+## TODO: port broken images
+
+Several of the images on the original mediawiki page, http://www.makehumancommunity.org/wiki/Documentation:TargetsV2, had filenames with spaces. 
+These did not make it through the automatic porting and will need to be ported manually.
+
 ### Before using the program
 
 MakeTarget Version 2 is created to work with new Blender. It is used to create custom targets for the body. A target is also called a morph or morphing which normally means the change of a shape in 3d. So it is used to create morphes or target of the basemesh. This program can also be used to correct targets made before.
