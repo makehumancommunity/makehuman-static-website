@@ -1,0 +1,23 @@
+---
+title: "Reporting a bug"
+draft: false
+---
+
+### Using the Makehuman log files for error reporting
+Occassionally, MakeHuman will not behave as expected, or you will note an exception in the status line, You willingness to make a bug report.for such events goes a long way to help imrove MakeHuman.  For simple bugs,, it can often be enough to report the version of your operating system, the version of MakeHuman that you are using, and the steps to reproduce the problem.  However, the developers often need to know more detail to reproduce your problem in a different environment.
+As long as MakeHuman has not "crashed" completely, the easiest way to learn the details is to use thebuilt-in log viewer.  This can be accessed by selecting theutilities taband then thelog subtab.  On the left, you will see alevel selectorthat is initially set to "default".  The center panel will show a very verbose set of all the actions that have happened inside MakeHuman since it was last restarted.  This entire set of information is seldom needed.
+For bug reporting, you will be most interested in the messages that show when you set the level selector to "error".  If severe problems have occurred, the center window will show the errors logged in red.  If there are none, it may still be worth reporting the somewhat less severe "warning" level messages which resulted in code exceptions.  These messages will show in orange if you set the level selector to "warning".   Only seldom will levels of "notice" or "message" be of interest to developers.  Supply these only upon request.
+When you find "errors" or "warnings" you can highlight the message(s) with the mouse and press the "copy" button in the left panel.  The message will be copied to your clipboard.  Simply paste  these messages at the end of your bug report.
+In the event that MakeHuman crashes completely, or in the case of complex problems it may be better  or easier to upload more complete log information from the log files. MakeHuman  always creates 2 important files called "makehuman-debug.txt"  and "makehuman.log" in the user's home directory (under "My Documents/makehuman/v1" in Windows or "~/makehuman/v1" in your linux distribution).
+makehuman-debug.txt:This provides some essential information about the system on which you have installed makehuman such as version information, machine architecture type, numpy versions and so on which is useful when reporting a bug as the bug may be applicable to your particular machine configuration.
+makehuman.log:The makehuman.log file is another separate file. This file logs all events that take place from the beginning when makehuman is loading till the end when makehuman is closed. ALl regular events and error messages are logged in this file. It is important that you attach either this whole file or the last few signinficant lines indicating where the bug occured. This logs contains backtraces and other useful information like what plugins loaded, what plugins did not at which point did a python script fail and so on.
+When reporting a bug in the makehuman bugtracker posting the contents of both these files is useful and will help us to debug and resolve the issue(s) more quickly. This is of course not needed when you are posting a feature request which is not a bug.
+
+
+### Using the Makehuman bug tracker
+Makehuman has introduced a new internal bug tracker based on redmine (!LINK!http://www.redmine.org -- www.redmine.org!/LINK!) this tracker allows us to easily handle bug reports and feature requests reported/requested by you. In order to use this new bug tracker a forum account is compulsory (even if you do not wish to use forums). Your forum ID becomes your makehuman bug tracker ID.
+Following are some quick links related to makehuman bug tracker:
+* Roadmaps:!LINK!http://bugtracker.makehuman.org/projects/makehuman/roadmap -- http://bugtracker.makehuman.org/projects/makehuman/roadmap!/LINK!
+* Add a new issue and see the isues list:!LINK!http://bugtracker.makehuman.org/projects/makehuman/issues -- http://bugtracker.makehuman.org/projects/makehuman/issues!/LINK!
+* Graph for a quick overview:!LINK!http://bugtracker.makehuman.org/projects/makehuman/issues/growth -- http://bugtracker.makehuman.org/projects/makehuman/issues/growth!/LINK!
+* Activity:!LINK!http://bugtracker.makehuman.org/projects/makehuman/activity -- http://bugtracker.makehuman.org/projects/makehuman/activity!/LINK!

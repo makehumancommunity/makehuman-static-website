@@ -1,0 +1,24 @@
+---
+title: "What is MakeHumanPortable"
+draft: false
+---
+
+[MakeHumanPortable] is a MakeHuman build for the [http://portableapps.com/ PortableApps] software collection on Windows®. Commonly portable applications are installed on a removable device, so they can be carried from Windows® system to another. Portable applications do not leave traces on the system they are running on. The applications can be managed with the [http://portableapps.com/download PortableApps menu](https://download.tuxfamily.org/makehuman/releases/1.1.0/makehuman-community-1.1.0-cr1.paf.exe). Because MakeHumanPortable is currently hosted by MakeHuman itself on Tuxfamily automatic updating via the PortableApps menu will not work. Functionality and usage of MakeHumanPortable is the same as MakeHuman with some carefully chosen extensions and community plug-ins.
+ 
+To comply with the condition of not leaving traces on the system, MakeHumanPortable will store users data such as created models or extra clothes in its own folder structure. Therefore, the [[FAQ:Where are my MakeHuman files found (where is my HOME directory)?|makehuman user-folder]] will be located at X:\PortableApps\MakeHuman\AppData (replace X: with the correct letter of your portable device). The MakeHuman user-folder will be created on first run. If you want to use proxy items created from another MakeHuman installation, these proxy items need to be copied to the user-folder of the portable application. 
+
+The currently distributed version of MakeHumanPortable (1.1.0-cr1) is a community release and an official build, which includes all plug-ins available for MakeHuman until 2016.09.29. Particularly the MHX2 plug-in is included. Models exported from this community build are still covered by the CC0-exception [(see license explanations)], even when exported with the MHX2-exporter plug-in. (Keep in mind: basic assets directly provided by MakeHuman applications are covered by the MakeHuman-license, too. However, assets downloaded by the assets downloader plug-in or from the [http://www.makehumancommunity.org/content/user_contributed_assets.html community site](http://www.makehuman.org/license_explanation.php) directly may have other licenses. Currently the possible licenses for community assets are either CC-BY or CC0.)
+
+If you are using BlenderPortable, too, you can use a [plug-in installer] to install the Blender component for MHX2-import, MH BlenderTools (MakeClothes, MakeTarget, MakeWalk), and the community assets. After install these Blender plug-ins will still need to be activated within the add-on tab of the [https://www.blender.org/manual/de/preferences/addons.html user preferences](https://download.tuxfamily.org/makehuman/releases/1.1.0/MHPluginsBlenderPortable_1.1.0-cr1.paf.exe). The plug-in installer described here will work with BlenderPortable only and not with standard Blender! Blender, until version 2.77a, came with a pre-installed, outdated MHX-importer. Do not use this outdated plug-in to import files created with the MHX2-exporter!<br />
+When using MakeClothes with either Blender or BlenderPortable the Output Directory needs to be set to the local user-folder (see second chapter). To change the default output of MakeClothes, click on "Show Settings" within the MakeClothes-panel and change the string under "Output Directory".
+<br />
+
+**Some technical hints:**
+
+*Applications from PortableApps do not need to be installed on a removable device, they can be installed to any local folder on the system, too. MakeHumanPortable can even be installed as stand-alone application without the PortableApps-platform.
+
+*Theoretically, programs provided by PortableApps can be run on Linux or OSX by using the [Wine]/[https://www.codeweavers.com/ CrossOver](https://www.winehq.org/) environment, though functionality is not guaranteed.
+
+*MakeHumanPortable can be seen as a wrapper around the genuine MakeHuman Application, which is located at X:\PortableApps\MakeHumanPortable\App\makehuman. Here is placed the common Windows® build. So, if you want to add more plug-ins, they need be moved to the appropriate subdirectory in this location. (Attention: Adding new plug-ins could affect the CC0 exception of the MakeHuman license. [Click here for further information about the license](http://www.makehuman.org/license_explanation.php)).
+
+*The behaviour of MakeHumanPortable.exe is controlled by MakeHumanPortable.ini in the folder ...\App\AppInfo\Launcher\, e.g. it controls the location of the users data-folder (for changes in this file see the Documentation: http://portableapps.com/manuals/PortableApps.comLauncher/ref/launcher.ini/index.html#ref-launcher-ini)
