@@ -72,9 +72,34 @@ uglyurls = true
 # See https://gohugo.io/content-management/menus/
 [menu]
     [[menu.main]]
-        name = "Home"
-        url = "/"
+        name = "Downloads"
+        url = "http://www.makehumancommunity.org/content/downloads.html"
         weight = 1
+
+    [[menu.main]]
+        name = "Forum"
+        url = "http://www.makehumancommunity.org/forum/"
+        weight = 2
+
+    [[menu.main]]
+        name = "GitHub"
+        url = "https://github.com/makehumancommunity"
+        weight = 3
+
+    [[menu.main]]
+        name = "Facebook"
+        url = "https://www.facebook.com/makehuman"
+        weight = 4
+
+    [[menu.main]]
+        name = "YouTube"
+        url = "https://www.youtube.com/channel/UC8f7BA98RQHl70sEta5KXxQ"
+        weight = 5
+
+    [[menu.main]]
+        name = "Patreon"
+        url = "https://www.patreon.com/makehuman"
+        weight = 6
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
