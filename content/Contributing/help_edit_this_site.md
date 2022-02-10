@@ -14,7 +14,8 @@ on the web site within a few hours.
 
 ## Making basic editing
 
-In theory you can edit pages directly on github. For example, if you want to edit the page you are watching now, simply go to ... and click edit.
+In theory you can edit pages directly on github. For example, if you want to edit the page you are watching now, simply go to 
+[its github location](https://github.com/makehumancommunity/makehuman-static-website/blob/master/content/Contributing/help_edit_this_site.md) and click edit.
 If you do not have write access, this will automatically be converted into a "pull request", so that someone from the dev team can look at it.
 
 If you have write access, you can simply commit it without further procedures. 

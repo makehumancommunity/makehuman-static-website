@@ -11,8 +11,5 @@ The official site is still at http://www.makehumancommunity.org/ and will probab
 
 ## Editing these pages
 
-The sources for the site are MarkDown files with some extra markup for [Hugo](https://gohugo.io/), and can be found on 
-[GitHub](https://github.com/makehumancommunity/makehuman-static-website) (if you have access to it, it's private for now).
-
-See the README.md file there for info on how to use Hugo.
-
+The sources for the site are MarkDown files with some extra markup for [Hugo](https://gohugo.io/). For
+instructions on how to edit them, see [help edit this site]({{< relref "Contributing/help_edit_this_site" >}})
