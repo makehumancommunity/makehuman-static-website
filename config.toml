@@ -13,6 +13,8 @@ defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 uglyurls = true
 
+publishDir = "dist"
+
 [params]
 
     # Source Code repository section
