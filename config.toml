@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 uglyurls = true
 
-publishDir = "dist"
+publishDir = "build"
 
 [params]
 
