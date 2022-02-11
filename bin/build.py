@@ -9,5 +9,6 @@ chdir_to_root()
 subprocess.run(["rm -rf dist/* build/*"], shell=True)
 subprocess.run([hugo, "-D"])
 os.chdir("build")
-subprocess.run(["tar", "cvzf", "../dist/static.tgz", "."])
+#subprocess.run(["tar", "cvzf", "../dist/static.tgz", "."])
+subprocess.run(["rsync", "-avz", "-e", "ssh", "./", "joepal@static.makehumancommunity.org:~/static/"])
 
