@@ -17,3 +17,9 @@ These are frequently asked question about MPFB.
 ## Bugs and errors
 
 * [How do I report a bug?]({{< relref "how_do_i_report_a_bug" >}})
+
+## Legal
+
+* [Who owns MPFB?]({{< relref "who_owns_mpfb" >}})
+* [Can I sell models made with MPFB?]({{< relref "can_i_sell_models" >}})
+* [Can I use models made with MPFB in a closed-source game?]({{< relref "use_in_closed_source" >}})
