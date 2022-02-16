@@ -137,10 +137,12 @@ Something is wrong with IK poses. FK poses usually just work. However, for IK so
 
 Further, there is no import or integration for MakeHuman style BVH poses and expressions. So these cannot be used at all in MPFB atm.
 
-### MakeClothes not integrated
+### MakeClothes port not really started
 
 In the longer run, all the asset creation tools (MakeClothes, MakeSkin, MakeTarget...) will be merged with MPFB2. MakeSkin and MakeTarget have already
-been ported, but MakeClothes is still only partially there. For now it is better to use the standalone MakeClothes.
+been ported, but the port of MakeClothes has hardly even started. The only actually working part of it is the clothes extraction. 
+
+If you want to create clothes, you'll have to use the [separate MakeClothes addon](https://github.com/makehumancommunity/community-plugins-makeclothes).
 
 ### Things not ported from MPFB1
 
