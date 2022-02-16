@@ -4,7 +4,11 @@ These are the sources for the new community website. The site as such is located
 
 ## The rendered site
 
-So far, the site hasn't been published anywhere.
+Until finished, a rendered version of the site is available at http://static.makehumancommunity.org/
+
+This will be updated manually once in a while, as an when there are changes.
+
+At some point automatic building and updating will be implemented.
 
 ## Adding content (quick version)
 
