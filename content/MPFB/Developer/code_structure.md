@@ -55,7 +55,8 @@ and [righelpers](https://github.com/makehumancommunity/mpfb2/tree/master/src/mpf
 related logic in [socketobject](https://github.com/makehumancommunity/mpfb2/tree/master/src/mpfb/entities/socketobject)
 * [SystemService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/systemservice.py) contains some platform-specific utility calls, such as a method for opening a web browser 
 a specific location.
-* [TargetService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/assetservice.py) contains logic loading targets and manipulating shape keys
+* [TargetService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/targetservice.py) contains logic loading targets and manipulating shape keys
+* [UiService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/uiservice.py) contains logic for working with the user interface.
 
 ## Entities
 
