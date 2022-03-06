@@ -4,16 +4,15 @@ draft: false
 weight: 5
 ---
 
-Note that **2.0-alpha1 has not yet been formally released**, and that what is written below currently concerns the nightly builds.
-These release notes are a work in progress.
+**2.0-alpha1 was released 2022-03-06**
 
-As 2.0-alpha1 will be the first release in the MPFB2 series, the following are changes since MPFB1.
+As 2.0-alpha1 is the first release in the MPFB2 series, the following are changes since MPFB1.
 
 Before installing MPFB2, you should take a look at the [known issues](#known-issues) section at the bottom of this page.
 
 ## Downloads
 
-The latest build of MPFB2 can be downloaded from [Tuxfamily](https://download.tuxfamily.org/makehuman/plugins/). Look for the file called mpfb2...zip in the directory.
+The 2.0-alpha1 build of MPFB can be downloaded from [Tuxfamily](https://download.tuxfamily.org/makehuman/releases/mpfb-2.0.0-a1.zip).
 
 If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{< relref "../Docs/getting_started" >}}) guide.
 
