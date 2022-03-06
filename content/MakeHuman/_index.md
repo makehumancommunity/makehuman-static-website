@@ -16,7 +16,9 @@ age, height, weight and ethnicity. The detail targets allow for the character to
 as the eye's shape or finger's length.
 
 The MakeHuman project strives to provide a complete tool that allows for the management of all things needed to create virtual humans. 
-With the exception of modelling, most of these tools follow a "point and click" approach by using the MakeHuman's Library.
+With the exception of modeling, most of these tools follow a "point and click" approach by using the MakeHuman's Library.
 MakeHuman also offers tools for exporting virtual humans to other software (such as the Blender 3D modeling suite) where further refinements can be made.
 
 For documentation about MakeHuman, see the [docs hierarchy]({{< relref "docs" >}}).
+
+![MakeHuman](makehuman/makehuman.png)
