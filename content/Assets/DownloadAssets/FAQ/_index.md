@@ -1,7 +1,7 @@
 ---
-title: "FAQ (downloading assets)"
+title: "Downloading assets FAQ"
 draft: false
 weight: 5
 ---
 
-Text about FAQ
+This is a work in progress, see links in the menu for now.
