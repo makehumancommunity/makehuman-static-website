@@ -8,9 +8,14 @@ Bugs should be reported here [in the github issues section](https://github.com/m
 
 In general, this information should always be included:
 
+- What, in detail, happen? Did you see an error message? Did the end result look different than expected? Did nothing happen at all? 
 - From when is the version you are using? I.e, did you download it today or is it a few days or weeks old?
 - On what platform are you running blender?
 - Screenshots clearly showing what the problem is
+
+Without this kind of details, it is simply not possible to figure out what the error is. 
+
+When creating an issue on GitHub, you should get a basic template where these questions are listed.
 
 ## Log files
 
