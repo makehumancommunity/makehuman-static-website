@@ -25,6 +25,8 @@ If this is the first time you install MPFB2, you might want to take a look at th
 * MATERIALS: There is a new button for updating an existing material with a normal map
 * ANIMATION: Add (highly experimental) code for creating walk cycles
 * MAKESKIN: Implement texture path normalization, so that image files automatically get placed in the appropriate location and with appropriate names
+* POSES: T-poses are now available for common FK rigs
+* POSES: There is a new button for applying a pose as rest pose, while keeping clothes and body part in sync
 
 ## Bug fixes
 
@@ -35,9 +37,15 @@ If this is the first time you install MPFB2, you might want to take a look at th
 * Warn rather than crash if the wavefront obj io addon isn't enabled
 * Fix crash when creating a human of age "child" in combination with certain other macro target settings
 
-
 ## Sculpting: Setting up a sculpt project
 
+It is now possible to quickly set up various forms of sculpt projects. The button will handle everything necessary, such as setting up a multires modfier, baking shape keys and similar. 
+
+The strategy option provides both for projects intended for creating a normal map as well as for when you want to touch up the geometry of your model without using sliders.
+
+There is [a tutorial video on youtube](https://www.youtube.com/watch?v=F5n8gJdDmQ8) introducing this functionality. 
+
+![setup_sculpt](setup_sculpt.png)
 
 ## Shape keys: Baking all shape keys into the basemesh
 
