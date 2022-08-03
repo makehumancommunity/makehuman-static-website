@@ -75,20 +75,75 @@ The keys of this structure are:
 * rigify: settings for rigify meta rigs. This is discussed further down.
 * roll: This is the initial rotation of the bone around its Y axis
 * use_connect: force this bone's head to be at the exact location of the parent bone's tail
-* layers (not shown above) is an array of 32 booleans determining on which bone layers the bone should be visible.
-* inherit scale, use_inherit_rotation and use_local_location: Strategies for which transforms to inherit from the parent bone,
+* inherit_scale, use_inherit_rotation and use_local_location: Strategies for which transforms to inherit from the parent bone,
 see [this section](https://docs.blender.org/manual/en/latest/animation/armatures/bones/properties/relations.html) of Blender's
 documentation for information on what these do.
+
+There are also the following possible keys, not shown in the example above:
+
+* bendy_bone: sub-structure that contains a subset of B-Bone settings for the bone.
+* constraints: array of structures defining constraints to add to the bone.
+* layers: an array of 32 booleans determining on which bone layers the bone should be visible.
+* roll_strategy: specifies a rule to compute the roll automatically.
+* rotation_mode: specifies the rotation mode to use for animation, chosen out of QUATERNION (default), XYZ, etc.
 
 The head / tail blocks specify where the head and the tail of the bone should be, in relation to the base mesh. The 
 "default_position" is a coordinate specifying where the head/tail should be placed as a last resort if no matching
 strategy can be used. 
 
-There are three strategies possible for matching:
+There are four strategies possible for matching:
 
 * CUBE: position should be at the exact center of the joint cube vertex group specified in the "cube_name" key
 * VERTEX: position should be at the exact spot of a specific vertex specified by the "vertex_index" key
-* MEAN: position should be at the geometric mean between two vertices specified as a two cell array in the "vertex_indices" key
+* MEAN: position should be at the geometric mean between two or more vertices specified as an array in the "vertex_indices" key
+* XYZ: the three coordinate values of the position should be taken from three separate vertices specified as an array in the "vertex_indices" key
+
+When saving the rig, MPFB can automatically choose one of CUBE, VERTEX, or MEAN of two vertices
+based on the position of the bone. Other strategies must be manually configured by editing the json file.
+
+When the rig is loaded from json using the Developer panel, the strategies used are stored in custom
+properties of the bones, and reused on save unless the bone was moved and the automatically chosen
+strategy would be a clearly better match. Saving a rig loaded via the non-developer Add Rig panel
+will lose all original strategy data and re-create it from scratch.
+
+There is only one possible roll strategy (must be manually assigned when needed):
+
+* ALIGN_Z_WORLD_Z: aligns the local Z axis to be as close as possible to the world Z axis.
+
+The bendy bone settings support the following properties, listed here with their default values:
+
+    "bendy_bone": {
+        "segments": 1,
+        "custom_handle_start": null,
+        "custom_handle_end": null,
+        "handle_type_start": "AUTO",
+        "handle_type_end": "AUTO",
+        "handle_use_ease_start": false,
+        "handle_use_ease_end": false,
+        "handle_use_scale_start": [false, false, false],
+        "handle_use_scale_end": [false, false, false],
+        "easein": 1.0,
+        "easeout": 1.0
+    },
+
+The constraint list uses property names from the Blender Python API, with name and type being mandatory. A real example:
+
+    "constraints": [
+        {
+            "head_tail": 0.0,
+            "influence": 0.5,
+            "mix_mode": "REPLACE",
+            "name": "Copy@DEF",
+            "owner_space": "LOCAL",
+            "remove_target_shear": false,
+            "subtarget": "thigh.L",
+            "target": true,
+            "target_space": "LOCAL_OWNER_ORIENT",
+            "type": "COPY_TRANSFORMS",
+            "use_bbone_shape": false
+        },
+        ...
+    ],
 
 The rigify block is only relevant for creating rigify meta rigs. It has additional settings for rigify. A rigify block
 may look like this:
