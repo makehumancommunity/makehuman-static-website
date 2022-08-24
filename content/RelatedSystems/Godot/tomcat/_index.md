@@ -7,4 +7,7 @@ weight: 5
 
 This is Tomcat's tutorial on how to import makehuman assets in Godot. It consists of four parts:
 
-* [Part 1 - creating a character]({{< relref "tomcat1" >}})
+* [Vol1 - Creating a character in MakeHuman]({{< relref "tomcat1" >}})
+* [Vol2 - Importing in blender and godot]({{< relref "tomcat2" >}})
+* [Vol3 - changing hair and shape keys]({{< relref "tomcat3" >}})
+* [Vol4 - animation]({{< relref "tomcat4" >}})
