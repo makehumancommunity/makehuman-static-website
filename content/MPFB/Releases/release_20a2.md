@@ -45,6 +45,8 @@ If this is the first time you install MPFB2, you might want to take a look at th
 * Update MakeSkin to correctly create template materials
 * Fix texture path normalization in MakeSkin, so that image files automatically get placed in the appropriate location and with appropriate names
 * Add a new developer button for loading a custom weights file (the functionality was there already, only the operator and UI was missing)
+* Fix log config read from wrong location
+* Fix rigify face bone not centered
 
 ## Rig/Pose: Significant update of the rigify functionality
 
