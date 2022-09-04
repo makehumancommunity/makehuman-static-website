@@ -14,8 +14,7 @@ Before installing MPFB2, you should take a look at the [known issues](#known-iss
 
 ## Downloads
 
-Nightly builds of the latest MPFB2 addon can be found on [Tuxfamily](https://download.tuxfamily.org/makehuman/plugins/) (look for the file named mpfb2-*.zip).
-
+The alpha2 zip file [is available here](https://download.tuxfamily.org/makehuman/releases/mpfb-2.0.0-a2.zip). Nightly builds of MPFB2 can be found on [Tuxfamily](https://download.tuxfamily.org/makehuman/plugins/) (look for the file named mpfb2-*.zip).
 
 If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{< relref "../Docs/getting_started" >}}) guide.
 
