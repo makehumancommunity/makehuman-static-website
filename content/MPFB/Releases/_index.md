@@ -8,5 +8,5 @@ These are the releases notes for the releases in the 2.x series. For MPFB 1 see 
 
 ## 2.0.x
 
-* [2.0-alpha2]({{< relref "release_20a2" >}}) (not yet released)
+* [2.0-alpha2]({{< relref "release_20a2" >}}) (2022-09-04)
 * [2.0-alpha1]({{< relref "release_20a1" >}}) (2022-03-06)

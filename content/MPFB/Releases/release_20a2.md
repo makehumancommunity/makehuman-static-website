@@ -4,7 +4,8 @@ draft: false
 weight: 6
 ---
 
-**2.0-alpha2 has not yet been released, and these are preliminary notes. However, everything mentioned in these release notes are included in the nightly builds. If want to try the functionality, there is no need to wait for the formal release of alpha2, as that will simply be a nightly build given a different name.**
+MPFB2-alpha2 was released 2022-09-04. Note that if you are already using a recent nightly build, there is no reason to switch to the alpha2 build, as alpha2 is simply a 
+renamed nightly build.
 
 As 2.0-alpha2 is the second release in the MPFB2 series, the following are changes since 2.0-alpha1. For changes since MPFB1, 
 see [release notes for alpha 1]({{< relref "release_20a1" >}}).
