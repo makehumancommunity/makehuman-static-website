@@ -38,23 +38,23 @@ I will try to show how you can make a character with a change of clothes and ass
 
 ### Programs used:
 
-* [MakeHuman 1.2.0](http://www.makehumancommunity.org/content/makehuman_120.html)
-* [Blender 2.93.9](https://www.blender.org/download/lts/2-93/)
-* [Godot 3.4.4](https://godotengine.org/download)
+1. [MakeHuman 1.2.0](http://www.makehumancommunity.org/content/makehuman_120.html)
+2. [Blender 2.93.9](https://www.blender.org/download/lts/2-93/)
+3. [Godot 3.4.4](https://godotengine.org/download)
 
 
 ### Addons:
 
-For Blender: 
+_For Blender:_
 
 * [Retarget BVH](https://github.com/black-punkduck/retarget-bvh)
 * [MHX2](https://github.com/makehumancommunity/mhx2-makehuman-exchange)
 
-For Godot:
+_For Godot:_
 
 * [Blender Importer Addon for Godot](https://github.com/V-Sekai/godot-blender)
 
-The additional viewport in the screenshots is [Camera Monitor](https://github.com/zaevi/Godot-Camera-Monitor)
+* The additional viewport in the screenshots is [Camera Monitor](https://github.com/zaevi/Godot-Camera-Monitor)
 
 ### Program Installation
 
@@ -62,8 +62,8 @@ The additional viewport in the screenshots is [Camera Monitor](https://github.co
 
 User data is located in the folder:
 
-* Windows: C:\Users\[Name]\Documents\makehuman\v1py3\data\
-* Linux: ~/Documents/makehuman/v1py3/data
+* **Windows:** _C:\Users\\[Name]\Documents\makehuman\v1py3\data_
+* **Linux:** _~/Documents/makehuman/v1py3/data_
 
 This is where you install additional assets: clothes, hair, poses ect.
 
@@ -74,49 +74,51 @@ They are very well represented in the [gallery](http://www.makehumancommunity.or
 
 The following assets were used in the tutorial:
 
-By punkduck:
+By **punkduck**:
 
-* [sport briefs 01](http://www.makehumancommunity.org/clothes/sport_briefs_01.html)
-* [sport bra 01](http://www.makehumancommunity.org/clothes/sport_bra_01.html)
-* [sun visor](http://www.makehumancommunity.org/clothes/sun_visor_sports_visor.html)
-* [Short jeans female](http://www.makehumancommunity.org/clothes/short_jeans_female.html)
-* [Sleeveless Shirt](http://www.makehumancommunity.org/clothes/sleeveless_shirt.html)
-* [Tennis shoes](http://www.makehumancommunity.org/clothes/tennis_shoes.html)
-* [Martial-Arts Shoes, Kill Bill](http://www.makehumancommunity.org/clothes/martialarts_shoes_kill_bill.html)
+* [_sport briefs 01_](http://www.makehumancommunity.org/clothes/sport_briefs_01.html)
+* [_sport bra 01_](http://www.makehumancommunity.org/clothes/sport_bra_01.html)
+* [_sun visor_](http://www.makehumancommunity.org/clothes/sun_visor_sports_visor.html)
+* [_Short jeans female_](http://www.makehumancommunity.org/clothes/short_jeans_female.html)
+* [_Sleeveless Shirt_](http://www.makehumancommunity.org/clothes/sleeveless_shirt.html)
+* [_Tennis shoes_](http://www.makehumancommunity.org/clothes/tennis_shoes.html)
+* [_Martial-Arts Shoes, Kill Bill_](http://www.makehumancommunity.org/clothes/martialarts_shoes_kill_bill.html)
 
-By Elvaerwyn:
+By **Elvaerwyn**:
 
-* [Ladies Sunglass1 by Elv](http://www.makehumancommunity.org/clothes/ladies_sunglass1_by_elv.html)
+* [_Ladies Sunglass1 by Elv_](http://www.makehumancommunity.org/clothes/ladies_sunglass1_by_elv.html)
 
-By RehmanPolanski:
+By **RehmanPolanski**:
 
-* [Scalp Viking](http://www.makehumancommunity.org/clothes/scalp_viking.html)
+* [_Scalp Viking_](http://www.makehumancommunity.org/clothes/scalp_viking.html)
 
-By callharvey3d:
+By **callharvey3d**:
 
-[Fangs](http://www.makehumancommunity.org/clothes/fangs.html)
+* [_Fangs_](http://www.makehumancommunity.org/clothes/fangs.html)
 
-By sonntag78:
+By **sonntag78**:
 
-* [Orkifyhead](http://www.makehumancommunity.org/target/orkifyhead.html)
-* [Orkifyheadtarget custom skin](http://www.makehumancommunity.org/skin/orkifyheadtarget_custom_skin.html)
+* [_Orkifyhead_](http://www.makehumancommunity.org/target/orkifyhead.html)
+* [_Orkifyheadtarget custom skin_](http://www.makehumancommunity.org/skin/orkifyheadtarget_custom_skin.html)
 
-By Hatshj:
+By **Hatshj**:
 
-* [Alien Eyes](http://www.makehumancommunity.org/content/alien_eyes.html)
+* [_Alien Eyes_](http://www.makehumancommunity.org/content/alien_eyes.html)
 
-By blindsaypatten:
+By **blindsaypatten**:
 
-* [Fully close mouth](http://www.makehumancommunity.org/target/fully_close_mouth.html)
+* [_Fully close mouth_](http://www.makehumancommunity.org/target/fully_close_mouth.html)
 
-By Joel Palmius:
+By **Joel Palmius**:
 
-* [Elf ears](http://www.makehumancommunity.org/target/elf_ears.html)
+* [_Elf ears_](http://www.makehumancommunity.org/target/elf_ears.html)
 
-Animations used from the cgspeed:
+**Animations used from the cgspeed**:
 
 * [MotionBuilder-friendly version 2010 RE-RELEASE](https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/the-motionbuilder-friendly-bvh-conversion-release-of-cmus-motion-capture-database)
-* [BVH directories 01-09](http://www.google.com/url?q=http%3A%2F%2Fwww.mediafire.com%2F%3Fo6ncxuu1oq5r6z9&sa=D&sntz=1&usg=AOvVaw0qOKV3wEikE_aFVbZ3P2EL), 02_01.bvh walk, 02_03.bvh run
+    * [BVH directories 01-09](http://www.google.com/url?q=http%3A%2F%2Fwww.mediafire.com%2F%3Fo6ncxuu1oq5r6z9&sa=D&sntz=1&usg=AOvVaw0qOKV3wEikE_aFVbZ3P2EL)
+        * _02_01.bvh_ [walk]
+        * _02_03.bvh_ [run]
 
 
 ### Modeling
@@ -135,19 +137,20 @@ General body settings, head, torso, arms, legs...
 
 Under "custom": 
 
-* Orkifyhead
-* Elf ears
-* Fully close mouth
+* _Orkifyhead_
+* _Elf ears_
+* _Fully close mouth_
 
 ![vol1_04](vol1_04_model2.jpg)
 
 
 ### Geometry
+_Choose clothing_
 
-The following sequence is not important, we need to equip our character with everything necessary for life and combat: hair, teeth, tongue, eyebrows, eyelashes... if it is supposed that the character will not open his mouth, you can skip the teeth and tongue setup.
+The following sequence is not important, we need to equip our character with everything necessary for life ~~and combat~~: hair, teeth, tongue, eyebrows, eyelashes... if it is supposed that the character will not open his mouth, you can skip the teeth and tongue setup.
 
-* Hair: Scalp Viking
-* Fangs: Fangs (from the Clothes[Accessory] tab)
+* **Hair:** _Scalp Viking_
+* **Fangs:** _Fangs_ (from the Clothes[Accessory] tab)
 
 ![vol1_05](vol1_05_model3.jpg)
 
@@ -157,8 +160,8 @@ Making the body parts modifiable is possible, but difficult. At the end I'll tel
 
 Assigning textures.
 
-* Body: Orkifyheadtarget custom skin
-* Eyes: Alien Eyes
+* **Body:** _Orkifyheadtarget custom skin_
+* **Eyes:** _Alien Eyes_
 
 ![vol1_06](vol1_06_model4.jpg)
 
@@ -166,21 +169,21 @@ Assigning textures.
 
 If a change of clothes is expected, then we put all the necessary clothes on the character. In this case there are 2 sets: casual and sports.
 
-Casual:
+**Casual:**
 
-* Short jeans
-* Sleeveless Shirt
-* Martial-Arts Shoes
-* Ladies Sunglass
+1. _Short jeans_
+2. _Sleeveless Shirt_
+3. _Martial-Arts Shoes_
+4. _Ladies Sunglass_
 
 ![vol1_07](vol1_07_clothes.jpg)
 
-Sporty:
+**Sporty:**
 
-* port briefs 01
-* sport bra 01
-* sun visor (sports visor)
-* tennis shoes
+1. _port briefs 01_
+2. _sport bra 01_
+3. _sun visor (sports visor)_
+4. _tennis shoes_
 
 ![vol1_08](vol1_08_clothes2.jpg)
 
@@ -204,8 +207,8 @@ The character is ready for export.
 
 You can put the character from MH into Blender in several ways.
 
-* The most reliable one is exporting to .mhx2 ([https://github.com/makehumancommunity/mhx2-makehuman-exchange](MHX2 - MakeHuman eXchange format 2)). This is the only way to correctly transfer the textures to the game engine.
-* If you use export to Blender via Socket (tab in MH "Community"), you will have to assign textures in the engine manually
+1. The most reliable one is exporting to .mhx2 [(MHX2 - MakeHuman eXchange format 2)](https://github.com/makehumancommunity/mhx2-makehuman-exchange). This is the only way to correctly transfer the textures to the game engine.
+2. If you use export to Blender via Socket (tab in MH "Community"), you will have to assign textures in the engine manually
 
 It is desirable not to forget to switch "Scale units" to a meter.
 
