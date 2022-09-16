@@ -22,7 +22,7 @@ The import panel can be called in 2 ways:
 
 result is identical:
 
-![vol2_01](https://i5.imageban.ru/out/2022/06/22/56039a82ed372d47e1062bfc63de4518.jpg)
+![vol2_01](56039a82ed372d47e1062bfc63de4518.jpg)
 
 #### If you need facial animation, you can:
 1. to enable the "Face Shapes" option for emotions _via shape keys_;
@@ -34,11 +34,11 @@ The rig assigned to the MH will be imported.
 
 [Import MHX2]
 
-![vol2_02](https://i5.imageban.ru/out/2022/06/22/e36f95842266f8b943333f9ecec98346.jpg)
+![vol2_02](e36f95842266f8b943333f9ecec98346.jpg)
 
 Remove all the masks:
 
-![vol2_03](https://i6.imageban.ru/out/2022/06/22/b0271940648eb9730a8b626d7d82c966.jpg)
+![vol2_03](b0271940648eb9730a8b626d7d82c966.jpg)
 
 If the clothes will be the only one, it's better to leave masks.
 
@@ -49,27 +49,27 @@ If the clothes will be the only one, it's better to leave masks.
 
 To assign the animation use _Retarget BVH_ plugin finalized by **punkduck** [MakeHuman Team] (for which he is very thankful).
 
-![vol2_04](https://i7.imageban.ru/out/2022/06/22/1daeb883a5079a03c28adb30adc109fe.jpg)
+![vol2_04](1daeb883a5079a03c28adb30adc109fe.jpg)
 
 [Load And Retarget] allows you to load animation and immediately apply to the character.
 
 Select animation (02_01.bvh) and load it.
 
-![vol2_05](https://i5.imageban.ru/out/2022/06/22/806077c30ba99ef955cd78e9bd1b3efd.jpg)
+![vol2_05](806077c30ba99ef955cd78e9bd1b3efd.jpg)
 
-![vol2_06](https://i3.imageban.ru/out/2022/06/22/8af2b64f05bffd99bd7997702b81e46a.jpg)
+![vol2_06](8af2b64f05bffd99bd7997702b81e46a.jpg)
 
 _*Now bind the Hips animation bone to the rest pose bone for the character to walk in place._
 
-![vol2_06](https://i7.imageban.ru/out/2022/06/22/9cf749826bb1f099337cfa750c5a5ead.jpg)
+![vol2_06](9cf749826bb1f099337cfa750c5a5ead.jpg)
 
 Add the running animation (02_03.bvh).
 
-![vol2_07](https://i3.imageban.ru/out/2022/06/22/8b968ee4a742bad17c8dba2b01a46176.jpg)
+![vol2_07](8b968ee4a742bad17c8dba2b01a46176.jpg)
 
 Now the file is ready to be exported to Godot.
 
-![vol2_08](https://i6.imageban.ru/out/2022/06/22/77692b79d823b0fc86c54c4703f4a3ff.jpg)
+![vol2_08](77692b79d823b0fc86c54c4703f4a3ff.jpg)
 
 The documentation for the engine recommends that you [triangulate the models](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_scenes.html#exporting-considerations).
 
@@ -93,7 +93,7 @@ In an open scene, you can remove the resting pose skeleton you don't need anymor
 
 Face morphs will be transferred, but you must remember to set the same Shapes settings for different body parts.
 
-![vol2_09](https://i7.imageban.ru/out/2022/06/22/83b26b1957b125bf80c7afadbf1ef5be.jpg)
+![vol2_09](83b26b1957b125bf80c7afadbf1ef5be.jpg)
 
 
 _**The main part of the tutorial is finished.**_
