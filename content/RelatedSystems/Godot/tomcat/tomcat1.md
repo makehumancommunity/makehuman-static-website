@@ -40,7 +40,7 @@ I will try to show how you can make a character with a change of clothes and ass
 
 1. [MakeHuman 1.2.0](http://www.makehumancommunity.org/content/makehuman_120.html)
 2. [Blender 2.93.9](https://www.blender.org/download/lts/2-93/)
-3. [Godot 3.4.4](https://godotengine.org/download)
+3. [Godot 3.4.4](https://godotengine.org/download) (3.5 compatible)
 
 
 ### Addons:
