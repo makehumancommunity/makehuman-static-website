@@ -1,6 +1,7 @@
 ---
 title: "Can I use models made with MPFB in a closed-source game?"
 draft: false
+weight: 37
 ---
 
 Yes.

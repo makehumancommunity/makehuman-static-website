@@ -20,6 +20,7 @@ These are frequently asked question about MPFB.
 
 ## Legal
 
+* [Is it really free?]({{< relref "is_it_really_free" >}})
 * [Who owns MPFB?]({{< relref "who_owns_mpfb" >}})
 * [Can I sell models made with MPFB?]({{< relref "can_i_sell_models" >}})
 * [Can I use models made with MPFB in a closed-source game?]({{< relref "use_in_closed_source" >}})
