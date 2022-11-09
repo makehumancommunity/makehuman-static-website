@@ -15,3 +15,8 @@ This is the documentation for MPFB.
 
 * [Loading an MHM file]({{< relref "loading_an_mhm_file" >}}): Describes how to load a character from a MakeHuman save file.
 * [Importing from MakeHuman]({{< relref "importing_from_makehuman" >}}): Describes how to set up MakeHuman and MPFB2 to enable online importing directly from MakeHuman.
+
+## Materials
+
+* [Materials overview]({{< relref "Materials/overview" >}}):
+* [Node groups]({{< relref "Materials/nodegroups" >}}):
