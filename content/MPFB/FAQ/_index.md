@@ -13,6 +13,7 @@ These are frequently asked question about MPFB.
 * [I downloaded MPFB2, but it says 1.9?]({{< relref "i_downloaded_mpfb2_but_it_says_19" >}})
 * [What are the differences between MPFB2 and MakeHuman?]({{< relref "differences_between_mpfb2_and_makehuman" >}})
 * [What are the differences between MPFB1 and MPFB2?]({{< relref "differences_between_mpfb1_and_mpfb2" >}})
+* [What are the differences between MPFB2 and MHX2?]({{< relref "differences_between_mpfb2_and_mhx2" >}})
 
 ## Bugs and errors
 
