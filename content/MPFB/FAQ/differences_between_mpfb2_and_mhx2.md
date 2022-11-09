@@ -7,8 +7,9 @@ description: "An overview of similarities and differences between MPFB2 and MHX2
 MPFB2 and MHX2 are conceptually very different things, and a comparison isn't really fair. However, since they have functionality that
 overlap to some degree we can list some points where they can be compared. 
 
-Before reading this, you should take a look at [What are the differences between MPFB2 and MakeHuman?]({{< relref "differences_between_mpfb2_and_makehuman" >}}). Points
-that describe MPFB2 on that page will not be listed here. 
+Before reading this, you should take a look at [What are the differences between MPFB2 and MakeHuman]({{< relref "differences_between_mpfb2_and_makehuman" >}}) and
+[What are the differences between MPFB1 and MPFB2]({{< relref "differences_between_mpfb1_and_mpfb2" >}}). Points
+that describe MPFB2 on those pages will not be listed here. 
 
 ## In short
 
