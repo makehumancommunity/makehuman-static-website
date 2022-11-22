@@ -6,7 +6,7 @@ weight: 5
 
 There are three main modes of downloading assets:
 
-* Getting [asset packs](https://download.tuxfamily.org/makehuman/asset_packs/index.html). This is the recommended method for MPFB.
+* Getting [asset packs]({{< relref "../AssetPacks" >}}). This is the recommended method for MPFB.
 * Using the asset downloader. This is the recommended method for MakeHuman.
 * Downloading manually from the asset repositories. This can be used for both MakeHuman and MPFB, but is only recommended for advanced users.
 
@@ -20,10 +20,10 @@ There are some hints on how to do this in the [FAQ]({{< relref "FAQ" >}}).
 
 ## Asset packs
 
-[Asset packs](https://download.tuxfamily.org/makehuman/asset_packs/index.html) are zip files with sorted and checked assets. They are the same assets as can be found in the
+[Asset packs]({{< relref "../AssetPacks" >}}) are zip files with sorted and checked assets. They are the same assets as can be found in the
 repositories and via the asset downloader. The only difference is that they have been conveniently zipped together. 
 
-MPFB users will want to download at least the [makehuman system assets](https://download.tuxfamily.org/makehuman/asset_packs/makehuman_system_assets/index.html).
+MPFB users will want to download at least the [makehuman system assets]({{< relref "../AssetPacks" >}}).
 
 Asset packs can be installed on the "apply assets" -\> "library settings" -\> "asset packs" panel in MPFB.
 
