@@ -18,7 +18,7 @@ You do not need MakeHuman in order to run MPFB2. However, if you want to integra
 If you have not already downloaded MPFB, you can find the zip file with the addon in the [plugins directory on tuxfamily](https://download.tuxfamily.org/makehuman/plugins/).
 Look for the file named "mpfb2-(some date).zip". 
 
-In order to get the most out of MPFB2 you will also want to download some asset packs from the [asset packs page](https://download.tuxfamily.org/makehuman/asset_packs/index.html).
+In order to get the most out of MPFB2 you will also want to download some asset packs from the [asset packs page]({{< relref "../../Assets/AssetPacks" >}}).
 You will want at least the "makehuman system assets", which contains skins, eyes, teeth and similar. But you might as well download a few of the other asset packs too.
 
 ## Install MPFB2
