@@ -20,3 +20,7 @@ This is the documentation for MPFB.
 
 * [Materials overview]({{< relref "Materials/overview" >}}):
 * [Node groups]({{< relref "Materials/nodegroups" >}}):
+
+## Assets
+
+* [Rigging Mesh Assets]({{< relref "rigging_mesh_assets" >}}): describes how to create a sub-rig for a ponytail hair asset.
