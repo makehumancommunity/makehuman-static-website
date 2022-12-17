@@ -110,7 +110,7 @@ The strategies assigned to a bone can be viewed and changed through a panel that
 bone page of properties in the armature edit mode. For full documentation see the
 [Rigging and posing]({{< relref "../Developer/rigging_and_posing" >}}) developer document.
 
-![bone developer panel](../Developer/rigging_bone_developer_panel.png)
+![bone developer panel](../developer/rigging_bone_developer_panel.png)
 
 Since the ponytail asset does not match any joint helpers in the base mesh, all of its bones
 have to be fitted to averages of multiple vertex positions via the `Mean` strategy.
