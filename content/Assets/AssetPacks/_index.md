@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2022-12-18 - Not a release per se, but there's a now a secondary mirror listed at the bottom of this page.
 * [Release 2022-11-22]({{< relref "release_20221122" >}}) - includes all changes since 2021.
 
 ## Available asset packs
@@ -54,4 +55,14 @@ Assets shared under CC-BY:
 * [Shoes 03]({{< relref "shoes03" >}}): A set of boots
 * [Skirts 02]({{< relref "skirts02" >}}): A set of skirts
 * [Underwear 02]({{< relref "underwear02" >}}): A set of female underwear and bikinis
+
+## Secondary mirror
+
+Please only use this if the download links on the subpages above do not work. The mirror has a much tighter traffic quota and there's a risk it might
+get shut down if overloaded. 
+
+The secondary mirror is [here](http://files2.makehumancommunity.org)
+
+The primary download site and the mirror are on two different ISPs in different parts of the country. If you still have trouble downloading, the best 
+guess is that there's a routing issue on your side or between you and Sweden.
 
