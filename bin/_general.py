@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import shutil, os, MySQLdb, json, re
+import shutil, os, json, re
 
 def find_hugo(crash_if_not_found=True):
     loc = shutil.which("hugo")
@@ -16,52 +16,52 @@ def chdir_to_root():
     root = os.path.abspath(parent)
     os.chdir(root)
 
-def get_mediawiki_db_page_list():
-    CATEGORIES = {
-        0: "Uncategorized",
-        6: "IMAGE",    
-        3000: "Documentation",
-        3002: "FAQ"
-        }
-    
-    db = MySQLdb.connect("localhost","mediawiki","mediawiki123","mediawiki")
-     
-    # This join will exclude images, since they have no content text
-    sql = """
-    select 
-      page.page_id,
-      page.page_namespace, 
-      page.page_title,
-      convert(text.old_text using utf8) as content_text
-    from 
-      page,
-      revision,
-      text 
-    where 
-      page.page_latest = revision.rev_id 
-      and revision.rev_text_id = text.old_id 
-    order by
-      page_namespace,
-      page_title;"""
-    
-    cursor = db.cursor()
-    cursor.execute(sql)
-    
-    result = cursor.fetchall()
-    
-    pages = []
-    
-    for row in result:
-        item = dict()
-        item["id"] = row[0];
-        item["category"] = row[1];
-        if item["category"] or item["category"] == 0:
-            if int(item["category"]) in CATEGORIES:
-                item["category"] = CATEGORIES[int(item["category"])]
-        item["title"] = row[2]
-        item["content"] = row[3]
-        pages.append(item)
-    
-    db.close()
-    
-    return pages
+#def get_mediawiki_db_page_list():
+#    CATEGORIES = {
+#        0: "Uncategorized",
+#        6: "IMAGE",    
+#        3000: "Documentation",
+#        3002: "FAQ"
+#        }
+#    
+#    db = MySQLdb.connect("localhost","mediawiki","mediawiki123","mediawiki")
+#     
+#    # This join will exclude images, since they have no content text
+#    sql = """
+#    select 
+#      page.page_id,
+#      page.page_namespace, 
+#      page.page_title,
+#      convert(text.old_text using utf8) as content_text
+#    from 
+#      page,
+#      revision,
+#      text 
+#    where 
+#      page.page_latest = revision.rev_id 
+#      and revision.rev_text_id = text.old_id 
+#    order by
+#      page_namespace,
+#      page_title;"""
+#    
+#    cursor = db.cursor()
+#    cursor.execute(sql)
+#    
+#    result = cursor.fetchall()
+#    
+#    pages = []
+#    
+#    for row in result:
+#        item = dict()
+#        item["id"] = row[0];
+#        item["category"] = row[1];
+#        if item["category"] or item["category"] == 0:
+#            if int(item["category"]) in CATEGORIES:
+#                item["category"] = CATEGORIES[int(item["category"])]
+#        item["title"] = row[2]
+#        item["content"] = row[3]
+#        pages.append(item)
+#    
+#    db.close()
+#    
+#    return pages

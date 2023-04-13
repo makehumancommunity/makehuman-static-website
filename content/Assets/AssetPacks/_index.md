@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-04-13 - Two new asset packs [Glasses 01]({{< relref "glasses01" >}}) and [Glasses 02]({{< relref "glasses02" >}})
 * Release 2022-12-18 - Not a release per se, but there's a now a secondary mirror listed at the bottom of this page.
 * [Release 2022-11-22]({{< relref "release_20221122" >}}) - includes all changes since 2021.
 
@@ -30,6 +31,7 @@ Assets shared under CC0:
 * [Dress 01]({{< relref "dress01" >}}): A set of female gowns and dresses
 * [Eyebrows 01]({{< relref "eyebrows01" >}}): A set of high-res eyebrows by Mindfront
 * [Eyelashes 01]({{< relref "eyelashes01" >}}): A set of high-res eyebrows by Mindfront
+* [Glasses 01]({{< relref "glasses01" >}}): A set of glasses
 * [Gloves 01]({{< relref "gloves01" >}}): A set of gloves
 * [Hair 01]({{< relref "hair01" >}}): A set of mostly low-poly and stylized hair
 * [Masks 01]({{< relref "masks01" >}}): A set of masks
@@ -44,6 +46,7 @@ Assets shared under CC-BY:
 
 * [Dress 02]({{< relref "dress02" >}}): A set of female gowns and dresses by Elvaerwyn
 * [Dress 03]({{< relref "dress03" >}}): A set of female gowns and dresses
+* [Glasses 02]({{< relref "glasses02" >}}): A set of glasses
 * [Hair 02]({{< relref "hair02" >}}): A set of mostly high-poly hair by Elvaerwyn
 * [Hair 03]({{< relref "hair03" >}}): A set of alpha 7 hair adaptations and misc hair
 * [Masks 02]({{< relref "masks02" >}}): A set of masks
