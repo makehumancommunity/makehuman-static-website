@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-04-27 - New asset packs with horns, wings and tails: [Bodyparts 01]({{< relref "bodyparts01" >}}), [Bodyparts 02]({{< relref "bodyparts02" >}}) and [Bodyparts 03]({{< relref "bodyparts03" >}}).
 * Release 2023-04-17 - Four new asset packs [Hats 01]({{< relref "hats01" >}}), [Hats 02]({{< relref "hats02" >}}), [Hats 03]({{< relref "hats03" >}}) and [Hats 04]({{< relref "hats04" >}})
 * Release 2023-04-13 - Two new asset packs [Glasses 01]({{< relref "glasses01" >}}) and [Glasses 02]({{< relref "glasses02" >}})
 * Release 2022-12-18 - Not a release per se, but there's a now a secondary mirror listed at the bottom of this page.
