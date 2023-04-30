@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-04-30 - New asset packs with beards, moustaches and nails: [Bodyparts 04]({{< relref "bodyparts04" >}}), [Bodyparts 05]({{< relref "bodyparts05" >}}) and [Bodyparts 06]({{< relref "bodyparts06" >}}).
 * Release 2023-04-27 - New asset packs with horns, wings and tails: [Bodyparts 01]({{< relref "bodyparts01" >}}), [Bodyparts 02]({{< relref "bodyparts02" >}}) and [Bodyparts 03]({{< relref "bodyparts03" >}}).
 * Release 2023-04-17 - Four new asset packs [Hats 01]({{< relref "hats01" >}}), [Hats 02]({{< relref "hats02" >}}), [Hats 03]({{< relref "hats03" >}}) and [Hats 04]({{< relref "hats04" >}})
 * Release 2023-04-13 - Two new asset packs [Glasses 01]({{< relref "glasses01" >}}) and [Glasses 02]({{< relref "glasses02" >}})
@@ -31,6 +32,8 @@ System assets, shared under CC0:
 Assets shared under CC0:
 
 * [Bodyparts 01]({{< relref "bodyparts01" >}}): A set of horns
+* [Bodyparts 04]({{< relref "bodyparts04" >}}): A set of nails
+* [Bodyparts 05]({{< relref "bodyparts05" >}}): A set of beards and moustaches
 * [Dress 01]({{< relref "dress01" >}}): A set of female gowns and dresses
 * [Eyebrows 01]({{< relref "eyebrows01" >}}): A set of high-res eyebrows by Mindfront
 * [Eyelashes 01]({{< relref "eyelashes01" >}}): A set of high-res eyebrows by Mindfront
@@ -51,6 +54,7 @@ Assets shared under CC-BY:
 
 * [Bodyparts 02]({{< relref "bodyparts02" >}}): A set of horns
 * [Bodyparts 03]({{< relref "bodyparts03" >}}): A set of tails and wings
+* [Bodyparts 06]({{< relref "bodyparts06" >}}): A set of beards and moustaches
 * [Dress 02]({{< relref "dress02" >}}): A set of female gowns and dresses by Elvaerwyn
 * [Dress 03]({{< relref "dress03" >}}): A set of female gowns and dresses
 * [Glasses 02]({{< relref "glasses02" >}}): A set of glasses
