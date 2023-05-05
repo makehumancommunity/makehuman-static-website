@@ -14,6 +14,8 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-05-05 - New packs with equipment such as weapons, bags and tools: [Equipment 01]({{< relref "equipment01" >}}), [Equipment 02]({{< relref "equipment02" >}}) and [Equipment 03]({{< relref "equipment03" >}})
+* Release 2023-05-03 - Two new packs with socks, underwear and swimwear: [Underwear 03]({{< relref "underwear03" >}}) and [Underwear 04]({{< relref "underwear04" >}})
 * Release 2023-04-30 - New asset packs with beards, moustaches and nails: [Bodyparts 04]({{< relref "bodyparts04" >}}), [Bodyparts 05]({{< relref "bodyparts05" >}}) and [Bodyparts 06]({{< relref "bodyparts06" >}}).
 * Release 2023-04-27 - New asset packs with horns, wings and tails: [Bodyparts 01]({{< relref "bodyparts01" >}}), [Bodyparts 02]({{< relref "bodyparts02" >}}) and [Bodyparts 03]({{< relref "bodyparts03" >}}).
 * Release 2023-04-17 - Four new asset packs [Hats 01]({{< relref "hats01" >}}), [Hats 02]({{< relref "hats02" >}}), [Hats 03]({{< relref "hats03" >}}) and [Hats 04]({{< relref "hats04" >}})
@@ -35,6 +37,7 @@ Assets shared under CC0:
 * [Bodyparts 04]({{< relref "bodyparts04" >}}): A set of nails
 * [Bodyparts 05]({{< relref "bodyparts05" >}}): A set of beards and moustaches
 * [Dress 01]({{< relref "dress01" >}}): A set of female gowns and dresses
+* [Equipment 01]({{< relref "equipment01" >}}): A set of weapons
 * [Eyebrows 01]({{< relref "eyebrows01" >}}): A set of high-res eyebrows by Mindfront
 * [Eyelashes 01]({{< relref "eyelashes01" >}}): A set of high-res eyebrows by Mindfront
 * [Glasses 01]({{< relref "glasses01" >}}): A set of glasses
@@ -49,6 +52,7 @@ Assets shared under CC0:
 * [Skirts 01]({{< relref "skirts01" >}}): A set of skirts
 * [Suits 01]({{< relref "suits01" >}}): A set of formal suits by Margaret Toigo
 * [Underwear 01]({{< relref "underwear01" >}}): A set of female underwear
+* [Underwear 04]({{< relref "underwear04" >}}): A set of socks
 
 Assets shared under CC-BY:
 
@@ -57,6 +61,8 @@ Assets shared under CC-BY:
 * [Bodyparts 06]({{< relref "bodyparts06" >}}): A set of beards and moustaches
 * [Dress 02]({{< relref "dress02" >}}): A set of female gowns and dresses by Elvaerwyn
 * [Dress 03]({{< relref "dress03" >}}): A set of female gowns and dresses
+* [Equipment 02]({{< relref "equipment02" >}}): A set of weapons
+* [Equipment 03]({{< relref "equipment03" >}}): Various equipment such as bags and tools
 * [Glasses 02]({{< relref "glasses02" >}}): A set of glasses
 * [Hats 03]({{< relref "hats03" >}}): A set of hats and caps
 * [Hats 04]({{< relref "hats04" >}}): A set of helmets
@@ -71,6 +77,7 @@ Assets shared under CC-BY:
 * [Shoes 03]({{< relref "shoes03" >}}): A set of boots
 * [Skirts 02]({{< relref "skirts02" >}}): A set of skirts
 * [Underwear 02]({{< relref "underwear02" >}}): A set of female underwear and bikinis
+* [Underwear 03]({{< relref "underwear03" >}}): A set of underwear and swimwear
 
 ## Secondary mirror
 
