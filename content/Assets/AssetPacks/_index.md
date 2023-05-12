@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-05-12 - New thematic suit packs: [Suits 02]({{< relref "suits02" >}}), [Suits 03]({{< relref "suits03" >}})
 * Release 2023-05-05 - New packs with equipment such as weapons, bags and tools: [Equipment 01]({{< relref "equipment01" >}}), [Equipment 02]({{< relref "equipment02" >}}) and [Equipment 03]({{< relref "equipment03" >}})
 * Release 2023-05-03 - Two new packs with socks, underwear and swimwear: [Underwear 03]({{< relref "underwear03" >}}) and [Underwear 04]({{< relref "underwear04" >}})
 * Release 2023-04-30 - New asset packs with beards, moustaches and nails: [Bodyparts 04]({{< relref "bodyparts04" >}}), [Bodyparts 05]({{< relref "bodyparts05" >}}) and [Bodyparts 06]({{< relref "bodyparts06" >}}).
@@ -51,6 +52,7 @@ Assets shared under CC0:
 * [Shoes 01]({{< relref "shoes01" >}}): A set of shoes and boots
 * [Skirts 01]({{< relref "skirts01" >}}): A set of skirts
 * [Suits 01]({{< relref "suits01" >}}): A set of formal suits by Margaret Toigo
+* [Suits 02]({{< relref "suits02" >}}): A set of sci-fi and fantasy suits
 * [Underwear 01]({{< relref "underwear01" >}}): A set of female underwear
 * [Underwear 04]({{< relref "underwear04" >}}): A set of socks
 
@@ -76,6 +78,7 @@ Assets shared under CC-BY:
 * [Shoes 02]({{< relref "shoes02" >}}): A set of low shoes, sneakers and sandals
 * [Shoes 03]({{< relref "shoes03" >}}): A set of boots
 * [Skirts 02]({{< relref "skirts02" >}}): A set of skirts
+* [Suits 03]({{< relref "suits03" >}}): A set of thematic suits
 * [Underwear 02]({{< relref "underwear02" >}}): A set of female underwear and bikinis
 * [Underwear 03]({{< relref "underwear03" >}}): A set of underwear and swimwear
 
