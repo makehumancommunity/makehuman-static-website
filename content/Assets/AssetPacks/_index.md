@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-05-20 - New CC0 skins packs with [natural female]({{< relref "skins01" >}}), [natural male]({{< relref "skins02" >}}) and [non-natural]({{< relref "skins03" >}}) skins.
 * Release 2023-05-12 - New thematic suit packs: [Suits 02]({{< relref "suits02" >}}), [Suits 03]({{< relref "suits03" >}})
 * Release 2023-05-05 - New packs with equipment such as weapons, bags and tools: [Equipment 01]({{< relref "equipment01" >}}), [Equipment 02]({{< relref "equipment02" >}}) and [Equipment 03]({{< relref "equipment03" >}})
 * Release 2023-05-03 - Two new packs with socks, underwear and swimwear: [Underwear 03]({{< relref "underwear03" >}}) and [Underwear 04]({{< relref "underwear04" >}})
@@ -50,6 +51,9 @@ Assets shared under CC0:
 * [Pants 01]({{< relref "pants01" >}}): A set of pants
 * [Shirts 01]({{< relref "shirts01" >}}): A set of t-shirts, sweaters and tops
 * [Shoes 01]({{< relref "shoes01" >}}): A set of shoes and boots
+* [Skins 01]({{< relref "skins01" >}}): A set of natural female skins
+* [Skins 02]({{< relref "skins02" >}}): A set of natural male skins
+* [Skins 03]({{< relref "skins03" >}}): A set of non-natural skins
 * [Skirts 01]({{< relref "skirts01" >}}): A set of skirts
 * [Suits 01]({{< relref "suits01" >}}): A set of formal suits by Margaret Toigo
 * [Suits 02]({{< relref "suits02" >}}): A set of sci-fi and fantasy suits
