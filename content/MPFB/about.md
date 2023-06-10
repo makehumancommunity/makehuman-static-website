@@ -10,7 +10,7 @@ MPFB is a free and open source human character generator for blender. Its featur
 * One-click-create a humanoid mesh
 * Parametric modeling of body features
 * Automatic rigging with a choice from several different rigs
-* (experimental and somewhat crude) support for Rigify
+* Support for Rigify
 * Rigging with both IK and FK modes
 * Procedural skin material
 * Procedural eyes material
