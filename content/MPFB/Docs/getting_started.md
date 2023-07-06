@@ -5,11 +5,12 @@ weight: 5
 description: "Getting started with MPFB"
 ---
 
-These are basic instructions for how to get up and running with MPFB2.
+These are basic instructions for how to get up and running with MPFB2. There is also a
+[Getting Started with MPFB2](https://youtu.be/9jmTdhVjAsI) youtube video which will explain the steps outlined below in more detail.
 
 ## Prerequisites
 
-You will need Blender at least version 3.0.0 in order to run MPFB2.
+You will need Blender at least version 3.4.1 in order to run MPFB2.
 
 You do not need MakeHuman in order to run MPFB2. However, if you want to integrate MakeHuman at some point, you will need at least version 1.2.0 of MakeHuman.
 
