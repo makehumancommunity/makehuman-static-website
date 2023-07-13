@@ -12,7 +12,7 @@ Before installing MPFB2, you should take a look at the [known issues](#known-iss
 
 ## Downloads
 
-The 2.0-alpha1 build of MPFB can be downloaded from [Tuxfamily](https://download.tuxfamily.org/makehuman/releases/mpfb-2.0.0-a1.zip).
+See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binaries.
 
 If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{< relref "../Docs/getting_started" >}}) guide.
 

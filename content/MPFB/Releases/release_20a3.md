@@ -4,8 +4,7 @@ draft: false
 weight: 7
 ---
 
-MPFB2-alpha3 has not yet been released, and these are preliminary release notes. If you see something in these notes you find interesting, 
-there is a high probability you can already now test it out by downloading the nightly build.
+MPFB 2.0-alpha3 was released 2023-07-13.
 
 As 2.0-alpha3 is the third release in the MPFB2 series, the following are changes since 2.0-alpha2. For changes since MPFB1, 
 see [release notes for alpha 1]({{< relref "release_20a1" >}}).
@@ -20,11 +19,7 @@ or the [Getting Started with MPFB2 youtube video](https://youtu.be/9jmTdhVjAsI).
 
 ## Downloads
 
-At this point in the development, there is no fundamental difference between a nightly build and a release. A release is simply a nightly build
-which was renamed at a specific point in time. Thus, if you already have a recent nightly build installed, there is no particular reason
-to switch to the release.
-
-Nightly builds of MPFB2 can be found on [Tuxfamily](https://download.tuxfamily.org/makehuman/plugins/) (look for the file named mpfb2-*.zip).
+See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binaries.
 
 ## Blatant off-topic note
 
@@ -36,7 +31,7 @@ project. If you want to engage in the development (or with testing, or with cont
 
 ## New features in summary
 
-These are the new features in summary. See further down on the page for more details on some of the highlight. 
+These are the new features in summary. See further down on the page for more details on some of the highlights. 
 
 * ASSET LIBRARY: Updated UI, making it easier to get an overview of assets
 * ASSET LIBRARY: Make it possible to filter assets on asset pack name
@@ -61,6 +56,8 @@ These are the new features in summary. See further down on the page for more det
 
 ## Bug fixes / other changes
 
+There has obviously been quite a lot of bug fixes and other changes, but these are a few examples:
+
 * Pose names are now sorted alphabetically in the apply pose dropdowns
 * Alternate material names are now sorted alphabetically in their dropdown
 * Don't crash on character create if an alternate material has gone missing
@@ -68,6 +65,8 @@ These are the new features in summary. See further down on the page for more det
 * Correctly interpolate delete groups when loading from MHM
 * Many tweaks to rigify
 * Correctly set scale factor attribute on proxies
+* Alternative materials should now work even when parent paths contain unprintable characters
+* Alternative materials now work for eyes, when using makeskin type material
 
 ## Asset library updates
 
