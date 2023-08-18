@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-08-18 - Realistic deformation packs [Arms 01]({{< relref "arms01" >}}), [Cheek 01]({{< relref "cheek01" >}}), [Ears 01]({{< relref "ears01" >}}), [Hands 01]({{< relref "hands01" >}}) and [Nose 01]({{< relref "nose01" >}})
 * Release 2023-07-17 - Update [MakeHuman system assets]({{< relref "makehuman_system_assets" >}}) to include missing eye textures. 
 * Release 2023-05-20 - New CC0 skins packs with [natural female]({{< relref "skins01" >}}), [natural male]({{< relref "skins02" >}}) and [non-natural]({{< relref "skins03" >}}) skins.
 * Release 2023-05-12 - New thematic suit packs: [Suits 02]({{< relref "suits02" >}}), [Suits 03]({{< relref "suits03" >}})
@@ -34,7 +35,15 @@ System assets, shared under CC0:
 * [System clothes materials 01]({{< relref "system_clothes_materials01" >}}): Extra materials for system clothes
 * [System hair materials 01]({{< relref "system_hair_materials01" >}}): Extra materials for system hair
 
-Assets shared under CC0:
+Target assets shared under CC0:
+
+* [Arms 01]({{< relref "arms01" >}}): Realistic arm deformations
+* [Cheek 01]({{< relref "cheek01" >}}): Realistic cheek deformations
+* [Ears 01]({{< relref "ears01" >}}): Realistic ears deformations
+* [Hands 01]({{< relref "hands01" >}}): Realistic hand deformations
+* [Nose 01]({{< relref "nose01" >}}): Realistic nose deformations
+
+Mesh assets shared under CC0:
 
 * [Bodyparts 01]({{< relref "bodyparts01" >}}): A set of horns
 * [Bodyparts 04]({{< relref "bodyparts04" >}}): A set of nails
@@ -61,7 +70,7 @@ Assets shared under CC0:
 * [Underwear 01]({{< relref "underwear01" >}}): A set of female underwear
 * [Underwear 04]({{< relref "underwear04" >}}): A set of socks
 
-Assets shared under CC-BY:
+Mesh assets shared under CC-BY:
 
 * [Bodyparts 02]({{< relref "bodyparts02" >}}): A set of horns
 * [Bodyparts 03]({{< relref "bodyparts03" >}}): A set of tails and wings
