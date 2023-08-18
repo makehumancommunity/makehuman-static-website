@@ -3,7 +3,7 @@ title: "makehuman_system_assets"
 draft: false
 ---
 
-Makehuman system assets: [makehuman_system_assets_cc0.zip](http://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip) (261 mb)
+Makehuman system assets: [makehuman_system_assets_cc0.zip](http://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip) (267 mb)
 
 
 ## Included assets
@@ -11,9 +11,14 @@ Makehuman system assets: [makehuman_system_assets_cc0.zip](http://files.makehuma
 | Asset type | Thumbnail | Asset name | Author | Source | License |
 | ---------- | --------- | ---------- | ------ | ------ | ------- |
 | hair | ![afro01.png](afro01.png) | afro01 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![blue.png](blue.png) | blue | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![bluegreen.png](bluegreen.png) | bluegreen | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | hair | ![bob01.png](bob01.png) | bob01 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | hair | ![bob02.png](bob02.png) | bob02 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | hair | ![braid01.png](braid01.png) | braid01 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![brown.png](brown.png) | brown | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![brownlight.png](brownlight.png) | brownlight | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![deepblue.png](deepblue.png) | deepblue | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | eyebrows | ![eyebrow001.png](eyebrow001.png) | eyebrow001 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | eyebrows | ![eyebrow002.png](eyebrow002.png) | eyebrow002 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | eyebrows | ![eyebrow003.png](eyebrow003.png) | eyebrow003 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
@@ -39,7 +44,11 @@ Makehuman system assets: [makehuman_system_assets_cc0.zip](http://files.makehuma
 | proxymeshes | ![female_generic.png](female_generic.png) | female_generic | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | proxymeshes | ![female_muscle_13442.png](female_muscle_13442.png) | female_muscle_13442 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | clothes | ![female_sportsuit01.png](female_sportsuit01.png) | female_sportsuit01 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![green.png](green.png) | green | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![grey.png](grey.png) | grey | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | eyes | ![high-poly.png](high-poly.png) | high-poly | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![ice.png](ice.png) | ice | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
+| eyes | ![lightblue.png](lightblue.png) | lightblue | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | hair | ![long01.png](long01.png) | long01 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | eyes | ![low-poly.png](low-poly.png) | low-poly | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |
 | proxymeshes | ![male1591.png](male1591.png) | male1591 | makehuman_system | [asset repo](http://www.makehumancommunity.org) | CC0 |

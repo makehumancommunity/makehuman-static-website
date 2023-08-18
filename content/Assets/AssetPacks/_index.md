@@ -14,6 +14,7 @@ See the [asset packs FAQ]({{< relref "faq" >}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2023-07-17 - Update [MakeHuman system assets]({{< relref "makehuman_system_assets" >}}) to include missing eye textures. 
 * Release 2023-05-20 - New CC0 skins packs with [natural female]({{< relref "skins01" >}}), [natural male]({{< relref "skins02" >}}) and [non-natural]({{< relref "skins03" >}}) skins.
 * Release 2023-05-12 - New thematic suit packs: [Suits 02]({{< relref "suits02" >}}), [Suits 03]({{< relref "suits03" >}})
 * Release 2023-05-05 - New packs with equipment such as weapons, bags and tools: [Equipment 01]({{< relref "equipment01" >}}), [Equipment 02]({{< relref "equipment02" >}}) and [Equipment 03]({{< relref "equipment03" >}})
