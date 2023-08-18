@@ -43,6 +43,12 @@ Target assets shared under CC0:
 * [Hands 01]({{< relref "hands01" >}}): Realistic hand deformations
 * [Nose 01]({{< relref "nose01" >}}): Realistic nose deformations
 
+Material assets, shared under CC0:
+
+* [Skins 01]({{< relref "skins01" >}}): A set of natural female skins
+* [Skins 02]({{< relref "skins02" >}}): A set of natural male skins
+* [Skins 03]({{< relref "skins03" >}}): A set of non-natural skins
+
 Mesh assets shared under CC0:
 
 * [Bodyparts 01]({{< relref "bodyparts01" >}}): A set of horns
@@ -61,9 +67,6 @@ Mesh assets shared under CC0:
 * [Pants 01]({{< relref "pants01" >}}): A set of pants
 * [Shirts 01]({{< relref "shirts01" >}}): A set of t-shirts, sweaters and tops
 * [Shoes 01]({{< relref "shoes01" >}}): A set of shoes and boots
-* [Skins 01]({{< relref "skins01" >}}): A set of natural female skins
-* [Skins 02]({{< relref "skins02" >}}): A set of natural male skins
-* [Skins 03]({{< relref "skins03" >}}): A set of non-natural skins
 * [Skirts 01]({{< relref "skirts01" >}}): A set of skirts
 * [Suits 01]({{< relref "suits01" >}}): A set of formal suits by Margaret Toigo
 * [Suits 02]({{< relref "suits02" >}}): A set of sci-fi and fantasy suits
