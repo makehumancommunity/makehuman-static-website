@@ -3,7 +3,7 @@ title: "skins01"
 draft: false
 ---
 
-Natural female skins, shared under CC0: [skins01_cc0.zip](http://files.makehumancommunity.org/asset_packs/skins01/skins01_cc0.zip) (103 mb)
+Natural female skins, shared under CC0: [skins01_cc0.zip](http://files.makehumancommunity.org/asset_packs/skins01/skins01_cc0.zip) (99 mb)
 
 
 ## Included assets
@@ -16,7 +16,6 @@ Natural female skins, shared under CC0: [skins01_cc0.zip](http://files.makehuman
 | skin | ![cutoff3d_indian_female_enhanced.png](cutoff3d_indian_female_enhanced.png) | cutoff3d_indian_female_enhanced | CutOff3D | [asset repo](http://www.makehumancommunity.org/node/3017) | CC0 |
 | skin | ![cutoff3d_indian_female_skin.png](cutoff3d_indian_female_skin.png) | cutoff3d_indian_female_skin | CutOff3D | [asset repo](http://www.makehumancommunity.org/node/3013) | CC0 |
 | skin | ![darthfurby_caucasian_female.png](darthfurby_caucasian_female.png) | darthfurby_caucasian_female | darthfurby | [asset repo](http://www.makehumancommunity.org/node/1549) | CC0 |
-| skin | ![didier_african_woman_from_south_africa.png](didier_african_woman_from_south_africa.png) | didier_african_woman_from_south_africa | didier | [asset repo](http://www.makehumancommunity.org/node/3254) | CC0 |
 | skin | ![flower-angel_red_head_skin.png](flower-angel_red_head_skin.png) | flower-angel_red_head_skin | flower-angel | [asset repo](http://www.makehumancommunity.org/node/1933) | CC0 |
 | skin | ![nyloseth_zoeyskin.png](nyloseth_zoeyskin.png) | nyloseth_zoeyskin | Nyloseth | [asset repo](http://www.makehumancommunity.org/node/1914) | CC0 |
 | skin | ![onlytheghosts_middle_aged_eurasian_female.png](onlytheghosts_middle_aged_eurasian_female.png) | onlytheghosts_middle_aged_eurasian_female | OnlyTheGhosts | [asset repo](http://www.makehumancommunity.org/node/1579) | CC0 |
