@@ -2,6 +2,7 @@
 title: "MakeClothes"
 draft: false
 weight: 10
+alwaysopen: false
 ---
 
 This is the main documentation for MakeClothes. If nothing else is specifically mentioned, the content here concern MakeClothes v2.

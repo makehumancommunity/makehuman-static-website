@@ -1,142 +1,49 @@
-baseURL = "http://static.makehumancommunity.org"
-
-languageCode = "en-us"
-DefaultContentLanguage = "en"
-title = "MakeHuman Community"
-theme = "hugo-theme-techdoc"
-
-hasCJKLanguage = true
-metaDataFormat = "yaml"
-
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
-enableMissingTranslationPlaceholders = false
+baseURL = 'https://static.makehumancommunity.org/'
+languageCode = 'en-us'
+title = 'MakeHuman Community'
+theme = 'relearn'
 uglyurls = true
 
 publishDir = "build"
 
 [params]
+#disableBreadcrumb = true
+disableLandingPageButton = true
+disableNextPrev = true
+disableSearch = true
+showVisitedLinks = false
+themeVariant = "makehuman"
+collapsibleMenu = true
 
-    # Source Code repository section
-    #description = "put your description"
-    #github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    #version = "0.9.7"
-
-    # Documentation repository section
-    # documentation repository (set edit link to documentation repository)
-    #github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    #github_doc_repository_path = ""
-
-    # Analytic section
-    #google_analytics_id = "" # Your Google Analytics tracking id
-    #tag_manager_container_id = "" # Your Google Tag Manager container id
-    #google_site_verification = "" # Your Google Site Verification for Search Console
-
-    # Open Graph and Twitter Cards settings section
-    # Open Graph settings for each page are set on the front matter.
-    # See https://gohugo.io/templates/internal/#open-graph
-    # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "MakeHuman Community"
-    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
-
-    # Theme settings section
-    # Theme color
-    # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
-    custom_font_color = ""
-    custom_background_color = ""
-
-    # Documentation Menu section
-    # Menu style settings
-    menu_style = "slide-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
-
-    # Date format
-    dateformat = "" # default "2 Jan 2006"
-    # See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-
-    # path name excluded from documentation menu
-    menu_exclusion = [
-        "archives",
-        "archive",
-        "blog",
-        "entry",
-        "post",
-        "posts",
-    ]
-
-    # Algolia site search section
-    # See https://www.algolia.com/doc/
-    #algolia_search_enable = true
-    #algolia_indexName = "hugo-demo-techdoc"
-    #algolia_appId = "7W4SAN4PLK"
-    #algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
-
-# Global menu section
-# See https://gohugo.io/content-management/menus/
 [menu]
-    [[menu.main]]
-        name = "Downloads"
-        url = "http://www.makehumancommunity.org/content/downloads.html"
+    [[menu.shortcuts]]
+        name = "Original site"
+        url = "http://www.makehumancommunity.org"
         weight = 1
 
-    [[menu.main]]
+    [[menu.shortcuts]]
         name = "Forum"
         url = "http://www.makehumancommunity.org/forum/"
         weight = 2
 
-    [[menu.main]]
+    [[menu.shortcuts]]
         name = "GitHub"
         url = "https://github.com/makehumancommunity"
         weight = 3
 
-    [[menu.main]]
+    [[menu.shortcuts]]
         name = "Facebook"
         url = "https://www.facebook.com/makehuman"
         weight = 4
 
-    [[menu.main]]
+    [[menu.shortcuts]]
         name = "YouTube"
         url = "https://www.youtube.com/channel/UC8f7BA98RQHl70sEta5KXxQ"
         weight = 5
 
-    [[menu.main]]
+    [[menu.shortcuts]]
         name = "Patreon"
         url = "https://www.patreon.com/makehuman"
         weight = 6
 
-# Markup configure section
-# See https://gohugo.io/getting-started/configuration-markup/
-[markup]
-    defaultMarkdownHandler = "goldmark"
-    [markup.goldmark.renderer]
-        unsafe= true
-    [markup.tableOfContents]
-        startLevel = 2
-        endLevel = 6
-        ordered = true
 
-[outputs]
-    home = ["HTML", "RSS", "Algolia"]
-
-# Algolia Search configure section
-[outputFormats.Algolia]
-    baseName = "algolia"
-    mediaType = "application/json"
-    isPlainText = true
-    notAlternative = true
-
-[params.algolia]
-    vars = [
-        "title",
-        "summary",
-        "content",
-        "date",
-        "publishdate",
-        "description",
-        "permalink",
-        "keywords",
-        "lastmod",
-    ]
-    params = [
-        "tags",
-        "categories",
-    ]

@@ -2,6 +2,7 @@
 title: MakeHuman Docs 
 description: Main documentation hierarchy for MakeHuman
 weight: 10
+alwaysopen: false
 ---
 
 This is general documentation about the MakeHuman application as such.

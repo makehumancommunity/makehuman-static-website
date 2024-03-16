@@ -2,6 +2,7 @@
 title: "MPFB Developer resources"
 draft: false
 weight: 40
+alwaysopen: false
 ---
 
 These pages contain code documentation and general hints for people who want to help develop MPFB.
@@ -17,8 +18,8 @@ The code is editor agnostic, although PyDev has been used when writing it.
 
 These are some general doc pages you might want to read before digging into the code:
 
-* [Code structure]({{< relref "code_structure" >}}): A description of how the code is organized, and where to find things
+* [Code structure]({{% relref "code_structure" %}}): A description of how the code is organized, and where to find things
 
 ## Specific areas of the code
 
-* [Rigging and posing]({{< relref "rigging_and_posing" >}}): A description of how the rigging and posing functionality works
+* [Rigging and posing]({{% relref "rigging_and_posing" %}}): A description of how the rigging and posing functionality works

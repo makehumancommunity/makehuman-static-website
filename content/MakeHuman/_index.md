@@ -2,6 +2,7 @@
 title: "MakeHuman"
 draft: false
 weight: 10
+alwaysopen: false
 ---
 
 MakeHuman is a tool designed to simplify the creation of virtual humans using a Graphical User Interface, also commonly referred to as a GUI.

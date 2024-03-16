@@ -2,6 +2,7 @@
 title: "MPFB FAQ"
 draft: false
 weight: 20
+alwaysopen: false
 ---
 
 These are frequently asked question about MPFB.

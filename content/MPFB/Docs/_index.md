@@ -3,6 +3,7 @@ title: "MPFB Docs"
 draft: false
 weight: 10
 description: "MPFB documentation"
+alwaysopen: false
 ---
 
 This is the documentation for MPFB.

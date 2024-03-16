@@ -16,9 +16,9 @@ You do not need MakeHuman in order to run MPFB2. However, if you want to integra
 
 ## Download
 
-If you have not already downloaded MPFB, you can find a link to the zip file with the addon on the [MPFB Downloads]({{< relref "../downloads" >}}) page.
+If you have not already downloaded MPFB, you can find a link to the zip file with the addon on the [MPFB Downloads]({{% relref "../downloads" %}}) page.
 
-In order to get the most out of MPFB2 you will also want to download some asset packs from the [asset packs page]({{< relref "../../Assets/AssetPacks" >}}).
+In order to get the most out of MPFB2 you will also want to download some asset packs from the [asset packs page]({{% relref "../../Assets/AssetPacks" %}}).
 You will want at least the "makehuman system assets", which contains skins, eyes, teeth and similar. But you might as well download a few of the other asset packs too.
 
 ## Install MPFB2

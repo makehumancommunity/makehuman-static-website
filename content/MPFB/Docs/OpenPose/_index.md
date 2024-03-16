@@ -3,6 +3,7 @@ title: "Using MPFB to Pose for Stable Diffusion"
 draft: false
 weight: 20
 description: "A tutorial on how to export OpenPose poses from MPFB and use them with automatic1111"
+alwaysopen: false
 ---
 
 This is a tutorial on how to export OpenPose poses from MPFB and use them with automatic1111 (or ComfyUI or similar). 

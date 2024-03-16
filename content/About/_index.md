@@ -2,6 +2,7 @@
 title: "About"
 draft: false
 weight: 5
+alwaysopen: false
 ---
 
 The MakeHuman community is centered around the MakeHuman [core assets]({{< relref "core_assets" >}}), the tools that operates on these

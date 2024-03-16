@@ -1,0 +1,56 @@
+@import "theme-relearn-dark.css";
+
+:root {
+    --MAIN-TITLES-H1-color: darkorange; /* text color of h2-h6 titles and transparent box titles */
+    --MAIN-TITLES-H1-font: arial;
+
+    --MAIN-TITLES-TEXT-color: darkorange; /* text color of h2-h6 titles and transparent box titles */
+    --MAIN-TITLES-TEXT-font: arial;
+
+
+    --MAIN-BG-color: #333333;
+    --MAIN-TEXT-color: white;
+
+    --MAIN-LINK-color: darkorange;
+    --MAIN-LINK-HOVER-color: white;
+
+
+    --MENU-SEARCH-color: rgba( 224, 224, 224, 1 ); /* text and icon color of search box */
+    --MENU-SEARCH-BG-color: rgba( 50, 50, 50, 1 ); /* background color of search box */
+    --MENU-SEARCH-BORDER-color: rgba( 224, 224, 224, 1 ); /* border color of search box */
+
+    --MENU-HEADER-BG-color: #444444; /* background color of search box */
+    --MENU-HOME-LINK-color: darkorange; /* background color of search box */
+
+    --MENU-SECTIONS-BG-color: #444444; /* background of the menu; this is NOT just a color value but can be a complete CSS background definition including gradients, etc. */
+    --MENU-SECTIONS-ACTIVE-BG-color: #444444; /* background color of the active menu section */
+    --MENU-SECTIONS-LINK-color: darkorange; /* link color of menu topics */
+    --MENU-SECTIONS-LINK-HOVER-color: #FFFFFF; /* hovered link color of menu topics */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #444444; /* text color of the displayed menu topic */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: darkorange; /* text color of the displayed menu topic */
+    --MENU-SECTION-SEPARATOR-color: #444444; /* separator color between menu sections and menu footer */
+
+
+
+}
+
+#R-topics {
+	padding-left: 1rem;
+}
+
+#R-logo {
+	display: none !important;
+}
+
+#R-header-wrapper {
+	padding: 0.5rem;
+}
+
+#R-body {
+	font-weight: 400;
+}
+
+#R-topics {
+	font-weight: 400;
+}
+

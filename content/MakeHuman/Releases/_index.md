@@ -2,6 +2,7 @@
 title: "Releases"
 draft: false
 weight: 30
+alwaysopen: false
 ---
 
 Note that this page was started at the release of 1.1.0 and does not contain information about historical releases. If anyone want to bother adding these, they're welcome to it.

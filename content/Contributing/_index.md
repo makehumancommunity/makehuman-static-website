@@ -2,6 +2,7 @@
 title: "Contributing"
 draft: false
 weight: 30
+alwaysopen: false
 ---
 
 If you want to help out, there are a few things you can do. Not all of them require technical skills.

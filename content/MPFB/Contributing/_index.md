@@ -3,6 +3,7 @@ title: "Contributing to MPFB"
 draft: false
 weight: 5
 description: "A few things you can do if you want to join the MPFB project."
+alwaysopen: false
 ---
 
 MPFB is a free and open source project. Everything in the project is based on volunteer efforts. 
@@ -17,9 +18,9 @@ then just add a
 
 Suggestions for what to do is split up into these categories:
 
-- [Testing and suggesting improvements]({{< relref "testing" >}}). These are good tasks for getting to know MPFB2 and which do not require any prior knowledge or coding skills.
-- [Contributing code]({{< relref "coding" >}}). If you are primarily a developer, then these are tasks which do not require mixed skills.
-- [Art and graphics]({{< relref "art" >}}). If you are primarily an artist with no interest in coding, then these are tasks which do not require touching code.
+- [Testing and suggesting improvements]({{% relref "testing" %}}). These are good tasks for getting to know MPFB2 and which do not require any prior knowledge or coding skills.
+- [Contributing code]({{% relref "coding" %}}). If you are primarily a developer, then these are tasks which do not require mixed skills.
+- [Art and graphics]({{% relref "art" %}}). If you are primarily an artist with no interest in coding, then these are tasks which do not require touching code.
 
 The easiest way to get in contact to discuss contributions is via the [facebook page](https://www.facebook.com/makehuman) for general discussions, or by
 opening an issue on GitHub for specific features or suggestions.

@@ -2,6 +2,7 @@
 title: "Concepts"
 draft: false
 weight: 15
+alwaysopen: false
 ---
 
 Page for explaining concepts.

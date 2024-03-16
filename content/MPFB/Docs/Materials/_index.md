@@ -3,6 +3,7 @@ title: "MPFB Materials"
 draft: false
 weight: 10
 description: "Various docs regarding materials in MPFB"
+alwaysopen: false
 ---
 
 **THIS PAGE HIERARCHY IS A WORK IN PROGRESS**

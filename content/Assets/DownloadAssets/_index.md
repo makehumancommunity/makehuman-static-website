@@ -2,6 +2,7 @@
 title: "Download assets"
 draft: false
 weight: 5
+alwaysopen: false
 ---
 
 There are three main modes of downloading assets:

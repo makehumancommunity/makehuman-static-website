@@ -2,6 +2,7 @@
 title: "Asset Packs"
 draft: false
 weight: 50
+alwaysopen: false
 ---
 
 Asset packs are zip files with checked assets from MakeHuman and the asset repositories. You can download these to quickly get up and running with a basic set of assets.
