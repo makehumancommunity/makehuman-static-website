@@ -14,6 +14,13 @@ to always download a nightly build.
 Note that in order to get the most out of MPFB2, you will probably also want to download
 a few [Asset Packs]({{< relref "../../Assets/AssetPacks" >}})
 
+## IMPORTANT: Blender 4
+
+Note that there are two different zips you can choose between. One is for blender 3.6 and older, and one is for blender 4.
+
+The blender 4 specific build is named "mpfb2-blender4-*.zip". The build for blender 3.6 is named "mpfb2-*.zip", ie without "blender4" in 
+the filename.
+
 ## Primary mirror
 
 This is where you can usually download MPFB2.

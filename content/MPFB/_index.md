@@ -19,6 +19,8 @@ If you want to get an impression of the features of MPFB2 as compared to MPFB1, 
 
 For various tutorial videos, see the [Youtube channel](https://www.youtube.com/@MakeHumanCommunity).
 
+For an overview of what is planned for MPFB in the nearest future, see the [roadmap]({{< relref "roadmap" >}}).
+
 If you enjoy MPFB and want to help evolve it, there is also a [contributing to MPFB]({{< relref "Contributing" >}}) page.
 
 ![MPFB](mpfb/main_mpfb_view.png)

@@ -18,6 +18,8 @@ These are frequently asked question about MPFB.
 ## Bugs and errors
 
 * [How do I report a bug?]({{< relref "how_do_i_report_a_bug" >}})
+* [How do I make sure I have the correct version installed?]({{< relref "ensure_correct_version" >}})
+* [How can I provide more help with debugging?]({{< relref "help_debugging" >}})
 
 ## Legal
 

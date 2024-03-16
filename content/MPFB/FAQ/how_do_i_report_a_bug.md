@@ -4,6 +4,13 @@ date: 2017-10-17T15:26:15Z
 draft: false
 ---
 
+Before reading the following, there are two quick hints which might be useful:
+
+- Using blender 4? Make sure you install the specific blender 4 build of MPFB. The alpha 3 release is not blender 4 compatible.
+- Running into errors which are reported as fixed? Take a look at [How do I make sure I have the correct version installed?]({{< relref "ensure_correct_version" >}})
+
+## Reporting bugs
+
 But reports are vital in order to help improving the software. So don't hesitate to report anything you find strange or 
 if you encounter an outright error. This said, it will be helpful if you report these things in a structured manner. 
 The following are a few hints on how to provide a good bug report.
@@ -22,6 +29,9 @@ In general, this information should always be included:
 Without this kind of details, it is often simply not possible to figure out what the error is. 
 
 When creating an issue on GitHub, you should get a basic template where these questions are listed.
+
+If you have the time, it would also be helpful if you took a look at [How can I provide more help with debugging?]({{< relref "help_debugging" >}}) and 
+provided the information listed there.
 
 ## Log files
 
