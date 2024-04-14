@@ -3,7 +3,7 @@ title: "hair02"
 draft: false
 ---
 
-This is a set of mostly high-poly hair by Elvaerwyn: [hair02_ccby.zip](http://files.makehumancommunity.org/asset_packs/hair02/hair02_ccby.zip) (68 mb)
+This is a set of mostly high-poly hair by Elvaerwyn: [hair02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hair02/hair02_ccby.zip) (68 mb)
 
 
 ## Included assets

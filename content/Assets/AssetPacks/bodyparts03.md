@@ -3,7 +3,7 @@ title: "bodyparts03"
 draft: false
 ---
 
-A set of tails and wings shared under CC-BY. Note that these end up as "clothes" in MPFB2: [bodyparts03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/bodyparts03/bodyparts03_cc-by.zip) (37 mb)
+A set of tails and wings shared under CC-BY. Note that these end up as "clothes" in MPFB2: [bodyparts03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/bodyparts03/bodyparts03_cc-by.zip) (37 mb)
 
 
 ## Included assets

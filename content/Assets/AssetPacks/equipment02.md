@@ -3,7 +3,7 @@ title: "equipment02"
 draft: false
 ---
 
-Various weapons, shared under CC-BY: [equipment02_cc-by.zip](http://files.makehumancommunity.org/asset_packs/equipment02/equipment02_cc-by.zip) (12 mb)
+Various weapons, shared under CC-BY: [equipment02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/equipment02/equipment02_cc-by.zip) (12 mb)
 
 
 ## Included assets

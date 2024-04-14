@@ -3,7 +3,7 @@ title: "cheek01"
 draft: false
 ---
 
-Realistic or fantasy details for cheeks: [cheek01_cc0.zip](http://files.makehumancommunity.org/asset_packs/cheek01/cheek01_cc0.zip) (0.3 mb)
+Realistic or fantasy details for cheeks: [cheek01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/cheek01/cheek01_cc0.zip) (0.3 mb)
 
 
 ## Included assets

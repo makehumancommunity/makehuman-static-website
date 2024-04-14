@@ -3,7 +3,7 @@ title: "shirts02"
 draft: false
 ---
 
-This is a set of long sleeved cardigans, sweaters and shirts: [shirts02_ccby.zip](http://files.makehumancommunity.org/asset_packs/shirts02/shirts02_ccby.zip) (167 mb)
+This is a set of long sleeved cardigans, sweaters and shirts: [shirts02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shirts02/shirts02_ccby.zip) (167 mb)
 
 
 ## Included assets

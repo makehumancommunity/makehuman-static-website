@@ -3,7 +3,7 @@ title: "dress02"
 draft: false
 ---
 
-A set of female gowns and dresses by Elvaerwyn: [dress02_cc-by.zip](http://files.makehumancommunity.org/asset_packs/dress02/dress02_cc-by.zip) (145 mb)
+A set of female gowns and dresses by Elvaerwyn: [dress02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/dress02/dress02_cc-by.zip) (145 mb)
 
 
 ## Included assets

@@ -3,7 +3,7 @@ title: "equipment01"
 draft: false
 ---
 
-Various weapons, shared under CC0: [equipment01_cc0.zip](http://files.makehumancommunity.org/asset_packs/equipment01/equipment01_cc0.zip) (17 mb)
+Various weapons, shared under CC0: [equipment01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/equipment01/equipment01_cc0.zip) (17 mb)
 
 
 ## Included assets

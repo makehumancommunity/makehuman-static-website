@@ -3,7 +3,7 @@ title: "hair01"
 draft: false
 ---
 
-This is a set of mostly low-poly and stylized hair: [hair01_cc0.zip](http://files.makehumancommunity.org/asset_packs/hair01/hair01_cc0.zip) (217 mb)
+This is a set of mostly low-poly and stylized hair: [hair01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hair01/hair01_cc0.zip) (217 mb)
 
 
 ## Included assets

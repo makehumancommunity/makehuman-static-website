@@ -3,7 +3,7 @@ title: "hats03"
 draft: false
 ---
 
-A set of hats and caps shared under CC-BY: [hats03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/hats03/hats03_cc-by.zip) (72 mb)
+A set of hats and caps shared under CC-BY: [hats03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hats03/hats03_cc-by.zip) (72 mb)
 
 
 ## Included assets

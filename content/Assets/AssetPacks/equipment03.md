@@ -3,7 +3,7 @@ title: "equipment03"
 draft: false
 ---
 
-Various equipment, shared under CC-BY: [equipment03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/equipment03/equipment03_cc-by.zip) (122 mb)
+Various equipment, shared under CC-BY: [equipment03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/equipment03/equipment03_cc-by.zip) (122 mb)
 
 
 ## Included assets

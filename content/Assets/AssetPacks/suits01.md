@@ -3,7 +3,7 @@ title: "suits01"
 draft: false
 ---
 
-A set of formal suits by Margaret Toigo: [suits01_cc0.zip](http://files.makehumancommunity.org/asset_packs/suits01/suits01_cc0.zip) (40 mb)
+A set of formal suits by Margaret Toigo: [suits01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/suits01/suits01_cc0.zip) (40 mb)
 
 
 ## Included assets

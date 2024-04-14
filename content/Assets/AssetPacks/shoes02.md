@@ -3,7 +3,7 @@ title: "shoes02"
 draft: false
 ---
 
-This is a set of low shoes, sneakers and sandals: [shoes02_ccby.zip](http://files.makehumancommunity.org/asset_packs/shoes02/shoes02_ccby.zip) (100 mb)
+This is a set of low shoes, sneakers and sandals: [shoes02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shoes02/shoes02_ccby.zip) (100 mb)
 
 
 ## Included assets

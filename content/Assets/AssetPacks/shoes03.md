@@ -3,7 +3,7 @@ title: "shoes03"
 draft: false
 ---
 
-A set of boots: [shoes03_ccby.zip](http://files.makehumancommunity.org/asset_packs/shoes03/shoes03_ccby.zip) (47 mb)
+A set of boots: [shoes03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shoes03/shoes03_ccby.zip) (47 mb)
 
 
 ## Included assets

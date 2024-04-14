@@ -3,7 +3,7 @@ title: "dress03"
 draft: false
 ---
 
-A set of female gowns and dresses: [dress03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/dress03/dress03_cc-by.zip) (463 mb)
+A set of female gowns and dresses: [dress03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/dress03/dress03_cc-by.zip) (463 mb)
 
 
 ## Included assets

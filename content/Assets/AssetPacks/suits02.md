@@ -3,7 +3,7 @@ title: "suits02"
 draft: false
 ---
 
-A set of thematic fantasy and sci-fi suits, shared under CC0: [suits02_cc0.zip](http://files.makehumancommunity.org/asset_packs/suits02/suits02_cc0.zip) (183 mb)
+A set of thematic fantasy and sci-fi suits, shared under CC0: [suits02_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/suits02/suits02_cc0.zip) (183 mb)
 
 
 ## Included assets

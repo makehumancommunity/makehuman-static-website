@@ -3,7 +3,7 @@ title: "arms01"
 draft: false
 ---
 
-Realistic details for arms: [arms01_cc0.zip](http://files.makehumancommunity.org/asset_packs/arms01/arms01_cc0.zip) (0.2 mb)
+Realistic details for arms: [arms01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/arms01/arms01_cc0.zip) (0.2 mb)
 
 
 ## Included assets

@@ -3,7 +3,7 @@ title: "system_hair_materials01"
 draft: false
 ---
 
-Extra materials for system hair: [system_hair_materials01_cc0.zip](http://files.makehumancommunity.org/asset_packs/system_hair_materials01/system_hair_materials01_cc0.zip) (82 mb)
+Extra materials for system hair: [system_hair_materials01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/system_hair_materials01/system_hair_materials01_cc0.zip) (82 mb)
 
 
 ## Included assets

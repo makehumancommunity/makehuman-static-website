@@ -3,7 +3,7 @@ title: "ears01"
 draft: false
 ---
 
-Realistic details for ears: [ears01_cc0.zip](http://files.makehumancommunity.org/asset_packs/ears01/ears01_cc0.zip) (0.5 mb)
+Realistic details for ears: [ears01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/ears01/ears01_cc0.zip) (0.5 mb)
 
 
 ## Included assets

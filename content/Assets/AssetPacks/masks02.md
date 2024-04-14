@@ -3,7 +3,7 @@ title: "masks02"
 draft: false
 ---
 
-This is a set of masks: [masks02_ccby.zip](http://files.makehumancommunity.org/asset_packs/masks02/masks02_ccby.zip) (17 mb)
+This is a set of masks: [masks02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/masks02/masks02_ccby.zip) (17 mb)
 
 
 ## Included assets

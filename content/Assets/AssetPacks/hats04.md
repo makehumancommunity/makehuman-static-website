@@ -3,7 +3,7 @@ title: "hats04"
 draft: false
 ---
 
-A set of helmets shared under CC-BY: [hats04_cc-by.zip](http://files.makehumancommunity.org/asset_packs/hats04/hats04_cc-by.zip) (17 mb)
+A set of helmets shared under CC-BY: [hats04_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hats04/hats04_cc-by.zip) (17 mb)
 
 
 ## Included assets

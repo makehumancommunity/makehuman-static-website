@@ -3,7 +3,7 @@ title: "bodyparts04"
 draft: false
 ---
 
-A set of nails shared under CC0. Note that these end up as "clothes" in MPFB2: [bodyparts04_cc0.zip](http://files.makehumancommunity.org/asset_packs/bodyparts04/bodyparts04_cc0.zip) (4 mb)
+A set of nails shared under CC0. Note that these end up as "clothes" in MPFB2: [bodyparts04_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/bodyparts04/bodyparts04_cc0.zip) (4 mb)
 
 
 ## Included assets

@@ -3,7 +3,7 @@ title: "shirts03"
 draft: false
 ---
 
-This is a set of short sleeved shirts, tunics and tops: [shirts03_ccby.zip](http://files.makehumancommunity.org/asset_packs/shirts03/shirts03_ccby.zip) (68 mb)
+This is a set of short sleeved shirts, tunics and tops: [shirts03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shirts03/shirts03_ccby.zip) (68 mb)
 
 
 ## Included assets

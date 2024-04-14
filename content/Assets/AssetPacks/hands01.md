@@ -3,7 +3,7 @@ title: "hands01"
 draft: false
 ---
 
-Realistic details for hands: [hands01_cc0.zip](http://files.makehumancommunity.org/asset_packs/hands01/hands01_cc0.zip) (0.1 mb)
+Realistic details for hands: [hands01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hands01/hands01_cc0.zip) (0.1 mb)
 
 
 ## Included assets

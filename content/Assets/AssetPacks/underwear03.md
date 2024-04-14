@@ -3,7 +3,7 @@ title: "underwear03"
 draft: false
 ---
 
-Various underwear and swimwear shared under CC-BY: [underwear03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/underwear03/underwear03_cc-by.zip) (38 mb)
+Various underwear and swimwear shared under CC-BY: [underwear03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/underwear03/underwear03_cc-by.zip) (38 mb)
 
 
 ## Included assets

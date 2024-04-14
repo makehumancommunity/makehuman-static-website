@@ -3,7 +3,7 @@ title: "suits03"
 draft: false
 ---
 
-A set of thematic suits shared under CC-BY: [suits03_cc-by.zip](http://files.makehumancommunity.org/asset_packs/suits03/suits03_cc-by.zip) (33 mb)
+A set of thematic suits shared under CC-BY: [suits03_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/suits03/suits03_cc-by.zip) (33 mb)
 
 
 ## Included assets

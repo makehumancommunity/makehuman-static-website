@@ -3,7 +3,7 @@ title: "skirts02"
 draft: false
 ---
 
-A set of skirts: [skirts02_cc-by.zip](http://files.makehumancommunity.org/asset_packs/skirts02/skirts02_cc-by.zip) (53 mb)
+A set of skirts: [skirts02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/skirts02/skirts02_cc-by.zip) (53 mb)
 
 
 ## Included assets

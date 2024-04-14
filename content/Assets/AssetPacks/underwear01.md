@@ -3,7 +3,7 @@ title: "underwear01"
 draft: false
 ---
 
-A set of female underwear: [underwear01_cc0.zip](http://files.makehumancommunity.org/asset_packs/underwear01/underwear01_cc0.zip) (57 mb)
+A set of female underwear: [underwear01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/underwear01/underwear01_cc0.zip) (57 mb)
 
 
 ## Included assets

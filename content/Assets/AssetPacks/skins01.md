@@ -3,7 +3,7 @@ title: "skins01"
 draft: false
 ---
 
-Natural female skins, shared under CC0: [skins01_cc0.zip](http://files.makehumancommunity.org/asset_packs/skins01/skins01_cc0.zip) (99 mb)
+Natural female skins, shared under CC0: [skins01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/skins01/skins01_cc0.zip) (99 mb)
 
 
 ## Included assets

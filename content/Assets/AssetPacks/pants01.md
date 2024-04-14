@@ -3,7 +3,7 @@ title: "pants01"
 draft: false
 ---
 
-This is a set of pants: [pants01_cc0.zip](http://files.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip) (20 mb)
+This is a set of pants: [pants01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/pants01/pants01_cc0.zip) (20 mb)
 
 
 ## Included assets
