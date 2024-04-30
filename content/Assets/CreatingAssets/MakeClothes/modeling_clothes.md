@@ -47,10 +47,9 @@ The newest version of MakeHuman is able to handle also bigger number of poles. B
 
 This can be easily avoided. The example shows 3 methods of a 32 vertices circle to do it:
 
-# left: select the yellow circle, use checker deselect to select every second vertex, extrude to center and press CTRL m to connect all vertices. This results is a pole of 16, which is not good.
-# middle: do it manually by connecting some of them according to the pattern. This results in a regular pattern of only 8 poles in the middle
-# right: use grid fill, the easiest method which will not have more then 4 poles. Only one tiny disadvantage: if you need the middle (e.g. to be elevated) this might be less accurate
-
+* left: select the yellow circle, use checker deselect to select every second vertex, extrude to center and press CTRL m to connect all vertices. This results is a pole of 16, which is not good.
+* middle: do it manually by connecting some of them according to the pattern. This results in a regular pattern of only 8 poles in the middle
+* right: use grid fill, the easiest method which will not have more then 4 poles. Only one tiny disadvantage: if you need the middle (e.g. to be elevated) this might be less accurate
 
 
 
@@ -128,9 +127,9 @@ Finally I will add an example how a simple mesh (657 vertices) will create a rat
 
 I marked the elements of the lingerie with 3 colors:
 
-# blue for the main part
-# orange for the rims
-# green for the bow tie
+* blue for the main part
+* orange for the rims
+* green for the bow tie
 
 The blue part was modeled directly on the body (one half) and then mirrored. The rims were separated and then extruded in z direction. Second extrude was made so that the resulting vertices are inside the body. The bow tie was "painted" with a single vertex by extruding a "curve" in x-z plane. Then this was extruded in y direction and changed to a u-shape.
 

@@ -19,9 +19,9 @@ The term "clothes" is not really correct, the program creates any kind of mesh w
 
 To understand the process, a short summary of terms used in MakeHuman:
 
-* **base mesh''' and '''helper mesh**: The base mesh is the standard body mesh including a helper-mesh used in MakeHuman.  ([[Documentation:Basemesh|detailed information]])
+* **base mesh** and **helper mesh**: The base mesh is the standard body mesh including a helper-mesh used in MakeHuman.  [Detailed Information of the basemesh]({{< ref "/about/concepts/basemesh" >}})
 
-* **proxies''': in a way all meshes projected on the body are proxies. Do differentiate between a piece of cloth and an alternative mesh for the skin, the alternative mesh is called a '''topology**.
+* **proxies**: in a way all meshes projected on the body are proxies. Do differentiate between a piece of cloth and an alternative mesh for the skin, the alternative mesh is called a **topology**.
 
 * **topologies**: special case for a proxy used as a mesh for the skin. Typically used for e.g. a different resolution or to add genitals.
 
@@ -162,7 +162,7 @@ Vertex-groups are a number of vertices of a mesh forming a group with vertex-gro
 
 This might work, but it is not a good way. There are many risks. 
 
-So here are examples from some of the assets I did: [[Documentation:MakeClothes Vertex-Groups|Create vertex-groups]]
+So here are examples from some of the assets I did: [Create vertex-groups]({{< relref "makeclothes_vertexgroups" >}})
 
 
 
@@ -208,7 +208,7 @@ Clothes need a bit more testing.
 
 ## Common settings
 
-The common settings will provide the **license''' and the name of the '''author**, which will be used for all the clothes generated with this file.
+The common settings will provide the **license** and the name of the **author**, which will be used for all the clothes generated with this file.
 
 * **Overwrite existing files** is switched off. The name of the item of clothing is used as a filename. If it is necessary to overwrite an existing object, the box must be marked.
 
@@ -243,7 +243,7 @@ The main features of creating clothes are:
 
 * **scaling**: select the part of the body which is important for the scaling. Most likely torso for a t-shirt, head for a hat etc.
 
-* **delete-group**: it is a good method to delete vertices on the body if clothes are not transparent. This avoids bleeding through, that is, that vertices that should be "inside" suddenly appear outside of the clothes (see: [[Documentation:MakeClothes Delete-Groups|use delete-groups]]). All vertices not to be displayed should be selected on the body (not helper) and assigned to a vertex on the human. The name of this group must be inserted in the box. If more than one piece of cloth is created, they all can have a different delete-group on the same human.
+* **delete-group**: it is a good method to delete vertices on the body if clothes are not transparent. This avoids bleeding through, that is, that vertices that should be "inside" suddenly appear outside of the clothes. See: [delete-group]({{< relref "makeclothes_deletegroups" >}}). All vertices not to be displayed should be selected on the body (not helper) and assigned to a vertex on the human. The name of this group must be inserted in the box. If more than one piece of cloth is created, they all can have a different delete-group on the same human.
 
 
 * **use MakeSkin**: without MakeSkin a simple material is saved for the piece of cloth (white base color). Otherwise the material file of the plugin [[Documentation:MaterialsMakeSkin|MakeSkin]] is used. See "Materials" below.
@@ -258,7 +258,7 @@ Unwrap the clothes in any case. The output of this process is a UV-Map, which wi
 
 If the simple standard material should not be used for export, a material can be attached with [[Documentation:MaterialsMakeSkin|MakeSkin]]
 
-[[Documentation:Modeling Clothes#Texturing the clothes|Some methods to texture clothes you will find here]].
+[Methods to texture clothes you will find here]({{< relref "modeling_clothes" >}}).
 
 
 ## Create the clothes
@@ -267,12 +267,12 @@ The last step to create clothes is to select the item of clothing and press prod
 
 This is not the documentation of how to model geometries for clothes and not every one will be happy with simple way to copy the helper meshes and create clothes directly.
 
-[[Documentation:Modeling Clothes|Some different methods to create clothes you will find here.]]
+[Methods to model clothes you will find here]({{< relref "modeling_clothes" >}}).
 
 
 ## Usage of shape keys and targets, create heels
 
-A special female body with shape keys is added as a predefined mesh to allow creation of heels. For advanced users: [[Documentation:CreateHeels|this is the way it works]]
+A special female body with shape keys is added as a predefined mesh to allow creation of heels. For advanced users: [Method to create heels]({{< relref "createheels" >}}).
 
 
 ## Importing existing clothes

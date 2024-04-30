@@ -14,17 +14,17 @@ draft: false
 
 The illustration shows the directory structure of MakeHuman. There are two different places for the directory, one side is the "internal" one, which is normally located in a range where it cannot be overwritten from a normal user, so let's call it system directories. The other side is the user space which can be changed by the user. The GIT repository is used to create the system folders shown above.
 
-The folders **licenses''' and '''docs** are associated with the general housekeeping and installation aspects of MakeHuman.  Details of the housekeeping  folders will be summarized, where relevant, elsewhere in the documentation.  The remaining folder are discussed below.
+The folders **licenses** and **docs** are associated with the general housekeeping and installation aspects of MakeHuman.  Details of the housekeeping  folders will be summarized, where relevant, elsewhere in the documentation.  The remaining folder are discussed below.
 
 ---- 
 
-During the pyinstaller build process, only files in the **makehuman/data''' directory are included as data files, which means that any other data files will be skipped, causing file not found errors. Thus, the developer should place all data files under the '''data** folder. The idea is to be able to cleanly identify what is data to be loaded at run time and what is code that can be compiled at build time.
+During the pyinstaller build process, only files in the **makehuman/data** directory are included as data files, which means that any other data files will be skipped, causing file not found errors. Thus, the developer should place all data files under the **data** folder. The idea is to be able to cleanly identify what is data to be loaded at run time and what is code that can be compiled at build time.
 
-One exception here is target (data) files that can optionally be precompiled to binary files at build time even though their binaries will reside in the **data''' directory. The rational for this is that target files are static data core assets and should therefore naturally reside in '''makehuman/data**, but by compiling target files at build time, the size of the build distribution can be reduced and program startup times can be minimized.
+One exception here is target (data) files that can optionally be precompiled to binary files at build time even though their binaries will reside in the **data** directory. The rational for this is that target files are static data core assets and should therefore naturally reside in **makehuman/data**, but by compiling target files at build time, the size of the build distribution can be reduced and program startup times can be minimized.
 
 ----
 
-Files in **makehuman/plugins''' form a second exception to data is "loaded at runtime" and code is "compiled at build time". Files in the '''makehuman/plugins''' folder are kept as a "side effect" of the fact that the '''makehuman/plugins''' path is included as data. This allows loading plugins at runtime by inspecting the folder. Plugins are compiled as well, though. Additional data which are not code may not be stored in the '''plugins** folder. It would threaten logical organization of code and data, and it is not guaranteed that this will keep working in the future.
+Files in **makehuman/plugins** form a second exception to data is "loaded at runtime" and code is "compiled at build time". Files in the **makehuman/plugins** folder are kept as a "side effect" of the fact that the **makehuman/plugins** path is included as data. This allows loading plugins at runtime by inspecting the folder. Plugins are compiled as well, though. Additional data which are not code may not be stored in the **plugins** folder. It would threaten logical organization of code and data, and it is not guaranteed that this will keep working in the future.
 
 Plugins should never be used as imported modules in other plugins or, even worse, in a core module. Currently, the core plugins of MakeHuman all start with a digit (e.g., import 9_export_mhx). This is done intentionally to prevent their improper import into other modules in the program because imports of a module starting with a digit will produce a syntax error. Core plugins that require data, for example those related to an export, should make use of a subfolder in the **makehuman/data** path.
 
@@ -36,7 +36,7 @@ Most operating systems set aside separate storage space for code and data, and p
 
 MakeHuman includes some "fixed data assets" that are intrinsic to the program.  These data assets are saved in the programs data folder within the program itself. 
 
-However, MakeHuman also makes provision for third-party and user developed assets like additional clothes, additional hairstyles, etc.  These latter assets are not saved in the program area but rather are saved in users login folder. For example, on Windows 7 systems this would be "Documents/makehuman".
+However, MakeHuman also makes provision for third-party and user developed assets like additional clothes, additional hairstyles, etc.  These latter assets are not saved in the program area but rather are saved in users login folder. For example, on Windows systems this would be "Documents/makehuman".
 
 In populating asset lists, the library holdings are generated based on the fact that they scan system and user path always.
 
@@ -52,9 +52,9 @@ The data folder contains many subfolders which correspond to unique data assets.
 
 Some of the data subfolders (e.g. eyes, hair, and clothes) are directed at important geometry assets of the MakeHuman model.  MakeHuman supplies a special tool that lets developers or even end-users design additional assets using the 3D modeling program Blender, tools like MakeClothes, MakeSkin, MPFB etc. use these directories.
 
-=### /makehuman/apps/
+### /makehuman/apps/
 
-* catmull_clark_subdivision.py- an implementation of the!LINK!http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface -- catmull clark subdivision algorithm.!/LINK!
+* catmull_clark_subdivision.py- an implementation of the [catmull clark subdivision algorithm](https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface)
 * devtests.py- testing and development use only, and can safely be ignored.
 * human.py- contains the Human class, which is the core data structure for MakeHuman model.
 * humanmodifier.py- contains the functions and classes that link the GUI sliders to their respective effects on the MakeHuman mesh.
@@ -64,7 +64,7 @@ Some of the data subfolders (e.g. eyes, hair, and clothes) are directed at impor
 * warpmodifier.py- contains classes and functions to handle the source and target of a warp.
 * which.py- checks to see whether or not a program exists (needed for the GUI controls).
 
-=### /makehuman/core/
+### /makehuman/core/
 
 * algos3d.py- contains algorithms used to perform high-level 3D transformations on the 3D mesh that is used to represent the human figure in the MakeHuman application.
 * aljabr.py- contains the most common 3D algebraic operations used in MakeHuman including vector, matrix, quaternion, and various other operations.
@@ -78,12 +78,12 @@ Some of the data subfolders (e.g. eyes, hair, and clothes) are directed at impor
 * gui3d.py- contains classes defined to implement widgets that provide utility functions to the graphical user interface.
 * mhmain.py- contains the operations and event handlers that provide the core functionality of MakeHuman.
 * module3d.py- contains classes and functions to handle the appearance and behavior of 3D objects such as shading, texturing, visibility, transparency, and creating groups of faces.
-* selection3d.py- contains classes and functions that allow users to select elements within a 3D scene by clicking on them with the mouse using a technique called "!LINK!http://www.opengl.org/archives/resources/faq/technical/selection.htm -- Selection Using Unique Color ID's!/LINK!"
+* selection3d.py- contains classes and functions that allow users to select elements within a 3D scene by clicking on them with the mouse using a technique called [Selection Using Unique Color ID's](http://www.opengl.org/archives/resources/faq/technical/selection.htm)
 * textures3d.py- contains functions to perform standard proccesses on bitmaps and translate UV coordinates to a pixel index in a bitmap.
 * transformations.py- A library for calculating 4x4 matrices for translating, rotating, reflecting, scaling, shearing, projecting, orthogonalizing, and superimposing arrays of 3D homogeneous coordinates as well as for converting between rotation matrices, Euler angles, and quaternions. Also includes an Arcball control object and functions to decompose transformation matrices.
 * warp.py- contains classes and functions to warp vertex locations from a source character to a target character. This makes it possible to correctly combine several morphs that affect overlapping regions of the body.
 
-=### /makehuman/lib/
+### /makehuman/lib/
 
 * camera.py -handles camera events such as changing focus, camera mode, and field of view.
 * core.py -sets default global variables

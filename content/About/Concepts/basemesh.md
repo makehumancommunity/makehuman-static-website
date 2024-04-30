@@ -16,35 +16,21 @@ MakeHuman displays a visible mesh on the screen but inside it works with additio
 The complete mesh has an exact number of vertices and each vertex has a number, starting with number 0 to 13379 for the body and then continues to 19157 for the helper-geometry.
 
 These are current number ranges:
-{|class="wikitable"
-!colspan="4"|Vertex numbers
-|-
-!name !! start !! end || purpose
-|-
-|body || 0 || 13379 || visible mesh
-|-
-|helper-tongue || 13380 || 13605 || weighting and deforming the tongue
-|-
-|joints || 13606 || 14597 || used to connect bones to
-|-
-|helper-x-eye || 14598 || 14741 || weighting and deforming the eyes
-|-
-|helper-x-eyelashes-y || 14742 || 14991 || weighting and deforming the eyelashes
-|-
-|helper-lower-teeth || 14992 || 15059 || weighting and deforming the lower teeth
-|-
-|helper-upper-teeth || 15060 || 15127 || weighting and deforming the upper teeth
-|-
-|helper-genital || 15128 || 15327 || weighting and deforming the male genitals
-|-
-|helper-tights || 15328 || 18001 || weigthing and deforming clothes near the body
-|-
-|helper-skirt || 18002 || 18721 || weighting and deforming a skirt
-|-
-|helper-hair || 18722 || 19149 || weighting and deforming the hair
-|-
-|ground || 19150 || 19157 || calculation of difference between root-bone and ground
-|}
+
+|name | start | end | purpose |
+|--|--|--|--|
+|body | 0 | 13379 | visible mesh |
+|helper-tongue | 13380 | 13605 | weighting and deforming the tongue |
+|joints | 13606 | 14597 | used to connect bones to |
+|helper-x-eye | 14598 | 14741 | weighting and deforming the eyes |
+|helper-x-eyelashes-y | 14742 | 14991 | weighting and deforming the eyelashes |
+|helper-lower-teeth | 14992 | 15059 | weighting and deforming the lower teeth |
+|helper-upper-teeth | 15060 | 15127 | weighting and deforming the upper teeth |
+|helper-genital | 15128 | 15327 | weighting and deforming the male genitals |
+|helper-tights | 15328 | 18001 | weigthing and deforming clothes near the body |
+|helper-skirt | 18002 | 18721 | weighting and deforming a skirt |
+|helper-hair | 18722 | 19149 | weighting and deforming the hair |
+|ground | 19150 | 19157 | calculation of difference between root-bone and ground |
 
 
 Internally that means: when a target e.g. resizes an arm, then also the tight-helper must be deformed. If the arm will be longer, some of the cubes for the joints will also be moved.
