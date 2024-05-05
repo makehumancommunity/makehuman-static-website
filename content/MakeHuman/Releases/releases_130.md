@@ -24,4 +24,8 @@ These are the main themes of the changes since 1.2.0. See the [commit log on git
 * Fixed several bugs which would cause the viewport to be empty, black or corrupted with windows 11 or later.
 * The relevant addons (asset downloader, mhapi, socket...) are now bundled with the main code
 
+## Body shapes by Elvaerwyn
 
+With the body shapes, an archetypical body form can be set quickly. For example a woman with an hourglass body shape:
+
+![bodyshapes](bodyshapes.png)
