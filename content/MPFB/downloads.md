@@ -7,19 +7,15 @@ description: "Where to download MPFB"
 
 ## What should you download?
 
-At this point in the development, there is no fundamental difference between a "nightly build" and a "release build". 
-A release build is simply a nightly build which was renamed at a point in time. It will thus usually make most sense
-to always download a nightly build.
+At this point in the development, the nightly build is far ahead of the release build. Until a new release has been 
+made, all users are encouraged to download and use the nightly build. 
 
 Note that in order to get the most out of MPFB2, you will probably also want to download
 a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}})
 
-## IMPORTANT: Blender 4
+### Blender 4.1 now required
 
-Note that there are two different zips you can choose between. One is for blender 3.6 and older, and one is for blender 4.
-
-The blender 4 specific build is named "mpfb2-blender4-*.zip". The build for blender 3.6 is named "mpfb2-*.zip", ie without "blender4" in 
-the filename.
+After may 7, 2024, all nightly builds require at least blender 4.1. There is no longer any specific blender4 nightly build.
 
 ## Primary mirror
 
