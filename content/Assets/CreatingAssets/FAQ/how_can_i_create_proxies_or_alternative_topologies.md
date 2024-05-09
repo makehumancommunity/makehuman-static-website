@@ -5,7 +5,7 @@ draft: false
 
 Technically, proxies are pretty much the same things as clothes: They share file format and production pipeline.
 
-To create a proxy, model it as full body clothing. See [[FAQ:How can I create clothes?]].
+To create a proxy, model it as full body clothing. So [MakeClothes]({{< ref "/assets/creatingassets/makeclothes" >}}) can be used.
 
 Once you have produced the "clothes" through MakeClothes, move the subdir that was created from "data/clothes/[my new item]" to "data/proxymeshes/[my new item]". Then rename the "[my new item].mhclo" file to "[my new item].proxy".
 
