@@ -7,19 +7,19 @@ weight: 7
 MPFB 2.0-alpha3 was released 2023-07-13.
 
 As 2.0-alpha3 is the third release in the MPFB2 series, the following are changes since 2.0-alpha2. For changes since MPFB1, 
-see [release notes for alpha 1]({{< relref "release_20a1" >}}).
+see [release notes for alpha 1]({{% relref "release_20a1" %}}).
 
 Before installing MPFB2, you should take a look at the [known issues](#known-issues) section at the bottom of this page.
 
-If you find a bug in MPFB2, take a look at [How do I report a bug?]({{< relref "../FAQ/how_do_i_report_a_bug" >}}).
+If you find a bug in MPFB2, take a look at [How do I report a bug?]({{% relref "../FAQ/how_do_i_report_a_bug" %}}).
 
-If this is the first time you install MPFB2, you might want to take a look at the [textual getting started]({{< relref "../Docs/getting_started" >}}) guide
+If this is the first time you install MPFB2, you might want to take a look at the [textual getting started]({{% relref "../Docs/getting_started" %}}) guide
 or the [Getting Started with MPFB2 youtube video](https://youtu.be/9jmTdhVjAsI).
 
 
 ## Downloads
 
-See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binaries.
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries.
 
 ## Blatant off-topic note
 
@@ -27,7 +27,7 @@ See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binari
 
 While development with MPFB2 moving forward in a steady pace, it is also occasionally a bit slow. We welcome more people to the 
 project. If you want to engage in the development (or with testing, or with contributing art), take a look at
-[Contributing]({{< relref "../Contributing" >}}).
+[Contributing]({{% relref "../Contributing" %}}).
 
 ## New features in summary
 
@@ -81,7 +81,7 @@ Equipped assets will have their buttons highlighted in order to make them easier
 ## Asset pack updates
 
 The asset packs have received a huge overhaul. There are hundreds of assets packed in several new packs, which are 
-[available for download]({{< relref "../../Assets/AssetPacks" >}}).
+[available for download]({{% relref "../../Assets/AssetPacks" %}}).
 
 ![Filter asset packs](filter_asset_pack.jpg)
 

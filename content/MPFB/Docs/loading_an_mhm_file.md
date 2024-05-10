@@ -4,7 +4,7 @@ draft: false
 weight: 30
 ---
 
-As an alternative to using the [online import]({{< relref "importing_from_makehuman" >}}) from MakeHuman, you can load an MHM file directly. This can be done 
+As an alternative to using the [online import]({{% relref "importing_from_makehuman" %}}) from MakeHuman, you can load an MHM file directly. This can be done 
 without having MakeHuman running or even installed.
 
 The upside of going the MHM way is that you get a dynamic model with targets loaded as shapekeys, and which thus can be further modeled in MPFB. If you instead use

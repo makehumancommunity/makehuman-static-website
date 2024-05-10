@@ -12,9 +12,9 @@ Before installing MPFB2, you should take a look at the [known issues](#known-iss
 
 ## Downloads
 
-See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binaries.
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries.
 
-If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{< relref "../Docs/getting_started" >}}) guide.
+If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{% relref "../Docs/getting_started" %}}) guide.
 
 ## New features in summary
 

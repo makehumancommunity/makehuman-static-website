@@ -15,6 +15,7 @@ For frequently asked questions, see [the FAQ]({{% relref "FAQ" %}}).
 To download MPFB2, see the [MPFB Downloads]({{% relref "downloads" %}}) page.
 
 The release notes of the latest release are available in [release notes for 2.0-alpha3]({{% relref "Releases/release_20a3" %}}). 
+There are also [preliminary release notes]({{% relref "Releases/release_next" %}}) for the next upcoming release available.
 
 If you want to get an impression of the features of MPFB2 as compared to MPFB1, see the [release notes for 2.0-alpha1]({{% relref "Releases/release_20a1" %}}).
 

@@ -5,12 +5,12 @@ weight: 50
 description: "A rough overview of the plans for MPFB2"
 ---
 
-MPFB version 2 is currently in alpha (see [release notes for 2.0-alpha3]({{< relref "Releases/release_20a3" >}}) for the latest release).
+MPFB version 2 is currently in alpha (see [release notes for 2.0-alpha3]({{% relref "Releases/release_20a3" %}}) for the latest release).
 
-Alpha 3 is the last planned alpha. The next version will (probably) be "beta 1". It is not decided if there will be one or two betas.
+Alpha 3 is the last planned alpha. The [next version]({{% relref "Releases/release_next" %}}) will (probably) be "beta 1". It is not decided if there will be one or two betas.
 
 The roadmap has no dates in place, since the development is all on volunteer basis and happens when people have time. Best tip if you
-want things to go faster is to jump in and help the project along, see [contributing to MPFB]({{< relref "Contributing" >}}).
+want things to go faster is to jump in and help the project along, see [contributing to MPFB]({{% relref "Contributing" %}}).
 
 But the following is a rough overview of the nearest future.
 
@@ -20,19 +20,14 @@ But the following is a rough overview of the nearest future.
 
 **Other planned efforts:**
 
-- Fixing most bugs currently listed in the [issue tracker](https://github.com/makehumancommunity/mpfb2/issues)
-- Adding a new rig which supports mixamo but also has rigify face bones
-- Doing a usability overview of the UI
-- Removing the need to restart blender when installing new assets
-- Finalize bundled t-poses
+See the [preliminary release notes]({{% relref "Releases/release_next" %}}). 
 
 ## MPFB 2.0 beta 2
 
-**Main focus:** Stomping out remaining bugs. Being able to test properly before stable release.
+**Main focus:** Stomping out remaining bugs. Test thoroughly before stable release.
 
 **Other planned efforts:**
 
-- Ensure compatibility with Blender 4
 - Add enough unit test coverage to be able to be comfortable when new blender versions are released
 - Writing documentation and guides
 

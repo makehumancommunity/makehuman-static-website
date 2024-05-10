@@ -8,15 +8,15 @@ MPFB2-alpha2 was released 2022-09-04. Note that if you are already using a recen
 renamed nightly build.
 
 As 2.0-alpha2 is the second release in the MPFB2 series, the following are changes since 2.0-alpha1. For changes since MPFB1, 
-see [release notes for alpha 1]({{< relref "release_20a1" >}}).
+see [release notes for alpha 1]({{% relref "release_20a1" %}}).
 
 Before installing MPFB2, you should take a look at the [known issues](#known-issues) section at the bottom of this page.
 
 ## Downloads
 
-See the [MPFB Downloads]({{< relref "../downloads" >}}) page for links to binaries.
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries.
 
-If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{< relref "../Docs/getting_started" >}}) guide.
+If this is the first time you install MPFB2, you might want to take a look at the [Getting started]({{% relref "../Docs/getting_started" %}}) guide.
 
 ## New features in summary
 
