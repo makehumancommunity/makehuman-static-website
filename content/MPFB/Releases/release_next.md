@@ -18,14 +18,14 @@ If you came here wondering if these are the release notes for the next version o
 
 ## Downloads
 
-See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. If you want the featured listed in these release notes,
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. If you want the features listed in these release notes,
 you will need to download a nightly build.
 
 ## Release schedule
 
-The next release is assumed to happen in the summer 2024. This is a prognosis, not a promise.
+The next release is assumed to happen in summer 2024. This is a prognosis, not a promise.
 
-While development with MPFB2 moving forward in a steady pace, it is also occasionally a bit slow. We welcome more people to the 
+While development with MPFB2 is moving forward in a steady pace, it is also occasionally a bit slow. We welcome more people to the 
 project. If you want to engage in the development (or with testing, or with contributing art), take a look at
 [Contributing]({{% relref "../Contributing" %}}).
 
@@ -48,10 +48,12 @@ These are the new features in summary. See further down on the page for more det
 * ASSETS: Asset packs with targets are now supported
 * ASSETS: Multiple directories with assets are now supported
 * ASSETS: MakeClothes is now ported to and bundled with MPFB
-* ASSETS: MakeSkin has better integration with the asset library (**this is still under development and not finished**)
+* ASSETS: MakeSkin has better integration with the asset library
 * ASSETS: MakeTarget has better integration with the asset library (**this is still under development and not finished**)
 * MATERIALS: The MakeSkin material model now supports all common PBR textures
 * MATERIALS: There is a new Game Engine material (**this is still under development and not finished**)
+* UI: There is a new option for preselecting group and material by name upon character creation
+* UI: New filters for only showing active/equipped targets and assets
 * AI: There is a new function for exporting a pose to OpenPose
 * DEVELOPER: Better handling of crashes related to UI operations
 * DEVELOPER: Panel for quickly displaying version information
@@ -65,25 +67,85 @@ There has obviously been quite a lot of bug fixes and other changes, but these a
 
 ## Target asset packs
 
+The asset pack functionality has been extended to also support packs with targets. Several new packs with targets 
+have been added. You can find download links to these in [the asset packs section]({{% relref "../../Assets/AssetPacks" %}}).
+
+![target packs](20b2_target_packs.png)
+
+The currently active target in the image is "bear head" by JALdMIC, shared under CC-BY.
 
 ## Multiple asset directories
 
-UI, per-blend dir
+MPFB now supports specifying a second root for assets. This can be overridden on a per-blend basis (on the library settings panel),
+making it possible to have asset directories which are specific to certain projects.
+
+![secondary root](20b2_secondary_root.png)
+
+Assets will need to be moved or copied to the second root manually using your operating system's file window or similar.
 
 ## Full PBR model in MakeSkin materials
 
+The MakeSkin material model has been extended to support all common PBR textures. MakeSkin is the material used on, for example, all mesh assets such as clothes. It can also be used as skin on humans, if a PBR material is desired rather than one of the procedural alternatives.
 
-## New PBR-based game engine material model
+You can create and persist MakeSkin materials on the MakeSkin panel:
 
-
-## MakeClothes now bundled with MPFB
-
+![makeskin pbr](20b2_makeskin_pbr.png)
 
 ## MakeSkin has better integration with the asset library
 
+The makeskin tool can now save materials directly to the asset library, making them available as alternate materials for the asset the material was
+created on:
+
+**There seems to be a bug with this, need to fix: [#188](https://github.com/makehumancommunity/mpfb2/issues/188)**
+
+![makeskin pbr](20b2_makeskin_alternate.png)
+
+## New PBR-based game engine material model (work in progress)
+
+A specific game engine PBR material model has been added as an alternative to the MakeSkin model. When exporting to FBX, some aspects of the 
+MakeSkin model do not translate gracefully. The game engine material model has been specifically tailored to translate well in an FBX export.
+
+**(need illustration)**
+
+**(this is still work in progress)**
+
+## MakeClothes now bundled with MPFB
+
+MakeClothes has now been reimplemented as a module inside MPFB. Previously the full functionality was only available as a standalone addon,
+which had not been updated to work with Blender 4+.
+
+![secondary root](20b2_make_clothes.png)
+
+With the implementation being a part of MPFB, it is possible to save clothes directly to the asset library. Once a piece of clothing has been 
+saved it is possible to equip it immediately without needing to restart Blender.
+
+Note that the implementation is still a bit rough around the edges, particularly in regards to UX. It will need further testing before 
+being completely stable. This said, it usually works when we play around with it.
 
 ## MakeTarget has better integration with the asset library
 
+
+## Preselecting group and material
+
+In the new human from preset and new human from scratch panels, there is now a new input box "preselect group".
+
+![preselect group](20b2_preselect_group.png)
+
+When containing the name of a vertex group, that group will be preselected in edit mode. Further, if there is a material
+with a name that ends with the vertex group name, then that material will be set as active. The default value of the 
+box is "body".
+
+The reasoning behind the addition of this feature is that it was often unintuitive for users that the last created vertex
+group and material were selected/active. This would, for example, cause problems when trying to texture paint.
+
+## Filters for only showing active targets or assets
+
+Both the "Apply assets" and the "Model" panels have gotten a new filter checkbox for toggling between showing all 
+assets or targets and only showing those which are active on the currently selected character.
+
+![only equipped](20b2_only_equipped.png)
+
+![only active](20b2_only_active.png)
 
 ## Generative AI and OpenPose
 
