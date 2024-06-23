@@ -45,6 +45,7 @@ These are the new features in summary. See further down on the page for more det
 * GENERAL: The code base has been updated for Blender 4+. Lowest supported Blender version is now 4.1.0.
 * RIGGING: There is a new game engine rig variant with breast bones (thanks to rmarma)
 * RIGGING: Rigify is updated to use the new Blender 4 features, such as bone layers (thanks to angavrilov)
+* ASSETS: MakeHuman BVH-style poses can now be imported
 * ASSETS: Asset packs with targets are now supported
 * ASSETS: Multiple directories with assets are now supported
 * ASSETS: MakeClothes is now ported to and bundled with MPFB
@@ -63,7 +64,13 @@ These are the new features in summary. See further down on the page for more det
 There has obviously been quite a lot of bug fixes and other changes, but these are a few examples:
 
 * File paths where parent directories have mixed string encoding are now handled gracefully
-
+* A few fixes related to rigify were added
+* Do not crash if a different addon has added a broken class to the blender type hierarchy
+* Handle mixamo rigs even when they have extra characters in the prefix of the bone names
+* (Probably) handle opening file dialogs on mac too
+* Don't crash when deleting helpers, if some helpers have been deleted previously
+* Don't crash on modeling when a base mesh have no macro details
+* Replace all usages of the old wavefront addon in favor of the built-in wavefront functionality
 
 ## Target asset packs
 
@@ -83,6 +90,15 @@ making it possible to have asset directories which are specific to certain proje
 
 Assets will need to be moved or copied to the second root manually using your operating system's file window or similar.
 
+## Support for MakeHuman BVH-style poses
+
+You can now "Import MH BVH Pose" on the "load pose" panel. This makes it possible to open poses which are available from
+the [user contributed assets repository](http://www.makehumancommunity.org/poses.html).
+
+The pose in the image is [Fashion closeup 2](http://www.makehumancommunity.org/content/harvey_fashioncloseup2.html) by callharvey3d.
+
+![MH Poses](20b2_mh_poses.png)
+
 ## Full PBR model in MakeSkin materials
 
 The MakeSkin material model has been extended to support all common PBR textures. MakeSkin is the material used on, for example, all mesh assets such as clothes. It can also be used as skin on humans, if a PBR material is desired rather than one of the procedural alternatives.
@@ -95,8 +111,6 @@ You can create and persist MakeSkin materials on the MakeSkin panel:
 
 The makeskin tool can now save materials directly to the asset library, making them available as alternate materials for the asset the material was
 created on:
-
-**There seems to be a bug with this, need to fix: [#188](https://github.com/makehumancommunity/mpfb2/issues/188)**
 
 ![makeskin pbr](20b2_makeskin_alternate.png)
 
@@ -122,7 +136,7 @@ saved it is possible to equip it immediately without needing to restart Blender.
 Note that the implementation is still a bit rough around the edges, particularly in regards to UX. It will need further testing before 
 being completely stable. This said, it usually works when we play around with it.
 
-## MakeTarget has better integration with the asset library
+## MakeTarget has better integration with the asset library (work in progress)
 
 
 ## Preselecting group and material
@@ -149,12 +163,24 @@ assets or targets and only showing those which are active on the currently selec
 
 ## Generative AI and OpenPose
 
+There is a new set of utilities for exporting a pose in MPFB to OpenPose. This can then be used together with, for example, Automatic1111 to 
+generate images using AI.
 
-## Better handling of crashes and error reporting
+There is also [a tutorial for this]({{% relref "../Docs/OpenPose" %}})
 
+![AI 1](20b2_ai1.png)
+
+![AI 2](20b2_ai2.png)
+
+![AI 3](20b2_ai3.png)
 
 ## Easily accessible version information
 
+To help with support and debugging, there is now an easily accessible version information panel available.
+
+When running a nightly build this will report the exact date of the build.
+
+![Version](20b2_version_panel.png)
 
 ## Known issues
 
