@@ -15,7 +15,8 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
-* Release 2024-05-10 - Various animal and furry transforms, primarily by JALdMIC: [Animal 01]({{% relref "animal01" %}}), [Animal 02]({{% relref "animal02" %}}), [Animal 03]({{% relref "animal03" %}}), [Animal 04]({{% relref "animal04" %}}), 
+* Release 2024-06-23 - Two asset packs with poses [Poses 01]({{% relref "poses01" %}}) (with sitting poses) and [Poses 02]({{% relref "poses02" %}}) (with sports poses) have been added. You need a nightly build from 2024-06-23 or later to load these.
+* Release 2024-05-10 - Various animal and furry transforms, primarily by JALdMIC: [Animal 01]({{% relref "animal01" %}}), [Animal 02]({{% relref "animal02" %}}), [Animal 03]({{% relref "animal03" %}}), [Animal 04]({{% relref "animal04" %}}) 
 * Release 2023-08-18 - Realistic deformation packs [Arms 01]({{% relref "arms01" %}}), [Cheek 01]({{% relref "cheek01" %}}), [Ears 01]({{% relref "ears01" %}}), [Hands 01]({{% relref "hands01" %}}) and [Nose 01]({{% relref "nose01" %}})
 * Release 2023-07-17 - Update [MakeHuman system assets]({{% relref "makehuman_system_assets" %}}) to include missing eye textures. 
 * Release 2023-05-20 - New CC0 skins packs with [natural female]({{% relref "skins01" %}}), [natural male]({{% relref "skins02" %}}) and [non-natural]({{% relref "skins03" %}}) skins.
@@ -46,11 +47,16 @@ Target assets shared under CC0:
 * [Hands 01]({{% relref "hands01" %}}): Realistic hand deformations
 * [Nose 01]({{% relref "nose01" %}}): Realistic nose deformations
 
-Target Assets shared under CC-BY: 
+Target assets shared under CC-BY: 
 
 * [Animal 02]({{% relref "animal02" %}}), Various animal and furry details by JALdMIC
 * [Animal 03]({{% relref "animal03" %}}), Animal and furry head deforms by JALdMIC
 * [Animal 04]({{% relref "animal04" %}}), Animal and furry full body transforms by JALdMIC
+
+Pose assets shared under CC0:
+
+* [Poses 01]({{% relref "poses01" %}}), Various sitting poses
+* [Poses 02]({{% relref "poses02" %}}), Various sports poses
 
 Material assets, shared under CC0:
 
