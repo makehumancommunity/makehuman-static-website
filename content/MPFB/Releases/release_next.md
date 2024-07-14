@@ -46,6 +46,7 @@ These are the new features in summary. See further down on the page for more det
 * RIGGING: There is a new game engine rig variant with breast bones (thanks to rmarma)
 * RIGGING: Rigify is updated to use the new Blender 4 features, such as bone layers (thanks to angavrilov)
 * ASSETS: MakeHuman BVH-style poses can now be imported
+* ASSETS: Asset packs with poses are now supported
 * ASSETS: Asset packs with targets are now supported
 * ASSETS: Multiple directories with assets are now supported
 * ASSETS: MakeClothes is now ported to and bundled with MPFB
@@ -90,14 +91,18 @@ making it possible to have asset directories which are specific to certain proje
 
 Assets will need to be moved or copied to the second root manually using your operating system's file window or similar.
 
-## Support for MakeHuman BVH-style poses
+## Support for MakeHuman BVH-style poses and pose asset packs
 
-You can now "Import MH BVH Pose" on the "load pose" panel. This makes it possible to open poses which are available from
-the [user contributed assets repository](http://www.makehumancommunity.org/poses.html).
-
-The pose in the image is [Fashion closeup 2](http://www.makehumancommunity.org/content/harvey_fashioncloseup2.html) by callharvey3d.
+You can now load MakeHuman BVH-style poses. If you have downloaded an [asset pack]({{% relref "../../Assets/AssetPacks" %}}) with
+poses, you can apply poses from the library panel. If you have downloaded a single pose asset 
+(from the [user contributed assets repository](http://www.makehumancommunity.org/poses.html)), you can 
+ "Import MH BVH Pose" on the "load pose" panel.
+ 
+![MH Poses](20b2_mh_poses_2.png)
 
 ![MH Poses](20b2_mh_poses.png)
+
+The pose in the last images is [Fashion closeup 2](http://www.makehumancommunity.org/content/harvey_fashioncloseup2.html) by callharvey3d.
 
 ## Full PBR model in MakeSkin materials
 
