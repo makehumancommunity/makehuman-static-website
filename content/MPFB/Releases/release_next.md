@@ -78,7 +78,7 @@ There has obviously been quite a lot of bug fixes and other changes, but these a
 The asset pack functionality has been extended to also support packs with targets. Several new packs with targets 
 have been added. You can find download links to these in [the asset packs section]({{% relref "../../Assets/AssetPacks" %}}).
 
-![target packs](20b2_target_packs.png)
+![target packs](20b1_target_packs.png)
 
 The currently active target in the image is "bear head" by JALdMIC, shared under CC-BY.
 
@@ -87,7 +87,7 @@ The currently active target in the image is "bear head" by JALdMIC, shared under
 MPFB now supports specifying a second root for assets. This can be overridden on a per-blend basis (on the library settings panel),
 making it possible to have asset directories which are specific to certain projects.
 
-![secondary root](20b2_secondary_root.png)
+![secondary root](20b1_secondary_root.png)
 
 Assets will need to be moved or copied to the second root manually using your operating system's file window or similar.
 
@@ -98,9 +98,9 @@ poses, you can apply poses from the library panel. If you have downloaded a sing
 (from the [user contributed assets repository](http://www.makehumancommunity.org/poses.html)), you can 
  "Import MH BVH Pose" on the "load pose" panel.
  
-![MH Poses](20b2_mh_poses_2.png)
+![MH Poses](20b1_mh_poses_2.png)
 
-![MH Poses](20b2_mh_poses.png)
+![MH Poses](20b1_mh_poses.png)
 
 The pose in the last images is [Fashion closeup 2](http://www.makehumancommunity.org/content/harvey_fashioncloseup2.html) by callharvey3d.
 
@@ -110,14 +110,14 @@ The MakeSkin material model has been extended to support all common PBR textures
 
 You can create and persist MakeSkin materials on the MakeSkin panel:
 
-![makeskin pbr](20b2_makeskin_pbr.png)
+![makeskin pbr](20b1_makeskin_pbr.png)
 
 ## MakeSkin has better integration with the asset library
 
 The makeskin tool can now save materials directly to the asset library, making them available as alternate materials for the asset the material was
 created on:
 
-![makeskin pbr](20b2_makeskin_alternate.png)
+![makeskin pbr](20b1_makeskin_alternate.png)
 
 ## New PBR-based game engine material model (work in progress)
 
@@ -133,7 +133,7 @@ MakeSkin model do not translate gracefully. The game engine material model has b
 MakeClothes has now been reimplemented as a module inside MPFB. Previously the full functionality was only available as a standalone addon,
 which had not been updated to work with Blender 4+.
 
-![secondary root](20b2_make_clothes.png)
+![secondary root](20b1_make_clothes.png)
 
 With the implementation being a part of MPFB, it is possible to save clothes directly to the asset library. Once a piece of clothing has been 
 saved it is possible to equip it immediately without needing to restart Blender.
@@ -148,7 +148,7 @@ being completely stable. This said, it usually works when we play around with it
 
 In the new human from preset and new human from scratch panels, there is now a new input box "preselect group".
 
-![preselect group](20b2_preselect_group.png)
+![preselect group](20b1_preselect_group.png)
 
 When containing the name of a vertex group, that group will be preselected in edit mode. Further, if there is a material
 with a name that ends with the vertex group name, then that material will be set as active. The default value of the 
@@ -162,9 +162,9 @@ group and material were selected/active. This would, for example, cause problems
 Both the "Apply assets" and the "Model" panels have gotten a new filter checkbox for toggling between showing all 
 assets or targets and only showing those which are active on the currently selected character.
 
-![only equipped](20b2_only_equipped.png)
+![only equipped](20b1_only_equipped.png)
 
-![only active](20b2_only_active.png)
+![only active](20b1_only_active.png)
 
 ## Generative AI and OpenPose
 
@@ -173,11 +173,11 @@ generate images using AI.
 
 There is also [a tutorial for this]({{% relref "../Docs/OpenPose" %}})
 
-![AI 1](20b2_ai1.png)
+![AI 1](20b1_ai1.png)
 
-![AI 2](20b2_ai2.png)
+![AI 2](20b1_ai2.png)
 
-![AI 3](20b2_ai3.png)
+![AI 3](20b1_ai3.png)
 
 ## Easily accessible version information
 
@@ -185,7 +185,7 @@ To help with support and debugging, there is now an easily accessible version in
 
 When running a nightly build this will report the exact date of the build.
 
-![Version](20b2_version_panel.png)
+![Version](20b1_version_panel.png)
 
 ## Known issues
 
