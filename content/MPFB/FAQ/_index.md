@@ -15,15 +15,17 @@ These are frequently asked question about MPFB.
 * [What are the differences between MPFB1 and MPFB2?]({{% relref "differences_between_mpfb1_and_mpfb2" %}})
 * [What are the differences between MPFB2 and MHX2?]({{% relref "differences_between_mpfb2_and_mhx2" %}})
 
-## Bugs and errors
+## Bugs, errors and problems
 
 * [How do I report a bug?]({{% relref "how_do_i_report_a_bug" %}})
 * [How do I make sure I have the correct version installed?]({{% relref "ensure_correct_version" %}})
 * [How can I provide more help with debugging?]({{% relref "help_debugging" %}})
+* [Why is rendering/animation on eevee slow?]({{% relref "eevee_slow" %}})
 
 ## Legal
 
 * [Is it really free?]({{% relref "is_it_really_free" %}})
+* [Do I have to donate money on Patreon?]({{% relref "contribute_patreon" %}})
 * [Who owns MPFB?]({{% relref "who_owns_mpfb" %}})
 * [Can I reuse the system assets and build a character generator of my own?]({{% relref "build_other_chargen" %}})
 * [Can I sell models made with MPFB?]({{% relref "can_i_sell_models" %}})

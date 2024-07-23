@@ -4,7 +4,7 @@ draft: false
 weight: 1
 ---
 
-These are the preliminary release notes for MPFB 2.0 beta 1 (which has not been released yet). 
+These are the preliminary release notes for MPFB 2.0 beta 1, which was released 2024-07-23. 
 
 The changes listed on this page are feature additions and bug fixes since the release of [MPFB 2.0 alpha 3]({{% relref "release_20a3" %}}).
 
@@ -17,20 +17,19 @@ If you came here wondering if these are the release notes for the next version o
 
 ## Downloads
 
-See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. If you want the features listed in these release notes,
-you will need to download a nightly build. When the release has been made there will be a separate release binary.
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. There is a specific release build for 2.0 beta 1, but
+there is no functional difference between the release build and the nightly builds. 
 
 Before downloading, you might want to take a look at the "Known Issues" section at the bottom of this page.
 
-## Release schedule
-
-The release is assumed to happen in july 2024. This is a prognosis, not a promise.
+## Helping out
 
 While development with MPFB2 is moving forward in a steady pace, it is also occasionally a bit slow. We welcome more people to the 
 project. If you want to engage in the development (or with testing, or with contributing art), take a look at
 [Contributing]({{% relref "../Contributing" %}}).
 
-For a list of still open features which are intended to be finished before the release, see [the milestone on github](https://github.com/makehumancommunity/mpfb2/milestone/1)
+Note that testing requires no deep technical skills. It is especially useful to hear from people who are not previously experts on
+Blender, MPFB and/or MakeHuman to get to know about things that are difficult to understand or if something behaves in a a surprising way.
 
 ## Important breaking changes
 

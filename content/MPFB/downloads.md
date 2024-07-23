@@ -7,8 +7,9 @@ description: "Where to download MPFB"
 
 ## What should you download?
 
-At this point in the development, the nightly build is far ahead of the release build. Until a new release has been 
-made, all users are encouraged to download and use the nightly build. 
+At this point in the development, the nightly build and the latest release build (beta 1) are pretty much exactly the same. As there
+is no functional difference between a release build and a nightly build, you might as well download the nightly build to get
+the latest bugfixes.
 
 Note that in order to get the most out of MPFB2, you will probably also want to download
 a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}})

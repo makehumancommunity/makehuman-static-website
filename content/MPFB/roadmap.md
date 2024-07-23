@@ -5,35 +5,24 @@ weight: 50
 description: "A rough overview of the plans for MPFB2"
 ---
 
-MPFB version 2 is currently in alpha (see [release notes for 2.0-alpha3]({{% relref "Releases/release_20a3" %}}) for the latest release).
+MPFB version 2 is currently in beta (see [release notes for 2.0-beta1]({{% relref "Releases/release_20b1" %}}) for the latest release).
 
-Alpha 3 is the last planned alpha. The [next version]({{% relref "Releases/release_next" %}}) will (probably) be "beta 1". It is not decided if there will be one or two betas.
+At the moment, the plan is that the [next version]({{% relref "Releases/release_next" %}}) will be the stable 2.0.x release. It something arises, there might be a second beta though.
 
 The roadmap has no dates in place, since the development is all on volunteer basis and happens when people have time. Best tip if you
 want things to go faster is to jump in and help the project along, see [contributing to MPFB]({{% relref "Contributing" %}}).
 
 But the following is a rough overview of the nearest future.
 
-## MPFB 2.0 beta 1
+## MPFB 2.0 stable release
 
-**Main focus:** Getting all asset creation tools to a usable state in MPFB. This particulary concerns MakeClothes.
-
-**Other planned efforts:**
-
-See the [preliminary release notes]({{% relref "Releases/release_next" %}}). 
-
-## MPFB 2.0 beta 2
-
-**Main focus:** Stomping out remaining bugs. Test thoroughly before stable release.
+**Main focus:** Providing a polished experience for users and releasing something which is viable for a longer term support. Stomping out remaining bugs. Test thoroughly before stable release.
 
 **Other planned efforts:**
 
 - Add enough unit test coverage to be able to be comfortable when new blender versions are released
 - Writing documentation and guides
-
-## MPFB 2.0 stable release
-
-**Main focus:** Providing a polished experience for users and releasing something which is viable for a longer term support.
+- Launch on blender extensions platform. It is not obvious that the format and scope of MPFB fits there though.
 
 ## MPFB 2.1 (and later)
 
