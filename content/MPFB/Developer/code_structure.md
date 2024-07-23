@@ -39,6 +39,7 @@ difference if the service is a singleton or a stateless class.
 
 The following services are available:
 
+* [AnimationService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/assetservice.py) contains logic for posing and animation
 * [AssetService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/assetservice.py) contains logic for locating and listing assets
 * [ClothesService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/clothesservice.py) contains logic for loading MHCLO type assets and fitting them to the base mesh
 * [HumanService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/humanservice.py) contains logic for constructing, serializing and deserializing humans.
@@ -47,6 +48,7 @@ It also contains logic for equipping assets on the human by calling relevant met
 * [LogService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/logservice.py) contains logic for logging and profiling. 
 * [MaterialService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/materialservice.py) contains logic for loading and manipulating materials. This includes both 
 procedural materials and materials loaded from MHMAT.
+* [MeshService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/meshservice.py) contains logic for working with meshes and vertex groups. 
 * [NodeService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/nodeservice.py) contains logic for manipulating node trees, including serializing and deserializing them to/from json. It is closely related to the MaterialService.
 * [ObjectService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/objectservice.py) contains logic for locating, selecting and activating objects. 
 * [RigService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/rigservice.py) contains logic for manipulating rigs and bones, including serializing and deserializing them to/from json. Note that there is a lot of related logic in other parts of the code, particularly in [Rig](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/entities/rig.py)
