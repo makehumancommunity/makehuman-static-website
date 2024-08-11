@@ -7,12 +7,22 @@ description: "A rough overview of the plans for MPFB2"
 
 MPFB version 2 is currently in beta (see [release notes for 2.0-beta1]({{% relref "Releases/release_20b1" %}}) for the latest release).
 
-At the moment, the plan is that the [next version]({{% relref "Releases/release_next" %}}) will be the stable 2.0.x release. It something arises, there might be a second beta though.
+At the moment, the plan is that the [next version]({{% relref "Releases/release_next" %}}) will be 2.0 beta 2. 
 
 The roadmap has no dates in place, since the development is all on volunteer basis and happens when people have time. Best tip if you
 want things to go faster is to jump in and help the project along, see [contributing to MPFB]({{% relref "Contributing" %}}).
 
 But the following is a rough overview of the nearest future.
+
+## MPFB 2.0 beta 2
+
+**Main focus**: Converting MPFB from "legacy addon" to "extension" and establishing MPFB on the extensions platform
+
+**Other planned efforts**:
+
+- Add enough unit test coverage to be able to sleep at night when a new blender version is released
+- Improving code coverage
+- Improving documentation
 
 ## MPFB 2.0 stable release
 
@@ -20,9 +30,8 @@ But the following is a rough overview of the nearest future.
 
 **Other planned efforts:**
 
-- Add enough unit test coverage to be able to be comfortable when new blender versions are released
-- Writing documentation and guides
-- Launch on blender extensions platform. It is not obvious that the format and scope of MPFB fits there though.
+- Further work with MakeClothes
+- More flexibility with shaders
 
 ## MPFB 2.1 (and later)
 
