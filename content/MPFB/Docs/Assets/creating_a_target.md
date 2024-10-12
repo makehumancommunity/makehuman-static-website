@@ -20,7 +20,7 @@ If you want a symmetrical target, experiment with copying from one side to the o
 
 When satisfied, click "save as file" -> "save target". In the file dialog, find your user data. You can now opt to either save the target 
 in a category under "targets", in which case it will appear in that category on the modeling tab. However, to not pollute these sections, 
-you can save it under "data/custom" to use the separate category "custom targets":
+you can save it under "data/custom" to use the separate category "custom targets". If the directory "custom" does not exist, then create it.
 
 ![save](maketarget_save.png)
 

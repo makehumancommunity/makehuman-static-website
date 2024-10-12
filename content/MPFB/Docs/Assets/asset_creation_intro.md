@@ -18,7 +18,7 @@ by playing around with them though, so it is safe to experiment.
 
 The tools are:
 
-* MakeSkin (Intermediate): Create materials. Despite its name, this is for materials for all assets, such as clothes materials. It will produce MHMAT and texture files as output.
+* MakeSkin (Easy): Create materials. Despite its name, this is for materials for all assets, such as clothes materials. It will produce MHMAT and texture files as output.
 * MakeTarget (Easy): Create new targets to be used with sliders in the model tab. It will produce target files as output.
 * MakeClothes (Easy): Create new clothes, hair and bodypart assets. It will produce MHCLO files as output.
 * MakeWeight (Advanced): Work with weight painting for rigs. It will produce MHW/JSON files as output. This is mostly aimed at developers.
