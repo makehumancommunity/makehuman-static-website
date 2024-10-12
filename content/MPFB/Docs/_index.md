@@ -6,7 +6,7 @@ description: "MPFB documentation"
 alwaysopen: false
 ---
 
-This is the documentation for MPFB.
+This is the documentation for MPFB. Note that there is also important information in the [FAQ section]({{< relref "../FAQ" >}}).
 
 ## Introduction
 

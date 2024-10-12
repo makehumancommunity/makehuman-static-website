@@ -10,7 +10,7 @@ These are basic instructions for how to get up and running with MPFB2. There is 
 
 ## Prerequisites
 
-You will need Blender at least version 3.4.1 in order to run MPFB2.
+You will need Blender at least version 4.2.0 in order to run MPFB2.
 
 You do not need MakeHuman in order to run MPFB2. However, if you want to integrate MakeHuman at some point, you will need at least version 1.2.0 of MakeHuman.
 
@@ -23,16 +23,14 @@ You will want at least the "makehuman system assets", which contains skins, eyes
 
 ## Install MPFB2
 
-MPFB2 is a Blender addon, so the [general instructions on how to install addons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html)
+MPFB2 is a Blender extension, so the [general instructions on how to install addons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html)
 do apply. You might want to read these first in case you are unfamiliar with the procedure for installing Blender addons.
 
-Basically, you need to go to edit -> preferences, find the "Add-ons" tab, click the "install..." button and find the zip file.
+Basically, you need to go to edit -> preferences, find the "Add-ons" tab, click "install from disk" and find the zip file.
 
-Note that since the zip file is pretty large, it might take a few seconds for Blender to load it before listing MPFB in the addons list:
+![addon](install_addon_disk.png)
 
-![Install addon](install_addon.png)
-
-Check the checkbox for "MakeHuman: MPFB". Again, it might take a few seconds for blender to react.
+Note that since the zip file is pretty large, it might take a few seconds for Blender to load it before listing MPFB in the addons list.
 
 If you have MakeHuman installed, you may want to check "auto-discover path to makehuman" and/or specifically provide a path in the "path to makehuman" box. These can be left empty if you do not want to use MakeHuman assets directly. 
 

@@ -14,9 +14,17 @@ the latest bugfixes.
 Note that in order to get the most out of MPFB2, you will probably also want to download
 a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}})
 
-### Blender 4.1 now required
+### Nightly builds are now extensions rather than addons
 
-After may 7, 2024, all nightly builds require at least blender 4.1. There is no longer any specific blender4 nightly build.
+*NOTICE:* After october 12, 2024, the format of MPFB2 has changes. Whereas it was previously a legacy addon, it is now an extension.
+
+*IF YOU UPGRADE FROM BETA-1 OR A PREVIOUS NIGHTLY BUILD YOU MUST TAKE SPECIFIC ACTION*
+
+You should read at least [What do I need to do when upgrading from addon to extension?]({{% relref "FAQ/upgrade_to_addon" %}})
+
+### Blender 4.2 now required
+
+*NOTICE:* After august 20, 2024, all nightly builds require at least blender 4.2. 
 
 ## Primary mirror
 
