@@ -20,3 +20,5 @@ This section of the documentation contain an overview of the MPFB asset system.
 * [An introduction to asset creation]({{% relref "asset_creation_intro" %}})
 * [Creating a target]({{% relref "creating_a_target" %}})
 * [Creating clothes]({{% relref "creating_clothes" %}})
+* [Working with makeup]({{% relref "makeup" %}})
+
