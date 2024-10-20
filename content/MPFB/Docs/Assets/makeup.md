@@ -35,7 +35,7 @@ if being locked to the default UV map.
 
 The combination of a "focus" and an image texture is called an "ink layer". The ink layer
 can be something like "pink eye shadow" or "cherry lips". The image texture is transparent
-and placed on top of the skin texture, thus only changing the color or the parts that
+and placed on top of the skin texture, thus only changing the color of the parts that
 were painted.
 
 The MakeUp toolset for creating ink layers is available from the "create assets" -> "MakeUp"
@@ -84,20 +84,24 @@ Make sure you have the base mesh selected, then click the "Create ink" button to
 
 Go to the texture paint tab (1). Be sure to select the inkLayer1 texture in both panels (2, 3). Set the viewport mode to "viewport shading" (4), enter paint mode (5, 6). Open the tool panel on the N-shelf (7) and set X symmetry (8).
 
+![setup tex paint](makeup_setup_texpaint.png)
 
-Paint a basic fox eye-liner.
+Now we can paint a basic fox-eye eye-liner.
+
+![paint](makeup_paint.png)
 
 ## Write ink layer
 
 Go back to the "layout" tab and find the "write ink layer" panel. Enter a good name for the layer. 
-The name is what will be used when loading it from the apply assets panel later. 
-Click "Write ink layer".
+The name is what will be used when loading it from the apply assets panel later. Click "Write ink layer".
 
+![write ink](makeup_writeink.png)
 
 ## Load ink layer
 
-Now load your favorite character. Make sure it uses either the MakeSkin skin model or the Layered skin model. Navigate to the "ink layers" section of "apply assets" and click the layer you
-just created.
+Now start up a new scene in blender and load your favorite character. Make sure it uses either the MakeSkin skin model or the Layered skin model. Navigate to the "ink layers" section of "apply assets" and click the layer you just created.
+
+![load ink](makeup_loadink.png)
 
 ## Further steps
 
