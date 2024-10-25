@@ -12,6 +12,7 @@ This is the documentation for MPFB. Note that there is also important informatio
 
 * [Getting started]({{% relref "getting_started" %}}): Information on how to install MPFB, and how to perform some basic operations.
 * [Assets]({{% relref "Assets" %}}): Information on the MPFB asset system, including how to create assets.
+* [Material types]({{% relref "Materials" %}}): An overview of the different types of materials MPFB offers
 
 ## MPFB2 specific tutorials
 

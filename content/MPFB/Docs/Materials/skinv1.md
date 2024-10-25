@@ -1,23 +1,23 @@
 ---
-title: "MPFB Skin Model v1 (enhanced skin)"
+title: "Enhanced skin"
 draft: false
 weight: 10
-description: "Documentation regarding the procedural/enhanced skin model"
+description: "Documentation regarding the enhanced skin model"
 ---
 
-The following is a summary of the features of the v1 skin model.
+The following is a summary of the features of the "enhanced" skin model.
 
 ## About the material
 
-The v1 skin material (also called "enhanced skin" or "procedural skin") is a semi-procedural material which can be tweaked in the UI.
+The enhanced is a semi-procedural material which can be tweaked in the UI.
 
 The foundation of the material is the diffuse texture that was selected when loading the skin. The settings in the material panel will either modify the color of that diffuse texture, or add bump mapping on top of it. 
 
 ## General principles
 
-If the v1 skin is used, the skin settings can be found in the materials panel when having selected the body (or the body proxy):
+If the enhanced skin is used, the skin settings can be found in the materials panel when having selected the body (or the body proxy):
 
-![skin v1](the_skinv1_material.png)
+![skin enhanced](the_skinv1_material.png)
 
 Note that with default settings, there is one material instance per body section. Thus, if you want to select the skin as such, you
 need to first select the "\*.body" material instance in the list, or if you want to adjust the nail color you will need to select the "\*.fingernails" material instance.
@@ -41,7 +41,7 @@ only use colorMixIn. 0.5 would mean use them evenly.
 
 ## Basic howtos
 
-These are a few hints on how to perform basic operations with the v1 skin material.
+These are a few hints on how to perform basic operations with the enhanced skin material.
 
 ### Accessing the material settings
 

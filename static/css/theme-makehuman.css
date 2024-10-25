@@ -1,5 +1,9 @@
 @import "theme-relearn-dark.css";
 
+h3 {
+	font-size: 1.55rem !important;	
+}
+
 :root {
     --MAIN-TITLES-H1-color: darkorange; /* text color of h2-h6 titles and transparent box titles */
     --MAIN-TITLES-H1-font: arial;
