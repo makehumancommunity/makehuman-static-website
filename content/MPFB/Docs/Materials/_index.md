@@ -31,6 +31,9 @@ MakeHuman, all materials will be MakeSkin.
 
 Per default, all clothes and most body parts (hair, teeth, eyebrows...) use the MakeSkin model.
 
+MakeSkin supports all textures of the standard PBR model (such as normal map, roughness map and so on), and a few which only makes sense in 
+blender (such as transmission map). 
+
 ### GameEngine
 
 GameEngine is a reduced version of MakeSkin, where all procedural logic has been removed. What remains is a simple setup with 
@@ -49,7 +52,7 @@ The materials which are specific for body skin are:
 The "enhanched" skin model is mostly texture based, but adds some procedural bumps to give rough impression of a skin. Further, there is some
 for adjusting the colors of the diffuse texture. These aspects can be controlled in the shader.
 
-The enhanced skin model comes in two variants, on with SSS and one without. The skin model was the default in MPFB until 2024.
+The enhanced skin model comes in two variants, one with SSS and one without. The skin model was the default in MPFB until 2024.
 
 There is also more [in-depth docs regarding the enhanced skin]({{% relref "skinv1" %}})
 

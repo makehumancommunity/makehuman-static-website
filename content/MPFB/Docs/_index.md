@@ -14,6 +14,10 @@ This is the documentation for MPFB. Note that there is also important informatio
 * [Assets]({{% relref "Assets" %}}): Information on the MPFB asset system, including how to create assets.
 * [Material types]({{% relref "Materials" %}}): An overview of the different types of materials MPFB offers
 
+## Basic operation
+
+* [Working with characters]({{% relref "Characters" %}}): Information on how to create, save and load characters
+
 ## MPFB2 specific tutorials
 
 * [Loading an MHM file]({{< relref "loading_an_mhm_file" >}}): Describes how to load a character from a MakeHuman save file.
