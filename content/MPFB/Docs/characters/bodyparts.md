@@ -22,7 +22,7 @@ on the "apply assets" -> "library settings" -> "materials" panel.
 
 Once that choice has been made, you can load eyeballs from the "Apply assets" -> "eyes" panel
 
-![bodyparts eye](bodyparts_eye.png)
+![bodyparts eye](bodypartseye.png)
 
 There are only two eyes to choose between:
 
@@ -33,5 +33,5 @@ There are only two eyes to choose between:
 
 For all other body parts, simply add them from their respective part of the "apply assets" panel. For example hair:
 
-![bodyparts hair](bodyparts_hair.png)
+![bodyparts hair](bodypartshair.png)
 

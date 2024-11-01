@@ -27,6 +27,8 @@ These are frequently asked question about MPFB.
 * [How do I report a bug?]({{% relref "how_do_i_report_a_bug" %}})
 * [How do I make sure I have the correct version installed?]({{% relref "ensure_correct_version" %}})
 * [How can I provide more help with debugging?]({{% relref "help_debugging" %}})
+* [After changing a model slider, the clothes no longer fit]({{% relref "clothes_do_not_fit" %}})
+* [Model sliders stops working when using a proxy]({{% relref "proxy_no_modeling" %}})
 * [Why is rendering/animation on eevee slow?]({{% relref "eevee_slow" %}})
 * [Blender crashes with an error about bpy.ops.import_scene.obj missing]({{% relref "wavefront_crash" %}})
 

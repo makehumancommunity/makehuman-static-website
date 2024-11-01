@@ -16,7 +16,7 @@ This is the documentation for MPFB. Note that there is also important informatio
 
 ## Basic operation
 
-* [Working with characters]({{% relref "Characters" %}}): Information on how to create, save and load characters
+* [Working with characters]({{% relref "characters" %}}): Information on how to create, save and load characters
 
 ## MPFB2 specific tutorials
 
