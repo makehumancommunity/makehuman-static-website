@@ -19,7 +19,7 @@ The term "clothes" is not really correct, the program creates any kind of mesh w
 
 To understand the process, a short summary of terms used in MakeHuman:
 
-* **base mesh** and **helper mesh**: The base mesh is the standard body mesh including a helper-mesh used in MakeHuman.  [Detailed Information of the basemesh]({{< ref "/about/concepts/basemesh" >}})
+* **base mesh** and **helper mesh**: The base mesh is the standard body mesh including a helper-mesh used in MakeHuman.  
 
 * **proxies**: in a way all meshes projected on the body are proxies. Do differentiate between a piece of cloth and an alternative mesh for the skin, the alternative mesh is called a **topology**.
 
