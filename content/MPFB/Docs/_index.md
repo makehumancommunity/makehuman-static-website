@@ -17,6 +17,7 @@ This is the documentation for MPFB. Note that there is also important informatio
 ## Basic operation
 
 * [Working with characters]({{% relref "characters" %}}): Information on how to create, save and load characters
+* [Rigging, posing and animating]({{% relref "rigging_posing" %}}): Information about how to rig, pose and animate character
 
 ## MPFB2 specific tutorials
 
