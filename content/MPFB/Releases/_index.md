@@ -13,7 +13,7 @@ The release notes for the next release [can be found here]({{% relref "release_n
 
 ## Releases so far in the 2.0.x series
 
-* [2.0-beta2]({{% relref "release_next" %}}) (not yet released)
+* [2.0-beta2]({{% relref "release_20b2" %}}) (not yet released)
 * [2.0-beta1]({{% relref "release_20b1" %}}) (2024-07-23)
 * [2.0-alpha3]({{% relref "release_20a3" %}}) (2023-07-13)
 * [2.0-alpha2]({{% relref "release_20a2" %}}) (2022-09-04)

@@ -14,3 +14,5 @@ In the above image, we can see the same character with and without a proxy. In t
 see, the mesh density is significantly lower in the proxy compared to the basemesh.
 
 For all system proxies, the same skins can be used with the basemesh and the proxies. For certain third party proxies, different skins need to be used.
+
+Note that if you change the basemesh after having equipped the proxy, you either have to click "refit assets to basemesh" or check the "auto refit assets" for the proxy to  adapt to the updated basemesh.

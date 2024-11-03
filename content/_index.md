@@ -1,11 +1,10 @@
 ---
 title: MakeHuman Community
-description: Text about main page
+description: The MakeHuman Community home page
 ---
 
-This is a work in progress for porting the old website infrastructure to a more cohesive and updated solution.
-
-The official site is still at http://www.makehumancommunity.org/ and will probably remain so for quite a while.
+This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
+As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
 ## Editing these pages
 

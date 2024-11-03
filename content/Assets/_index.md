@@ -14,6 +14,9 @@ Assets come in two categories:
 If you are looking for assets to download, see [downloading assets]({{< relref "DownloadAssets" >}}) for general information, or [asset packs]({{< relref "AssetPacks" >}}) 
 if you are looking for download links.
 
-If you are looking for information on how to create assets, see [creating assets]({{< relref "CreatingAssets" >}}).
+For the creation of assets see:
 
-For technical information on asset types, see [asset file formats]({{< relref "AssetFileFormats" >}}).
+* [MPFB Docs on assets]({{< relref "../MPFB/Docs/Assets" >}}): General information on how to create assets using the tools that are bundled with MPFB
+* [MakeClothes]({{< relref "MakeClothes" >}}): Information on the standalone MakeClothes tool
+* [MakeTarget]({{< relref "MakeTarget" >}}): Information on the standalone MakeTarget tool
+
