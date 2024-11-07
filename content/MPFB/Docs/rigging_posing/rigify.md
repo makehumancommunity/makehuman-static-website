@@ -9,7 +9,7 @@ alwaysopen: false
 If you are comfortable with working with Rigify, then opting for that is probably a good choice when choosing a rig. If you are not familiar
 with rigify, it might be an overwhelming piece of functionality though.
 
-This page will not explain rigify per se. If you want information about how Rigify works and what the various parts to, then there
+This page will not explain rigify per se. If you want information about how Rigify works and what the various parts do, then there
 are excellent tutorials on youtube. 
 
 This page will focus on how to setup rigify on a MPFB characters.

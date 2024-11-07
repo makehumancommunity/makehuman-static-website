@@ -22,7 +22,7 @@ First create a pose. Then go to the "create assets" -> "MakePose" panel:
 
 ![modest](saveload_modest.png)
 
-Then enter configure what type of pose you want, and what to save. The general settings are:
+Then configure what type of pose you want, and what to save. The general settings are:
 
 * Root bone translation: If you have moved the root bone of the rig, configure whether you want to include this movement
 * IK bone translation: If you have a rig with helpers enabled, do you want to save the positions of the IK bones?

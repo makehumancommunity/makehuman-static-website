@@ -6,7 +6,7 @@ description: "MPFB documentation"
 alwaysopen: false
 ---
 
-This is the documentation for MPFB. Note that there is also important information in the [FAQ section]({{< relref "../FAQ" >}}).
+This is the documentation for MPFB. Note that there is also important information in the [FAQ section]({{% relref "../FAQ" %}}).
 
 ## Overview
 
@@ -18,12 +18,13 @@ This is the documentation for MPFB. Note that there is also important informatio
 
 * [Working with characters]({{% relref "characters" %}}): Information on how to create, save and load characters
 * [Rigging, posing and animating]({{% relref "rigging_posing" %}}): Information about how to rig, pose and animate character
+* [Exporting characters]({{% relref "exporting" %}}): Things to take into account when exporting characters
 
-## MPFB2 specific tutorials
+## Other specific tutorials
 
-* [Loading an MHM file]({{< relref "loading_an_mhm_file" >}}): Describes how to load a character from a MakeHuman save file.
-* [Importing from MakeHuman]({{< relref "importing_from_makehuman" >}}): Describes how to set up MakeHuman and MPFB2 to enable online importing directly from MakeHuman.
-* [Using MPFB to Pose for Stable Diffusion]({{< relref "OpenPose">}})
-* [Rigging Mesh Assets]({{< relref "rigging_mesh_assets" >}}): describes how to create a sub-rig for a ponytail hair asset.
+* [Loading an MHM file]({{% relref "loading_an_mhm_file" %}}): Describes how to load a character from a MakeHuman save file.
+* [Importing from MakeHuman]({{% relref "importing_from_makehuman" %}}): Describes how to set up MakeHuman and MPFB2 to enable online importing directly from MakeHuman.
+* [Using MPFB to Pose for Stable Diffusion]({{% relref "OpenPose" %}})
+* [Rigging Mesh Assets]({{% relref "rigging_mesh_assets" %}}): describes how to create a sub-rig for a ponytail hair asset.
 
 
