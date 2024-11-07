@@ -3,7 +3,7 @@ title: "animal04"
 draft: false
 ---
 
-Animal/furry full body transforms by JALdMIC: [animal04_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/animal04/animal04_ccby.zip) (1.0 mb)
+Animal/furry full body transforms by JALdMIC: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/animal04/animal04_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/animal04/animal04_ccby.zip) (1.0 mb)
 
 
 ## Included assets

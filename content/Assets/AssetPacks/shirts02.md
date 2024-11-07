@@ -3,7 +3,7 @@ title: "shirts02"
 draft: false
 ---
 
-This is a set of long sleeved cardigans, sweaters and shirts: [shirts02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shirts02/shirts02_ccby.zip) (167 mb)
+This is a set of long sleeved cardigans, sweaters and shirts: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/shirts02/shirts02_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/shirts02/shirts02_ccby.zip) (167 mb)
 
 
 ## Included assets

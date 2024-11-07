@@ -3,7 +3,7 @@ title: "hats01"
 draft: false
 ---
 
-A set of hats and caps shared under CC0: [hats01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hats01/hats01_cc0.zip) (6 mb)
+A set of hats and caps shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/hats01/hats01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/hats01/hats01_cc0.zip) (6 mb)
 
 
 ## Included assets

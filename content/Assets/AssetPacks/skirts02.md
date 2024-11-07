@@ -3,7 +3,7 @@ title: "skirts02"
 draft: false
 ---
 
-A set of skirts: [skirts02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/skirts02/skirts02_cc-by.zip) (53 mb)
+A set of skirts: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/skirts02/skirts02_cc-by.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/skirts02/skirts02_cc-by.zip) (53 mb)
 
 
 ## Included assets

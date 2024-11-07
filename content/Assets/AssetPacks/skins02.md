@@ -3,7 +3,7 @@ title: "skins02"
 draft: false
 ---
 
-Natural male skins, shared under CC0: [skins02_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/skins02/skins02_cc0.zip) (72 mb)
+Natural male skins, shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/skins02/skins02_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/skins02/skins02_cc0.zip) (72 mb)
 
 
 ## Included assets

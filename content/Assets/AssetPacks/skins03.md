@@ -3,7 +3,7 @@ title: "skins03"
 draft: false
 ---
 
-Non-natural skins, shared under CC0: [skins03_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/skins03/skins03_cc0.zip) (130 mb)
+Non-natural skins, shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/skins03/skins03_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/skins03/skins03_cc0.zip) (130 mb)
 
 
 ## Included assets

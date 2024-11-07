@@ -3,7 +3,7 @@ title: "shoes01"
 draft: false
 ---
 
-A set of shoes and boots: [shoes01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shoes01/shoes01_cc0.zip) (79 mb)
+A set of shoes and boots: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/shoes01/shoes01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/shoes01/shoes01_cc0.zip) (79 mb)
 
 
 ## Included assets

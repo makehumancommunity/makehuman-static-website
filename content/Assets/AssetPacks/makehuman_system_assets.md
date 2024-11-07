@@ -3,7 +3,7 @@ title: "makehuman_system_assets"
 draft: false
 ---
 
-Makehuman system assets: [makehuman_system_assets_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip) (267 mb)
+Makehuman system assets: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip) (267 mb)
 
 
 ## Included assets

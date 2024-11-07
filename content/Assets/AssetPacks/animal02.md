@@ -3,7 +3,7 @@ title: "animal02"
 draft: false
 ---
 
-Animal/furry details by JALdMIC: [animal02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/animal02/animal02_ccby.zip) (0.5 mb)
+Animal/furry details by JALdMIC: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/animal02/animal02_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/animal02/animal02_ccby.zip) (0.5 mb)
 
 
 ## Included assets

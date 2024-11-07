@@ -3,7 +3,7 @@ title: "animal01"
 draft: false
 ---
 
-Various animal/furry style deforms: [animal01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/animal01/animal01_cc0.zip) (0.4 mb)
+Various animal/furry style deforms: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/animal01/animal01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/animal01/animal01_cc0.zip) (0.4 mb)
 
 
 ## Included assets

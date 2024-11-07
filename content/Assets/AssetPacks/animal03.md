@@ -3,7 +3,7 @@ title: "animal03"
 draft: false
 ---
 
-Animal/furry head deforms by JALdMIC: [animal03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/animal03/animal03_ccby.zip) (1.7 mb)
+Animal/furry head deforms by JALdMIC: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/animal03/animal03_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/animal03/animal03_ccby.zip) (1.7 mb)
 
 
 ## Included assets

@@ -3,7 +3,7 @@ title: "nose01"
 draft: false
 ---
 
-Realistic details for nose: [nose01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/nose01/nose01_cc0.zip) (1.2 mb)
+Realistic details for nose: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/nose01/nose01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/nose01/nose01_cc0.zip) (1.2 mb)
 
 
 ## Included assets

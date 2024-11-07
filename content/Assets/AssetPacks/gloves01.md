@@ -3,7 +3,7 @@ title: "gloves01"
 draft: false
 ---
 
-A set of gloves: [gloves01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/gloves01/gloves01_cc0.zip) (3 mb)
+A set of gloves: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/gloves01/gloves01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/gloves01/gloves01_cc0.zip) (3 mb)
 
 
 ## Included assets

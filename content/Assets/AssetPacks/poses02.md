@@ -3,7 +3,7 @@ title: "poses02"
 draft: false
 ---
 
-Various sport poses: [poses02_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/poses02/poses02_cc0.zip) (1.4 mb)
+Various sport poses: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/poses02/poses02_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/poses02/poses02_cc0.zip) (1.4 mb)
 
 
 ## Included assets

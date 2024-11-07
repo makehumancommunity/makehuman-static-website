@@ -3,7 +3,7 @@ title: "poses01"
 draft: false
 ---
 
-Various sitting poses: [poses01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/poses01/poses01_cc0.zip) (1.1 mb)
+Various sitting poses: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/poses01/poses01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/poses01/poses01_cc0.zip) (1.1 mb)
 
 
 ## Included assets

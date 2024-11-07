@@ -3,7 +3,7 @@ title: "pants02"
 draft: false
 ---
 
-This is a set of long-legged pants: [pants02_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/pants02/pants02_ccby.zip) (125 mb)
+This is a set of long-legged pants: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/pants02/pants02_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/pants02/pants02_ccby.zip) (125 mb)
 
 
 ## Included assets

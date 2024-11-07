@@ -15,7 +15,7 @@ showVisitedLinks = false
 themeVariant = "makehuman"
 collapsibleMenu = true
 primaryFilesUrl = "https://files2.makehumancommunity.org"
-secondaryFilesUrl = "http://files.makehumancommunity.org"
+secondaryFilesUrl = "https://files.makehumancommunity.org"
 
 [menu]
     [[menu.shortcuts]]

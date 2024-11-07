@@ -3,7 +3,7 @@ title: "pants03"
 draft: false
 ---
 
-This is a set of short legged pants swimming trunks: [pants03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/pants03/pants03_ccby.zip) (46 mb)
+This is a set of short legged pants swimming trunks: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/pants03/pants03_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/pants03/pants03_ccby.zip) (46 mb)
 
 
 ## Included assets

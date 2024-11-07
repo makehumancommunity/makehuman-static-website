@@ -3,7 +3,7 @@ title: "shirts01"
 draft: false
 ---
 
-This is a set of t-shirts, sweaters and tops: [shirts01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shirts01/shirts01_cc0.zip) (23 mb)
+This is a set of t-shirts, sweaters and tops: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/shirts01/shirts01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/shirts01/shirts01_cc0.zip) (23 mb)
 
 
 ## Included assets

@@ -3,7 +3,7 @@ title: "eyelashes01"
 draft: false
 ---
 
-A set of high-res eyebrows by Mindfront: [eyelashes01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/eyelashes01/eyelashes01_cc0.zip) (3 mb)
+A set of high-res eyebrows by Mindfront: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/eyelashes01/eyelashes01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/eyelashes01/eyelashes01_cc0.zip) (3 mb)
 
 
 ## Included assets

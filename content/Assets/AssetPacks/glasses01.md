@@ -3,7 +3,7 @@ title: "glasses01"
 draft: false
 ---
 
-A set of glasses, shared under CC0: [glasses01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/glasses01/glasses01_cc0.zip) (5 mb)
+A set of glasses, shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/glasses01/glasses01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/glasses01/glasses01_cc0.zip) (5 mb)
 
 
 ## Included assets

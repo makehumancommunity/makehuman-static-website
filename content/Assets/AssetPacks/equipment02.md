@@ -3,7 +3,7 @@ title: "equipment02"
 draft: false
 ---
 
-Various weapons, shared under CC-BY: [equipment02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/equipment02/equipment02_cc-by.zip) (12 mb)
+Various weapons, shared under CC-BY: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/equipment02/equipment02_cc-by.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/equipment02/equipment02_cc-by.zip) (12 mb)
 
 
 ## Included assets

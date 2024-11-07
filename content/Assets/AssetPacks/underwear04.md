@@ -3,7 +3,7 @@ title: "underwear04"
 draft: false
 ---
 
-A set of socks shared under CC0: [underwear04_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/underwear04/underwear04_cc0.zip) (5 mb)
+A set of socks shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/underwear04/underwear04_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/underwear04/underwear04_cc0.zip) (5 mb)
 
 
 ## Included assets

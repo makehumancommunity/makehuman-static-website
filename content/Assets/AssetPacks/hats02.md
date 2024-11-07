@@ -3,7 +3,7 @@ title: "hats02"
 draft: false
 ---
 
-A set of helmets shared under CC0: [hats02_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hats02/hats02_cc0.zip) (22 mb)
+A set of helmets shared under CC0: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/hats02/hats02_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/hats02/hats02_cc0.zip) (22 mb)
 
 
 ## Included assets

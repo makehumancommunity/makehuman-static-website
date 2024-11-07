@@ -3,7 +3,7 @@ title: "shoes03"
 draft: false
 ---
 
-A set of boots: [shoes03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shoes03/shoes03_ccby.zip) (47 mb)
+A set of boots: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/shoes03/shoes03_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/shoes03/shoes03_ccby.zip) (47 mb)
 
 
 ## Included assets

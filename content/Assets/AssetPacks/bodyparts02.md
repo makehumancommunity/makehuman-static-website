@@ -3,7 +3,7 @@ title: "bodyparts02"
 draft: false
 ---
 
-A set of horns shared under CC-BY. Note that these end up as "clothes" in MPFB2: [bodyparts02_cc-by.zip]({{% param "primaryFilesUrl" %}}/asset_packs/bodyparts02/bodyparts02_cc-by.zip) (10 mb)
+A set of horns shared under CC-BY. Note that these end up as "clothes" in MPFB2: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/bodyparts02/bodyparts02_cc-by.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/bodyparts02/bodyparts02_cc-by.zip) (10 mb)
 
 
 ## Included assets

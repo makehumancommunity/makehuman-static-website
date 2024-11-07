@@ -3,7 +3,7 @@ title: "hair03"
 draft: false
 ---
 
-This is a set of alpha 7 hair adaptations and misc hair: [hair03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/hair03/hair03_ccby.zip) (38 mb)
+This is a set of alpha 7 hair adaptations and misc hair: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/hair03/hair03_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/hair03/hair03_ccby.zip) (38 mb)
 
 
 ## Included assets

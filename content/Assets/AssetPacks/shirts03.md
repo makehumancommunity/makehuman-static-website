@@ -3,7 +3,7 @@ title: "shirts03"
 draft: false
 ---
 
-This is a set of short sleeved shirts, tunics and tops: [shirts03_ccby.zip]({{% param "primaryFilesUrl" %}}/asset_packs/shirts03/shirts03_ccby.zip) (68 mb)
+This is a set of short sleeved shirts, tunics and tops: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/shirts03/shirts03_ccby.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/shirts03/shirts03_ccby.zip) (68 mb)
 
 
 ## Included assets

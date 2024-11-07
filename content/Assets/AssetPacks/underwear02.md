@@ -3,7 +3,7 @@ title: "underwear02"
 draft: false
 ---
 
-A set of female underwear and bikinis: [underwear02_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/underwear02/underwear02_cc0.zip) (100 mb)
+A set of female underwear and bikinis: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/underwear02/underwear02_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/underwear02/underwear02_cc0.zip) (100 mb)
 
 
 ## Included assets

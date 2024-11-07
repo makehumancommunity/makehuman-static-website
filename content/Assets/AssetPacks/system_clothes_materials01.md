@@ -3,7 +3,7 @@ title: "system_clothes_materials01"
 draft: false
 ---
 
-Extra materials for system clothes: [system_clothes_materials01_cc0.zip]({{% param "primaryFilesUrl" %}}/asset_packs/system_clothes_materials01/system_clothes_materials01_cc0.zip) (45 mb)
+Extra materials for system clothes: [mirror1]({{% param "primaryFilesUrl" %}}/asset_packs/system_clothes_materials01/system_clothes_materials01_cc0.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/asset_packs/system_clothes_materials01/system_clothes_materials01_cc0.zip) (45 mb)
 
 
 ## Included assets
