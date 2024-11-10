@@ -5,27 +5,17 @@ weight: 50
 description: "A rough overview of the plans for MPFB2"
 ---
 
-MPFB version 2 is currently in beta (see [release notes for 2.0-beta1]({{% relref "Releases/release_20b1" %}}) for the latest release).
+MPFB version 2 is currently in beta (see [release notes for 2.0-beta2]({{% relref "Releases/release_20b2" %}}) for the latest release).
 
-At the moment, the plan is that the [next version]({{% relref "Releases/release_next" %}}) will be 2.0 beta 2, and that this will be
-the final beta before MPFB is launched as stable.
+At the moment, the plan is that the [next version]({{% relref "Releases/release_next" %}}) will be the stable release, preliminarily called 
+"MPFB 2.0.6".
 
 The roadmap has no dates in place, since the development is all on volunteer basis and happens when people have time. Best tip if you
 want things to go faster is to jump in and help the project along, see [contributing to MPFB]({{% relref "Contributing" %}}).
 
 But the following is a rough overview of the nearest future.
 
-## MPFB 2.0 beta 2
-
-**Main focus**: Converting MPFB from "legacy addon" to "extension" as a preparation for establishing MPFB on the extensions platform
-
-**Other planned efforts**:
-
-- Add enough unit test coverage to be able to sleep at night when a new blender version is released
-- Improving code coverage
-- Improving documentation
-
-## MPFB 2.0 stable release
+## MPFB 2.0 stable release ("2.0.6")
 
 **Main focus:** Providing a polished experience for users and releasing something which is viable for a longer term support. Stomping out remaining bugs. Test thoroughly before stable release.
 

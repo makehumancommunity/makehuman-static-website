@@ -6,6 +6,11 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2024-11-10: MPFB 2.0 beta 2 has been released
+
+MPFB 2.0 beta 2 has been released. See [release notes for 2.0 beta 2]({{< relref "MPFB/Releases/release_20b2" >}}) for more info
+and [the download page]({{< relref "MPFB/downloads" >}}) for download links.
+
 ## 2024-10-12: MPFB is now an "extension"
 
 Important notice: Starting from today, the nightly builds of MPFB are "extensions" rather than "legacy addons". From a user point of view, this looks the same in the end. But when upgrading from one to the other, there are some things that need to be done. 

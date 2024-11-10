@@ -6,7 +6,8 @@ description: "Getting started with MPFB"
 ---
 
 These are basic instructions for how to get up and running with MPFB2. There is also a
-[Getting Started with MPFB2](https://youtu.be/9jmTdhVjAsI) youtube video which will explain the steps outlined below in more detail.
+[Getting Started with MPFB2](https://youtu.be/9jmTdhVjAsI) youtube video which will explain the steps outlined below in more detail. However, the 
+video is now getting rather old, and some things in the blender interface no longer looks the same.
 
 ## Prerequisites
 

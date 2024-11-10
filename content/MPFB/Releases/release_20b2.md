@@ -4,9 +4,7 @@ draft: false
 weight: 1
 ---
 
-These are the preliminary release notes for "2.0 beta 2", which is about to be released.
-
-You can follow the progress on github by listing issues with the [2.0 beta 2 milestone](https://github.com/makehumancommunity/mpfb2/issues?q=is%3Aopen+is%3Aissue+milestone%3A%222.0+beta+2%22).
+These are the release notes for "2.0 beta 2", which was released 2024-11-10.
 
 The changes listed on this page are feature additions and bug fixes since the release of [MPFB 2.0 beta 1]({{% relref "release_20b1" %}}).
 
@@ -26,11 +24,11 @@ The overall goals with this release are to:
 - Improve code quality
 - Introduce a first draft of the MakeUp tool
 
-This is the final beta. The next release will be the stable release of MPFB 2.0.
+This is the final beta. The next release will be the stable release of MPFB 2.0.x.
 
 ## Downloads
 
-See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. Until there is a specific release build for beta 2, use the nightly builds. 
+See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. The beta 2 binary is under the "releases" directory.
 
 Before downloading, you might want to take a look at the "Known Issues" and "Important breaking changes" sections below.
 
@@ -52,8 +50,8 @@ MPFB2 is now a "blender extension" rather than a "legacy addon". Before installi
 
 These are the main changes in summary. See further down on the page for more details on some of the highlights. 
 
-* MAKEUP: A first experimental version of the MakeUp tool has been added
 * GENERAL: MPFB is now an "extension", which could in theory be added to the extensions platform
+* MAKEUP: A first experimental version of the MakeUp tool has been added
 * CODE QUALITY: Most of the core functionality has been gotten inline documentation
 * CODE QUALITY: Most of the core functionality now has code coverage by unit tests
 
@@ -62,25 +60,10 @@ There were also a few minor bug fixes:
 * Fixed location and rotation of root bone in game engine rig
 * Fixed the default name for new targets in MakeTarget (thus hopefully avoiding confusion)
 
-## MakeUp
-
-A completely new toolset - [MakeUp]({{% relref "../Docs/Assets/makeup" %}}) - has been added in this release. With these tools, you can create additional 
-color layers ("Ink layers") which can be loaded on top of existing skins without modifying the underlying skin texture. 
-
-With this toolset, each ink layer can use one of the specific UV maps provided. With specific UVs, it is possible to draw higher resolution details than if using the
-default body UV. 
-
-![makeup texpaint](20b2_makeup.png)
-
-Once ink layer have been created, they can be loaded on any character that is using either a MakeSkin or Multilayered skin model. Any number of layers can 
-be loaded and stacked on top of each other.
-
-![makeup load](20b2_makeup_2.png)
-
 ## MPFB now an "extension"
 
 With the release of Blender 4.2, the format of addons changed. From a user perspective, this change is mostly invisible. The change did, however, require
-changing thousands of lines of code.
+changing thousands of lines of code in MPFB.
 
 While it would have been possible to keep using the old addon format for quite some time, the change was necessary as a preparation for submitting
 MPFB to the new extensions platform. 
@@ -95,6 +78,21 @@ For users, this is most visible in the [Docs]({{% relref "../Docs" %}}) section 
 
 For developers, there are now inline code comments in all the core logic classes of MPFB. Thus, one can now go to the source code and, 
 for example, read up on what the [create_human() method in the HumanService class](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/humanservice.py#L1316) does.
+
+## MakeUp (experimental)
+
+A completely new toolset - [MakeUp]({{% relref "../Docs/Assets/makeup" %}}) - has been added in this release. With these tools, you can create additional 
+color layers ("Ink layers") which can be loaded on top of existing skins without modifying the underlying skin texture. 
+
+With this toolset, each ink layer can use one of the specific UV maps provided. With specific UVs, it is possible to draw higher resolution details than if using the
+default body UV. 
+
+![makeup texpaint](20b2_makeup.png)
+
+Once ink layer have been created, they can be loaded on any character that is using either a MakeSkin or Multilayered skin model. Any number of layers can 
+be loaded and stacked on top of each other.
+
+![makeup load](20b2_makeup_2.png)
 
 ## Code quality
 
