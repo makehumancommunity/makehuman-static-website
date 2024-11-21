@@ -44,7 +44,17 @@ Blender, MPFB and/or MakeHuman to get to know about things that are difficult to
 
 These are the main changes in summary. See further down on the page for more details on some of the highlights. 
 
+- MAKEUP: MakeUp presets can now be persisted
 - LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later"
+
+## MakeUp presets can now be persisted
+
+In beta 2, there was no functionality for saving a combination of ink layers as a preset. Further, when storing a human preset, 
+no information about ink layers were stored. This functionality has now been added. 
+
+Ink layer info will be automatically included when storing a new human preset, and there's a new makeup presets panel:
+
+![206_makeup_presets](206_makeup_presets.png)
 
 ## License bump
 
