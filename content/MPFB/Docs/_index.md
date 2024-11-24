@@ -20,10 +20,14 @@ This is the documentation for MPFB. Note that there is also important informatio
 * [Rigging, posing and animating]({{% relref "rigging_posing" %}}): Information about how to rig, pose and animate character
 * [Exporting characters]({{% relref "exporting" %}}): Things to take into account when exporting characters
 
+## Integrating with MakeHuman
+
+* [Import paths for MakeHuman]({{% relref "makehuman/import_paths" %}}): An overview of the different ways to import a character from MakeHuman
+* [Importing via MHM]({{% relref "makehuman/importing_via_mhm" %}}): Information on how to use the recommended import path
+* [Importing via Socket]({{% relref "makehuman/importing_via_socket" %}}): Information on how to use the previously recommended import path
+
 ## Other specific tutorials
 
-* [Loading an MHM file]({{% relref "loading_an_mhm_file" %}}): Describes how to load a character from a MakeHuman save file.
-* [Importing from MakeHuman]({{% relref "importing_from_makehuman" %}}): Describes how to set up MakeHuman and MPFB2 to enable online importing directly from MakeHuman.
 * [Using MPFB to Pose for Stable Diffusion]({{% relref "OpenPose" %}})
 * [Rigging Mesh Assets]({{% relref "rigging_mesh_assets" %}}): describes how to create a sub-rig for a ponytail hair asset.
 

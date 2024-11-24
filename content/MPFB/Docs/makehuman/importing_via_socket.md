@@ -4,7 +4,12 @@ draft: false
 weight: 20
 ---
 
-These are general instructions on how to import a model from MakeHuman.
+One way to import a character from MakeHuman is via a socket connection. This will import _baked_ meshes from MakeHuman. 
+
+The limitation is that these imported characters will then not be possible to continue working on via MPFB. You will for example
+not be able to equip more clothes or change target values. 
+
+If you want a live character, see [Importing via MHM]({{% relref "importing_via_mhm" %}}), which is the currently recommended import path.
 
 ## Requirements and preparations
 

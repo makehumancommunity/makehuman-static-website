@@ -44,10 +44,11 @@ Blender, MPFB and/or MakeHuman to get to know about things that are difficult to
 
 These are the main changes in summary. See further down on the page for more details on some of the highlights. 
 
-- MAKEUP: MakeUp presets can now be persisted
+- MAKEUP: Makeup presets can now be persisted
+- MAKEUP: Makeup can now be removed
 - LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later"
 
-## MakeUp presets can now be persisted
+## Makeup presets can now be persisted
 
 In beta 2, there was no functionality for saving a combination of ink layers as a preset. Further, when storing a human preset, 
 no information about ink layers were stored. This functionality has now been added. 
@@ -55,6 +56,12 @@ no information about ink layers were stored. This functionality has now been add
 Ink layer info will be automatically included when storing a new human preset, and there's a new makeup presets panel:
 
 ![206_makeup_presets](206_makeup_presets.png)
+
+## Makeup can now be removed
+
+A new button for easily clearing all makeup from a character has been added
+
+![206_makeup_remove](206_makeup_remove.png)
 
 ## License bump
 

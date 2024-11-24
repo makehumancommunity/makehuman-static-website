@@ -31,6 +31,7 @@ These are frequently asked question about MPFB.
 * [Model sliders stops working when using a proxy]({{% relref "proxy_no_modeling" %}})
 * [Why is rendering/animation on eevee slow?]({{% relref "eevee_slow" %}})
 * [Blender crashes with an error about bpy.ops.import_scene.obj missing]({{% relref "wavefront_crash" %}})
+* [MPFB says 'cannot .. on a baked mesh']({{% relref "baked_mesh" %}})
 
 ## Legal
 
