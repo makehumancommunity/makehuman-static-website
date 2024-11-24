@@ -47,6 +47,12 @@ These are the main changes in summary. See further down on the page for more det
 - MAKEUP: Makeup presets can now be persisted
 - MAKEUP: Makeup can now be removed
 - LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later"
+- DOCUMENTATION: Extended the documentation about [import paths from MakeHuman]({{% relref "../Docs/makehuman" %}}) and brought it up to date
+
+These are examples of a few bugs which were fixed:
+
+- Delete groups were not interpolated to the proxy when importing from presets
+- Made the UI less confusing when working with baked characters (such as when importing via socket from MakeHuman)
 
 ## Makeup presets can now be persisted
 
