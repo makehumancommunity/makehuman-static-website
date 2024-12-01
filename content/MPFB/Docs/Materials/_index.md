@@ -2,6 +2,8 @@
 title: "Materials"
 draft: false
 weight: 30
+description: "An overview of MPFB material models"
+alwaysopen: false
 ---
 
 A material provides the color and structure you see on a mesh object. MPFB has a number of different material types, which can be used 

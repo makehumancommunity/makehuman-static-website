@@ -23,3 +23,6 @@ The toolset for creating new assets come in the form of Blender addons:
 * [MakeTarget]({{< relref "../Assets/CreatingAssets/MakeTarget" >}}): A tool for creating morphs
 * MakeSkin: A tool for creating materials, such as skins
 
+Note that these tools are also bundled with MPFB, so if you already have MPFB installed, you do not need to download the standalone versions.
+
+

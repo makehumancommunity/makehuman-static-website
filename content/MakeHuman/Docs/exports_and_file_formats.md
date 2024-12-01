@@ -4,10 +4,7 @@ draft: false
 weight: 42
 ---
 
-Note that this page is a general overview of the export formats. If you want to export for a specific application, you might want to read one of the specific pages instead. These can be found from the [[Documentation:Index|root of the documentation]].
-
-Further note that if you want to export to Blender, there is a better approach than using file exports, see [[FAQ: What is MPFB (MakeHuman Plugin For Blender)?]]
-
+If you want to export to blender specifically, see [the FAQ entry]({{% relref "../FAQ/import_in_blender" %}})
 
 
 ![export_labelled.png](export_labelled.png)
@@ -17,9 +14,6 @@ Further note that if you want to export to Blender, there is a better approach t
 The above illustration explains the typical user interface components of the Export tab. On the right you get to choose what to export be in the mesh, the rig or the maps. In the center you have the 3D preview to preview your model. On the right you have options which keep changing based on what format you have selected in the left panel. On the top below the tabs panel is the “Ellipsis” button which opens a file dialog, a text box to enter the file name of the file and an “Export” button to do the actual export and save the file in the desired format.
 Below we outline the three main options in more detail i.e. Mesh formats, rig formats and Maps.
 
-## The special case MHX2
-
-(to be written)
 
 ## Mesh Formats (.dae, .fbx, .obj, Ogre3D, .stl)
 

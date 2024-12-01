@@ -20,6 +20,6 @@ The MakeHuman project strives to provide a complete tool that allows for the man
 With the exception of modeling, most of these tools follow a "point and click" approach by using the MakeHuman's Library.
 MakeHuman also offers tools for exporting virtual humans to other software (such as the Blender 3D modeling suite) where further refinements can be made.
 
-For documentation about MakeHuman, see the [docs hierarchy]({{< relref "docs" >}}).
+For documentation about MakeHuman, see the [docs hierarchy]({{% relref "docs" %}}).
 
 ![MakeHuman](makehuman/makehuman.png)

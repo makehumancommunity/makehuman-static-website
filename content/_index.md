@@ -6,6 +6,12 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2024-12-01: Updates to MakeHuman documentation
+
+A spirited attempt has been made to get the MakeHuman part of these pages in order. Particularly the
+[MakeHuman FAQ]({{< relref "MakeHuman/FAQ" >}}) has gotten a face lift, but there have also been numerous changes
+under the [MakeHuman Docs]({{< relref "MakeHuman/Docs" >}})
+
 ## 2024-11-10: MPFB 2.0 beta 2 has been released
 
 MPFB 2.0 beta 2 has been released. See [release notes for 2.0 beta 2]({{< relref "MPFB/Releases/release_20b2" >}}) for more info
