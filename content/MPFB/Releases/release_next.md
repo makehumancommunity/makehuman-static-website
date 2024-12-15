@@ -23,7 +23,7 @@ This is the first stable release of MPFB2. The following releases will be patch 
 ## Downloads
 
 See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. Things mentioned in these release notes are currently
-only available via the nightly builds.
+only available via the nightly builds. The stable release is intended to be put on the extension platform.
 
 Before downloading, you might want to take a look at the "Known Issues" and "Important breaking changes" sections below.
 
@@ -38,7 +38,11 @@ Blender, MPFB and/or MakeHuman to get to know about things that are difficult to
 
 ## Important breaking changes
 
-(none known so far, compared to beta 2)
+These are some things which might be good to know if you are upgrading from an earlier version of MPFB2:
+
+* The default skin material model is now MakeSkin (changed from Layered). You can change this in apply assets -> library settings
+* The default eye material model is now MakeSkin (changed from Procedural). You can change this in apply assets -> library settings
+* Multiple material instances will no longer be created for MakeSkin materials. Material instances will only be created for "enhanced" skins.
 
 ## Changes in summary
 
@@ -46,13 +50,20 @@ These are the main changes in summary. See further down on the page for more det
 
 - MAKEUP: Makeup presets can now be persisted
 - MAKEUP: Makeup can now be removed
-- LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later"
+- MAKECLOTHES: Now supports writing proxy meshes to the asset library
+- MAKECLOTHES: Added functionality for importing legacy properties
+- MATERIALS: Default to MakeSkin material models to avoid confusing new users
+- LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later" (changed from "GPL 2.0 or later")
 - DOCUMENTATION: Extended the documentation about [import paths from MakeHuman]({{% relref "../Docs/makehuman" %}}) and brought it up to date
 
 These are examples of a few bugs which were fixed:
 
 - Delete groups were not interpolated to the proxy when importing from presets
 - Made the UI less confusing when working with baked characters (such as when importing via socket from MakeHuman)
+- Refactored operators to make them compatible with Blender 4.4.0
+- Fixed a crash when converting a game engine rig to rigify
+- Fixed a crash when saving an OpenPose in perspective mode (thanks anonymous for PR)
+
 
 ## Makeup presets can now be persisted
 
@@ -68,6 +79,14 @@ Ink layer info will be automatically included when storing a new human preset, a
 A new button for easily clearing all makeup from a character has been added
 
 ![206_makeup_remove](206_makeup_remove.png)
+
+## MakeClothes improved support for proxy meshes and legacy properties
+
+When creating body proxies, these can now be written directly to the asset library, and be equipped from under the "topologies" panel.
+
+Further, if you have projects made with the old standalone MakeClothes 2 addon, then properties set by that can now be imported into MPFB.
+
+![206_makeclothes_1](206_makeclothes_1.png)
 
 ## License bump
 
