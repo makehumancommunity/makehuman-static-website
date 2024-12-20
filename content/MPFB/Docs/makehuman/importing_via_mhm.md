@@ -2,6 +2,7 @@
 title: "Loading an MHM file"
 draft: false
 weight: 30
+alwaysopen: false
 ---
 
 MakeHuman save files are called MHM ("MakeHuman Model") files. When you save a character inside MakeHuman, a file with the character's name

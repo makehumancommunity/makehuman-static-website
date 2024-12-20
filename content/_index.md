@@ -6,6 +6,11 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2024-12-20: MPFB submitted to the extensions platform
+
+MPFB has now been [submitted for review](https://extensions.blender.org/approval-queue/mpfb/) on the Blender extensions platform. 
+The idea is that this will be the main source of stable releases in the future, if MPFB is accepted on the platform.
+
 ## 2024-12-01: Updates to MakeHuman documentation
 
 A spirited attempt has been made to get the MakeHuman part of these pages in order. Particularly the

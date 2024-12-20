@@ -22,8 +22,8 @@ But the following is a rough overview of the nearest future.
 **Other planned efforts:**
 
 - Further work with MakeClothes
-- More flexibility with shaders
-- Ensure compatibility with blender 4.3
+- Launch on blender extensions platform
+- Ensure compatibility with blender 4.4
 
 ## MPFB 2.1 (and later)
 

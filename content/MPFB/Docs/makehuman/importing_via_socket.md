@@ -2,6 +2,7 @@
 title: "Importing from MakeHuman"
 draft: false
 weight: 20
+alwaysopen: false
 ---
 
 One way to import a character from MakeHuman is via a socket connection. This will import _baked_ meshes from MakeHuman. 

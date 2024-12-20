@@ -4,11 +4,17 @@ draft: false
 weight: 1
 ---
 
-These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.6".
+These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.6". 
 
-As [2.0 beta 2]({{% relref "release_20b2" %}}) has just been released, there isn't a whole lot on this page yet.
+Listed below are the changes since [2.0 beta 2]({{% relref "release_20b2" %}}).
 
-You can follow the progress on the [2.0 stable milestone on github](https://github.com/makehumancommunity/mpfb2/issues?q=is%3Aopen+is%3Aissue+milestone%3A%222.0+stable%22)
+## Current status
+
+The 2.0.6 release is actually finished, and is available for download from the "releases" directory (see [MPFB Downloads]({{% relref "../downloads" %}})), in a file named
+"mpfb-2.0.6-rc2". At the moment, the theory is that the "-rc2" binary will simply be renamed to form the final release.
+
+The thing we are waiting for is [a review on the extensions platform](https://extensions.blender.org/approval-queue/mpfb/). If the Blender guys for some reason
+request changes, then these will be incorporated before 2.0.6 is formally released.
 
 ## General
 
@@ -23,7 +29,7 @@ This is the first stable release of MPFB2. The following releases will be patch 
 ## Downloads
 
 See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. Things mentioned in these release notes are currently
-only available via the nightly builds. The stable release is intended to be put on the extension platform.
+only available via the nightly builds (or via the "-rc2" build). The stable release is intended to be put on the extension platform.
 
 Before downloading, you might want to take a look at the "Known Issues" and "Important breaking changes" sections below.
 
