@@ -15,7 +15,7 @@ want things to go faster is to jump in and help the project along, see [contribu
 
 But the following is a rough overview of the nearest future.
 
-## MPFB 2.0 stable release ("2.0.6")
+## MPFB 2.0 stable release ("2.0.7")
 
 **Main focus:** Providing a polished experience for users and releasing something which is viable for a longer term support. Stomping out remaining bugs. Test thoroughly before stable release.
 

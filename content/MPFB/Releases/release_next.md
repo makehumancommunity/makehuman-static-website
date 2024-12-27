@@ -4,7 +4,7 @@ draft: false
 weight: 1
 ---
 
-These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.6". 
+These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.7". 
 
 Listed below are the changes since [2.0 beta 2]({{% relref "release_20b2" %}}).
 
@@ -13,8 +13,8 @@ Listed below are the changes since [2.0 beta 2]({{% relref "release_20b2" %}}).
 The 2.0.6 release is actually finished, and is available for download from the "releases" directory (see [MPFB Downloads]({{% relref "../downloads" %}})), in a file named
 "mpfb-2.0.6-rc2". At the moment, the theory is that the "-rc2" binary will simply be renamed to form the final release.
 
-The thing we are waiting for is [a review on the extensions platform](https://extensions.blender.org/approval-queue/mpfb/). If the Blender guys for some reason
-request changes, then these will be incorporated before 2.0.6 is formally released.
+The thing we are waiting for is [a review on the extensions platform](https://extensions.blender.org/approval-queue/mpfb/). The changes requested there
+will be incorporated before 2.0.x is formally released. 
 
 ## General
 
@@ -69,7 +69,10 @@ These are examples of a few bugs which were fixed:
 - Refactored operators to make them compatible with Blender 4.4.0
 - Fixed a crash when converting a game engine rig to rigify
 - Fixed a crash when saving an OpenPose in perspective mode (thanks anonymous for PR)
-
+- Changed labels of the "proportions" macro target to be more comprehensible (the target as such isn't changed, only the help texts)
+- More thorough checking for the availability of rigify before trying to execute a rigify operator
+- Moved some dev only functionality to a separate script file which isn't bundled in the builds
+- Refactored logic in model panels to avoid unsafe calls to exec()
 
 ## Makeup presets can now be persisted
 
