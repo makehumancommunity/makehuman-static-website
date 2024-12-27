@@ -14,6 +14,7 @@ These are frequently asked question about MPFB.
 * [What are the differences between MPFB2 and MakeHuman?]({{% relref "differences_between_mpfb2_and_makehuman" %}})
 * [What are the differences between MPFB1 and MPFB2?]({{% relref "differences_between_mpfb1_and_mpfb2" %}})
 * [What are the differences between MPFB2 and MHX2?]({{% relref "differences_between_mpfb2_and_mhx2" %}})
+* [Why should I use MPFB instead of...]({{% relref "why_use" %}})
 
 ## Installation, backups and configuration
 
@@ -30,6 +31,7 @@ These are frequently asked question about MPFB.
 * [After changing a model slider, the clothes no longer fit]({{% relref "clothes_do_not_fit" %}})
 * [Model sliders stops working when using a proxy]({{% relref "proxy_no_modeling" %}})
 * [Why is rendering/animation on eevee slow?]({{% relref "eevee_slow" %}})
+* [The skin looks flat and boring]({{% relref "skin_flat" %}})
 * [Blender crashes with an error about bpy.ops.import_scene.obj missing]({{% relref "wavefront_crash" %}})
 * [MPFB says 'cannot .. on a baked mesh']({{% relref "baked_mesh" %}})
 
