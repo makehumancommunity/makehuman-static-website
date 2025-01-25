@@ -64,8 +64,7 @@ The "layered" skin model is mostly procedural, but often use diffuse and normal 
 can be controlled, such as color variation, procedural bump mapping and variations in roughness. Further, it automatically takes different areas
 of the body into account, so that for example fingernails look very different than the lips. 
 
-The layered skin model is mostly focused on rendered still images. Due to its complexity, it is mostly unsuitable for animation. The model 
-has been the default for body skin since 2024. 
+The layered skin model is mostly focused on rendered still images. Due to its complexity, it is mostly unsuitable for animation. 
 
 ### Comparison of different skin models
 

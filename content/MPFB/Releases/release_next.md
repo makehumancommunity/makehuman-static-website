@@ -4,17 +4,18 @@ draft: false
 weight: 1
 ---
 
-These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.7". 
+These are the preliminary release notes of the first stable release of MPFB2, currently intended to be named "MPFB 2.0.8". 
 
 Listed below are the changes since [2.0 beta 2]({{% relref "release_20b2" %}}).
 
 ## Current status
 
-The 2.0.6 release is actually finished, and is available for download from the "releases" directory (see [MPFB Downloads]({{% relref "../downloads" %}})), in a file named
-"mpfb-2.0.6-rc2". At the moment, the theory is that the "-rc2" binary will simply be renamed to form the final release.
+The 2.0.x stable release is actually finished. It just hasn't been labeled as a stable release or gotten a separate release file. 
 
 The thing we are waiting for is [a review on the extensions platform](https://extensions.blender.org/approval-queue/mpfb/). The changes requested there
 will be incorporated before 2.0.x is formally released. 
+
+You can either download the binary as a nightly build or from the extensions platform if you want it now.
 
 ## General
 
@@ -29,7 +30,7 @@ This is the first stable release of MPFB2. The following releases will be patch 
 ## Downloads
 
 See the [MPFB Downloads]({{% relref "../downloads" %}}) page for links to binaries. Things mentioned in these release notes are currently
-only available via the nightly builds (or via the "-rc2" build). The stable release is intended to be put on the extension platform.
+available via the nightly builds. The stable release is intended to be put on the extension platform.
 
 Before downloading, you might want to take a look at the "Known Issues" and "Important breaking changes" sections below.
 
@@ -44,11 +45,16 @@ Blender, MPFB and/or MakeHuman to get to know about things that are difficult to
 
 ## Important breaking changes
 
-These are some things which might be good to know if you are upgrading from an earlier version of MPFB2:
+The most important breaking change is that MPFB will now look for your user data in a different location. If you do not take specific action
+when upgrading, then it will appear as if your data has gone missing. There is a FAQ on how to fix this at
+[My user files disappeared after upgrading MPFB]({{% relref "../FAQ/user_files_disappeared" %}})
+
+These are some other things which might be good to know if you are upgrading from an earlier version of MPFB2:
 
 * The default skin material model is now MakeSkin (changed from Layered). You can change this in apply assets -> library settings
 * The default eye material model is now MakeSkin (changed from Procedural). You can change this in apply assets -> library settings
 * Multiple material instances will no longer be created for MakeSkin materials. Material instances will only be created for "enhanced" skins.
+* Online importing from MakeHuman now requires that you check the "allow online access" checkbox in the general blender preferences.
 
 ## Changes in summary
 
@@ -59,6 +65,7 @@ These are the main changes in summary. See further down on the page for more det
 - MAKECLOTHES: Now supports writing proxy meshes to the asset library
 - MAKECLOTHES: Added functionality for importing legacy properties
 - MATERIALS: Default to MakeSkin material models to avoid confusing new users
+- UI: Use the term "save file" instead of "presets" to avoid confusing new users
 - LICENSE: Per the requirements of the extensions platform, license is now "GPL 3.0 or later" (changed from "GPL 2.0 or later")
 - DOCUMENTATION: Extended the documentation about [import paths from MakeHuman]({{% relref "../Docs/makehuman" %}}) and brought it up to date
 
@@ -73,13 +80,14 @@ These are examples of a few bugs which were fixed:
 - More thorough checking for the availability of rigify before trying to execute a rigify operator
 - Moved some dev only functionality to a separate script file which isn't bundled in the builds
 - Refactored logic in model panels to avoid unsafe calls to exec()
+- Cut down on the number of mode switches when adding IK bones
 
-## Makeup presets can now be persisted
+## Makeups can now be persisted
 
-In beta 2, there was no functionality for saving a combination of ink layers as a preset. Further, when storing a human preset, 
+In beta 2, there was no functionality for saving a combination of ink layers. Further, when storing a human config, 
 no information about ink layers were stored. This functionality has now been added. 
 
-Ink layer info will be automatically included when storing a new human preset, and there's a new makeup presets panel:
+Ink layer info will be automatically included when saving a new human config, and there's a new makeup savefiles panel:
 
 ![206_makeup_presets](206_makeup_presets.png)
 

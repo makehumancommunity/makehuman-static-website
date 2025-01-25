@@ -4,7 +4,7 @@ date: 2017-10-17T15:26:15Z
 draft: false
 ---
 
-When using default settings, Eevee can be experienced as very slow in the viewport and when rendering, if there is a human visible.
+In some cases, Eevee can be experienced as very slow in the viewport and when rendering, if there is a human visible.
 
 This is because you are most likely using the "multilayered" skin material model. This is geared towards single renders using Cycles,
 and is less useful together with Eevee. It is a very complex procedural material.

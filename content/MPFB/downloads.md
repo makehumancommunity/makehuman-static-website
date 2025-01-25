@@ -14,17 +14,17 @@ the latest bugfixes.
 Note that in order to get the most out of MPFB2, you will probably also want to download
 a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}})
 
-### Nightly builds and beta 2 are extensions rather than addons
+### IMPORTANT: New location of user files
 
-*NOTICE:* After october 12, 2024, the format of MPFB2 has changes. Whereas it was previously a legacy addon, it is now an extension.
+If you upgrade from a version from before 2025-01-21, note that MPFB will now look for your user data in a different location. If you do not take specific action
+when upgrading, then it will appear as if your data has gone missing. There is a FAQ on how to fix this at
+[My user files disappeared after upgrading MPFB]({{% relref "FAQ/user_files_disappeared" %}})
 
-*IF YOU UPGRADE FROM BETA-1 OR A PREVIOUS NIGHTLY BUILD YOU MUST TAKE SPECIFIC ACTION*
+### IMPORTANT: MPFB is now an extension rather than an addon
 
-You should read at least [What do I need to do when upgrading from addon to extension?]({{% relref "FAQ/upgrade_to_addon" %}})
+After 2024-10-12, the format of MPFB2 has changed. Whereas it was previously a legacy addon, it is now an extension.
 
-### Blender 4.2 now required
-
-*NOTICE:* After august 20, 2024, all nightly builds require at least blender 4.2. 
+If you upgrade from a very old version, you should read at least [What do I need to do when upgrading from addon to extension?]({{% relref "FAQ/upgrade_to_addon" %}})
 
 ## Primary mirror
 
