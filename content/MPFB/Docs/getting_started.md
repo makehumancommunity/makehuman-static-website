@@ -17,25 +17,22 @@ You do not need MakeHuman in order to run MPFB2. However, if you want to integra
 
 ## Download
 
-If you have not already downloaded MPFB, you can find a link to the zip file with the addon on the [MPFB Downloads]({{% relref "../downloads" %}}) page.
+Since MPFB is available on the extension platform, simply open preferences and type in "MPFB": 
+
+![extplat](extplat.png)
+
+Click "install" to download and install.
 
 In order to get the most out of MPFB2 you will also want to download some asset packs from the [asset packs page]({{% relref "../../Assets/AssetPacks" %}}).
 You will want at least the "makehuman system assets", which contains skins, eyes, teeth and similar. But you might as well download a few of the other asset packs too.
 
-## Install MPFB2
+## (Optional) configuring MakeHuman paths
 
-MPFB2 is a Blender extension, so the [general instructions on how to install addons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html)
-do apply. You might want to read these first in case you are unfamiliar with the procedure for installing Blender addons.
-
-Basically, you need to go to edit -> preferences, find the "Add-ons" tab, click "install from disk" and find the zip file.
-
-![addon](install_addon_disk.png)
-
-Note that since the zip file is pretty large, it might take a few seconds for Blender to load it before listing MPFB in the addons list.
-
-If you have MakeHuman installed, you may want to check "auto-discover path to makehuman" and/or specifically provide a path in the "path to makehuman" box. These can be left empty if you do not want to use MakeHuman assets directly. 
+If you have MakeHuman installed, you may want to check "auto-discover path to makehuman" and/or specifically provide a path in the "path to makehuman" box in the preferences. These can be left empty if you do not want to use MakeHuman assets directly. 
 
 ![Addon preferences](addon_preferences.png)
+
+If you plan on using MPFB rather than MakeHuman for modeling and assets, you will be better off not configuring these paths now.
 
 ## Install assets packs
 

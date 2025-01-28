@@ -19,6 +19,7 @@ These are frequently asked question about MPFB.
 ## Installation, backups and configuration
 
 * [How can I install MPFB2?]({{% relref "how_do_i_install" %}})
+* [What should I do when switching to the extension platform version?]({{% relref "switching_to_platform" %}})
 * [Which configuration settings should I adjust?]({{% relref "important_config" %}})
 * [What do I need to do when upgrading from addon to extension?]({{% relref "upgrade_to_addon" %}})
 * [How can I create a backup of my user data?]({{% relref "creating_a_backup" %}})

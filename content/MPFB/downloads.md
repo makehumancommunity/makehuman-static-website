@@ -7,12 +7,19 @@ description: "Where to download MPFB"
 
 ## What should you download?
 
-At this point in the development, the nightly build and the latest release build (beta 2) are pretty much exactly the same. As there
-is no functional difference between a release build and a nightly build, you might as well download the nightly build to get
-the latest bugfixes.
+Since [the release of 2.0.8]({{% relref "Releases/release_208" %}}), the recommended way of installing MPFB is via 
+[the extension platform](https://extensions.blender.org/add-ons/mpfb/). Most, if not all users are recommended to use this
+rather then downloading a standalone binary.
 
 Note that in order to get the most out of MPFB2, you will probably also want to download
-a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}})
+a few [Asset Packs]({{% relref "../../Assets/AssetPacks" %}}). These need to be downloaded separately.
+
+The links further down on this page leads to older releases and nightly builds.
+
+### IMPORTANT: Switching to the extension platform
+
+If you have previously installed a nightly build or an older release, then you should read 
+[What should I do when switching to the extension platform version?]({{% relref "FAQ/switching_to_platform" %}}).
 
 ### IMPORTANT: New location of user files
 
