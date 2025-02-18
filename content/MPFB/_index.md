@@ -9,7 +9,8 @@ alwaysopen: false
 MPFB is a free and open source human character generator for blender. For a general introduction
 to what MPFB is, see [About MPFB]({{% relref "about" %}}). For more in-depth documentation, such
 as a getting started guide, see [the documentation]({{% relref "Docs" %}}). 
-Or if you prefer video for a general introduction, there is a [getting started video](https://www.youtube.com/watch?v=9jmTdhVjAsI) on youtube. 
+Or if you prefer video for a general introduction, there is a 
+[MPFB Tutorial: Installation and Getting Started](https://www.youtube.com/watch?v=FNeiLDH_lnw) video on youtube. 
 For frequently asked questions, see [the FAQ]({{% relref "FAQ" %}}). 
 
 To download MPFB2, see the [MPFB Downloads]({{% relref "downloads" %}}) page.

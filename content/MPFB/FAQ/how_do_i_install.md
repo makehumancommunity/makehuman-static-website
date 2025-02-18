@@ -4,7 +4,7 @@ draft: false
 ---
 
 These are the minimum steps required for installing MPFB2. You might want to also take a look at the [getting started]({{% relref "../Docs/getting_started" %}}) textual guide
-and the [Getting Started with MPFB2](https://youtu.be/9jmTdhVjAsI) youtube video.
+and the [MPFB Tutorial: Installation and Getting Started](https://www.youtube.com/watch?v=FNeiLDH_lnw) youtube video.
 
 You can find the downloadables in the [download section]({{% relref "../downloads" %}})
 

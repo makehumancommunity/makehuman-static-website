@@ -6,6 +6,18 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2025-02-18: First part of tutorial on MPFB materials
+
+There is now a new video available, explaining the basics of MPFB materials.
+
+{{< youtube g_2bkrCZ10Y >}}
+
+## 2025-02-05: New getting started video for MPFB
+
+A new getting started video has been added, intended to replace the old one. This shows installation from the extension platform as well as updated info on the first few steps of creating a character.
+
+{{< youtube FNeiLDH_lnw >}}
+
 ## 2025-01-28: MPFB v2.0.8 has been released
 
 The first stable release of MPFB is now [available on the extension platform](https://extensions.blender.org/add-ons/mpfb/).
