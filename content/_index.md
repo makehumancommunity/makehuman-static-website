@@ -6,6 +6,12 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2025-03-19: Fourth part of tutorial on MPFB materials
+
+Another part of the tutorial series on materials is now available. This one explains eye materials. 
+
+{{< youtube -pIzZ0Cj_QU >}}
+
 ## 2025-03-19: Third part of tutorial on MPFB materials
 
 The next part on materials is now available, explaining skin materials. 
