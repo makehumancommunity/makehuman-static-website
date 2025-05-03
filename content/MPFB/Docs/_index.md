@@ -38,4 +38,5 @@ This is the documentation for MPFB. Note that there is also important informatio
 * [Materials Part 2 - Clothes and Generic Materials](https://www.youtube.com/watch?v=ssl9ZzKuzQs)
 * [Materials Part 3 - Skin Materials](https://www.youtube.com/watch?v=7_Y5Dp6Z36o)
 * [Materials Part 4 - Eye Materials](https://www.youtube.com/watch?v=-pIzZ0Cj_QU)
+* [Getting Started with MakeUp](https://www.youtube.com/watch?v=I1nkjWgddNE)
 

@@ -6,7 +6,17 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
-## 2025-03-19: Fourth part of tutorial on MPFB materials
+## 2025-04-23: Tutorial on MakeUp
+
+There is now a tutorial on the MakeUp tool in MPFB available.
+
+{{< youtube I1nkjWgddNE >}}
+
+## 2025-04-19: MPFB 2.0.9
+
+MPFB 2.0.9 has been released. See [the release notes]({{< relref "MPFB/Releases/release_209" >}}) for details.
+
+## 2025-04-07: Fourth part of tutorial on MPFB materials
 
 Another part of the tutorial series on materials is now available. This one explains eye materials. 
 

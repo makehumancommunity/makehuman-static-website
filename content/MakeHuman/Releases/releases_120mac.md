@@ -9,6 +9,8 @@ Regarding features, this release is roughly equivalent to [[Releases:120|the off
 
 The first issue you are likely to run into, is that you might get an error message saying the application cannot be scanned for malicious software. This is because it isn't signed with a commercial certificate (which we don't have since we're a volunteer project without much of a budget). To get around this, see https://thewiredshopper.com/apple-cannot-check-for-malicious-software-error/
 
-If there is something strange with this build, report this as an issue ticket at https://github.com/makehumancommunity/makehuman/issues. If it is not specific to OSX, see http://www.makehumancommunity.org/content/bugtracker.html for information on where to report bugs. 
+The build can be downloaded from [mirror 1]({{% param "primaryFilesUrl" %}}/releases/makehuman-community-1.2.0-macos.zip)
+or [mirror 2]({{% param "secondaryFilesUrl" %}}/releases/makehuman-community-1.2.0-macos.zip)
 
-The build can be downloaded from http://download.tuxfamily.org/makehuman/releases/makehuman-community-1.2.0-macos.zip
+Generally speaking, this is a very old build with limited support. If you run into trouble, it is recommended to try to run from source
+instead.
