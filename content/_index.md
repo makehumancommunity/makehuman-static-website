@@ -6,6 +6,24 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2025-06-08: Second part on clothes creation tutorial
+
+A new tutorial in the clothes creation series is now available, demonstrating how to create clothes materials via sculpting and texture painting.
+
+{{< youtube V_YZLVE9hOU >}}
+
+## 2025-05-19: First part on clothes creation tutorial
+
+A new tutorial on clothes creation is now available, introducing the MakeClothes tool and explaining basic concepts.
+
+{{< youtube b5AA5nlelxc >}}
+
+## 2025-05-04: MakeUp Tutorial: Faded and Gradient Eye Shadows
+
+There's a new MakeUp tutorial available, this time demonstrating some tricks on eye shadows.
+
+{{< youtube nHDYdzv8ky0 >}}
+
 ## 2025-04-23: Tutorial on MakeUp
 
 There is now a tutorial on the MakeUp tool in MPFB available.
