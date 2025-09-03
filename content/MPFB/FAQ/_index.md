@@ -30,6 +30,10 @@ These are frequently asked question about MPFB.
 * [Why is rendering/animation on eevee slow?]({{% relref "eevee_slow" %}})
 * [The skin looks flat and boring]({{% relref "skin_flat" %}})
 
+## Additional assets and resources
+
+* [Why can't you simply bundle all assets in the addon?]({{% relref "bundle_all_assets" %}})
+
 ## Bugs, errors and problems
 
 * [How do I report a bug?]({{% relref "how_do_i_report_a_bug" %}})
