@@ -32,7 +32,9 @@ These are frequently asked question about MPFB.
 
 ## Additional assets and resources
 
+* [Are there assets other than the asset packs?]({{% relref "other_assets" %}})
 * [Why can't you simply bundle all assets in the addon?]({{% relref "bundle_all_assets" %}})
+* [MPFB has no asset XYZ]({{% relref "missing_asset_xyz" %}})
 
 ## Bugs, errors and problems
 

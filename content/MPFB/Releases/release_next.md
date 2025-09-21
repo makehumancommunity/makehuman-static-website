@@ -8,7 +8,8 @@ These are the release notes of MPFB 2.0.11, which has not yet been released. Lis
 
 ## General
 
-This is a feature release focusing on experimental support for geometry nodes hair and fur. 
+This is a feature release focusing on experimental support for geometry nodes hair and fur. There is also a new mixamo rig variation
+and a bug fix for MakeClothes.
 
 ## Downloads
 
@@ -17,10 +18,8 @@ to use the extension platform functionality inside blender.
 
 ## Support for geometry nodes hair and fur
 
-The major (and only) addition in this release is experimental support for adding and working with geometry hair. This is largely based on 
+The major addition in this release is experimental support for adding and working with geometry hair. This is largely based on 
 work done by Tomáš Klecer, as part of his CS thesis.
-
-### Adding and working with hair
 
 A new panel is available in the UI: the Hair Editor. 
 
@@ -38,15 +37,27 @@ Then you can enter sculpt mode and use the hair sculpt brushes
 
 ![hair added](2011_hair_editor_sculpt.png)
 
-### Adding and working with fur
+Note that the geometry hair support is still in an early stage. User feedback and bug reporting are especially welcome for this 
+functionality.
 
-To be written
+## Mixamo rig with Unity extensions
 
-### Converting to cards
+An extended mixamo rig has been contributed by github user rmarma (Maxim). This rig has extra bones for controlling, for example, face and breast,
+and it is suitable for mecanim.
 
-To be written
+Note that when snapping to mixamo in MPFB, you will need an animation which was created via a reduced doll with a matching rig. That is, 
+you can't map an animation which was made for the "mixamo" rig onto "mixamo_unity" and vice versa.
 
-### Current status
+![mixamo_unity](2011_mixamo_unity.png)
 
-The geometry hair support should be considered very experimental. It is added here to collect user feedback, rather than being
-intended as a final version.
+## MakeClothes check for same object scale
+
+MakeClothes expects the basemesh and the clothes object to have the same scale, and the clothes generating procedure will fail if the
+scale isn't the same. However, the "clothes check" button did not check for this, and the error was hidden in the producing routine due
+to another message appearing immediately after. This caused the clothes production to fail without any user readable error message. 
+
+In this version, the clothes check routine now also checks for scale, and the error message will be visible if the scale is different
+when producing clothes.
+
+
+
