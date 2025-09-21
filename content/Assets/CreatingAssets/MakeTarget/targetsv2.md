@@ -104,7 +104,7 @@ At the moment MakeHuman II  needs to be restarted to scan the user folders.
 ![Save a target.](Mt2_savetarget.png)
 
 
-### Load a target from file
+### Add a target from file
 
 You can load a target into MakeTarget2. As an example we load a target made by someone else and change it. Or we can merge targets. Simply use the button "add target for file"
 
@@ -113,8 +113,35 @@ You can load a target into MakeTarget2. As an example we load a target made by s
 
 ### Adapt the helper
 
-TODO: a quick way to do a correction of a target, where the helper was neglected.
+It is possible to model the target only on the body and adapt the helper mesh later. Or to load a target, where the helper was not
+considered and now clothes do not fit, when the target is used in MakeHuman.
+
+The workflow to adapt a helper for an existent target is:
+
+* load the male or female basemesh **with helper** in normal pose (see: Load the standard hm08 basemesh)
+
+* load the target by "Add a target from file", the result could be a mesh where the body sticks through the helper (1)
+
+* select the type of helper mesh. It is important, that it fits to loaded helper, in the example "Female (Standard Pose)". If the helper does not fit, the helper will be distorted after processing.
+
+* after pressing "Adapt helper mesh to base" the helper is adapted by the same mechanism, which is used inside MakeClothes. The result is (2)
+
+* If you want to improve it, now change a few vertices manually and maybe use symmetry. (3)
+
+* Save the new target. If it works correctly in MakeHuman, you can delete the old version.
+
+![Adapt the helper mesh.](Mt2_adapthelper.png)
+
+*Sometimes the corrections in the end will need more effort, especially when e.g. legs are intersecting with genitals etc.*
+
 
 ### Work with more than one target
 
-TODO: show a few examples for this purpose.
+As an artist it is sometimes useful to work with more than one target, combining targets or deciding which target should be used. Shapekeys in Blender always worked like this, so it is also possible to do it with maketarget.
+
+As an example: given that we want a curvy shape we create 3 targets, one for breast region, one for stomach region and one for hips region. In the end, we will decide for a possible result and merge these targets to one target.
+
+![Work with targets.](Mt2_mergetargets.png)
+
+*Be aware that the helper should be adapted to the curvy shape in end.*
+
