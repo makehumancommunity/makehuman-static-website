@@ -15,7 +15,7 @@ For frequently asked questions, see [the FAQ]({{% relref "FAQ" %}}).
 
 To download MPFB2, see the [MPFB Downloads]({{% relref "downloads" %}}) page.
 
-The release notes of the latest release are available in [release notes for 2.0.10]({{% relref "Releases/release_2010" %}}). 
+The release notes of the latest release are available in [release notes for 2.0.11]({{% relref "Releases/release_2011" %}}). 
 There are also [preliminary release notes]({{% relref "Releases/release_next" %}}) for the next upcoming release available.
 
 For various tutorial videos, see the [Youtube channel](https://www.youtube.com/@MakeHumanCommunity).

@@ -6,9 +6,13 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2025-09-22: MPFB 2.0.11 has been released
+
+The [MPFB 2.0.11]({{< relref "MPFB/Releases/release_2011" >}}) release adds support for geometry nodes hair and a new mixamo rig variation.
+
 ## 2025-07-07: MPFB 2.0.10 has been released
 
-The [MPFB 2.0.10]({{< relref "MPFB/Releases/release_2010" >}}) is a minor bugfix release. It fixes tilde path resolution and rigid groups in MakeClothes.
+The [MPFB 2.0.10]({{< relref "MPFB/Releases/release_2010" >}}) release is a minor bugfix release. It fixes tilde path resolution and rigid groups in MakeClothes.
 
 ## 2025-06-08: Second part on clothes creation tutorial
 

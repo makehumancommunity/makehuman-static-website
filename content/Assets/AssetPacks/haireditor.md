@@ -3,7 +3,7 @@ title: "Hair editor"
 draft: false
 ---
 
-Geometry nodes hair and fur, necessary for the upcoming hair editor: [mirror1]({{% param "primaryFilesUrl" %}}/functional/haireditor.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/functional/haireditor.zip) (12 mb)
+Geometry nodes hair and fur, necessary for the hair editor: [mirror1]({{% param "primaryFilesUrl" %}}/functional/haireditor.zip), [mirror2]({{% param "secondaryFilesUrl" %}}/functional/haireditor.zip) (12 mb)
 
 
 ## Included assets
