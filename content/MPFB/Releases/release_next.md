@@ -4,4 +4,4 @@ draft: false
 weight: 1
 ---
 
-Since [2.0.11]({{% relref "release_2011" %}}) was just released, there isn't a whole lot here yet.
+Since [2.0.12]({{% relref "release_2012" %}}) was just released, there isn't a whole lot here yet.
