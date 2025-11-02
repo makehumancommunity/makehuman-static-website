@@ -39,7 +39,7 @@ difference if the service is a singleton or a stateless class.
 
 The following services are available:
 
-* [AnimationService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/assetservice.py) contains logic for posing and animation
+* [AnimationService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/animationservice.py) contains logic for posing and animation
 * [AssetService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/assetservice.py) contains logic for locating and listing assets
 * [ClothesService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/clothesservice.py) contains logic for loading MHCLO type assets and fitting them to the base mesh
 * [HumanService](https://github.com/makehumancommunity/mpfb2/blob/master/src/mpfb/services/humanservice.py) contains logic for constructing, serializing and deserializing humans.
