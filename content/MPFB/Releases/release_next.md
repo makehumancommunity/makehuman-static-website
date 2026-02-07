@@ -4,27 +4,39 @@ draft: false
 weight: 1
 ---
 
-These are the release notes of MPFB 2.0.13, which has not yet been released. Listed below are the changes
-since [2.0.12]({{% relref "release_2012" %}}).
+These are the release notes of what is to become MPFB 2.0.14, which has not been released yet. Listed below are the changes
+since [2.0.13]({{% relref "release_2013" %}}).
 
 ## General
 
-This is a feature release focusing on OpenPose support. 
+This is a feature release focusing on export copies. The technical reference documentation in the repo has also been updated.
 
 ## Downloads
 
 MPFB is available from  [the extension platform](https://extensions.blender.org/add-ons/mpfb/), and the preferred way of installation is
 to use the extension platform functionality inside blender. 
 
-## Support for OpenPose
+## Export copies
 
-A new solution for OpenPose has been added, inspired by [com.io7m.visual.openpose_rig](https://github.com/io7m/com.io7m.visual.openpose_rig).
+As per the initial request, it is cumbersome to arrange a character so that it is suitable for export to external applications.
+You would normally do things such as baking shape keys, applying modifiers, deleting helpers and so on and so forth. Doing this
+on the original character is destructive, meaning you would need to manually create a deep copy of the character and then manually
+perform the necessary operations on the basemesh, rig and child meshes.
 
-In this solution there is a new OpenPose rig, coupled with functionality for adding renderable colored bones and utilities for changing the
-scene into something which is suitable for rendering an OpenPose image.
+### The create export copy tool
 
-![OpenPose](2013_openpose_rig.png)
+In this release, there is now a tool available for automating many of these operations:
 
-The current implementation supports BODY_25. 
+INSERT SCREENSHOT HERE
 
-It is currently not decided whether there will be a variation with hands.
+### Visemes
+
+In a related issue, assets for visemes have been contributed. These are available as functional asset packs: LINK, LINK.
+
+If the visemes are available, the export copy functionality can load these and interpolate them to the child meshes.
+
+## Documentation
+
+Some significant effort has been spent on updating the developer-oriented documentation which now resides in the 
+git repo. This documentation is intended for developers who are not already familiar with the source code, and who need
+to get an understanding of the various layers, the code structure and the file formats.

@@ -40,6 +40,7 @@ This is the documentation for MPFB. Note that there is also important informatio
 * [Materials Part 4 - Eye Materials](https://www.youtube.com/watch?v=-pIzZ0Cj_QU)
 * [Creating Clothes Part 1 - Basics and Concepts](https://www.youtube.com/watch?v=b5AA5nlelxc)
 * [Creating Clothes Part 2 - UVs and Materials](https://www.youtube.com/watch?v=V_YZLVE9hOU)
+* [Rigging and Posing Part 1 - Basics](https://www.youtube.com/watch?v=U8yJInR5dS8)
 * [Getting Started with MakeUp](https://www.youtube.com/watch?v=I1nkjWgddNE)
 * [MakeUp: Faded and Gradient Eye Shadows](https://www.youtube.com/watch?v=nHDYdzv8ky0)
 

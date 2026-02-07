@@ -6,6 +6,17 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2025-12-25: MPFB 2.0.13 has been released
+
+The [MPFB 2.0.13]({{< relref "MPFB/Releases/release_2013" >}}) release is now available. This is a feature release focusing
+on OpenPose.
+
+## 2025-12-13: First part of rigging and posing tutorials
+
+A new introductory tutorial on rigging and posing has been added
+
+{{< youtube U8yJInR5dS8 >}}
+
 ## 2025-10-18: MPFB 2.0.12 has been released
 
 The [MPFB 2.0.12]({{< relref "MPFB/Releases/release_2012" >}}) release is now available. This is a minor bugfix release.
