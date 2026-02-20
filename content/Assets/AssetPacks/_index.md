@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-02-07 - A section for functional asset packs has been added (see bottom of page). This includes [Hair editor]({{% relref "haireditor" %}}), [Visemes 01]({{% relref "visemes01" %}}), [Visemes 02]({{% relref "visemes02" %}}) and [Faceunits 01]({{% relref "faceunits01" %}}) asset packs.
 * Release 2024-06-23 - Two asset packs with poses [Poses 01]({{% relref "poses01" %}}) (with sitting poses) and [Poses 02]({{% relref "poses02" %}}) (with sports poses) have been added. You need a nightly build from 2024-06-23 or later to load these.
 * Release 2024-05-10 - Various animal and furry transforms, primarily by JALdMIC: [Animal 01]({{% relref "animal01" %}}), [Animal 02]({{% relref "animal02" %}}), [Animal 03]({{% relref "animal03" %}}), [Animal 04]({{% relref "animal04" %}}) 
 * Release 2023-08-18 - Realistic deformation packs [Arms 01]({{% relref "arms01" %}}), [Cheek 01]({{% relref "cheek01" %}}), [Ears 01]({{% relref "ears01" %}}), [Hands 01]({{% relref "hands01" %}}) and [Nose 01]({{% relref "nose01" %}})
@@ -113,6 +114,16 @@ Mesh assets shared under CC-BY:
 * [Suits 03]({{% relref "suits03" %}}): A set of thematic suits
 * [Underwear 02]({{% relref "underwear02" %}}): A set of female underwear and bikinis
 * [Underwear 03]({{% relref "underwear03" %}}): A set of underwear and swimwear
+
+## Functional asset packs
+
+These are asset packs which are related to specific functionality rather than being collections of assets from 
+the asset repository. The assets are shared under CC0.
+
+* [Hair editor]({{% relref "haireditor" %}}): Fur/hair styles for the hair editor
+* [Visemes 01]({{% relref "visemes01" %}}): Microsoft style visemes 
+* [Visemes 02]({{% relref "visemes02" %}}): Meta/Oculus style visemes 
+* [Faceunits 01]({{% relref "faceunits01" %}}): ARKit style face units
 
 ## Secondary mirror
 

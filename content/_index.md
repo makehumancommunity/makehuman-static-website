@@ -6,6 +6,19 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2026-02-14: MPFB now one of the 50 most downloaded extensions
+
+Since a few days, MPFB is in the top 50 list of the most downloaded extensions on the Blender extensions platform. 
+At the moment of writing this, MPFB is in place 49 with some 86k downloads.
+
+![top50](top50.jpg)
+
+## 2026-02-06: Asset packs with visemes and face units
+
+There are new asset packs for visemes and face units available. See the [Asset packs]({{< relref "Assets/AssetPacks" >}}) page for more information.
+
+![visemes](visemes.png)
+
 ## 2025-12-25: MPFB 2.0.13 has been released
 
 The [MPFB 2.0.13]({{< relref "MPFB/Releases/release_2013" >}}) release is now available. This is a feature release focusing
