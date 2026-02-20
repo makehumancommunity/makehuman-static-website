@@ -9,7 +9,11 @@ alwaysopen: false
 This section of the documentation contains information on the exporting of MPFB characters.
 
 While discussing all use cases where a MPFB character is opened outside Blender would require more documentation than we are able to produce, there
-are some general things which are likely to be common for all external applications. 
+are some general things which are likely to be common for all external applications.
+
+## Export copy
+
+If you want a streamlined approach that automates most of the preparation steps, see the [Export copy]({{% relref "export_copy" %}}) page. The export copy feature creates an independent, processed duplicate of your character with a single button click, handling shape key baking, modifier management, helper geometry removal, and optional facial animation targets automatically.
 
 ## Materials
 
