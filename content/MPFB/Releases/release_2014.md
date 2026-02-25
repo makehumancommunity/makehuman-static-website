@@ -1,10 +1,10 @@
 ---
-title: "MPFB 2.0-next"
+title: "MPFB 2.0.14"
 draft: false
 weight: 1
 ---
 
-These are the release notes of what is to become MPFB 2.0.14, which has not been released yet. Listed below are the changes
+These are the release notes of MPFB 2.0.14, which was released 2026-02-25. Listed below are the changes
 since [2.0.13]({{% relref "release_2013" %}}).
 
 ## General
