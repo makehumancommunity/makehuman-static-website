@@ -45,4 +45,9 @@ This is the documentation for MPFB. Note that there is also important informatio
 * [Getting Started with MakeUp](https://www.youtube.com/watch?v=I1nkjWgddNE)
 * [MakeUp: Faded and Gradient Eye Shadows](https://www.youtube.com/watch?v=nHDYdzv8ky0)
 
+## For developers
 
+This is mainly interesting for developers. 
+
+* The [developer resources]({{% relref "../Developer" %}})
+* The [technical reference documentation](https://github.com/makehumancommunity/mpfb2/blob/master/docs/index.md)
