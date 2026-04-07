@@ -36,6 +36,24 @@ The program is mainly aimed at artists who create static images or videos. It is
 I will try to show how you can make a character with a change of clothes and assign him animation.
 
 
+### This tutorial is fully compatible with the current versions of
+
+* Blender 5.1
+* Godot 4.6–4.7.
+* MakeHuman 1.3.0
+
+
+#### A few actual notes:
+
+1. [MHX2](https://github.com/makehumancommunity/mhx2-makehuman-exchange) works in Blender 5.1! It’s outdated, but sometimes it’s actually preferable to use it. Because of its simplicity, there may be fewer issues when transferring characters to the engine.
+2. You can use [MPFB2](https://static.makehumancommunity.org/mpfb.html) to import from MH into Blender or to create characters in Blender. It has many settings, but sometimes they are unnecessary for models intended for use in a game engine. If you're using MPFB2 for importing into Blender, it's important to remember to apply the `Hide helpers` modifier before exporting to the game engine.
+3. You can find the [assets here](https://static.makehumancommunity.org/assets.html).
+4. [Diffeomorphic BVH and FBX Retargeter](https://diffeomorphic.blogspot.com/2026/03/diffeomorphic-add-ons-version-510.html) has been updated.
+
+
+[Comments and suggestions are welcome.](http://www.makehumancommunity.org/forum/viewtopic.php?f=23&t=19978)
+
+
 ### Programs used:
 
 1. [MakeHuman 1.2.0](http://www.makehumancommunity.org/content/makehuman_120.html)
