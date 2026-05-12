@@ -6,6 +6,11 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2026-05-05: MPFB 2.0.15 has been released
+
+The [MPFB 2.0.15]({{< relref "MPFB/Releases/release_2015" >}}) release is now available. This release contains numerous
+bug fixes as well as support for custom rigs and a new layer for lipsync integration.
+
 ## 2026-04-18: Animating characters using Mixamo
 
 A new tutorial on rigging, posing and animating has been added. This time about animating with Mixamo.

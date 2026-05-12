@@ -6,14 +6,23 @@ description: "How to set up lip sync animation in MPFB using the Lip Sync addon"
 alwaysopen: false
 ---
 
-**NOTE THAT THIS IS DOCUMENTATION FOR A FEATURE WHICH IS PLANNED FOR MPFB 2.0.15. IT IS NOT AVAILABLE ON THE EXTENSION PLATFORM YET**
-
 MPFB supports lip sync animation through integration with the [Lip Sync addon](https://extensions.blender.org/add-ons/iocgpoly-lip-sync/)
 from the Blender extension platform. Rather than re-implementing phoneme-to-viseme mapping from scratch, MPFB focuses on providing the
 facial shape keys that the Lip Sync addon needs, and on automating the configuration that would otherwise have to be done manually.
 
 A "viseme" is a facial shape that represents a specific sound. In MPFB these are stored as shape keys loaded from the visemes02 asset pack,
 which uses the 15-shape Meta/ARKit naming convention (e.g. `viseme_aa`, `viseme_CH`, `viseme_sil`).
+
+## Regarding the LipSync addon
+
+Note that the MakeHuman Community is in no way affiliated with the author(s) of the LipSync addon. It's a completely separate product.
+What we've added here is simply a convenience layer.
+
+If you find bugs in the LipSync addon these should be reported to [the LipSync issue tracker](https://github.com/Charley3d/lip-sync/issues),
+not to the MakeHuman or MPFB issue tracker.
+
+Note that at the moment of writing this (may 2026), the original LipSync extension has not been updated to work with Blender 5.x. You may
+need to use [a fork](https://github.com/holoccha/lip-sync) unless you are still on Blender 4.x.
 
 ## Prerequisites
 
