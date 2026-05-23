@@ -8,5 +8,5 @@ alwaysopen: false
 
 These are notes regarding the use of MakeHuman assets in Godot.'
 
-So far, there is [Tomcat's tutorial]({{< relref "tomcat" >}})
+So far, there is [Tomcat's tutorial]({{% relref "tomcat" %}})
 

@@ -3,12 +3,12 @@ title: MakeHuman Community
 description: The MakeHuman Community home page
 ---
 
-This is the new homepage for [MakeHuman]({{< relref "MakeHuman" >}}) and [MPFB]({{< relref "MPFB" >}}).
+This is the new homepage for [MakeHuman]({{% relref "MakeHuman" %}}) and [MPFB]({{% relref "MPFB" %}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
 ## 2026-05-05: MPFB 2.0.15 has been released
 
-The [MPFB 2.0.15]({{< relref "MPFB/Releases/release_2015" >}}) release is now available. This release contains numerous
+The [MPFB 2.0.15]({{% relref "MPFB/Releases/release_2015" %}}) release is now available. This release contains numerous
 bug fixes as well as support for custom rigs and a new layer for lipsync integration.
 
 ## 2026-04-18: Animating characters using Mixamo
@@ -19,7 +19,7 @@ A new tutorial on rigging, posing and animating has been added. This time about 
 
 ## 2026-02-25: MPFB 2.0.14 has been released
 
-The [MPFB 2.0.14]({{< relref "MPFB/Releases/release_2014" >}}) release is now available. This is a feature release focusing
+The [MPFB 2.0.14]({{% relref "MPFB/Releases/release_2014" %}}) release is now available. This is a feature release focusing
 on a tool for staging characters for export to external applications.
 
 ## 2026-02-14: MPFB now one of the 50 most downloaded extensions
@@ -31,13 +31,13 @@ At the moment of writing this, MPFB is in place 49 with some 86k downloads.
 
 ## 2026-02-06: Asset packs with visemes and face units
 
-There are new asset packs for visemes and face units available. See the [Asset packs]({{< relref "Assets/AssetPacks" >}}) page for more information.
+There are new asset packs for visemes and face units available. See the [Asset packs]({{% relref "Assets/AssetPacks" %}}) page for more information.
 
 ![visemes](visemes.png)
 
 ## 2025-12-25: MPFB 2.0.13 has been released
 
-The [MPFB 2.0.13]({{< relref "MPFB/Releases/release_2013" >}}) release is now available. This is a feature release focusing
+The [MPFB 2.0.13]({{% relref "MPFB/Releases/release_2013" %}}) release is now available. This is a feature release focusing
 on OpenPose.
 
 ## 2025-12-13: First part of rigging and posing tutorials
@@ -48,15 +48,15 @@ A new introductory tutorial on rigging and posing has been added
 
 ## 2025-10-18: MPFB 2.0.12 has been released
 
-The [MPFB 2.0.12]({{< relref "MPFB/Releases/release_2012" >}}) release is now available. This is a minor bugfix release.
+The [MPFB 2.0.12]({{% relref "MPFB/Releases/release_2012" %}}) release is now available. This is a minor bugfix release.
 
 ## 2025-09-22: MPFB 2.0.11 has been released
 
-The [MPFB 2.0.11]({{< relref "MPFB/Releases/release_2011" >}}) release adds support for geometry nodes hair and a new mixamo rig variation.
+The [MPFB 2.0.11]({{% relref "MPFB/Releases/release_2011" %}}) release adds support for geometry nodes hair and a new mixamo rig variation.
 
 ## 2025-07-07: MPFB 2.0.10 has been released
 
-The [MPFB 2.0.10]({{< relref "MPFB/Releases/release_2010" >}}) release is a minor bugfix release. It fixes tilde path resolution and rigid groups in MakeClothes.
+The [MPFB 2.0.10]({{% relref "MPFB/Releases/release_2010" %}}) release is a minor bugfix release. It fixes tilde path resolution and rigid groups in MakeClothes.
 
 ## 2025-06-08: Second part on clothes creation tutorial
 
@@ -84,7 +84,7 @@ There is now a tutorial on the MakeUp tool in MPFB available.
 
 ## 2025-04-19: MPFB 2.0.9
 
-MPFB 2.0.9 has been released. See [the release notes]({{< relref "MPFB/Releases/release_209" >}}) for details.
+MPFB 2.0.9 has been released. See [the release notes]({{% relref "MPFB/Releases/release_209" %}}) for details.
 
 ## 2025-04-07: Fourth part of tutorial on MPFB materials
 
@@ -120,7 +120,7 @@ A new getting started video has been added, intended to replace the old one. Thi
 
 The first stable release of MPFB is now [available on the extension platform](https://extensions.blender.org/add-ons/mpfb/).
 
-See [release notes for 2.0.8]({{< relref "MPFB/Releases/release_20b2" >}}) for details and changes since beta 2.
+See [release notes for 2.0.8]({{% relref "MPFB/Releases/release_20b2" %}}) for details and changes since beta 2.
 
 ## 2024-12-20: MPFB submitted to the extensions platform
 
@@ -130,24 +130,24 @@ The idea is that this will be the main source of stable releases in the future, 
 ## 2024-12-01: Updates to MakeHuman documentation
 
 A spirited attempt has been made to get the MakeHuman part of these pages in order. Particularly the
-[MakeHuman FAQ]({{< relref "MakeHuman/FAQ" >}}) has gotten a face lift, but there have also been numerous changes
-under the [MakeHuman Docs]({{< relref "MakeHuman/Docs" >}})
+[MakeHuman FAQ]({{% relref "MakeHuman/FAQ" %}}) has gotten a face lift, but there have also been numerous changes
+under the [MakeHuman Docs]({{% relref "MakeHuman/Docs" %}})
 
 ## 2024-11-10: MPFB 2.0 beta 2 has been released
 
-MPFB 2.0 beta 2 has been released. See [release notes for 2.0 beta 2]({{< relref "MPFB/Releases/release_20b2" >}}) for more info
-and [the download page]({{< relref "MPFB/downloads" >}}) for download links.
+MPFB 2.0 beta 2 has been released. See [release notes for 2.0 beta 2]({{% relref "MPFB/Releases/release_20b2" %}}) for more info
+and [the download page]({{% relref "MPFB/downloads" %}}) for download links.
 
 ## 2024-10-12: MPFB is now an "extension"
 
 Important notice: Starting from today, the nightly builds of MPFB are "extensions" rather than "legacy addons". From a user point of view, this looks the same in the end. But when upgrading from one to the other, there are some things that need to be done. 
 
-There is a FAQ entry about this at [How do I upgrade from addon to extension?]({{< relref "MPFB/FAQ/upgrade_to_addon" >}}).
+There is a FAQ entry about this at [How do I upgrade from addon to extension?]({{% relref "MPFB/FAQ/upgrade_to_addon" %}}).
 
 ## 2024-07-23: MPFB 2.0 beta 1 has been released
 
-MPFB 2.0 beta 1 has been released. See [release notes for 2.0 beta 1]({{< relref "MPFB/Releases/release_20b1" >}}) for more info
-and [the download page]({{< relref "MPFB/downloads" >}}) for download links.
+MPFB 2.0 beta 1 has been released. See [release notes for 2.0 beta 1]({{% relref "MPFB/Releases/release_20b1" %}}) for more info
+and [the download page]({{% relref "MPFB/downloads" %}}) for download links.
 
 ## 2024-06-23: MPFB now supports BVH-style poses
 
@@ -157,12 +157,12 @@ You need a nightly build from 2024-06-23 (today) or later to be able to load the
 
 The pose loading functionality has some limitations as of yet: You can only use them with the default skeleton, and they will mess around a bit with the bone rolls. But it works well enough for static posing.
 
-For download links for the nightly build, see [the download page]({{< relref "MPFB/downloads" >}})
+For download links for the nightly build, see [the download page]({{% relref "MPFB/downloads" %}})
 
-For download links for the asset packs, see [the asset packs page]({{< relref "Assets/AssetPacks" >}})
+For download links for the asset packs, see [the asset packs page]({{% relref "Assets/AssetPacks" %}})
 
-For preliminary release notes for the next upcoming release, see [the preliminary release notes]({{< relref "MPFB/Releases/release_next" >}})
+For preliminary release notes for the next upcoming release, see [the preliminary release notes]({{% relref "MPFB/Releases/release_next" %}})
 
 ## 2024-05-11: MakeHuman 1.3.0 has been released
 
-MakeHuman 1.3.0 has been released. See [the release notes]({{< relref "MakeHuman/Releases/releases_130" >}}) for more information and download links.
+MakeHuman 1.3.0 has been released. See [the release notes]({{% relref "MakeHuman/Releases/releases_130" %}}) for more information and download links.

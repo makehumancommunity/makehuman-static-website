@@ -7,14 +7,14 @@ alwaysopen: false
 
 This is the main documentation for MakeClothes Version 2.
 
-* [Introduction to MakeClothes]({{< relref "introduction" >}})
+* [Introduction to MakeClothes]({{% relref "introduction" %}})
 
-* [Materials for MakeHuman Version II]({{< relref "makeclothes_materials" >}})
+* [Materials for MakeHuman Version II]({{% relref "makeclothes_materials" %}})
 
-* [What are Vertex-Groups]({{< relref "makeclothes_vertexgroups" >}})
+* [What are Vertex-Groups]({{% relref "makeclothes_vertexgroups" %}})
 
-* [What are Delete-Groups]({{< relref "makeclothes_deletegroups" >}})
+* [What are Delete-Groups]({{% relref "makeclothes_deletegroups" %}})
 
-* [How to Model Heels]({{< relref "createheels" >}})
+* [How to Model Heels]({{% relref "createheels" %}})
 
-* [Tips for Modeling Clothes]({{< relref "modeling_clothes" >}})
+* [Tips for Modeling Clothes]({{% relref "modeling_clothes" %}})

@@ -11,7 +11,7 @@ draft: false
 
 Vertex-groups are used to create relations between the human (or helper) and the piece of cloth. Three different assets will show us, how it works. You can download these assets for comparison, but it should be only an example, because all other authors had to do it similar.
 
-A special vertex-group is the [delete-group]({{< relref "makeclothes_deletegroups" >}}).
+A special vertex-group is the [delete-group]({{% relref "makeclothes_deletegroups" %}}).
 
 
 All assets can be created in one file, if you want. 

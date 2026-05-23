@@ -11,4 +11,4 @@ in the system in question.
 
 So far the following systems have entries:
 
-* [Godot]({{< relref "Godot" >}})
+* [Godot]({{% relref "Godot" %}})

@@ -7,7 +7,7 @@ draft: false
 Before reading the following, there are two quick hints which might be useful:
 
 - Using blender 4? Make sure you install the specific blender 4 build of MPFB. The alpha 3 release is not blender 4 compatible.
-- Running into errors which are reported as fixed? Take a look at [How do I make sure I have the correct version installed?]({{< relref "ensure_correct_version" >}})
+- Running into errors which are reported as fixed? Take a look at [How do I make sure I have the correct version installed?]({{% relref "ensure_correct_version" %}})
 
 ## Reporting bugs
 
@@ -21,7 +21,7 @@ In general, this information should always be included:
 
 - What, in detail, happened? Did you see an error message? Did the end result look different than expected? Did nothing happen at all? 
 - From when is the version you are using? I.e, did you download it today or is it a few days or weeks old?
-- If you are using an old version, did you test if the problem remains in the latest version (ie, nightly build from [MPFB Downloads]({{< relref "../downloads" >}}))?
+- If you are using an old version, did you test if the problem remains in the latest version (ie, nightly build from [MPFB Downloads]({{% relref "../downloads" %}}))?
 - On what platform are you running blender?
 - Exactly which blender version are you using?
 - Screenshots clearly showing what the problem is
@@ -30,7 +30,7 @@ Without this kind of details, it is often simply not possible to figure out what
 
 When creating an issue on GitHub, you should get a basic template where these questions are listed.
 
-If you have the time, it would also be helpful if you took a look at [How can I provide more help with debugging?]({{< relref "help_debugging" >}}) and 
+If you have the time, it would also be helpful if you took a look at [How can I provide more help with debugging?]({{% relref "help_debugging" %}}) and 
 provided the information listed there.
 
 ## Log files

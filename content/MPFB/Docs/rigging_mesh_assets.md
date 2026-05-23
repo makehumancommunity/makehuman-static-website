@@ -108,7 +108,7 @@ automatically when a rig is saved, but it is also possible to manually tweak the
 
 The strategies assigned to a bone can be viewed and changed through a panel that appears in the
 bone page of properties in the armature edit mode. For full documentation see the
-[Rigging and posing]({{< relref "../Developer/rigging_and_posing" >}}) developer document.
+[Rigging and posing]({{% relref "../Developer/rigging_and_posing" %}}) developer document.
 
 ![bone developer panel](../developer/rigging_bone_developer_panel.png)
 

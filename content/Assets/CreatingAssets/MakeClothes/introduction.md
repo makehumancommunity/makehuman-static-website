@@ -119,7 +119,7 @@ Vertex-groups are a number of vertices of a mesh forming a group with vertex-gro
 
 This might work, but it is not a good way. There are many risks. 
 
-So here are examples from some of the assets I did: [Create vertex-groups]({{< relref "makeclothes_vertexgroups" >}})
+So here are examples from some of the assets I did: [Create vertex-groups]({{% relref "makeclothes_vertexgroups" %}})
 
 
 
@@ -207,7 +207,7 @@ The main features of creating clothes are:
 
 * **scaling**: select the part of the body which is important for the scaling. Most likely torso for a t-shirt, head for a hat etc.
 
-* **delete-group**: it is a good method to delete vertices on the body if clothes are not transparent. This avoids bleeding through, that is, that vertices that should be "inside" suddenly appear outside of the clothes. See: [delete-group]({{< relref "makeclothes_deletegroups" >}}). All vertices not to be displayed should be selected on the body (not helper) and assigned to a vertex on the human. The name of this group must be inserted in the box. If more than one piece of cloth is created, they all can have a different delete-group on the same human.
+* **delete-group**: it is a good method to delete vertices on the body if clothes are not transparent. This avoids bleeding through, that is, that vertices that should be "inside" suddenly appear outside of the clothes. See: [delete-group]({{% relref "makeclothes_deletegroups" %}}). All vertices not to be displayed should be selected on the body (not helper) and assigned to a vertex on the human. The name of this group must be inserted in the box. If more than one piece of cloth is created, they all can have a different delete-group on the same human.
 
 > **_Data path MakeHuman I:_**  MakeHuman I usually uses the user Documents folder, inside this folder there is a "makehuman" folder. There is a second method, where a file with one line containing the path is added. This file is called makehuman.conf and is found either in .config (Linux) or in the %LOCALAPPDATA% environment (Windows).
 
@@ -223,9 +223,9 @@ Most of the clothes will need a texture. Before the texture can be used the piec
 
 Unwrap the clothes in any case. The output of this process is a UV-Map, which will be used to determine the coordinates of each vertex on the texture.
 
-If the simple standard material should not be used for export, a material can be created with MakeClothes as well in the [Material Editor]({{< relref "makeclothes_materials" >}}) as well.
+If the simple standard material should not be used for export, a material can be created with MakeClothes as well in the [Material Editor]({{% relref "makeclothes_materials" %}}) as well.
 
-[Methods to texture clothes you will find here]({{< relref "modeling_clothes" >}}).
+[Methods to texture clothes you will find here]({{% relref "modeling_clothes" %}}).
 
 
 ## Create the clothes
@@ -234,12 +234,12 @@ The last step to create clothes is to select the item of clothing and press prod
 
 This is not the documentation of how to model geometries for clothes and not every one will be happy with simple way to copy the helper meshes and create clothes directly.
 
-[Methods to model clothes you will find here]({{< relref "modeling_clothes" >}}).
+[Methods to model clothes you will find here]({{% relref "modeling_clothes" %}}).
 
 
 ## Usage of shape keys and targets, create heels
 
-A special female body with shape keys is added as a predefined mesh to allow creation of heels. For advanced users: [Method to create heels]({{< relref "createheels" >}}).
+A special female body with shape keys is added as a predefined mesh to allow creation of heels. For advanced users: [Method to create heels]({{% relref "createheels" %}}).
 
 
 ## Importing existing clothes

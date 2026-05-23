@@ -14,4 +14,4 @@ Yes:
 
 The add-on as such is open source and can be [downloaded from GitHub](https://github.com/makehumancommunity/mpfb2).
 
-See also [Can I sell models made with MPFB?]({{< relref "can_i_sell_models" >}}) and [Can I use models made with MPFB in a closed-source game?]({{< relref "use_in_closed_source" >}})
+See also [Can I sell models made with MPFB?]({{% relref "can_i_sell_models" %}}) and [Can I use models made with MPFB in a closed-source game?]({{% relref "use_in_closed_source" %}})
