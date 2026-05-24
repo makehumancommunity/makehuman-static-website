@@ -9,7 +9,10 @@ These are the release notes of MPFB 2.0.16, which not yet been released. The fol
 
 ## General
 
-This is a feature release focusing on adding a complete toolset for expressions.
+This is a feature release focusing on:
+
+- adding a complete toolset for expressions.
+- A major overhaul of the rigify UX
 
 There is now also a set of example standalone scripts demonstrating how to use MPFB as a scripting API.
 
@@ -85,6 +88,10 @@ expressions correctly.
 While the technology as such works, there might still be some polishing left to do on the individual faceunit shape keys. If you 
 happen to be an artist and have the time, take a look at the [extra targets](https://github.com/makehumancommunity/extra-targets) 
 repository and the individual target files there. Pull requests with tweaks for the targets are welcome.
+
+## Rigify overhaul
+
+(to be written)
 
 ## Sample scripts
 
