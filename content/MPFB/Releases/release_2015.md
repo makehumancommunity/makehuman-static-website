@@ -2,6 +2,7 @@
 title: "MPFB 2.0.15"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.15 (2026-05-05): new Face operations panel for visemes and expressions, Lip Sync integration and improved custom rig support."
 ---
 
 These are the release notes of MPFB 2.0.15 which was released 2026-05-05. The following are changes since [2.0.14]({{% relref "release_2014" %}}).

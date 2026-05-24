@@ -2,7 +2,7 @@
 title: "Rigging characters"
 draft: false
 weight: 40
-description: "How to rig MPFB charactes"
+description: "How to add a rig to an MPFB character in Blender: choosing between the default, Rigify, GameEngine and Mixamo rigs for the character creator addon."
 alwaysopen: false
 ---
 
@@ -16,7 +16,7 @@ then going for Rigify might be a good idea. If you never heard of Rigify, it mig
 
 In either case, you make the choice on the "Rigging" -> "Add rig" panel
 
-![add rig](rig_addrig.png)
+![MPFB add-rig panel with default, Rigify, GameEngine and Mixamo rig choices](rig_addrig.png)
 
 If you do not want Rigify, then the following standard rigs are available:
 
@@ -27,15 +27,15 @@ If you do not want Rigify, then the following standard rigs are available:
 
 If you don't have any specific requirements, choose the default rig and click "add standard rig". A rig should be added to the body:
 
-![rig added](rig_added.png)
+![Default MPFB rig added to a character in Blender](rig_added.png)
 
 ## Enabling IK
 
 If you have chosen the default rig, it might also make sense to enable IK. This is done on the "Rigging" -> "Rig helpers" panel. Leaving the options
 at their default setting is the safest choice. 
 
-![rig helpers 1](rig_helpers1.png)
+![MPFB rig-helpers panel adding IK helpers to a default rig](rig_helpers1.png)
 
 With rig helpers, you get for example hand IK bones which can be moved to easily pose the character.
 
-![rig helpers 2](rig_helpers2.png)
+![Hand IK bones added by the MPFB rig-helpers for easier character posing](rig_helpers2.png)

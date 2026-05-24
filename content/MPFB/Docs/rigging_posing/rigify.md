@@ -2,7 +2,7 @@
 title: "Rigify in MPFB"
 draft: false
 weight: 10
-description: "How to work with rig helpers in MPFB"
+description: "How to use Rigify with MPFB characters in Blender: converting the default rig to a full Rigify control rig for advanced animation."
 alwaysopen: false
 ---
 
@@ -18,7 +18,7 @@ This page will focus on how to setup rigify on a MPFB characters.
 
 The option to add a rigify meta rig is on the rigging panel:
 
-![add rigify](rigify_add.png)
+![MPFB rigging panel option for adding a Rigify meta-rig to a character](rigify_add.png)
 
 The main choice to make here is if you want to be able to control toes individually or not. Either choice is safe.
 
@@ -31,7 +31,7 @@ Clicking the button will add the rigify meta rig to the character.
 
 Having added a meta rig, the panel will change and offer you the option to "generate" the final rigify rig. 
 
-![add rigify](rigify_generate.png)
+![Generate-final-rigify-rig button in the MPFB rigging panel](rigify_generate.png)
 
 It is safe to simply click the button here to get the final rig. Note that you will always want to use this button 
 when generating rather than using the standard rigify procedure, as MPFB performs a few necessary extras during the generation process
@@ -41,4 +41,4 @@ If you want, you can control the final name of the generated rig, and choose whe
 
 In either case, once you click the button you will get the final rigify rig:
 
-![rigify final](rigify_final.png)
+![MPFB character with the final generated Rigify control rig in Blender](rigify_final.png)

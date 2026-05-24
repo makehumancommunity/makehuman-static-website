@@ -2,7 +2,7 @@
 title: "Helping out with coding"
 draft: false
 weight: 10
-description: "These are coding tasks for MPFB."
+description: "Code contribution tasks for MPFB, the free open-source Blender character creator addon — Python development opportunities for the MakeHuman plugin."
 ---
 
 Coding is fundamental in order to add features to MPFB. Here the limit is mainly your own fantasy.

@@ -2,7 +2,7 @@
 title: "Rig helpers in MPFB"
 draft: false
 weight: 5
-description: "How to work with rig helpers in MPFB"
+description: "How to use MPFB rig helpers in Blender: adding IK controllers for hands, feet and head to make posing the default rig much easier."
 alwaysopen: false
 ---
 
@@ -21,7 +21,7 @@ Rig helpers can be added to the "default" and the "default no toes" rigs. The fo
 
 With a default rig selected, you can find the options for rig helpers on the "Rigging" -> "Rig helpers" panel:
 
-![rig helper options](righelpers_panel.png)
+![MPFB rig-helpers panel options for IK setup on the default rig](righelpers_panel.png)
 
 The following describes the various helpers.
 
@@ -34,7 +34,7 @@ Regarding control: each IK chain added can have exactly one target. Thus if you 
 To get more control, the chains can be split in two or more parts. For example, in the "lower + upper" mode, there are two IK targets: the elbow and the hand. This means that you get more control over in which way the elbow points, at the cost of having to do more manual positioning. In the following image, you can see how the 
 "lower + upper" mode elbow bone controls the direction of the elbow:
 
-![elbow](righelpers_elbow.png)
+![Elbow IK helper controlling arm bend direction on an MPFB character](righelpers_elbow.png)
 
 The choice is made in the "helper type" drop down, where the options are:
 
@@ -72,7 +72,7 @@ Finger helpers come in two different modes, where actually only one is IK.
 
 In the "IK point" mode, each individual finger will get an IK target, controlling where it points.
 
-![elbow](righelpers_point.png)
+![Per-finger IK point helpers on an MPFB character's hand](righelpers_point.png)
 
 The IK chain includes all segments of the digit, meaning it will also control how the finger bends. 
 
@@ -83,7 +83,7 @@ The finger IK target all have the hand bone as parent, meaning they will retain 
 The alternative to the point mode is actually a helper for FK. In this mode, rotation bones are added to each finger ("individual grip"),
 to all fingers collectively ("master grip") or both.
 
-![elbow](righelpers_grip.png)
+![Master and individual finger grip helpers on an MPFB rig](righelpers_grip.png)
 
 In the above image, both master and individual grips are added. To grip with either, rotate either the master bone or one of the individual bones
 around its X axis (by clicking r-x-x and rotating). Here the master grip has been rotated, meaning all fingers bend at the same time.
@@ -93,7 +93,7 @@ around its X axis (by clicking r-x-x and rotating). Here the master grip has bee
 The final helper is the eye IK target. With this, the eyes will rotate to points their respective IK target. Both eye IK targets are children
 of a master eye IK bone, but can also be moved individually.
 
-![eye ik](righelpers_eyeik.png)
+![Eye IK helper bones aiming an MPFB character's eyes at a target](righelpers_eyeik.png)
 
 The main choice to make here is if the master eye IK target should have a parent. If you want the eyes to point towards the same spot, choose "none" or "root". 
 If you want the eyes to change looking direction when the head rotates, choose "head".

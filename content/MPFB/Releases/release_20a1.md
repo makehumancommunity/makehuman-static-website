@@ -2,6 +2,7 @@
 title: "MPFB 2.0-alpha1"
 draft: false
 weight: 5
+description: "Release notes for MPFB 2.0-alpha1 (2022-03-06): first MPFB2 alpha — one-click human creation, in-Blender modeling, MHM loading and an asset library."
 ---
 
 **2.0-alpha1 was released 2022-03-06**
@@ -34,39 +35,39 @@ If this is the first time you install MPFB2, you might want to take a look at th
 
 You can quickly create a new humanoid mesh on the "New Human" -> "From scratch" panel. Basic phenotype features can be set. They can then later be modified dynamically on the created mesh.
 
-![from scratch](from_scratch.png)
+![Initial MPFB new-human panel showing one-click humanoid creation in Blender](from_scratch.png)
 
 ## Parametric modling directly in Blender
 
 All features of the body can be modeled using parametric settings. The changes are reflected dynamically and continuously in the viewport.
 
-![model](model.png)
+![MPFB parametric body modeling sliders in the Blender viewport](model.png)
 
 ## Open MHM files 
 
 If you have characters modeled in MakeHuman, you can easily load these in Blender by simply opening the MHM file.
 
-![MHM](mhm.png)
+![Opening a MakeHuman MHM character file directly in MPFB](mhm.png)
 
 ## All parametric settings are stored as shape keys
 
 Rather than providing a static mesh, all parametric settings are stored as shape keys.
 
-![Shape keys](shape_key.png)
+![Modeling targets stored as shape keys on the MPFB basemesh in Blender](shape_key.png)
 
 ## Assets can be dynamically loaded from an asset library
 
 Assets such as skin, eyes and clothes can be loaded dynamically from an asset library. 
 
-![Assets](assets.png)
+![MPFB asset library panel showing skin, eye and clothes options](assets.png)
 
 ## The new procedural eye shader
 
 There is a new and configurable procedural eye shader.
 
-![Eyes render](eyes1.png)
+![Render of the new procedural eye shader in MPFB 2.0-alpha1](eyes1.png)
 
-![Eyes settings](eyes2.png)
+![Procedural eye shader settings panel in MPFB](eyes2.png)
 
 ## Support for rigify meta rigs
 
@@ -74,26 +75,26 @@ A new rigify meta-rig can be added, with weights, to a humanoid mesh. It will be
 
 Before using this, you should read the "known issues" section at the bottom of this page, as the rigify functionality is not altogether stable.
 
-![Rigify 1](add_rigify1.png)
+![Adding a Rigify meta-rig to an MPFB character in Blender, step 1](add_rigify1.png)
 
-![Rigify 2](add_rigify2.png)
+![Generating the final Rigify rig from the MPFB meta-rig, step 2](add_rigify2.png)
 
-![Rigify 3](add_rigify3.png)
+![Generated Rigify control rig on an MPFB character, step 3](add_rigify3.png)
 
 ## New IK helpers
 
 The default / default-no-toes rigs have support for IK helpers, enabling IK control of fingers, hands, feet and eyes.
 
-![Rig helpers 1](rig_helpers1.png)
+![MPFB IK helpers for fingers, hand and arm on the default rig](rig_helpers1.png)
 
-![Rig helpers 2](rig_helpers2.png)
+![MPFB IK helpers controlling feet and eyes on the default rig](rig_helpers2.png)
 
 ## Poses can be stored
 
 Poses can be stored in the library and then be reused for multiple characters. The pose loading system will take character size and shape into account when 
 loading a pose which wasn't originally made for it.
 
-![Save pose 1](save_pose_1.png) ![Save pose 2](save_pose_2.png)
+![Saving a pose to the MPFB pose library in Blender](save_pose_1.png) ![Reusing a saved MPFB pose on a differently shaped character](save_pose_2.png)
 
 ## The code base has been rewritten from scratch
 
@@ -106,7 +107,7 @@ Thus, creating a new human mesh in your own addon is as easy as:
     
 Most of the functionality available in the UI is implemented via these generic stateless services, enabling outside re-use.
 
-![Codebase](codebase1.png)
+![Example of using MPFB HumanService as an API from another Blender addon](codebase1.png)
 
 ## Known issues
 

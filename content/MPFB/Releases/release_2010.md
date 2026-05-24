@@ -2,6 +2,7 @@
 title: "MPFB 2.0.10"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.10 (2025-07-06): bug-fix release for tilde path resolution and a new rigid-group strategy in MakeClothes for Blender."
 ---
 
 These are the release notes of MPFB 2.0.10, which was released 2025-07-06. Listed below are the changes since [2.0.9]({{% relref "release_209" %}}).

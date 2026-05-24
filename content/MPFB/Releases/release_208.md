@@ -2,6 +2,7 @@
 title: "MPFB 2.0.8"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.8 (2025-01-28): the first stable MPFB2 release on the Blender extension platform, with asset-creation improvements."
 ---
 
 These are the release notes of the first stable version of MPFB2, 2.0.8, which was released 2025-01-28.
@@ -86,13 +87,13 @@ no information about ink layers were stored. This functionality has now been add
 
 Ink layer info will be automatically included when saving a new human config, and there's a new makeup savefiles panel:
 
-![206_makeup_presets](206_makeup_presets.png)
+![MPFB makeup save-files panel for persisting ink layer presets](206_makeup_presets.png)
 
 ## Makeup can now be removed
 
 A new button for easily clearing all makeup from a character has been added
 
-![206_makeup_remove](206_makeup_remove.png)
+![Button for clearing all makeup ink layers from an MPFB character](206_makeup_remove.png)
 
 ## MakeClothes improved support for proxy meshes and legacy properties
 
@@ -100,7 +101,7 @@ When creating body proxies, these can now be written directly to the asset libra
 
 Further, if you have projects made with the old standalone MakeClothes 2 addon, then properties set by that can now be imported into MPFB.
 
-![206_makeclothes_1](206_makeclothes_1.png)
+![MakeClothes proxy-mesh and legacy-property import options in MPFB 2.0.8](206_makeclothes_1.png)
 
 ## License bump
 

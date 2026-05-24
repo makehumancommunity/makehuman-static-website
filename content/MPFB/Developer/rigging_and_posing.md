@@ -2,6 +2,7 @@
 title: "Rigging and posing"
 draft: false
 weight: 10
+description: "Developer reference for MPFB rigging and posing internals: rig descriptions, helper bones and how rigs are constructed in the Blender addon."
 ---
 
 These pages contain code hints related to rigging and posing.
@@ -21,7 +22,7 @@ game engine rig) to rigify. It is not relevant for setting up a pure rigify rig 
 
 There are some helper functions on the developer panel:
 
-![rigging developer panel](rigging_developer_panel.png)
+![MPFB developer panel for loading and saving rig and weight data files](rigging_developer_panel.png)
 
 These can be used to load/save the data files mentioned below.
 
@@ -51,7 +52,7 @@ When a rig is loaded via the Developer panel, or saved with **Refit after save**
 strategy data is stored in bone properties, and a UI panel for editing them appears in
 armature edit mode bone properties:
 
-![bone developer panel](rigging_bone_developer_panel.png)
+![MPFB developer-mode bone-strategy panel in Blender armature edit mode](rigging_bone_developer_panel.png)
 
 Connect panel:
 
@@ -95,7 +96,7 @@ list through mesh selection by temporarily switching to mesh edit mode:
 
 When in mesh edit mode, the bone properties panel is pinned, and the buttons change:
 
-![bone mesh edit](rigging_bone_mesh_edit.png)
+![MPFB bone-strategy panel in mesh edit mode for vertex-based bone fitting](rigging_bone_mesh_edit.png)
 
 * **Switch To Armature** (armature button): switches back to editing the armature.
 * **Save And Switch** (check mark button): saves the current selection as vertex list and switches to armature.

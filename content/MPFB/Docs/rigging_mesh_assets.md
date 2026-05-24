@@ -2,7 +2,7 @@
 title: "Rigging Mesh Assets"
 draft: false
 weight: 5
-description: "Tutorial on making a sub-rig for a ponytail hair asset"
+description: "How to create a sub-rig for a mesh asset such as ponytail hair in MPFB, enabling bone-based motion on top of the main rig in Blender."
 ---
 
 Unlike base MakeHuman, MPFB2 supports mesh assets (proxies, body parts, clothes) having their own sub-rigs.
@@ -18,23 +18,23 @@ First, create a new human using "New human" -> "From scratch". Choose any settin
 fit, but make sure "Detailed helper vertex groups" is enabled. Use the "Create human" button
 to add the human mesh.
 
-![Create from scratch](create_from_scratch.png)
+![MPFB new-human-from-scratch panel with helper vertex groups enabled](create_from_scratch.png)
 
 After that, add a standard rig by going to "Rigging" -> "Add rig" -> "Add standard rig".
 The sub-rig can only connect to the base rig via constraints referencing core bones,
 so in general it is best to use the simplest rig during its development.
 
-![Add rig](add_rig_panel.png)
+![MPFB add-standard-rig panel for the ponytail sub-rig tutorial](add_rig_panel.png)
 
 Finally, add the ponytail hair asset. First, in the "Apply assets" -> "Library Settings"
 panel disable "Import sub-rig" and "Import weights", in case this asset already includes
 a rig with it in the future. Keep "Set up rigging" and "Interpolate weights" enabled:
 
-![Apply Assets Settings](apply_assets_settings_no_subrig.png)
+![MPFB apply-assets library settings with import-sub-rig and import-weights disabled](apply_assets_settings_no_subrig.png)
 
 After that, find "ponytail01" in "Hair library" and load it:
 
-![Ponytail Hair](add_ponytail.png)
+![Loading the ponytail01 asset from the MPFB hair library in Blender](add_ponytail.png)
 
 If making a rig for your own asset, you would likely still want to use a separate copy for rigging,
 in order to avoid conflicts and confusion between rigging and MakeClothes in their use of
@@ -50,7 +50,7 @@ Create a single bone armature. Rename it appropriately, and make it a child of t
 and the parent of the asset mesh, using Object parenting. Configure Viewport Display to display
 as Wire and In Front.
 
-![Ponytail Rig Outliner](ponytail_rig_outliner.png)
+![Blender outliner showing ponytail sub-rig armature parented under the main MPFB rig](ponytail_rig_outliner.png)
 
 On the ponytail mesh, add a vertex group called `mhmask-subrig`, and add an Armature modifier
 that uses the new sub-rig armature and is controlled by the vertex group. Place this modifier
@@ -60,7 +60,7 @@ earlier, also enable the invert group toggle (yellow) because of a long-standing
 
 When loading the completed asset, MPFB will automatically create a modifier configured exactly like this.
 
-![Ponytail Rig Modifier](ponytail_rig_modifier.png)
+![Second Armature modifier with mhmask-subrig vertex group on the ponytail mesh](ponytail_rig_modifier.png)
 
 In armature edit mode, rename the single bone to "root" (this helps with making the sub-rig
 compatible with Rigify), and place it at the base of the ponytail.
@@ -68,7 +68,7 @@ compatible with Rigify), and place it at the base of the ponytail.
 In pose mode add a Child Of constraint that points to the head bone of the main rig, and use Set Inverse.
 Constraints like this is how the sub-rig bones are connected to the main rig.
 
-![Ponytail Rig Root](ponytail_rig_root.png)
+![Root bone of the ponytail sub-rig with Child Of constraint to the head bone](ponytail_rig_root.png)
 
 Finally, in the rig section of the MPFB Developer panel: enable "Make sub-rig", "Save Rigify layers"
 and "Refit after save", and save the rig to a temporary file. The act of saving with "refit" will
@@ -110,7 +110,7 @@ The strategies assigned to a bone can be viewed and changed through a panel that
 bone page of properties in the armature edit mode. For full documentation see the
 [Rigging and posing]({{% relref "../Developer/rigging_and_posing" %}}) developer document.
 
-![bone developer panel](../developer/rigging_bone_developer_panel.png)
+![MPFB bone-strategy developer panel for sub-rig fitting in Blender](../developer/rigging_bone_developer_panel.png)
 
 Since the ponytail asset does not match any joint helpers in the base mesh, all of its bones
 have to be fitted to averages of multiple vertex positions via the `Mean` strategy.
@@ -119,7 +119,7 @@ Saving the rig previously has assigned a good pair of vertices to the head of th
 is not great - it is even noticeably off the center line. Thus, it is necessary to replace the chosen
 vertices.
 
-![Ponytail Rig Root Strategy](ponytail_rig_strat1.png)
+![Initial Mean strategy for the ponytail root bone tail position](ponytail_rig_strat1.png)
 
 Pressing the eyedropper button in the relevant section of the strategy panel switches Blender
 to edit the relevant mesh, and selects the chosen vertices.
@@ -127,12 +127,12 @@ to edit the relevant mesh, and selects the chosen vertices.
 *The button with the mesh icon to the left of it will switch to the mesh, but keep the vertex
 selection unchanged.*
 
-![Edit Strategy](ponytail_rig_strat2.png)
+![Editing the strategy vertex selection in Blender mesh edit mode](ponytail_rig_strat2.png)
 
 Switch to the move tool in order to be able to see the average of the selected vertex positions,
 and choose a suitable pair of vertices on the centerline.
 
-![Edited Strategy](ponytail_rig_strat3.png)
+![Adjusted strategy vertex pair on the MPFB basemesh centerline](ponytail_rig_strat3.png)
 
 Use the check mark button to save the new vertex selection into the strategy and return to the
 armature edit mode.
@@ -145,7 +145,7 @@ vertices, or update the vertex list from selection without returning to the arma
 to strategy settings done in Mesh Edit mode can only be reverted by repeating undo until you return
 to armature edit mode before the switch to mesh edit.*
 
-![Saved Strategy](ponytail_rig_strat4.png)
+![Saved Mean strategy locked on the ponytail root bone](ponytail_rig_strat4.png)
 
 Using the button updates the strategy and snaps the cursor to the result of its evaluation, but
 the bone position is unchanged. To update it, use the re-apply strategy button in the corner (red).
@@ -155,7 +155,7 @@ recomputed if the bone position doesn't match the strategy result when the rig i
 
 Now start extruding the ponytail chain from the head of the root bone.
 
-![Extrude Ponytail](ponytail_rig_extrude.png)
+![Extruding the ponytail bone chain from the root bone in Blender](ponytail_rig_extrude.png)
 
 For each bone, extrude it to a suitable position, check correct bone parenting and name.
 After that, use the magnet button to sync head strategy with the existing bone, and switch
@@ -188,13 +188,13 @@ This simple rig can be easily configured to be usable both directly, and as a Ri
 First, move the `root` bone to this layer, and hide the layer. The `root` bone will be used as a
 control by Rigify, but as a basic rig it is simply the host for the Child Of constraint.
 
-![Root Layer](ponytail_rig_root_layer.png)
+![Moving the root bone to a hidden armature layer for Rigify compatibility](ponytail_rig_root_layer.png)
 
 After that, in the Rigify panel of the armature, use "Bone Groups" -> "Add Standard",
 "Layer Names" -> "Add Rigify Layers", and configure the first two layers to get the
 following result:
 
-![Root Layer](ponytail_rig_rigify_layers.png)
+![Rigify bone group and layer settings for the ponytail sub-rig](ponytail_rig_rigify_layers.png)
 
 Finally, select the first bone of the ponytail in Pose Mode, and in its bone properties
 configure the rigify sub-rig type as follows. You need to switch roll alignment to Manual,
@@ -204,7 +204,7 @@ This will generate a trivial FK chain with both rotational controls and tweak co
 for offsetting. The B-Bone settings configured above will be copied as is to the
 deformation bones.
 
-![Root Layer](ponytail_rig_rigify_bone.png)
+![Rigify sub-rig FK chain bone properties for the ponytail](ponytail_rig_rigify_bone.png)
 
 ### Adding the rig to the asset
 
@@ -262,7 +262,7 @@ rather than the main rig, and defines the influence transition.
 It should be painted to full influence on the bulk of the ponytail, and then gradually
 transition to 0 on the head over the length of the first bone of the chain.
 
-![Mask Weights](ponytail_rig_weight_mask.png)
+![Weight painting the mhmask-subrig group on the MPFB ponytail mesh](ponytail_rig_weight_mask.png)
 
 The sub-rig bones can be painted and normalized as usual.
 
@@ -274,7 +274,7 @@ to near zero by the mask.
 There should be no weight assigned to the `root` bone, because Rigify turns it into
 a non-deforming control.
 
-![Bone Weights](ponytail_rig_weight_bone.png)
+![Weight painting sub-rig deform bones on the MPFB ponytail mesh](ponytail_rig_weight_bone.png)
 
 ### Adding the weights to the asset
 
@@ -289,7 +289,7 @@ keep masks enabled.
 Save the weights as `ponytail01.mhw` and place it in the same directory as the
 `ponytail01.mhclo` file of the asset.
 
-![Saving Weights](ponytail_rig_weight_save.png)
+![Saving sub-rig weights as ponytail01.mhw in the MPFB Developer panel](ponytail_rig_weight_save.png)
 
 ## Extra weights
 

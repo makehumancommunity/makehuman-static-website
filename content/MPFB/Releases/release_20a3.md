@@ -2,6 +2,7 @@
 title: "MPFB 2.0-alpha3"
 draft: false
 weight: 7
+description: "Release notes for MPFB 2.0-alpha3 (2023-07-13): third alpha of the MPFB2 Blender character creator addon, with feature additions since alpha 2."
 ---
 
 MPFB 2.0-alpha3 was released 2023-07-13.
@@ -72,7 +73,7 @@ There has obviously been quite a lot of bug fixes and other changes, but these a
 
 The asset library UI has been updated with a few usability changes:
 
-![UI grid](ui_grid.gif)
+![MPFB asset library expanding into a grid as the Blender N-shelf is widened](ui_grid.gif)
 
 If you expand the shelf by dragging its edge, the library will adapt into a grid, showing more assets at once. 
 
@@ -83,7 +84,7 @@ Equipped assets will have their buttons highlighted in order to make them easier
 The asset packs have received a huge overhaul. There are hundreds of assets packed in several new packs, which are 
 [available for download]({{% relref "../../Assets/AssetPacks" %}}).
 
-![Filter asset packs](filter_asset_pack.jpg)
+![MPFB asset library filtered by asset pack name in Blender](filter_asset_pack.jpg)
 
 In the asset library, it is now possible to filter on the name of the pack containing the asset, as well as on 
 terms in the name of the asset.
@@ -94,7 +95,7 @@ CC-BY credits: The hat is [bowler hat](http://www.makehumancommunity.org/node/30
 
 Thanks to Alexander Gavrilov, assets can now be animated with separate and specific rigs.
 
-![Pony tail rig](ponytail_rig.jpg)
+![MPFB character with a separate sub-rig driving ponytail hair](ponytail_rig.jpg)
 
 When an asset has a sub-rig defined, it will automatically be loaded when loading the asset. 
 
@@ -104,7 +105,7 @@ So far, not many assets have sub-rigs, but the ponytail hair from the systems as
 
 A completely new skin shader has been added. 
 
-![V2 skin](v2_skin.jpg)
+![MPFB character rendered with the new configurable layered skin shader](v2_skin.jpg)
 
 The skin shader is highly configurable and can be controlled in regards to colors and bump structure, with different settings for various 
 areas of the body.
@@ -115,7 +116,7 @@ There is a [youtube video](https://youtu.be/B9K0VtFFGsA) introducing the new ski
 
 An initial, and somewhat experimental, support for Mixamo has been added. 
 
-![Mixamo support](mixamo_ops.jpg)
+![MPFB Mixamo operations panel for exporting characters and applying animations](mixamo_ops.jpg)
 
 The support comes as a few different parts:
 
@@ -129,7 +130,7 @@ There is a [youtube video](https://youtu.be/Ct729M5dpfc) with a tech demo of the
 
 There are a few new UI options and buttons in the modeling panel.
 
-![model ui update](model_ui_updates.jpg)
+![Updated MPFB modeling panel with auto-refit and left-right symmetry options](model_ui_updates.jpg)
 
 In the UI it is now possible to control if all assets should automatically adapt when you change body parameters. Previously you had to change the body 
 and then click a button to make all assets adapt. For slow machines it might still make sense to keep this disabled.

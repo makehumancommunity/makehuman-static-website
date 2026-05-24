@@ -2,6 +2,7 @@
 title: "MPFB 2.0.13"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.13 (2025-12-25): new OpenPose rig and export for Stable Diffusion ControlNet workflows in Blender, plus minor fixes."
 ---
 
 These are the release notes of MPFB 2.0.13, which was released 2025-12-25. Listed below are the changes

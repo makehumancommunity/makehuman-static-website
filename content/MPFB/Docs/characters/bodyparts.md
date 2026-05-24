@@ -2,7 +2,7 @@
 title: "Adding bodyparts"
 draft: false
 weight: 50
-description: "How to add bodyparts to MPFB charactes"
+description: "How to add body parts such as eyes, eyebrows, eyelashes, hair and teeth to an MPFB character in Blender from the asset library."
 alwaysopen: false
 ---
 
@@ -22,7 +22,7 @@ on the "apply assets" -> "library settings" -> "materials" panel.
 
 Once that choice has been made, you can load eyeballs from the "Apply assets" -> "eyes" panel
 
-![bodyparts eye](bodypartseye.png)
+![Loading eyeballs onto an MPFB character from the apply-assets eyes panel](bodypartseye.png)
 
 There are only two eyes to choose between:
 
@@ -33,5 +33,5 @@ There are only two eyes to choose between:
 
 For all other body parts, simply add them from their respective part of the "apply assets" panel. For example hair:
 
-![bodyparts hair](bodypartshair.png)
+![Loading hair onto an MPFB character from the apply-assets hair panel](bodypartshair.png)
 

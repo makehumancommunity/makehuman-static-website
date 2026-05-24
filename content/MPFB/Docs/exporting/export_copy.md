@@ -2,7 +2,7 @@
 title: "Export copy"
 draft: false
 weight: 10
-description: "How to create an export-ready copy of an MPFB character"
+description: "How to use the MPFB Export Copy feature in Blender to make an independent, processed duplicate of a character that is ready for FBX export."
 alwaysopen: false
 ---
 

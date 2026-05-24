@@ -2,7 +2,7 @@
 title: "Import paths for MakeHuman"
 draft: false
 weight: 5
-description: "Options when importing from MakeHuman"
+description: "Overview of the different ways to import a MakeHuman character into MPFB in Blender: MHM file loading, socket connection and direct asset paths."
 alwaysopen: false
 ---
 

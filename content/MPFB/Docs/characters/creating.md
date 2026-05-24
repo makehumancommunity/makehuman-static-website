@@ -2,13 +2,13 @@
 title: "Creating characters"
 draft: false
 weight: 10
-description: "How to create MPFB charactes"
+description: "How to create a new MPFB character in Blender: choosing initial settings, generating the basemesh and adjusting the body shape with model sliders."
 alwaysopen: false
 ---
 
 MPFB has a one-click create functionality for quickly getting a character. Simply find the MPFB tab (which is on the "N" shelf), open to the "New human" -> "From scratch" panel and click "create".
 
-![create simple](create_simple.png)
+![MPFB new-human-from-scratch panel with default settings](create_simple.png)
 
 This way you get a generic human mesh with reasonable defaults. All body features (gender, size...) can be changed later on, so this might be a reasonable start if you only want to experiment.
 
@@ -18,7 +18,7 @@ However, you likely want to be something more specific. The "phenotype" is the s
 
 To create a muscular caucasian male, change the appropriate drop-downs and click create:
 
-![create simple](create_male.png)
+![Creating a muscular caucasian male MPFB character from the phenotype dropdowns](create_male.png)
 
 ## Further steps
 

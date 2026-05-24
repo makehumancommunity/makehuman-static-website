@@ -2,6 +2,7 @@
 title: "MPFB 2.0 beta 2"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0 beta 2 (2024-11-10): conversion of MPFB from legacy addon to Blender extension format, plus first draft of the MakeUp tool."
 ---
 
 These are the release notes for "2.0 beta 2", which was released 2024-11-10.
@@ -87,12 +88,12 @@ color layers ("Ink layers") which can be loaded on top of existing skins without
 With this toolset, each ink layer can use one of the specific UV maps provided. With specific UVs, it is possible to draw higher resolution details than if using the
 default body UV. 
 
-![makeup texpaint](20b2_makeup.png)
+![Texture-painting an MPFB MakeUp ink layer on a character in Blender](20b2_makeup.png)
 
 Once ink layer have been created, they can be loaded on any character that is using either a MakeSkin or Multilayered skin model. Any number of layers can 
 be loaded and stacked on top of each other.
 
-![makeup load](20b2_makeup_2.png)
+![Loading MPFB MakeUp ink layers onto a character with a MakeSkin material](20b2_makeup_2.png)
 
 ## Code quality
 

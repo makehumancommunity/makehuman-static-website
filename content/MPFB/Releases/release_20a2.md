@@ -2,6 +2,7 @@
 title: "MPFB 2.0-alpha2"
 draft: false
 weight: 6
+description: "Release notes for MPFB 2.0-alpha2 (2022-09-04): major Rigify overhaul, unequip workflow for MHCLO assets and a new sculpt-project setup panel."
 ---
 
 MPFB2-alpha2 was released 2022-09-04. Note that if you are already using a recent nightly build, there is no reason to switch to the alpha2 build, as alpha2 is simply a 
@@ -63,7 +64,7 @@ the [pull request](https://github.com/makehumancommunity/mpfb2/pull/41)
 
 CC-BY credit: Hair is [Elvs Hazel Hair](http://www.makehumancommunity.org/clothes/elvs_hazel_hair.htmlf) by Elvaerwyn.
 
-![new_rigify](new_rigify.png)
+![MPFB character rigged with the overhauled Rigify implementation in Blender](new_rigify.png)
 
 ## Assets: Unequipping previously added assets
 
@@ -73,7 +74,7 @@ active proxy.
 
 CC-BY credit: The sweater is [Knitted Sweater 02](http://www.makehumancommunity.org/clothes/knitted_sweater_02.html) by Mindfront.
 
-![unequip](unequip.png)
+![MPFB asset library showing an unequip button for an equipped clothing item](unequip.png)
 
 ## Sculpting: Setting up a sculpt project
 
@@ -83,7 +84,7 @@ The strategy option provides both for projects intended for creating a normal ma
 
 There is [a tutorial video on youtube](https://www.youtube.com/watch?v=F5n8gJdDmQ8) introducing this functionality. 
 
-![setup_sculpt](setup_sculpt.png)
+![MPFB sculpt-project setup panel preparing an MPFB character mesh for sculpting](setup_sculpt.png)
 
 ## Operations for cleaning up the base mesh: Baking all shape keys and removing helpers
 
@@ -93,7 +94,7 @@ There are now two new buttons in the operations panel for easily cleaning up the
 
 WARNING: These are destructive operations. Once you have baked shape keys, you will no longer be able to change modeling parameters, and without helpers many clothes will no longer equip.
 
-![bmops](bmops.png)
+![MPFB basemesh operations panel with bake-shape-keys and remove-helpers buttons](bmops.png)
 
 ## Materials: Alternative materials are now supported
 
@@ -101,7 +102,7 @@ In MakeHuman, you could easily toggle between multiple materials that existed fo
 
 However, now there is a new panel in the asset library where you can easily switch between alternative materials if any are available.
 
-![alternative_material](alternative_material.png)
+![Alternative-materials selector in the MPFB asset library panel](alternative_material.png)
 
 ## Materials: Updating existing materials with a normal map
 
@@ -111,7 +112,7 @@ Speaking of which, there is [a tutorial video](https://www.youtube.com/watch?v=F
 
 CC-BY credit: The glasses are [Sport Sunglasses](http://www.makehumancommunity.org/clothes/sportsunglasses.html) by PunkDuck.
 
-![set_normalmap](set_normalmap.png)
+![Button for adding a normal map to an existing MPFB material](set_normalmap.png)
 
 ## Rig / pose: T-poses are now available for common FK rigs
 
@@ -122,14 +123,14 @@ You can find the pose on the rigging -> load pose panel.
 CC-BY credit: Trousers are [M Trousers 01](http://www.makehumancommunity.org/clothes/m_trousers_01.html) by MindFront, shirt is 
 [Athletic Tank](http://www.makehumancommunity.org/clothes/elvs_male_athletic_tank1.html) by Elvaerwyn.
 
-![tpose](tpose.png)
+![Bundled T-pose loaded onto an MPFB character in Blender](tpose.png)
 
 ## Rig / pose: New convenience buttons for pose operations
 
 In the poses section of the operations panel, there are two new buttons: One for applying a pose as a rest pose and one for copying a pose from one character to one
 or many other characters.
 
-![copypose](copypose.png)
+![Apply-as-rest and copy-pose buttons in the MPFB operations panel](copypose.png)
 
 
 ## Animation: Highly experimental code for walk cycles

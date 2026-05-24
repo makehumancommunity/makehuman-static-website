@@ -2,6 +2,7 @@
 title: "Creating clothes"
 draft: false
 weight: 35
+description: "How to create new clothes for MPFB characters in Blender using the MakeClothes tool: fitting to the basemesh, materials and the MHCLO file format."
 ---
 
 Creating clothes is relatively easy, although getting it to look good might be an involved process.
@@ -11,7 +12,7 @@ Creating clothes is relatively easy, although getting it to look good might be a
 Before doing anything else, you should create a cross reference cache. This only needs to be done once. While not strictly speaking necessary, it will
 make everything a lot faster later on. Create a new character and click the "create xref chache" button. 
 
-![xref](makeclothes_xref.png)
+![Create-xref-cache button in the MPFB MakeClothes panel](makeclothes_xref.png)
 
 It is normal for this process to take a long time (minutes on a low end machine), and Blender might look frozen in the meantime. 
 
@@ -29,29 +30,29 @@ While you can model a clothes mesh from scratch, we'll take a shortcut here and 
 
 Select the human object. To get a template clothes object, select an appropriate vertex group and click extract clothes. The "helper-tights" group is suitable for common clothes pieces:
 
-![extract](makeclothes_extract.png)
+![Extracting template clothes from the helper-tights vertex group in MPFB MakeClothes](makeclothes_extract.png)
 
 Remove the vertices you do not want, so you have a basic shirt
 
-![remove](makeclothes_remove_verts.png)
+![Removing unwanted vertices from the extracted template to form a basic shirt](makeclothes_remove_verts.png)
 
 Go to the MakeSkin panel and create a basic material. Be sure to generate a basic diffuse texture:
 
-![remove](makeclothes_makeskin.png)
+![MakeSkin panel creating a basic MakeClothes material with a diffuse texture](makeclothes_makeskin.png)
 
 Texture paint the material. Here we'll just paint a solid color. If you want something more involved, you should UV unwrap the mesh before texture painting.
 
-![remove](makeclothes_texpaint.png)
+![Texture-painting the basic MakeClothes shirt material in Blender](makeclothes_texpaint.png)
 
 Enter metadata about the clothes, including generating an UUID:
 
-![remove](makeclothes_material_metadata.png)
+![Entering MakeClothes material metadata and generating a UUID for the asset](makeclothes_material_metadata.png)
 
 Select both the basemesh and the clothes object. Click the check button to make sure everything is ok. If it is, click the "store in library button". 
 
-![remove](makeclothes_check.png)
+![MakeClothes check and store-in-library buttons before saving the new asset](makeclothes_check.png)
 
 Now restart blender and load your favorite character. The clothes should be available in the apply assets panel:
 
-![remove](makeclothes_use.png)
+![Newly created MakeClothes shirt appearing in the MPFB apply-assets panel](makeclothes_use.png)
 

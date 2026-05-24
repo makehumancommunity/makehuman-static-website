@@ -2,7 +2,7 @@
 title: "Artistic tasks"
 draft: false
 weight: 20
-description: "These are art tasks for MPFB."
+description: "Art and asset contribution tasks for MPFB, the free Blender character creator addon — ways to help if you create art rather than write code."
 ---
 
 There are plenty of things to do in MPFB which do not need coding. 

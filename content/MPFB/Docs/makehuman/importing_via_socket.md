@@ -3,6 +3,7 @@ title: "Importing from MakeHuman"
 draft: false
 weight: 20
 alwaysopen: false
+description: "How to import a character from MakeHuman into MPFB in Blender via the JSON-RPC socket connection — the legacy import path with baked meshes."
 ---
 
 One way to import a character from MakeHuman is via a socket connection. This will import _baked_ meshes from MakeHuman. 
@@ -21,7 +22,7 @@ per default.
 
 In MakeHuman, find the "Community" -> "Socket" tab.
 
-![Enable socket server](enable_socket_server.png)
+![Enabling the MakeHuman socket server for MPFB JSON-RPC import](enable_socket_server.png)
 
 Check the "Accept connections" checkbox. The center column should indicate that the server socket is started.
 
@@ -31,7 +32,7 @@ You can change the port that the server socket listens on (under "advanced"), bu
 
 The UI for importing from MakeHuman is located on the "N" shelf in Blender. 
 
-![Import UI](import_ui.png)
+![MPFB import-from-MakeHuman panel on the Blender N-shelf](import_ui.png)
 
 If all you want to do is to import with defaults, simply click the "Import human" button.
 

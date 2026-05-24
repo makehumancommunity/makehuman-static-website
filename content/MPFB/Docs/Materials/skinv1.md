@@ -2,7 +2,7 @@
 title: "Enhanced skin"
 draft: false
 weight: 10
-description: "Documentation regarding the enhanced skin model"
+description: "Reference for the MPFB Enhanced skin material model in Blender: procedural bump logic, the SSS variant and how to tweak the procedural skin shader."
 ---
 
 The following is a summary of the features of the "enhanced" skin model.

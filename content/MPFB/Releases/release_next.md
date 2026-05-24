@@ -2,6 +2,7 @@
 title: "MPFB 2.0-next"
 draft: false
 weight: 1
+description: "Preliminary release notes for the upcoming MPFB release."
 ---
 
 These are the release notes of MPFB 2.0.16, which not yet been released. The following are changes since [2.0.15]({{% relref "release_2015" %}}).
@@ -37,7 +38,7 @@ to be installed.
 A new "MakeExpression" sub-panel has been added under the **Create assets** category in the N-panel. It functions as a composer for
 new expression assets.
 
-![makeexpression](2016_makeexpression.png)
+![MPFB MakeExpression panel composing facial expressions from ARKit face units](2016_makeexpression.png)
 
 The panel presents one slider per ARKit face unit, grouped by face region (brow, eye, cheek, jaw, mouth, nose, tongue) so that the list
 of 52 face units stays navigable. By dragging the sliders a complete expression can be formed.
@@ -53,7 +54,7 @@ be tweaked and saved under a new name.
 A new "Expressions library" panel has been added under the **Apply assets** category. This is where saved expressions are applied to a
 character.
 
-![expressions library](2016_expressionslibrary.png)
+![MPFB Expressions library panel applying saved expressions to a character](2016_expressionslibrary.png)
 
 The panel renders one slider per available expression — one per `.json` file discovered under the `expressions` subdirectory of any of
 the standard MPFB asset roots. 

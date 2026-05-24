@@ -2,6 +2,7 @@
 title: "MPFB 2.0 beta 1"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0 beta 1 (2024-07-23): first beta release of the MPFB2 Blender character creator addon, with feature additions and fixes."
 ---
 
 These are the preliminary release notes for MPFB 2.0 beta 1, which was released 2024-07-23. 
@@ -78,7 +79,7 @@ There has obviously been quite a lot of bug fixes and other changes, but these a
 The asset pack functionality has been extended to also support packs with targets. Several new packs with targets 
 have been added. You can find download links to these in [the asset packs section]({{% relref "../../Assets/AssetPacks" %}}).
 
-![target packs](20b1_target_packs.png)
+![MPFB target asset packs panel in Blender showing community modeling targets](20b1_target_packs.png)
 
 The currently active target in the image is "bear head" by JALdMIC, shared under CC-BY.
 
@@ -87,7 +88,7 @@ The currently active target in the image is "bear head" by JALdMIC, shared under
 MPFB now supports specifying a second root for assets. This can be overridden on a per-blend basis (on the library settings panel),
 making it possible to have asset directories which are specific to certain projects.
 
-![secondary root](20b1_secondary_root.png)
+![Secondary asset root setting in the MPFB library panel](20b1_secondary_root.png)
 
 Assets will need to be moved or copied to the second root manually using your operating system's file window or similar.
 
@@ -98,9 +99,9 @@ poses, you can apply poses from the library panel. If you have downloaded a sing
 (from the [user contributed assets repository](http://www.makehumancommunity.org/poses.html)), you can 
  "Import MH BVH Pose" on the "load pose" panel.
  
-![MH Poses](20b1_mh_poses_2.png)
+![MPFB pose library panel applying a MakeHuman BVH pose to a character](20b1_mh_poses_2.png)
 
-![MH Poses](20b1_mh_poses.png)
+![MPFB character posed using an imported MakeHuman BVH pose in Blender](20b1_mh_poses.png)
 
 The pose in the last images is [Fashion closeup 2](http://www.makehumancommunity.org/content/harvey_fashioncloseup2.html) by callharvey3d.
 
@@ -110,14 +111,14 @@ The MakeSkin material model has been extended to support all common PBR textures
 
 You can create and persist MakeSkin materials on the MakeSkin panel:
 
-![makeskin pbr](20b1_makeskin_pbr.png)
+![MakeSkin PBR material panel with full PBR texture inputs in MPFB](20b1_makeskin_pbr.png)
 
 ## MakeSkin has better integration with the asset library
 
 The makeskin tool can now save materials directly to the asset library, making them available as alternate materials for the asset the material was
 created on:
 
-![makeskin pbr](20b1_makeskin_alternate.png)
+![MakeSkin save-as-alternate-material option in the MPFB asset library](20b1_makeskin_alternate.png)
 
 ## New PBR-based game engine material model 
 
@@ -126,24 +127,24 @@ MakeSkin model do not translate gracefully. The game engine material model has b
 
 The first image below is Eevee. The second is Unity without having adjusted the materials in any way.
 
-![GE Eevee](20b1_ge_eevee.png)
+![MPFB character with Game Engine material rendered in Blender Eevee](20b1_ge_eevee.png)
 
-![GE Unity](20b1_ge_unity.png)
+![Same MPFB character exported to Unity with the Game Engine material](20b1_ge_unity.png)
 
 You can find the settings for enabling the Game Engine material on the library settings panel. 
 
 Or if you already have a character, you can set material overrides before loading the preset.
 
-![GE LibSet](20b1_ge_libset.png)
+![Game Engine material selection in the MPFB library settings panel](20b1_ge_libset.png)
 
-![GE Override](20b1_ge_override.png)
+![Material override option when loading an MPFB character preset](20b1_ge_override.png)
 
 ## MakeClothes now bundled with MPFB
 
 MakeClothes has now been reimplemented as a module inside MPFB. Previously the full functionality was only available as a standalone addon,
 which had not been updated to work with Blender 4+.
 
-![secondary root](20b1_make_clothes.png)
+![MakeClothes panel now bundled inside MPFB for Blender clothes authoring](20b1_make_clothes.png)
 
 With the implementation being a part of MPFB, it is possible to save clothes directly to the asset library. Once a piece of clothing has been 
 saved it is possible to equip it immediately without needing to restart Blender.
@@ -157,13 +158,13 @@ MakeTarget can now write targets directly to the "Custom Target" section. The ta
 
 There is still the limitation that Blender needs to be restarted for new targets to be visible.
 
-![library target](20b1_maketarget_library.png)
+![MakeTarget integration with the MPFB Custom Target asset library](20b1_maketarget_library.png)
 
 ## Preselecting group and material
 
 In the new human from preset and new human from scratch panels, there is now a new input box "preselect group".
 
-![preselect group](20b1_preselect_group.png)
+![Preselect group input box on the MPFB new-human panel in Blender](20b1_preselect_group.png)
 
 When containing the name of a vertex group, that group will be preselected in edit mode. Further, if there is a material
 with a name that ends with the vertex group name, then that material will be set as active. The default value of the 
@@ -177,9 +178,9 @@ group and material were selected/active. This would, for example, cause problems
 Both the "Apply assets" and the "Model" panels have gotten a new filter checkbox for toggling between showing all 
 assets or targets and only showing those which are active on the currently selected character.
 
-![only equipped](20b1_only_equipped.png)
+![Filter showing only equipped assets in the MPFB Apply assets panel](20b1_only_equipped.png)
 
-![only active](20b1_only_active.png)
+![Filter showing only active targets in the MPFB Model panel](20b1_only_active.png)
 
 ## Generative AI and OpenPose
 
@@ -188,11 +189,11 @@ generate images using AI.
 
 There is also [a tutorial for this]({{% relref "../Docs/OpenPose" %}})
 
-![AI 1](20b1_ai1.png)
+![Stable Diffusion image generated from an MPFB OpenPose export, sample 1](20b1_ai1.png)
 
-![AI 2](20b1_ai2.png)
+![Stable Diffusion image generated from an MPFB OpenPose export, sample 2](20b1_ai2.png)
 
-![AI 3](20b1_ai3.png)
+![Stable Diffusion image generated from an MPFB OpenPose export, sample 3](20b1_ai3.png)
 
 ## Easily accessible version information
 
@@ -200,7 +201,7 @@ To help with support and debugging, there is now an easily accessible version in
 
 When running a nightly build this will report the exact date of the build.
 
-![Version](20b1_version_panel.png)
+![MPFB version-info panel showing build date for the running nightly](20b1_version_panel.png)
 
 ## Known issues
 

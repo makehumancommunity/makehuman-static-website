@@ -2,6 +2,7 @@
 title: "Working with makeup"
 draft: false
 weight: 40
+description: "How to apply and create makeup assets for MPFB characters in Blender: presets, gradient eye shadow and the procedural makeup material system."
 ---
 
 MPFB has tools for adding makeup layers to a character without having to change the selected
@@ -28,7 +29,7 @@ In the MakeUp lingo, a specific UV map is called a "focus". For example, there i
 the UV space, and the UVs for the rest of the geometry has been scaled down to a small dot 
 placed in a corner. 
 
-![face solid](makeup_face_solid.png)
+![MPFB face-solid focus UV map used for high-resolution makeup painting](makeup_face_solid.png)
 
 This makes it possible to paint much higher resolution details than 
 if being locked to the default UV map.
@@ -49,15 +50,15 @@ layer you thus first need a character with a MakeSkin skin.
 
 On the "apply assets" -> "library settings" panel, set the skin model to MakeSkin, and uncheck "material instances".
 
-![material types](makeup_set_material_type.png)
+![Setting skin model to MakeSkin in the MPFB library settings panel](makeup_set_material_type.png)
 
 Create a new character "from scratch"
 
-![from scratch](makeup_from_scratch.png)
+![Creating a new MPFB character from scratch as a base for makeup authoring](makeup_from_scratch.png)
 
 Load an appropriate background skin. 
 
-![load skin](makeup_load_skin.png)
+![Loading a background MakeSkin skin onto an MPFB character for makeup preview](makeup_load_skin.png)
 
 The ink layer will not depend on the skin, but it will help you see how the layer will 
 look in the end if you are painting on top of something that looks as what you intend 
@@ -76,7 +77,7 @@ Using the "face solid" focus is a safe choice.
 Since the plan is to texture paint, opt to create a texture. The resolution is up to you,
 but 4096x4096 is reasonable unless you are short on resources.
 
-![create ink](makeup_create_ink.png)
+![MPFB MakeUp panel set up to create a new ink layer texture](makeup_create_ink.png)
 
 Make sure you have the base mesh selected, then click the "Create ink" button to set up the ink layer project.
 
@@ -84,24 +85,24 @@ Make sure you have the base mesh selected, then click the "Create ink" button to
 
 Go to the texture paint tab (1). Be sure to select the inkLayer1 texture in both panels (2, 3). Set the viewport mode to "viewport shading" (4), enter paint mode (5, 6). Open the tool panel on the N-shelf (7) and set X symmetry (8).
 
-![setup tex paint](makeup_setup_texpaint.png)
+![Blender texture paint setup for painting an MPFB MakeUp ink layer](makeup_setup_texpaint.png)
 
 Now we can paint a basic fox-eye eye-liner.
 
-![paint](makeup_paint.png)
+![Painted fox-eye eye-liner on an MPFB MakeUp ink layer](makeup_paint.png)
 
 ## Write ink layer
 
 Go back to the "layout" tab and find the "write ink layer" panel. Enter a good name for the layer. 
 The name is what will be used when loading it from the apply assets panel later. Click "Write ink layer".
 
-![write ink](makeup_writeink.png)
+![Write-ink-layer panel saving the new MPFB makeup layer to the library](makeup_writeink.png)
 
 ## Load ink layer
 
 Now start up a new scene in blender and load your favorite character. Make sure it uses either the MakeSkin skin model or the Layered skin model. Navigate to the "ink layers" section of "apply assets" and click the layer you just created.
 
-![load ink](makeup_loadink.png)
+![Loading a saved MPFB makeup ink layer onto a character in Blender](makeup_loadink.png)
 
 ## Further steps
 

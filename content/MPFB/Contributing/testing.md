@@ -2,7 +2,7 @@
 title: "Helping out with testing"
 draft: false
 weight: 10
-description: "These are tasks which regard testing MPFB."
+description: "Testing and feedback tasks for contributing to MPFB, the free Blender character creator addon — beginner-friendly ways to help the project."
 ---
 
 Testing is obviously something you can never get enough of. Any testing is helpful, just to make

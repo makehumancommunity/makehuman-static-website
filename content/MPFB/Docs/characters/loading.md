@@ -2,7 +2,7 @@
 title: "Loading character presets"
 draft: false
 weight: 80
-description: "How to load MPFB charactes"
+description: "How to load saved MPFB character presets in Blender to spawn new characters based on previously stored settings and assets in a fresh scene."
 alwaysopen: false
 ---
 

@@ -2,11 +2,12 @@
 title: "The basemesh and its helpers"
 draft: false
 weight: 5
+description: "The MPFB basemesh and helper geometry concept: how the Blender character creator's base human mesh uses helpers to fit clothes, hair and proxies."
 ---
 
 The "Basemesh" is the core of MPFB. This is the human body, and some extra geometry. The basemesh is what you get when you create a human "from scratch":
 
-![basemesh](bm_basemesh.png)
+![MPFB basemesh as created by the new-human-from-scratch panel in Blender](bm_basemesh.png)
 
 The basemesh always contains exactly the same number of vertices and faces, independently of the shape of the human. When you reshape the human, you 
 move the *position* of the vertices, but the geometry is otherwise the same.
@@ -16,7 +17,7 @@ move the *position* of the vertices, but the geometry is otherwise the same.
 What you don't usually see is the helper geometry. If you toggle the mask modifier for hiding the helper geometry, you can see there is a lot of 
 extra hidden stuff:
 
-![basemesh](bm_helpers.png)
+![MPFB basemesh with helper geometry and joint cubes visible in Blender](bm_helpers.png)
 
 This extra stuff ("helpers") is there to assist with the logic in MPFB. It comes roughly in two categories:
 

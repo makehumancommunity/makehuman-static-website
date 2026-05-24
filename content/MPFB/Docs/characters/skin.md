@@ -2,7 +2,7 @@
 title: "Loading a skin"
 draft: false
 weight: 30
-description: "How to assign a skin to an MPFB character"
+description: "How to assign a skin to an MPFB character in Blender: loading from the skin library and choosing between texture-based and procedural skin shaders."
 alwaysopen: false
 ---
 
@@ -22,10 +22,10 @@ In rough summary, the options are:
 
 You can configure the skin model on the "apply assets" -> "library settings" -> "Materials" tab. 
 
-![skin type](skin_type.png)
+![Choosing the MPFB skin model in the apply-assets library settings panel](skin_type.png)
 
 ## Selecting a skin texture
 
 Independently on which skin model you choose to use, you can load a skin texture from the "Apply assets" -> "Skins" panel.
 
-![skin load](skin_load.png)
+![Loading a skin texture from the MPFB skins library panel in Blender](skin_load.png)

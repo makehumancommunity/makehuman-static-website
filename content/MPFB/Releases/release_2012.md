@@ -2,6 +2,7 @@
 title: "MPFB 2.0.12"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.12 (2025-10-18): bug-fix release restoring Blender 5 and Blender 4.2.x compatibility plus a Mixamo Unity rig T-pose fix."
 ---
 
 These are the release notes of MPFB 2.0.12, which was released 2025-10-18. Listed below are the changes since [2.0.11]({{% relref "release_2011" %}}).

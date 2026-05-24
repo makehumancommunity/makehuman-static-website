@@ -2,6 +2,7 @@
 title: "MPFB 2.0.14"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.14 (2026-02-25): new Export Copy feature for preparing MPFB characters for FBX export, plus updated technical docs."
 ---
 
 These are the release notes of MPFB 2.0.14, which was released 2026-02-25. Listed below are the changes

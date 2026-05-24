@@ -2,6 +2,7 @@
 title: "Proxies/topologies"
 draft: false
 weight: 50
+description: "What proxy meshes (topologies) are in MPFB: alternative low-poly Blender meshes that replace the basemesh while keeping modeling and rig intact."
 ---
 
 A "proxy" (also known as "proxymesh" or "topology") is an alternative mesh topology that can be applied to a human model. Proxies can be used when a different surface geometry is preferred over the base mesh, without altering the underlying structure or rigging. 

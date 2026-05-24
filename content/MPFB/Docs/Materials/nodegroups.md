@@ -2,7 +2,7 @@
 title: "MPFB Node Groups"
 draft: false
 weight: 50
-description: "Documentation regarding node groups created by MPFB"
+description: "Reference for the shader node groups MPFB creates in Blender: their math and color helpers and how to reuse them when building custom MPFB materials."
 ---
 
 These are some reusable node groups that are created by MPFB.

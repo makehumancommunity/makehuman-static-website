@@ -2,7 +2,7 @@
 title: "Saving and loading MPFB poses"
 draft: false
 weight: 15
-description: "How to serialize poses in MPFB"
+description: "How to save and load poses for MPFB characters in Blender: serialising armature pose data so it can be reused across characters and projects."
 alwaysopen: false
 ---
 
@@ -20,7 +20,7 @@ created for though.
 
 First create a pose. Then go to the "create assets" -> "MakePose" panel:
 
-![modest](saveload_modest.png)
+![MPFB MakePose panel for saving a pose for later reuse on other characters](saveload_modest.png)
 
 Then configure what type of pose you want, and what to save. The general settings are:
 
@@ -42,5 +42,5 @@ Then click save pose.
 
 With a character using the same rig type as the last one, select the rig and open the "Rigging" -> "Load pose" panel. Select the pose you want and click "Load pose"
 
-![modest](saveload_load.png)
+![MPFB Load pose panel applying a previously saved pose to an MPFB character](saveload_load.png)
 

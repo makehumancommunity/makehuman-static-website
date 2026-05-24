@@ -2,6 +2,7 @@
 title: "MPFB 2.0.11"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.11 (2025-09-22): experimental Blender geometry-nodes hair and fur support, a new Mixamo rig variation and a MakeClothes fix."
 ---
 
 These are the release notes of MPFB 2.0.11, which was released 2025-09-22. Listed below are the changes since [2.0.10]({{% relref "release_2010" %}}).
@@ -23,19 +24,19 @@ work done by Tomáš Klecer, as part of his CS thesis.
 
 A new panel is available in the UI: the Hair Editor. 
 
-![no hair](2011_hair_editor_no_hair.png)
+![Empty MPFB Hair Editor panel before adding a geometry hair system](2011_hair_editor_no_hair.png)
 
 Here you can add basic starter geometry nodes hair systems
 
-![hair added](2011_hair_added.png)
+![MPFB character with geometry nodes hair added in Blender](2011_hair_added.png)
 
 Once added, you can modify basic properties of the hair system, such as noise, curl and color
 
-![hair added](2011_hair_editor_modified.png)
+![MPFB Hair Editor with adjusted noise, curl and color settings](2011_hair_editor_modified.png)
 
 Then you can enter sculpt mode and use the hair sculpt brushes
 
-![hair added](2011_hair_editor_sculpt.png)
+![Sculpting MPFB geometry hair using Blender's hair sculpt brushes](2011_hair_editor_sculpt.png)
 
 Note that the geometry hair support is still in an early stage. User feedback and bug reporting are especially welcome for this 
 functionality.
@@ -50,7 +51,7 @@ and it is suitable for mecanim.
 Note that when snapping to mixamo in MPFB, you will need an animation which was created via a reduced doll with a matching rig. That is, 
 you can't map an animation which was made for the "mixamo" rig onto "mixamo_unity" and vice versa.
 
-![mixamo_unity](2011_mixamo_unity.png)
+![MPFB Mixamo-Unity rig variant with extra mecanim-compatible bones](2011_mixamo_unity.png)
 
 ## MakeClothes check for same object scale
 

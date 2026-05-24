@@ -3,6 +3,7 @@ title: "Loading an MHM file"
 draft: false
 weight: 30
 alwaysopen: false
+description: "How to load a MakeHuman MHM file into MPFB in Blender — the recommended path for bringing a saved MakeHuman character into the Blender addon."
 ---
 
 MakeHuman save files are called MHM ("MakeHuman Model") files. When you save a character inside MakeHuman, a file with the character's name
@@ -34,7 +35,7 @@ If your MHM file relies on stuff you downloaded, and moving those assets to MPFB
 MakeHuman user data for assets. In Blender's "edit" -> "preferences" -> "add-ons", enter MPFB in the search box and expand the panel. Here you can 
 configure the path to the MakeHuman user data.
 
-![configure path](configure_mh_path.png)
+![Configuring the MakeHuman user-data path in MPFB Blender preferences](configure_mh_path.png)
 
 In most cases, checking the "autodiscover" checkbox will be enough. But if MPFB fails to detect the correct directory, you can enter an explicit path.
 Note that this is the _user_ data, not the MakeHuman installation. On windows it is usually something like "c:\\users\\username\\Documents\\makehuman\\v1py3\\data".
@@ -52,7 +53,7 @@ you could consider doing "deep search" when opening the MHM file (see below).
 
 The functionality for loading an MHM file is available under "New human" -> "From presets":
 
-![mhm_from_presets](mhm_from_presets.png)
+![MPFB Import MHM panel under New human, From presets in Blender](mhm_from_presets.png)
 
 The **Preset** setting is not relevant when importing from MHM, so can be ignored. 
 
@@ -68,7 +69,7 @@ clothes matching is a very heavy operations which might take tens of seconds to 
 
 To actually load an MHM file, click "Import MHM" and then find the file you want to load:
 
-![mhm_select_file](mhm_select_file.png)
+![Blender file browser used to pick a MakeHuman MHM character for MPFB import](mhm_select_file.png)
 
 If all goes well, you should get a character imported. You should take a closer look at it to ensure everything looks as expected.
 

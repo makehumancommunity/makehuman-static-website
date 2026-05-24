@@ -2,6 +2,7 @@
 title: "MPFB 2.0.9"
 draft: false
 weight: 1
+description: "Release notes for MPFB 2.0.9 (2025-04-19): bug-fix release making material instances an explicit setting and restoring the MakeUp workflow in Blender."
 ---
 
 These are the release notes of MPFB 2.0.9, which was released 2025-04-19. Listed below are the changes since [2.0.8]({{% relref "release_208" %}}).

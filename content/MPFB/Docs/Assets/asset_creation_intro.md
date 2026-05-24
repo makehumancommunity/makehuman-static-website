@@ -2,6 +2,7 @@
 title: "An introduction to asset creation"
 draft: false
 weight: 25
+description: "Introduction to creating assets for MPFB in Blender: targets, clothes, materials and other resources you can author for the Blender character creator."
 ---
 
 All tools for creating assets for MPFB are included in MPFB. For historical reasons, you might find references to standalone addons 

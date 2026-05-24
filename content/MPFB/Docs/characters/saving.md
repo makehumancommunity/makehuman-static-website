@@ -2,7 +2,7 @@
 title: "Saving character presets"
 draft: false
 weight: 70
-description: "How to save MPFB characters"
+description: "How to save an MPFB character in Blender: storing it as a human preset for re-use and creating full character bundles for backup or sharing."
 alwaysopen: false
 ---
 
