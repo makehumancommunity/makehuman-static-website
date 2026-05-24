@@ -28,7 +28,7 @@ enable helpers for the default rig.
 
 In Blender, you can find the OpenPose panel under "Operations":
 
-![Operations panel](openpose/opspanel.png)
+![Operations panel](opspanel.png)
 
 ## The different projection modes	
 
@@ -41,11 +41,11 @@ There are two different modes for mapping the pose to the 2D space expected by O
 
 The recommended mode is XZ plane projection. This gives the most accurate results. In this mode, you get what you see in the frontal view:
 
-![XZ frontal view](openpose/xzview.png)
+![XZ frontal view](xzview.png)
 
 In the XZ view, you have to specify a bounding box and a target resolution. 
 
-![XZ bounds](openpose/xzsettings.png)
+![XZ bounds](xzsettings.png)
 
 The target width/height is how large the coordinate system is in the 
 resulting OpenPose JSON file. Ideally this is the same as the image you intend to generate later on. That is, if you want to generate
@@ -57,7 +57,7 @@ position -0.8, then the bone will be outside the left edge of the image.
 To help specify the bounding box, you can import world coordinates from an object. Easiest is if you put a plane in the scene and resize it to
 specify the edges of your intended scene:
 
-![XZ bounds](openpose/xzboundsplane.png)
+![XZ bounds](xzboundsplane.png)
 
 With the plane selected, you can click "from active" in the openpose settings to import its extreme coordinates as the bounding box. 
 
@@ -76,7 +76,7 @@ This said, it is a convenient approach to set up a scene. And if it works, it wo
 Contrary to the XZ approach, you specify the resolution as you would have done for a render. The bounding box is automatically 
 calculated from the camera view.
 
-![Camera view](openpose/camview.png)
+![Camera view](camview.png)
 
 ## General settings
 
@@ -99,7 +99,7 @@ There's no exact science to the confidence levels. You'll have to play around wi
 
 To export, select one or multiple armature(s). Nothing other than armatures should be selected.
 
-![Mutiple armatures](openpose/multi_blender.png)
+![Mutiple armatures](multi_blender.png)
 
 There is no known limit to how many armatures you can have in the scene.
 
@@ -109,7 +109,7 @@ When ready, click the "export" button and save the JSON file somewhere.
 
 In your favorite stable diffusion UI, find the ControlNet settings:
 
-![ControlNet](openpose/controlnet1.png)
+![ControlNet](controlnet1.png)
 
 Then do the following:
 
@@ -122,7 +122,7 @@ Then do the following:
 After 4, you will see that the pose preview is still black. I'm assuming this is a bug, but luckily it is easy to work around. After having clicked "edit"
 (5), use the scroll wheel over the preview part of the pose editor, or expand a person. Then the pose should appear.
 
-![ControlNet](openpose/controlnet2.png)
+![ControlNet](controlnet2.png)
 
 If you exported hand coordinates, you will need to expand the hands in the tree for them to show up.
 
@@ -130,24 +130,24 @@ Once the pose is visible, click "send pose to controlnet". The pose should now b
 
 These are the full settings I used when generating the sample output:
 
-![ControlNet](openpose/multi_settings.png)
+![ControlNet](multi_settings.png)
 
 For reference the resulting pose image ended up being this:
 
-![ControlNet](openpose/multi_json.png)
+![ControlNet](multi_json.png)
 
 And the output image was this:
 
-![ControlNet](openpose/multi_output.png)
+![ControlNet](multi_output.png)
 
 ## Limitations
 
 It should come as no surprise that limbs and faces end up being distorted in generated images. This is a general limitation for stable diffusion, with 
 or without controlnet. However, this will be especially true if you use complicated poses which rely on understanding of depth, such as where some limbs cover other limbs. This is an attempt at creating an image of someone lying in a bed with their hands on their stomach:
 
-![ControlNet](openpose/bed_pose.png)
+![ControlNet](bed_pose.png)
 
-![ControlNet](openpose/bed_explosion.png)
+![ControlNet](bed_explosion.png)
 
 You will get the best results when the person in the image is facing forward and is standing in a reasonably neutral pose. 
 

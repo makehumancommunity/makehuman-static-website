@@ -24,4 +24,4 @@ For an overview of what is planned for MPFB in the nearest future, see the [road
 
 If you enjoy MPFB and want to help evolve it, there is also a [contributing to MPFB]({{% relref "Contributing" %}}) page.
 
-![MPFB](mpfb/main_mpfb_view.png)
+![MPFB](main_mpfb_view.png)

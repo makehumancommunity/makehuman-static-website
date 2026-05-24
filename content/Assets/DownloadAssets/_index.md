@@ -32,7 +32,7 @@ Asset packs can be installed on the "apply assets" -\> "library settings" -\> "a
 
 The asset downloader is a panel in MakeHuman, where you can browse through assets and download directly into MakeHuman.
 
-![Asset downloader](downloadassets/asset_downloader.png)
+![Asset downloader](asset_downloader.png)
 
 
 

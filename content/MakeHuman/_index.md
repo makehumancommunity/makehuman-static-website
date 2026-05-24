@@ -22,4 +22,4 @@ MakeHuman also offers tools for exporting virtual humans to other software (such
 
 For documentation about MakeHuman, see the [docs hierarchy]({{% relref "docs" %}}).
 
-![MakeHuman](makehuman/makehuman.png)
+![MakeHuman](makehuman.png)
