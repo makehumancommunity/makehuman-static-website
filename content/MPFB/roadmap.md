@@ -2,7 +2,7 @@
 title: "MPFB Roadmap"
 draft: false
 weight: 50
-description: "A rough overview of the plans for MPFB2"
+description: "Roadmap and future plans for MPFB, the open-source Blender character creator addon: planned features, integrations and improvements for upcoming releases."
 ---
 
 MPFB version 2 has now been released as stable on the extension platform. 

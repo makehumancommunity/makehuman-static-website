@@ -2,6 +2,7 @@
 title: "Blender crashes with an error about bpy.ops.import_scene.obj missing"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "Why MPFB raises a Blender error about missing bpy.ops.import_scene.obj, and how to enable the legacy Wavefront OBJ importer to resolve it."
 ---
 
 The symptoms are as following: The addon seems to install correctly, and panels open and contain a user interface. However, 

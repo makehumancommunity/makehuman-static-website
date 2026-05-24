@@ -2,7 +2,7 @@
 title: "Getting started"
 draft: false
 weight: 5
-description: "Getting started with MPFB"
+description: "Getting started with MPFB: how to install the Blender character creator addon, add asset packs and create your first rigged, textured human character."
 ---
 
 These are basic instructions for how to get up and running with MPFB2. There is also a
@@ -18,7 +18,7 @@ You do not need MakeHuman in order to run MPFB2. However, if you want to integra
 
 Since MPFB is available on the extension platform, simply open preferences and type in "MPFB": 
 
-![extplat](extplat.png)
+![MPFB shown in the Blender extension platform](extplat.png)
 
 Click "install" to download and install.
 
@@ -29,7 +29,7 @@ You will want at least the "makehuman system assets", which contains skins, eyes
 
 If you have MakeHuman installed, you may want to check "auto-discover path to makehuman" and/or specifically provide a path in the "path to makehuman" box in the preferences. These can be left empty if you do not want to use MakeHuman assets directly. 
 
-![Addon preferences](addon_preferences.png)
+![MPFB addon preferences with MakeHuman path options](addon_preferences.png)
 
 If you plan on using MPFB rather than MakeHuman for modeling and assets, you will be better off not configuring these paths now.
 
@@ -41,7 +41,7 @@ The first thing you should do is install the "makehuman system assets". You migh
 
 Under "apply assets" -> "library settings" you will find a button "load pack from zip file":
 
-![Install asset pack](install_pack.png)
+![Load asset pack from zip file in MPFB](install_pack.png)
 
 Click this button and browse to the addon zip file you downloaded.
 
@@ -53,7 +53,7 @@ Once you have installed the asset packs you downloaded, you should restart Blend
 
 You can now create a new human by going to "new human" -> "from scratch". 
 
-![Create from scratch](create_from_scratch.png)
+![MPFB new-human-from-scratch panel in Blender](create_from_scratch.png)
 
 You can adjust the settings to your liking here. They are all possible to adjust later on, so this is just the rough starting point you want.
 
@@ -61,20 +61,20 @@ When having adjusted the settings, click "create human".
 
 You should by now have gotten a human mesh without texture:
 
-![First human](first_human.png)
+![Untextured base human mesh created with MPFB in Blender](first_human.png)
 
 In order to better see what we're doing, add a skin by going to "apply assets" -> "skin library" and click "load" under a skin you like. 
 
 You should now have a textured human:
 
-![Load skin](load_skin.png)
+![Loading a skin from the MPFB skin library panel](load_skin.png)
 
 ## Modeling
 
 You can now start adjusting the shape of the human. With the human selected, you can go to the "model" panel and find various
 subcategories, such as angle of the eyebrows:
 
-![Model](model.png)
+![MPFB model panel with body shape sliders in Blender](model.png)
 
 There are quite a lot of different sliders here, so just play around with them until you get a shape you like.
 
@@ -86,7 +86,7 @@ Before loading any clothes or body parts, we will want to have a rig. If you do 
 
 To add a rig, go to "rigging" -> "add rig" and click "add standard rig". 
 
-![Add rig](add_rig.png)
+![Adding a standard rig in the MPFB rigging panel](add_rig.png)
 
 ## Add hair, eyes and clothes
 
@@ -95,7 +95,7 @@ downloaded several asset packs.
 
 You will want to add at least eyes, eyebrows, eyelashes, hair and some clothes.
 
-![Add assets](add_assets.png)
+![MPFB apply-assets panel with eyes, hair and clothes options](add_assets.png)
 
 ## Enable IK
 
@@ -103,17 +103,17 @@ You intend to do posing, it might be helpful to enable IK helpers.
 
 With the rig selected, go to "rigging" -> "rig helpers" and click "add helpers". Note that this is only available if you use the "default" or "default no toes" rigs. 
 
-![Add helpers](add_helpers.png)
+![Add rig helpers button for IK in the MPFB rigging panel](add_helpers.png)
 
 Having done so, you will get for example hand helpers:
 
-![Hand helper](hand_helper.png)
+![Hand IK helper attached to MPFB character rig in Blender](hand_helper.png)
 
 ## Detailed adjustment of the skin
 
 You can tweak the procedural aspects of the skin by selecting the body and going to the materials panel:
 
-![Adjust skin](adjust_skin.png)
+![Procedural skin material settings in the MPFB materials panel](adjust_skin.png)
 
 You can adjust the settings for different parts of the body separately.
 
@@ -121,7 +121,7 @@ You can adjust the settings for different parts of the body separately.
 
 In the same way you can tweak the procedural aspects of the eyes by selecting the eyes and going to the materials panel:
 
-![Adjust eyes](adjust_eyes.png)
+![Procedural eye material settings in the MPFB materials panel](adjust_eyes.png)
 
 ## Storing your character settings for later re-use
 
@@ -129,9 +129,9 @@ Once you are happy with your character, you can store it as a preset for future 
 
 Go to the "manage presets" -> "human presets" panel and enter a new name for your character in the "presets name" box.
 
-![Store presets](store_presets.png)
+![Saving a character as a preset in MPFB human presets panel](store_presets.png)
 
 When you want to create a new character based on the stored presets, go to the "new human" -> "from presets" panel and select it in the drop down:
 
-![From presets](load_presets.png)
+![Loading a saved character preset in MPFB new-human panel](load_presets.png)
 

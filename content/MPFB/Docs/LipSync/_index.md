@@ -2,7 +2,7 @@
 title: "Lip sync"
 draft: false
 weight: 37
-description: "How to set up lip sync animation in MPFB using the Lip Sync addon"
+description: "How to set up lip sync animation in Blender for MPFB characters using facial shape keys and the third-party Lip Sync addon."
 alwaysopen: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Materials"
 draft: false
 weight: 30
-description: "An overview of MPFB material models"
+description: "Overview of MPFB materials for Blender: procedural skin, eye and clothing shaders, node groups and the enhanced skin model used by MPFB characters."
 alwaysopen: false
 ---
 
@@ -73,7 +73,7 @@ diffuse texture, and no texture based normal- or bump map is used. All skin stru
 
 As you can see, the level of detail is increased, at the cost of significantly impacted render time.
 
-![skin model comparison](skin_model_comparison.png)
+![Side-by-side comparison of MPFB skin material models on the same character](skin_model_comparison.png)
  
 ## Eye material
 
@@ -87,7 +87,7 @@ option does, however, provide a lot more control over the various aspects of the
 
 In the following, the same eye has been loaded. 
 
-![eye model comparison](eye_model_comparison.png)
+![Side-by-side comparison of MPFB eye material models on the same eye](eye_model_comparison.png)
 
 ## More information about materials
 

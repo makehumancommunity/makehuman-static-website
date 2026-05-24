@@ -2,6 +2,7 @@
 title: "How do I make sure I have the correct version installed?"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "How to check which version of MPFB is installed in Blender and fully remove a stale install when upgrades aren't applied as expected."
 ---
 
 Sometimes Blender gets confused in regards to what addon version is installed. This is especially happens if you have a) upgraded the blender version and then 
@@ -13,7 +14,7 @@ The symptoms will be that the version listed in the interface does not seem to m
 
 If you have installed the addon from a zip file, you can see the build date under "System and Resources"
 
-![Installed version](check_version.png)
+![MPFB system and resources panel showing the installed addon build date](check_version.png)
 
 The date format is YYYYMMDD. If the build date is way older than what is listed on the addon file you downloaded, chances are you've run into the problem.
 
@@ -26,10 +27,10 @@ Your user data should not be affected by this, since it resides in a different d
 
 First, click the "Remove" button in the addons interface:
 
-![Remove](remove_addon.png)
+![Remove button for the MPFB addon in Blender preferences](remove_addon.png)
 
 Restart Blender. Go back to the addons interface and enter "mpfb" in the search field. Make sure nothing is listed.
 
-![No addon](no_addon.png)
+![Blender preferences addon list with no MPFB results after removal](no_addon.png)
 
 All traces of MPFB should now be removed. Now you can install the latest version and actually get to use it.

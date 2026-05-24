@@ -1,6 +1,7 @@
 ---
 title: "My user files disappeared when upgrading"
 draft: false
+description: "Why MPFB user files may appear missing after the January 2025 Blender extension-platform upgrade, and how to point MPFB at the previous data folder."
 ---
 
 If you have a) installed a version of MPFB from January 21, 2025 or earlier, b) left the location of user files at the default location, and c) upgraded to a later nighty build or the final release, then the user files might appear to have vanished.
@@ -10,11 +11,11 @@ extension, whereas previously it would be stored in a hardcoded subdir of the ge
 
 You can find the current location of the user data directory via the "user data" button on the system and resources panel:
 
-![new files 1](new_files_location_1.png)
+![User data button on the MPFB system and resources panel in Blender](new_files_location_1.png)
 
 If you click up a few directory levels, you will find the folder where the files were previously:
 
-![new files 2](new_files_location_2.png)
+![Parent folder containing the previous MPFB user data location](new_files_location_2.png)
 
 The quick solution here is to copy the contents of the old location to the new location. After restarting Blender, you should see your files again.
 

@@ -2,7 +2,7 @@
 title: "Contributing to MPFB"
 draft: false
 weight: 5
-description: "A few things you can do if you want to join the MPFB project."
+description: "How to contribute to MPFB, the open-source human character creator addon for Blender: testing, coding, art and asset tasks for volunteers of any skill."
 alwaysopen: false
 ---
 

@@ -2,7 +2,7 @@
 title: "MPFB Assets"
 draft: false
 weight: 12
-description: "Information about the MPFB asset system"
+description: "Overview of the MPFB asset system in Blender: clothes, body parts, materials and skins, plus guides on how to create your own MPFB assets."
 alwaysopen: false
 ---
 

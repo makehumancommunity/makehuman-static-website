@@ -3,6 +3,7 @@ title: "MPFB FAQ"
 draft: false
 weight: 20
 alwaysopen: false
+description: "Frequently asked questions about MPFB, the free MakeHuman plugin for Blender: installation, configuration, assets, materials, rigging and licensing."
 ---
 
 These are frequently asked question about MPFB.

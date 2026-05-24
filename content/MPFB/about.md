@@ -2,7 +2,7 @@
 title: "About MPFB"
 draft: false
 weight: 5
-description: "General information about MPFB"
+description: "About MPFB — the free, open-source human character creator addon for Blender: parametric modeling, automatic rigging, Rigify support and asset libraries."
 ---
 
 MPFB is a free and open source human character generator for blender. Its features include:

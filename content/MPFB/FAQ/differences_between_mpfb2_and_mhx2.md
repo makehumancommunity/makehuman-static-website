@@ -1,7 +1,7 @@
 ---
 title: "What are the differences between MPFB2 and MHX2?"
 draft: false
-description: "An overview of similarities and differences between MPFB2 and MHX2"
+description: "Comparing MPFB2 to the legacy MHX2 Blender import format: what's similar, what changed, and why MPFB2 supersedes the older MakeHuman exchange format."
 ---
 
 MPFB2 and MHX2 are conceptually very different things, and a comparison isn't really fair. However, since they have functionality that

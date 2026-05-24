@@ -1,7 +1,7 @@
 ---
 title: "What are the differences between MPFB2 and MakeHuman?"
 draft: false
-description: "An overview of similarities and differences between MPFB2 and MakeHuman"
+description: "Comparing MPFB2 (Blender addon) with MakeHuman (standalone app): shared base mesh and assets, different UIs, and which to choose for your workflow."
 ---
 
 Conceptually, MPFB2 can be thought of as a reimplementation of MakeHuman as a blender addon. However, apart from that they are

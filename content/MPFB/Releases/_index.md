@@ -3,6 +3,7 @@ title: "MPFB Releases"
 draft: false
 weight: 30
 alwaysopen: false
+description: "Release notes for MPFB 2.x, the free human character creator addon for Blender. Version history with changes, fixes and new features for each release."
 ---
 
 These are the releases notes for the releases in the 2.x series. For MPFB 1 see [the old git repo](https://github.com/makehumancommunity/makehuman-plugin-for-blender).

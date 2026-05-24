@@ -2,6 +2,7 @@
 title: "Can I reuse the system assets and build a character generator of my own?"
 draft: false
 weight: 65
+description: "Whether you can reuse MPFB assets to build your own character generator: CC0 base mesh, targets and skins make derivative tools fully permitted."
 ---
 
 By all means. The more the merrier. We even encourage it.

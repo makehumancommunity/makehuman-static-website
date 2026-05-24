@@ -2,6 +2,7 @@
 title: "How can I provide more help with debugging?"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "How to collect debug information when reporting MPFB issues: enabling DEBUG logging in Blender, exporting logs and attaching helpful screenshots."
 ---
 
 When reporting a bug, it is often not immediately obvious what causes the problem, and deducing it from 
@@ -20,22 +21,22 @@ your end and post it together with the bug report, that will help surprisingly m
 
 You can find the system information panel in the "System and resources" panel.
 
-![System and Resources](sys_res.jpg)
+![MPFB system and resources panel with build version and environment info](sys_res.jpg)
 
 Here you can also easily see if the installed version is something other than you had expected.
 
 If you have issues with a material, then screenshots of the material sections in the UI are helpful. First select the item with
 the material that misbehaves. For example, if the eyes look strange, then select these:
 
-![Select eyes](sel_eyes.jpg)
+![Selecting an MPFB character's eyes in the Blender viewport](sel_eyes.jpg)
 
 Then take a screenshot of the materials panel:
 
-![Material panel](eyes_mat_panel.jpg)
+![Material panel showing the MPFB eye shader assignment](eyes_mat_panel.jpg)
 
 And finally take a screenshot of the shader nodes view:
 
-![Shader nodes](shading_nodes.jpg)
+![Blender shader editor view of the MPFB eye material node tree](shading_nodes.jpg)
 
 ## Verbose logs
 
@@ -48,7 +49,7 @@ Another helpful thing are the logs. You can improve the usefulness of the loggin
 
 To set the debug level, go to the debug panel:
 
-![Set debug level](set_debug.jpg)
+![MPFB debug panel with default logger and DEBUG log level selected](set_debug.jpg)
 
 Make sure "default" is chosen in the "available loggers" dropdown and that "DEBUG" is selected for "Log level".
 

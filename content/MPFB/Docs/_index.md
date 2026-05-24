@@ -2,7 +2,7 @@
 title: "MPFB Docs"
 draft: false
 weight: 10
-description: "MPFB documentation"
+description: "Documentation for MPFB, the free Blender character creator addon: installation, getting started, characters, rigging, materials, exporting and assets."
 alwaysopen: false
 ---
 

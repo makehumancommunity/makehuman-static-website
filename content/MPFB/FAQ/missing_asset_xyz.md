@@ -1,6 +1,7 @@
 ---
 title: "MPFB has no asset XYZ"
 draft: false
+description: "What to do when MPFB lacks a specific asset in Blender: assets are user-contributed — check the community repo or create your own."
 ---
 
 This is a confusion that tends to arise when encountering MPFB, when being used to commercial software with commercial asset libraries. 

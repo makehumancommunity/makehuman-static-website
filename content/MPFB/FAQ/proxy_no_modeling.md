@@ -2,6 +2,7 @@
 title: "Model sliders stops working when using a proxy"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "Why MPFB model sliders appear to stop working after applying a proxy mesh in Blender, and how to use 'refit assets' to see the changes."
 ---
 
 When having applied a proxy/topology, it might seem as if model sliders stop working. This is actually not the case. What is happening is that

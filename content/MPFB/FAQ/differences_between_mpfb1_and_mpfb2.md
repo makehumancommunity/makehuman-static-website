@@ -1,6 +1,7 @@
 ---
 title: "What are the differences between MPFB1 and MPFB2?"
 draft: false
+description: "Differences between MPFB1 and MPFB2 as Blender addons: rewritten codebase, standalone operation, new asset system and Blender 4.x compatibility."
 ---
 
 There is quite a huge difference.

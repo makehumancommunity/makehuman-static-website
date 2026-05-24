@@ -3,6 +3,7 @@ title: "MPFB Developer resources"
 draft: false
 weight: 40
 alwaysopen: false
+description: "Developer resources for MPFB, the open-source Blender character creator addon: code structure, repository layout and technical reference for contributors."
 ---
 
 These pages contain code documentation and general hints for people who want to help develop MPFB.

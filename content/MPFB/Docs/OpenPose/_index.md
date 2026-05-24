@@ -2,7 +2,7 @@
 title: "Using MPFB to Pose for Stable Diffusion"
 draft: false
 weight: 20
-description: "A tutorial on how to export OpenPose poses from MPFB and use them with automatic1111"
+description: "How to export OpenPose poses from MPFB in Blender and use them with Stable Diffusion (Automatic1111) ControlNet for AI image generation."
 alwaysopen: false
 ---
 
@@ -28,7 +28,7 @@ enable helpers for the default rig.
 
 In Blender, you can find the OpenPose panel under "Operations":
 
-![Operations panel](opspanel.png)
+![MPFB Operations panel in Blender showing OpenPose options](opspanel.png)
 
 ## The different projection modes	
 
@@ -41,11 +41,11 @@ There are two different modes for mapping the pose to the 2D space expected by O
 
 The recommended mode is XZ plane projection. This gives the most accurate results. In this mode, you get what you see in the frontal view:
 
-![XZ frontal view](xzview.png)
+![Frontal XZ orthographic view of an MPFB character for OpenPose export](xzview.png)
 
 In the XZ view, you have to specify a bounding box and a target resolution. 
 
-![XZ bounds](xzsettings.png)
+![XZ projection bounds and resolution settings in the MPFB OpenPose panel](xzsettings.png)
 
 The target width/height is how large the coordinate system is in the 
 resulting OpenPose JSON file. Ideally this is the same as the image you intend to generate later on. That is, if you want to generate
@@ -57,7 +57,7 @@ position -0.8, then the bone will be outside the left edge of the image.
 To help specify the bounding box, you can import world coordinates from an object. Easiest is if you put a plane in the scene and resize it to
 specify the edges of your intended scene:
 
-![XZ bounds](xzboundsplane.png)
+![Reference plane in Blender used to set XZ bounding box for OpenPose export](xzboundsplane.png)
 
 With the plane selected, you can click "from active" in the openpose settings to import its extreme coordinates as the bounding box. 
 
@@ -76,7 +76,7 @@ This said, it is a convenient approach to set up a scene. And if it works, it wo
 Contrary to the XZ approach, you specify the resolution as you would have done for a render. The bounding box is automatically 
 calculated from the camera view.
 
-![Camera view](camview.png)
+![Perspective camera view of an MPFB character for OpenPose export](camview.png)
 
 ## General settings
 
@@ -99,7 +99,7 @@ There's no exact science to the confidence levels. You'll have to play around wi
 
 To export, select one or multiple armature(s). Nothing other than armatures should be selected.
 
-![Mutiple armatures](multi_blender.png)
+![Multiple armatures selected in Blender for batched OpenPose export](multi_blender.png)
 
 There is no known limit to how many armatures you can have in the scene.
 
@@ -109,7 +109,7 @@ When ready, click the "export" button and save the JSON file somewhere.
 
 In your favorite stable diffusion UI, find the ControlNet settings:
 
-![ControlNet](controlnet1.png)
+![ControlNet OpenPose settings in the Automatic1111 UI](controlnet1.png)
 
 Then do the following:
 
@@ -122,7 +122,7 @@ Then do the following:
 After 4, you will see that the pose preview is still black. I'm assuming this is a bug, but luckily it is easy to work around. After having clicked "edit"
 (5), use the scroll wheel over the preview part of the pose editor, or expand a person. Then the pose should appear.
 
-![ControlNet](controlnet2.png)
+![Imported MPFB pose visible in the Automatic1111 ControlNet preview](controlnet2.png)
 
 If you exported hand coordinates, you will need to expand the hands in the tree for them to show up.
 
@@ -130,24 +130,24 @@ Once the pose is visible, click "send pose to controlnet". The pose should now b
 
 These are the full settings I used when generating the sample output:
 
-![ControlNet](multi_settings.png)
+![Full Automatic1111 settings used for the sample MPFB pose render](multi_settings.png)
 
 For reference the resulting pose image ended up being this:
 
-![ControlNet](multi_json.png)
+![OpenPose JSON pose image generated from the MPFB export](multi_json.png)
 
 And the output image was this:
 
-![ControlNet](multi_output.png)
+![Stable Diffusion render produced from an MPFB-exported OpenPose JSON](multi_output.png)
 
 ## Limitations
 
 It should come as no surprise that limbs and faces end up being distorted in generated images. This is a general limitation for stable diffusion, with 
 or without controlnet. However, this will be especially true if you use complicated poses which rely on understanding of depth, such as where some limbs cover other limbs. This is an attempt at creating an image of someone lying in a bed with their hands on their stomach:
 
-![ControlNet](bed_pose.png)
+![Complex lying-in-bed pose exported from MPFB as an OpenPose reference](bed_pose.png)
 
-![ControlNet](bed_explosion.png)
+![Distorted Stable Diffusion output showing OpenPose limits on complex poses](bed_explosion.png)
 
 You will get the best results when the person in the image is facing forward and is standing in a reasonably neutral pose. 
 

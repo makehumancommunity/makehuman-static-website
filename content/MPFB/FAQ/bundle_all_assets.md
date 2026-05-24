@@ -1,6 +1,7 @@
 ---
 title: "Why can't you simply bundle all assets in the addon?"
 draft: false
+description: "Why MPFB ships without bundling every asset in the Blender addon zip: file size, extension platform limits and the asset-pack download model."
 ---
 
 There are a few variations of this question, but basically the viewpoint is that it is cumbersome to 

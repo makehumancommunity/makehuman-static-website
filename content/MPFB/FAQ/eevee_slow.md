@@ -2,6 +2,7 @@
 title: "Why is rendering/animation on eevee slow?"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "Why MPFB scenes can render slowly in Blender Eevee: the multilayered skin material is geared towards Cycles — switch skin model for Eevee."
 ---
 
 In some cases, Eevee can be experienced as very slow in the viewport and when rendering, if there is a human visible.

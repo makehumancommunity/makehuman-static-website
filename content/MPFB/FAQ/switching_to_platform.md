@@ -1,6 +1,7 @@
 ---
 title: "What should I do when switching to the extension platform version?"
 draft: false
+description: "What to do when switching from a standalone MPFB build to the Blender extension platform: uninstalling the old addon and migrating user data."
 ---
 
 If this is the first time you install MPFB, then there's nothing specific you need to do.

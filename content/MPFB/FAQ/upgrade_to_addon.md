@@ -1,6 +1,7 @@
 ---
 title: "How do I upgrade from addon to extension?"
 draft: false
+description: "How to upgrade MPFB from the legacy Blender addon format to the new extension format introduced in October 2024 without losing user data."
 ---
 
 If you have a) installed a version of MPFB from october 11 2024 or earlier, including for example beta 1, and b) plan to upgrade to a nightly build or a new release from october 12 2024 or later, then these are some things you need to do.
@@ -17,13 +18,13 @@ See the instructions in [How can I create a backup of my user data?]({{% relref 
 
 First you should remove all traces of the old installation. This is done by using the "uninstall" button in the preferences window.
 
-![uninstall](upgrade_uninstall.png)
+![Uninstall button for the legacy MPFB addon in Blender preferences](upgrade_uninstall.png)
 
 Confirm that you want to delete the relevant directory.
 
 In the addons list, you should no longer see any trace of mpfb:
 
-![empty](upgrade_empty.png)
+![Empty Blender addons list after uninstalling the legacy MPFB addon](upgrade_empty.png)
 
 ## Restart and make a new install
 

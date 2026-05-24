@@ -1,7 +1,7 @@
 ---
 title: "Why should I use MPFB instead of..."
 draft: false
-description: "A few reasons why you might want to consider MPFB instead of a proprietary system"
+description: "Why choose MPFB, the free open-source Blender character creator addon, over proprietary character generators: licensing, control and asset openness."
 ---
 
 A reasonable question when choosing a human character generator is why you should choose MPFB over something else.

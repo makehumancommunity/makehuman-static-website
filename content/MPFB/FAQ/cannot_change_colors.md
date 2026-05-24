@@ -1,6 +1,7 @@
 ---
 title: "I can't change colors like in the intro video"
 draft: false
+description: "Why MPFB color sliders may not match older tutorial videos in Blender: the default skin and eye material models changed in late 2024."
 ---
 
 In the intro video, functionality for changing colors on a material is demonstrated. To use this functionality, you 

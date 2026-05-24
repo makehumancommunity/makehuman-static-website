@@ -1,6 +1,7 @@
 ---
 title: "MPFB says 'cannot .. on a baked mesh'"
 draft: false
+description: "What the MPFB 'cannot do X on a baked mesh' error means in Blender, and how to recover by working with a non-baked character instead."
 ---
 
 Under normal circumstances, you are working on a live character in MPFB. It has shape keys for model parameters and

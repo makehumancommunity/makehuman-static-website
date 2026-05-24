@@ -2,6 +2,7 @@
 title: "Do I have to donate money on Patreon?"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "No — donations to the MakeHuman Community Patreon are entirely optional. MPFB, the free Blender character creator addon, is fully free under GPL."
 ---
 
 No.

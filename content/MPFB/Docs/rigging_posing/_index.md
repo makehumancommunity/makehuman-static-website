@@ -2,7 +2,7 @@
 title: "Rigging, posing and animating in MPFB"
 draft: false
 weight: 35
-description: "How to work with rigs and poses"
+description: "Rigging, posing and animating MPFB characters in Blender: standard rig, Rigify support, IK/FK helpers, saving poses and using Mixamo animations."
 alwaysopen: false
 ---
 

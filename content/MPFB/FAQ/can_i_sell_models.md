@@ -2,6 +2,7 @@
 title: "Can I sell models made with MPFB?"
 draft: false
 weight: 35
+description: "Yes, you can sell 3D models made with MPFB in Blender: core assets are CC0-licensed and characters you export are yours to use commercially."
 ---
 
 Yes.

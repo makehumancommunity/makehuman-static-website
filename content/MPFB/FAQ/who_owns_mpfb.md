@@ -2,6 +2,7 @@
 title: "Who owns MPFB?"
 draft: false
 weight: 33
+description: "Who owns MPFB: the MakeHuman Community maintains it as a free, open-source GPL project for Blender, with no single commercial owner."
 ---
 
 As MPFB is an open source project, "owns" is a bit imprecise. Philosophically, the project is owned by the wider community.

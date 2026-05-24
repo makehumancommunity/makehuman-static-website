@@ -2,6 +2,7 @@
 title: "After changing a model slider, the clothes no longer fit"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "How to re-fit MPFB clothes to a character in Blender after modeling: use the 'refit assets to basemesh' button or enable auto refit."
 ---
 
 On the model tab, there is a button "refit assets to basemesh" and a checkbox "auto refit assets". Either click the button after a model change

@@ -2,6 +2,7 @@
 title: "Can I use models made with MPFB in a closed-source game?"
 draft: false
 weight: 37
+description: "Yes, MPFB-generated characters can ship in closed-source games: the GPL applies to the Blender addon code, not to characters or assets you export."
 ---
 
 Yes.

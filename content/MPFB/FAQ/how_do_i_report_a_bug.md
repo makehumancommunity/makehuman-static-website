@@ -2,6 +2,7 @@
 title: "How do I report a bug?"
 date: 2017-10-17T15:26:15Z
 draft: false
+description: "How to report a bug in MPFB, the MakeHuman Blender addon: where to open issues on GitHub and which logs and system information to include."
 ---
 
 Before reading the following, there are two quick hints which might be useful:

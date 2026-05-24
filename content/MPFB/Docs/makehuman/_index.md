@@ -2,7 +2,7 @@
 title: "Integrating with MakeHuman"
 draft: false
 weight: 50
-description: "Things to take into account when integrating with MakeHuman"
+description: "Integrating MakeHuman with MPFB in Blender: import paths, MHM files, socket connection and which workflow to choose when bringing characters across."
 alwaysopen: false
 ---
 

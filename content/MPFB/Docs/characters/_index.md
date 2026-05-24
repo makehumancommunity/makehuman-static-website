@@ -2,7 +2,7 @@
 title: "MPFB Characters"
 draft: false
 weight: 25
-description: "How to work with characters"
+description: "How to work with MPFB characters in Blender: creating, modeling, skinning, rigging, adding clothes and body parts, and saving or loading presets."
 alwaysopen: false
 ---
 

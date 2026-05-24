@@ -2,7 +2,7 @@
 title: "MPFB Downloads"
 draft: false
 weight: 6
-description: "Where to download MPFB"
+description: "Download MPFB, the free human character creator addon for Blender, from the official Blender extension platform or via nightly and release build mirrors."
 ---
 
 ## What should you download?

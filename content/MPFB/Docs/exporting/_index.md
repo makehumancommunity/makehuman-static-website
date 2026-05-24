@@ -2,7 +2,7 @@
 title: "Exporting MPFB characters"
 draft: false
 weight: 40
-description: "Things to take into account when exporting characters from MPFB to other applications"
+description: "How to export MPFB characters from Blender to other applications: creating an export-ready copy, format choices and common pitfalls when sharing files."
 alwaysopen: false
 ---
 
@@ -28,12 +28,12 @@ the one which is the most likely to translate in an export.
 
 If you already have a character saved as a preset, you can override the material models when loading it:
 
-![override material](material_override.png)
+![Override material model option when loading an MPFB character preset](material_override.png)
 
 Or, if you are creating a new character, you can configure what materials to use under "apply assets" -> "library settings" -> "material". Here you
 should also uncheck "material instances".
 
-![override material](material_config.png)
+![MPFB library settings for default material model when adding assets](material_config.png)
 
 With the GameEngine material, you will get a texture based material setup which closely follows the standard PBR model.
  
@@ -67,7 +67,7 @@ remove the extra logic from the basemesh in order to make it easier to handle by
 
 With the basemesh selected, you find the most important parts on the "operations" -> "basemesh" panel:
 
-![bake basemesh](bm_bake.png)
+![MPFB basemesh operations panel with bake shapekeys and delete helpers buttons](bm_bake.png)
 
 Here you should first click "bake shapekeys" and then "delete helpers". Normally, you would not notice any visible difference on the base mesh in the viewport,
 but all shapekeys and at least one modifier should dissappear from the property panels. Note that performing these operations will prevent you from equipping more clothes or continue modeling the character. 
@@ -75,7 +75,7 @@ but all shapekeys and at least one modifier should dissappear from the property 
 Next you should consider what to do with the "delete" groups. These are mask modifiers which removes geometry which is hidden under clothes. The purpose of these are
 to prevent that skin pokes through clothes, and also to reduce the number of vertices in the base mesh.
 
-![delete groups](bm_delete.png)
+![Mask modifier delete groups on the MPFB basemesh in Blender](bm_delete.png)
 
 Unless your other application supports mask modifiers, you should either apply the delete modifiers or remove them without applying. 
 
@@ -84,7 +84,7 @@ Unless your other application supports mask modifiers, you should either apply t
 Once the character has been prepared, first unselect all objects in the scene and then select all objects related to the character. For example you can
 right-click the character in the outliner and "select hierarchy". Then open the "file" -> "export" -> "fbx" dialog (in blender's main menu).
 
-![export fbx](export_fbx.png)
+![Blender FBX export dialog with path mode, embed and selected-only options for MPFB](export_fbx.png)
 
 The three things you should do in this dialog is:
 

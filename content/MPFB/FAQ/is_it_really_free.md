@@ -2,6 +2,7 @@
 title: "Is it really free?"
 draft: false
 weight: 31
+description: "Yes, MPFB is fully free and open-source under the GPL license — no paid tiers, in-app purchases or restrictions on using the Blender addon."
 ---
 
 Yes:

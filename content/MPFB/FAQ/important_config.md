@@ -1,12 +1,13 @@
 ---
 title: "Which configuration settings should I adjust?"
 draft: false
+description: "Recommended MPFB settings to adjust in Blender preferences after installation: user data path, MakeHuman integration and asset pack locations."
 ---
 
 In general, things should work out of the box with the default settings. However, particularly the location of the user data is something you might want
 to set explicitly.
 
-![prefs window](prefs_window.png)
+![MPFB preferences window in Blender with user data and MakeHuman options](prefs_window.png)
 
 ## User data
 
