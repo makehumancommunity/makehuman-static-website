@@ -99,12 +99,12 @@ that it was the preferred choice.
 
 This release reorganises the UI around rigify and streamlines the modern workflow into a one-click action.
 
+![In MPFB version 2.0.16, the rigify UI has gotten an overhaul](2016_rigify_overhaul.png)
+
 ### Rigging panel restructure
 
 The "Rigging" panel has been split into clearly named sub-panels: **Standard rig**, **Rigify rig** and **Custom rig**,
 followed by the unchanged **Load pose** panel.
-
-![MPFB Rigging panel with the new Standard rig, Rigify rig and Custom rig sub-panels](2016_rigging_subpanels.png)
 
 Each sub-panel branches its content based on the current state of the active object. The Rigify rig sub-panel, for
 example, shows the "Add rigify meta rig" controls when no armature is present, the "Generate rigify rig" controls when
@@ -121,7 +121,7 @@ for MakeHuman-imported characters. The workflow itself is unchanged; only its lo
 The modern rigify workflow normally consists of two steps: add a meta rig, then click "Generate" to produce the final
 rigify rig. Most users only care about the final result.
 
-![MPFB Rigify rig sub-panel showing the new auto-generate checkboxes](2016_rigify_autogen.png)
+![MPFB Rigging panel with the new Standard rig, Rigify rig and Custom rig sub-panels](2016_rigging_subpanels.png)
 
 The Rigify rig sub-panel now has an **"Also generate full rig"** checkbox (on by default). With it enabled, clicking
 "Add rigify rig" adds the meta rig and immediately generates the full rig in a single step. A companion **"Meta-rig:"** 
