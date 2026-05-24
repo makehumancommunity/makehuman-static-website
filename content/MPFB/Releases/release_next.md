@@ -11,7 +11,7 @@ These are the release notes of MPFB 2.0.16, which not yet been released. The fol
 
 This is a feature release focusing on:
 
-- adding a complete toolset for expressions.
+- Adding a complete toolset for expressions.
 - A major overhaul of the rigify UX
 
 There is now also a set of example standalone scripts demonstrating how to use MPFB as a scripting API.
@@ -91,7 +91,67 @@ repository and the individual target files there. Pull requests with tweaks for 
 
 ## Rigify overhaul
 
-(to be written)
+Rigify support in MPFB has historically suffered from a confusing UX. The "Convert to rigify" panel was prominently
+placed on the Rigging panel and was thus the first workflow most users would discover, but it is in fact the older
+and more limited path: no face rig, more clicks, and intended mainly for characters imported from MakeHuman. The
+recommended modern workflow of "add a rigify meta rig, then generate" was tucked away alongside it with no signal
+that it was the preferred choice.
+
+This release reorganises the UI around rigify and streamlines the modern workflow into a one-click action.
+
+### Rigging panel restructure
+
+The "Rigging" panel has been split into clearly named sub-panels: **Standard rig**, **Rigify rig** and **Custom rig**,
+followed by the unchanged **Load pose** panel.
+
+![MPFB Rigging panel with the new Standard rig, Rigify rig and Custom rig sub-panels](2016_rigging_subpanels.png)
+
+Each sub-panel branches its content based on the current state of the active object. The Rigify rig sub-panel, for
+example, shows the "Add rigify meta rig" controls when no armature is present, the "Generate rigify rig" controls when
+a meta rig is selected, and a short explanation otherwise. 
+
+The old "Convert to rigify" panel has been moved out of the Rigging category entirely and now lives under
+**Operations → Rig operations**, collapsed by default and with an in-panel note clarifying that it is intended only
+for MakeHuman-imported characters. The workflow itself is unchanged; only its location has moved.
+
+![MPFB Rig operations panel under Operations hosting the legacy convert workflow](2016_rig_operations.png)
+
+### One-click rigify
+
+The modern rigify workflow normally consists of two steps: add a meta rig, then click "Generate" to produce the final
+rigify rig. Most users only care about the final result.
+
+![MPFB Rigify rig sub-panel showing the new auto-generate checkboxes](2016_rigify_autogen.png)
+
+The Rigify rig sub-panel now has an **"Also generate full rig"** checkbox (on by default). With it enabled, clicking
+"Add rigify rig" adds the meta rig and immediately generates the full rig in a single step. A companion **"Meta-rig:"** 
+drop-down controls what to do with the meta rig after generation (default: hide). The classic two-step
+workflow remains available by disabling the auto-generate checkbox.
+
+The same logic has been extended to the "From save file" panel: when a loaded character resolves to a rigify meta rig,
+the generate step can now run automatically as part of the load. This is controlled by a matching pair of controls
+and is on by default.
+
+### Generated rigify rigs as first-class citizens
+
+With users nudged towards working directly with the generated rigify rig (and the meta rig hidden by default), it
+became important that the rest of MPFB works on generated rigify rigs as well as it does on meta rigs and standard
+rigs.
+
+A defensive pass has been done over the asset loading, character save/load and pose save/load paths to make sure that
+all common operations succeed when the active rig is a generated rigify rig with no meta rig present. Saving a
+character whose only rig is a generated rigify rig now also correctly infers which kind of meta rig it was originally
+produced from, so that on reload the character can be regenerated as the same kind of rigify rig.
+
+One case is intentionally left as an error: refitting a character onto a different basemesh still requires the meta
+rig to be present. If the meta rig has been deleted, MPFB will now surface a clear error message pointing at the
+"Keep meta rig" option as the way to avoid the problem on the next generate.
+
+### Saving poses now work with generated rigify rigs
+
+Previously, using the **"Create assets" - "MakePose"** panel together with a generated rigify rig would fail because
+MPFB's other rigs uses euler rotations while generated rigify rigs use quaternions. This has now been fixed to allow
+saving poses for rigify too.
 
 ## Sample scripts
 
