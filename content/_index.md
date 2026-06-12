@@ -3,8 +3,15 @@ title: MakeHuman Community
 description: The MakeHuman Community home page
 ---
 
-This is the new homepage for [MakeHuman]({{% relref "MakeHuman" %}}) and [MPFB]({{% relref "MPFB" %}}).
+This is the new homepage for [MakeHuman]({{% relref "MakeHuman" %}}), [MakeHuman 2]({{% relref "MakeHuman2" %}}) and [MPFB]({{% relref "MPFB" %}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
+
+## 2026-06-09: MakeHuman 2 alpha is available
+
+[MakeHuman 2]({{% relref "MakeHuman2" %}}), a complete rewrite of the standalone MakeHuman application, is now
+available as an alpha release. It can be installed [from Steam or built from source]({{% relref "MakeHuman2/downloads" %}})
+and runs in parallel with MakeHuman 1. See [the differences between MakeHuman 1 and 2]({{% relref "MakeHuman2/differences_mh1_mh2" %}})
+for what has changed.
 
 ## 2026-05-05: MPFB 2.0.15 has been released
 
