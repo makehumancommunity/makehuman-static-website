@@ -4,8 +4,6 @@ draft: false
 weight: 30
 ---
 
-# MakeTarget in MBPFB2
-
 **Disclaimer: This is a guide by someone new to makehuman and modeling providing advice on the workflow which got him started successfully. It is probably not the only way to do things.**
 
 The MakeTarget workflow in MPFB v2.0.15 differs slightly from those in MakeHuman version.
