@@ -6,6 +6,11 @@ description: The MakeHuman Community home page
 This is the new homepage for [MakeHuman]({{% relref "MakeHuman" %}}) and [MPFB]({{% relref "MPFB" %}}).
 As not everything has been ported, some things can only be found via [the old site](http://www.makehumancommunity.org/).
 
+## 2026-06-13: MPFB 2.0.16 has been released
+
+The [MPFB 2.0.16]({{% relref "MPFB/Releases/release_2016" %}}) release is now available. This release contains a new 
+workflow for expressions, and there has been an overhaul of the Rigify UI.
+
 ## 2026-05-05: MPFB 2.0.15 has been released
 
 The [MPFB 2.0.15]({{% relref "MPFB/Releases/release_2015" %}}) release is now available. This release contains numerous
