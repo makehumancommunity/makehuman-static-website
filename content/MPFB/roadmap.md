@@ -12,7 +12,7 @@ want things to go faster is to jump in and help the project along, see [contribu
 
 The following is a rough overview of development efforts planned in the future.
 
-- Randomizing humans
+- Randomizing humans (implemented in the development version, see [randomizing characters]({{% relref "Docs/Randomization" %}}))
 - Translation of the UI to other languages
 - Support BlenRig
 - Support Faceit
