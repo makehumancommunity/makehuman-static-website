@@ -9,9 +9,14 @@ These are the release notes of MPFB 2.0.17, which has not yet been released. The
 
 ## General
 
-This is a feature release focusing on randomization of characters. 
+This is a feature release focusing on randomization of characters and an improved alternative materials panel.
 
-There are also a few bug fixes.
+There are also a few bug fixes:
+
+- Target paths now matches exact name before partial so that "l-eye-bag-in" resolves to "l-eye-bag-in.target.gz" and not "l-eye-bag-incr.target.gz" (both start with the requested name).
+- Alternative materials will now honor the GameEngine material setting (previously they would automatically end up MakeSkin)
+- Functional asset packs will no longer be identified as broken
+- Check that the BVH addon is enabled before trying to load a legacy pose, and print an informative message if it is disabled
 
 ## Downloads
 
@@ -54,4 +59,10 @@ status bar and can be cancelled with ESC. Each generated character remembers its
 can be regenerated individually.
 
 ![A batch of random humans](2017_batch_random.png)
+
+## Improved alternative materials panel
+
+The alternative materials panel will now show an icon grid, and it is possible to filter.
+
+![new alternative materials panel](2017_altmat_grid.png)
 
