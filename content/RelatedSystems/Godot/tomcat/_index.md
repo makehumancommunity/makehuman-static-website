@@ -13,6 +13,8 @@ This is Tomcat's tutorial on how to import makehuman assets in Godot. It consist
 * [Vol3 - changing hair and shape keys]({{% relref "tomcat3" %}})
 * [Vol4 - animation]({{% relref "tomcat4" %}})
 
+An example of a system build by using this is [a character generator prototype](https://sibtomcat.itch.io/character-generator-prototype)
+
 Other relevant material:
 
 * [Tai chi 太極拳/Тайцзицюань](https://sibtomcat.itch.io/tai-chi-demo-scene) (demo-scene)
