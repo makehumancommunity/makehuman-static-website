@@ -17,6 +17,7 @@ This is the documentation for MPFB. Note that there is also important informatio
 ## Basic operation
 
 * [Working with characters]({{% relref "characters" %}}): Information on how to create, save and load characters
+* [Randomizing characters]({{% relref "Randomization" %}}): How to generate random characters, one at a time or in batches
 * [Rigging, posing and animating]({{% relref "rigging_posing" %}}): Information about how to rig, pose and animate character
 * [Lip sync]({{% relref "LipSync" %}}): How to set up lip sync animation using facial shape keys and the Lip Sync addon
 * [Exporting characters]({{% relref "exporting" %}}): Things to take into account when exporting characters
