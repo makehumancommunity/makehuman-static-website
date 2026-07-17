@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-07-17 - Added three new material packs for system assets: [System Hair Materials 02]({{% relref "system_hair_materials02" %}}), [System Eye Materials 01]({{% relref "system_eye_materials01" %}}) and [System Eye Materials 02]({{% relref "system_eye_materials02" %}}). 
 * Release 2026-02-07 - A section for functional asset packs has been added (see bottom of page). This includes [Hair editor]({{% relref "haireditor" %}}), [Visemes 01]({{% relref "visemes01" %}}), [Visemes 02]({{% relref "visemes02" %}}) and [Faceunits 01]({{% relref "faceunits01" %}}) asset packs.
 * Release 2024-06-23 - Two asset packs with poses [Poses 01]({{% relref "poses01" %}}) (with sitting poses) and [Poses 02]({{% relref "poses02" %}}) (with sports poses) have been added. You need a nightly build from 2024-06-23 or later to load these.
 * Release 2024-05-10 - Various animal and furry transforms, primarily by JALdMIC: [Animal 01]({{% relref "animal01" %}}), [Animal 02]({{% relref "animal02" %}}), [Animal 03]({{% relref "animal03" %}}), [Animal 04]({{% relref "animal04" %}}) 
@@ -33,11 +34,14 @@ These are release notes for major updates to asset packs:
 
 ## Available asset packs
 
-System assets, shared under CC0:
+System assets and materials for system assets, shared under CC0:
 
 * [MakeHuman system assets]({{% relref "makehuman_system_assets" %}}): System assets, such as proxies, eyes, teeth...
 * [System clothes materials 01]({{% relref "system_clothes_materials01" %}}): Extra materials for system clothes
 * [System hair materials 01]({{% relref "system_hair_materials01" %}}): Extra materials for system hair
+* [System hair materials 02]({{% relref "system_hair_materials02" %}}): Extra materials for system hair
+* [System eye materials 01]({{% relref "system_eye_materials01" %}}): Extra materials for system eyes (human eye materials)
+* [System eye materials 02]({{% relref "system_eye_materials02" %}}): Extra materials for system eyes (primarily non-human eye materials)
 
 Target assets shared under CC0:
 
