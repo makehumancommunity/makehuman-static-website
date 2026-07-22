@@ -6,12 +6,7 @@ description: "How to generate random characters with MPFB in Blender: randomized
 alwaysopen: false
 ---
 
-!!!
-
-**NOTE THAT THIS IS DOCUMENTATION FOR AN UPCOMING FEATURE IN 2.0.17. CURRENTLY YOU NEED TO RUN 
-THE DEVELOPMENT VERSION FROM GITHUB TO USE THIS FUNCTIONALITY**
-
-!!!
+**NOTE THAT THIS FEATURE REQUIRES MPFB 2.0.17**
 
 MPFB can generate random characters for you. This is useful when you want to quickly populate a scene with varied
 background characters, or when you simply want a starting point that is not the default neutral human. The
@@ -21,8 +16,7 @@ neutral value they may stray, and which assets (skins, hair, clothes and so on) 
 You will find the functionality in the "Random human" panel, which is located under the "New human" panel on the
 MPFB tab in the N-panel shelf of the 3D viewport. It is collapsed by default.
 
-<!-- TODO screenshot: the Random human panel expanded in the MPFB sidebar tab, sub-panels visible -->
-<!-- ![The Random human panel in the MPFB sidebar](randomize_panel.png) -->
+![The Random human panel in the MPFB sidebar](randomize_panel.png)
 
 In its simplest form, using the feature is a one-click operation: expand the "Random human" panel and click
 "Create random human" in the "Creation settings" sub-panel. This will generate a character with the default

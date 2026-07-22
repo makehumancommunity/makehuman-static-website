@@ -12,8 +12,7 @@ skin assets. If you have not installed any skins yet, see the section about
 
 Skin randomization is controlled from the "Skin" sub-panel.
 
-<!-- TODO screenshot: the Skin sub-panel with its filter settings -->
-<!-- ![The Skin sub-panel](randomize_skin.png) -->
+![The Skin sub-panel](randomize_skin.png) 
 
 ## Matching the phenotype
 

@@ -11,8 +11,7 @@ random human, but with its own derived seed, so every character comes out differ
 
 Batch generation is controlled from the "Batch" sub-panel.
 
-<!-- TODO screenshot: the Batch sub-panel with the grid settings visible -->
-<!-- ![The Batch sub-panel](randomize_batch.png) -->
+![The Batch sub-panel](randomize_batch.png) 
 
 ## Settings
 
@@ -54,5 +53,4 @@ in the batch, not on how many characters were generated. If you like one charact
 therefore copy its stored seed into the "Seed" field and click "Create random human" to regenerate exactly that
 character on its own.
 
-<!-- TODO screenshot: a generated grid of random characters in the viewport -->
-<!-- ![A batch of random characters placed in a grid](randomize_batch_result.png) -->
+![A batch of random characters placed in a grid](randomize_batch_result.png)

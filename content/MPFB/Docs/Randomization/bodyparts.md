@@ -13,8 +13,7 @@ for you.
 Body part randomization is controlled from the "Body parts" sub-panel, which contains one box per body part
 type.
 
-<!-- TODO screenshot: the Body parts sub-panel with the hair box expanded -->
-<!-- ![The Body parts sub-panel](randomize_bodyparts.png) -->
+![The Body parts sub-panel](randomize_bodyparts.png) 
 
 At the top of the sub-panel there is a shared "Asset material" drop-down, choosing whether the attached assets
 get GameEngine (PBR) or MakeSkin (PBR) materials. This applies to all body parts except the eyes, which have

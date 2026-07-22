@@ -9,8 +9,7 @@ All parts of the randomization share a few core concepts. Understanding these wi
 predict what the individual settings on the other sub-panels will actually do. The seed and the distribution
 are both set on the "General settings" sub-panel.
 
-<!-- TODO screenshot: the General settings sub-panel with the Seed field and Distribution drop-down -->
-<!-- ![The General settings sub-panel](randomize_general.png) -->
+![The General settings sub-panel](randomize_general.png)
 
 ## Seeds and reproducibility
 
@@ -49,6 +48,7 @@ attributes. There are four distributions to choose from:
 
 * **Flat**: Every value within the allowed range is equally likely. This gives the most varied and extreme
   results, since a value at the very edge of the range is just as probable as one near the neutral value.
+  This is the distribution you would choose if you want wild results.
 * **Bell** (the default): Values follow a bell curve centered on the neutral value. Most results land close to
   the neutral value, and results near the edges of the range are rare. This tends to give plausible, everyday
   characters with an occasional outlier.
@@ -56,13 +56,13 @@ attributes. There are four distributions to choose from:
   ground: results cluster around the neutral value, but noticeably less tightly than with the bell curve.
 * **Peak**: A sharp spike at the neutral value with long thin tails. Most results are very close to the neutral
   value, but the occasional result can still land far out. Use this when you want a crowd of near-identical
-  characters with rare exceptions.
+  characters with rare exceptions. This is the distribution you would choose if you want very conservative
+  and bland results.
 
-<!-- TODO illustration: the four distribution curves (flat, bell, pyramid, peak) side by side over the same deviation range -->
-<!-- ![The four probability distributions](randomize_distributions.png) -->
+![The four probability distributions](randomize_distributions.png)
 
 In short: if a crowd generated with "Flat" looks like a random assortment of extremes, the same crowd generated
-with "Peak" will look like a family of siblings.
+with "Peak" will look like clones.
 
 Note that [detail randomization]({{% relref "details" %}}) deliberately does not use the global distribution.
 It uses its own value model, which is explained on its page.
@@ -84,9 +84,7 @@ file name" field and click "Save new preset". The name may not contain spaces, a
 existing preset.
 
 Presets are stored as JSON files named `randomization.<name>.json` in your MPFB user config directory. A preset
-named "default" is created automatically the first time you open the panel. Presets saved with an older version
-of MPFB keep working: any part of the randomization that did not exist when the preset was saved is simply
-treated as disabled when the preset is loaded.
+named "default" is created automatically the first time you open the panel. 
 
 Combined with the seed, presets give you full reproducibility: the same preset and the same seed will produce
 the same character, also on another computer, as long as the same assets are installed.

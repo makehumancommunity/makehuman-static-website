@@ -12,8 +12,7 @@ is what makes two characters with a similar phenotype still look like different 
 
 Detail randomization is controlled from the "Details" sub-panel.
 
-<!-- TODO screenshot: the Details sub-panel with a section selected in the drop-down -->
-<!-- ![The Details sub-panel](randomize_details.png) -->
+![The Details sub-panel](randomize_details.png) 
 
 ## Panel layout
 

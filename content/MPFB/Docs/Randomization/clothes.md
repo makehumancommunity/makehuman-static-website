@@ -14,8 +14,7 @@ Clothes randomization is controlled from the "Clothes" sub-panel. At the top the
 material" drop-down as on the [body parts]({{% relref "bodyparts" %}}) sub-panel, and below it one collapsible
 box per slot.
 
-<!-- TODO screenshot: the Clothes sub-panel with one slot box expanded -->
-<!-- ![The Clothes sub-panel](randomize_clothes.png) -->
+![The Clothes sub-panel](randomize_clothes.png) 
 
 ## Slots
 
@@ -58,6 +57,3 @@ twice.
 
 As with the other asset types, the picked clothes are ordinary clothes assets, and you can adjust or replace
 them afterwards as described in [adding clothes]({{% relref "../characters/clothes" %}}).
-
-<!-- TODO screenshot: a few generated characters wearing randomized outfits -->
-<!-- ![Random characters with randomized clothes](randomize_clothes_result.png) -->

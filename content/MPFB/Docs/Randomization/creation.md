@@ -9,8 +9,7 @@ The "Creation settings" sub-panel holds the settings which are not randomized bu
 character, along with the "Create random human" button itself. These settings mirror their counterparts on the
 ordinary "New human" panel, see [creating a character]({{% relref "../characters/creating" %}}).
 
-<!-- TODO screenshot: the Creation settings sub-panel with the Create random human button -->
-<!-- ![The Creation settings sub-panel](randomize_creation.png) -->
+![The Creation settings sub-panel](randomize_creation.png)
 
 ## Rig
 

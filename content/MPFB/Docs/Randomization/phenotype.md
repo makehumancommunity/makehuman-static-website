@@ -9,8 +9,7 @@ The phenotype is the overall body shape of the character: the macrodetail attrib
 manually on the model panel, such as age, gender and height. Phenotype randomization is controlled from two
 sub-panels: "Macrodetails" and "Breast shape".
 
-<!-- TODO screenshot: the Macrodetails sub-panel with a few attribute boxes expanded -->
-<!-- ![The Macrodetails sub-panel](randomize_macrodetails.png) -->
+![The Macrodetails sub-panel](randomize_macrodetails.png)
 
 ## Scalar attributes
 
@@ -70,5 +69,3 @@ with seed 123: A young (0.6) caucasian (0.0/0.0/1.0) female (0.1)". The generate
 character, so you can continue adjusting it manually on the model panel as usual, see
 [working with characters]({{% relref "../characters" %}}).
 
-<!-- TODO screenshot: a group of generated characters showing varied phenotypes -->
-<!-- ![A crowd of random phenotypes](randomize_phenotype_crowd.png) -->
