@@ -15,7 +15,8 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
-* Release 2026-08-01 - Added a new packs for culturalibre hero/heroine suits, [Suits 04]({{% relref "suits04" %}}), [Suits 05]({{% relref "suits05" %}}), and extra materials for clothes from all the suits packs, [Clothes Materials 01]({{% relref "clothes_materials01" %}}).
+* Release 2026-08-01 - Added a new packs for culturalibre hero/heroine suits, [Suits 04]({{% relref "suits04" %}}), [Suits 05]({{% relref "suits05" %}}), and extra materials for clothes from all the suits packs, [Clothes Materials 01]({{% relref "clothes_materials01" %}}). Also updated 
+  [Suits 03]({{% relref "suits03" %}}) which previously had accidentally been uploaded before being finished.
 * Release 2026-07-24 - Added a new section for CC-BY licensed materials for system assets, with [System eye materials 03]({{% relref "system_eye_materials03" %}})
 * Release 2026-07-17 - Added three new material packs for system assets: [System Hair Materials 02]({{% relref "system_hair_materials02" %}}), [System Eye Materials 01]({{% relref "system_eye_materials01" %}}) and [System Eye Materials 02]({{% relref "system_eye_materials02" %}}). 
 * Release 2026-02-07 - A section for functional asset packs has been added (see bottom of page). This includes [Hair editor]({{% relref "haireditor" %}}), [Visemes 01]({{% relref "visemes01" %}}), [Visemes 02]({{% relref "visemes02" %}}) and [Faceunits 01]({{% relref "faceunits01" %}}) asset packs.
