@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-08-01 - Added a new packs for culturalibre hero/heroine suits, [Suits 04]({{% relref "suits04" %}}), [Suits 05]({{% relref "suits05" %}}), and extra materials for clothes from all the suits packs, [Clothes Materials 01]({{% relref "clothes_materials01" %}}).
 * Release 2026-07-24 - Added a new section for CC-BY licensed materials for system assets, with [System eye materials 03]({{% relref "system_eye_materials03" %}})
 * Release 2026-07-17 - Added three new material packs for system assets: [System Hair Materials 02]({{% relref "system_hair_materials02" %}}), [System Eye Materials 01]({{% relref "system_eye_materials01" %}}) and [System Eye Materials 02]({{% relref "system_eye_materials02" %}}). 
 * Release 2026-02-07 - A section for functional asset packs has been added (see bottom of page). This includes [Hair editor]({{% relref "haireditor" %}}), [Visemes 01]({{% relref "visemes01" %}}), [Visemes 02]({{% relref "visemes02" %}}) and [Faceunits 01]({{% relref "faceunits01" %}}) asset packs.
@@ -95,6 +96,7 @@ Mesh assets shared under CC0:
 * [Skirts 01]({{% relref "skirts01" %}}): A set of skirts
 * [Suits 01]({{% relref "suits01" %}}): A set of formal suits by Margaret Toigo
 * [Suits 02]({{% relref "suits02" %}}): A set of sci-fi and fantasy suits
+* [Suits 05]({{% relref "suits05" %}}): Culturalibre hero/heroine suits
 * [Underwear 01]({{% relref "underwear01" %}}): A set of female underwear
 * [Underwear 04]({{% relref "underwear04" %}}): A set of socks
 
@@ -121,6 +123,7 @@ Mesh assets shared under CC-BY:
 * [Shoes 03]({{% relref "shoes03" %}}): A set of boots
 * [Skirts 02]({{% relref "skirts02" %}}): A set of skirts
 * [Suits 03]({{% relref "suits03" %}}): A set of thematic suits
+* [Suits 04]({{% relref "suits04" %}}): Culturalibre hero/heroine suits
 * [Underwear 02]({{% relref "underwear02" %}}): A set of female underwear and bikinis
 * [Underwear 03]({{% relref "underwear03" %}}): A set of underwear and swimwear
 
