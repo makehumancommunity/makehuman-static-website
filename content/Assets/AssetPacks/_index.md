@@ -15,6 +15,8 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-08-10 - Created a new [MakeHuman system poses]({{% relref "makehuman_system_poses" %}}) pack. The poses bundled with makehuman
+  did not make it into the main system assets pack originally, so adding them in a separate pack.
 * Release 2026-08-01 - Added a new packs for culturalibre hero/heroine suits, [Suits 04]({{% relref "suits04" %}}), [Suits 05]({{% relref "suits05" %}}), and extra materials for clothes from all the suits packs, [Clothes Materials 01]({{% relref "clothes_materials01" %}}). Also updated 
   [Suits 03]({{% relref "suits03" %}}) which previously had accidentally been uploaded before being finished.
 * Release 2026-07-24 - Added a new section for CC-BY licensed materials for system assets, with [System eye materials 03]({{% relref "system_eye_materials03" %}})
@@ -40,6 +42,7 @@ These are release notes for major updates to asset packs:
 System assets and materials for system assets, shared under CC0:
 
 * [MakeHuman system assets]({{% relref "makehuman_system_assets" %}}): System assets, such as proxies, eyes, teeth...
+* [MakeHuman system poses]({{% relref "makehuman_system_poses" %}}): Poses which were included with MakeHuman, but which did not get shipped with the system assets pack.
 * [System clothes materials 01]({{% relref "system_clothes_materials01" %}}): Extra materials for system clothes
 * [System hair materials 01]({{% relref "system_hair_materials01" %}}): Extra materials for system hair
 * [System hair materials 02]({{% relref "system_hair_materials02" %}}): Extra materials for system hair
