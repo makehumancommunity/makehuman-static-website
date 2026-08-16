@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-08-12 - Added two new jewelry asset packs: [Jewelry01]({{% relref "jewelry01" %}}) and [Jewelry02]({{% relref "jewelry02" %}})
 * Release 2026-08-10 - Created a new [MakeHuman system poses]({{% relref "makehuman_system_poses" %}}) pack. The poses bundled with makehuman
   did not make it into the main system assets pack originally, so adding them in a separate pack.
 * Release 2026-08-01 - Added a new packs for culturalibre hero/heroine suits, [Suits 04]({{% relref "suits04" %}}), [Suits 05]({{% relref "suits05" %}}), and extra materials for clothes from all the suits packs, [Clothes Materials 01]({{% relref "clothes_materials01" %}}). Also updated 
@@ -93,6 +94,7 @@ Mesh assets shared under CC0:
 * [Hair 01]({{% relref "hair01" %}}): A set of mostly low-poly and stylized hair
 * [Hats 01]({{% relref "hats01" %}}): A set of hats and caps
 * [Hats 02]({{% relref "hats02" %}}): A set of helmets
+* [Jewelry01]({{% relref "jewelry01" %}}): Various jewelry
 * [Masks 01]({{% relref "masks01" %}}): A set of masks
 * [Pants 01]({{% relref "pants01" %}}): A set of pants
 * [Shirts 01]({{% relref "shirts01" %}}): A set of t-shirts, sweaters and tops
@@ -118,6 +120,7 @@ Mesh assets shared under CC-BY:
 * [Hats 04]({{% relref "hats04" %}}): A set of helmets
 * [Hair 02]({{% relref "hair02" %}}): A set of mostly high-poly hair by Elvaerwyn
 * [Hair 03]({{% relref "hair03" %}}): A set of alpha 7 hair adaptations and misc hair
+* [Jewelry02]({{% relref "jewelry02" %}}): Various jewelry
 * [Masks 02]({{% relref "masks02" %}}): A set of masks
 * [Pants 02]({{% relref "pants02" %}}): A set of long-legged pants
 * [Pants 03]({{% relref "pants03" %}}): A set of short legged pants swimming trunks
