@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-08-30 - Three poses packs with a total of 59 new poses: [Poses03]({{% relref "poses03" %}}), [Poses04]({{% relref "poses04" %}}) and [Poses05]({{% relref "poses05" %}}).
 * Release 2026-08-12 - Added two new jewelry asset packs: [Jewelry01]({{% relref "jewelry01" %}}) and [Jewelry02]({{% relref "jewelry02" %}})
 * Release 2026-08-10 - Created a new [MakeHuman system poses]({{% relref "makehuman_system_poses" %}}) pack. The poses bundled with makehuman
   did not make it into the main system assets pack originally, so adding them in a separate pack.
@@ -65,14 +66,17 @@ Target assets shared under CC0:
 
 Target assets shared under CC-BY: 
 
-* [Animal 02]({{% relref "animal02" %}}), Various animal and furry details by JALdMIC
-* [Animal 03]({{% relref "animal03" %}}), Animal and furry head deforms by JALdMIC
-* [Animal 04]({{% relref "animal04" %}}), Animal and furry full body transforms by JALdMIC
+* [Animal 02]({{% relref "animal02" %}}): Various animal and furry details by JALdMIC
+* [Animal 03]({{% relref "animal03" %}}): Animal and furry head deforms by JALdMIC
+* [Animal 04]({{% relref "animal04" %}}): Animal and furry full body transforms by JALdMIC
 
 Pose assets shared under CC0:
 
-* [Poses 01]({{% relref "poses01" %}}), Various sitting poses
-* [Poses 02]({{% relref "poses02" %}}), Various sports poses
+* [Poses 01]({{% relref "poses01" %}}): Various sitting poses
+* [Poses 02]({{% relref "poses02" %}}): Various sports poses
+* [Poses 03]({{% relref "poses03" %}}): Standing poses
+* [Poses 04]({{% relref "poses04" %}}): Dramatic and fantasy poses
+* [Poses 05]({{% relref "poses05" %}}): Fighting poses
 
 Material assets, shared under CC0:
 
