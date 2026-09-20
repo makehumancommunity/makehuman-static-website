@@ -1,0 +1,9 @@
+{{- /* Lists every announcement of the news section, newest first, with the same
+heading text as when the announcements lived in content/_index.md. The anchor is
+built with anchorize, so the identifiers stay identical and the links which
+already point at index.html#2026-07-22-... keep working. */ -}}
+{{- range (where site.RegularPages "Section" "news").ByDate.Reverse -}}
+{{- $heading := printf "%s: %s" (.Date.Format "2006-01-02") .Title -}}
+<h2 id="{{ anchorize $heading }}">{{ $heading | markdownify }}</h2>
+{{ .Content }}
+{{- end -}}
