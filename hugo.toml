@@ -9,8 +9,8 @@ publishDir = "build"
 [params]
 #disableBreadcrumb = true
 disableLandingPageButton = true
-disableNextPrev = true
-disableSearch = true
+disableNextPrev = false
+disableSearch = false
 showVisitedLinks = false
 themeVariant = "makehuman"
 collapsibleMenu = true
