@@ -37,6 +37,10 @@ These are frequently asked question about MPFB.
 * [Why can't you simply bundle all assets in the addon?]({{% relref "bundle_all_assets" %}})
 * [MPFB has no asset XYZ]({{% relref "missing_asset_xyz" %}})
 
+## Misconceptions
+
+* [You can only create bland and generic humans with MPFB]({{% relref "only_bland_humans" %}})
+
 ## Bugs, errors and problems
 
 * [How do I report a bug?]({{% relref "how_do_i_report_a_bug" %}})
