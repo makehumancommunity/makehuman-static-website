@@ -10,7 +10,11 @@ The following are changes since [2.0.17]({{% relref "release_2017" %}}).
 
 ## General
 
-This is a minor release focusing on new user UX, compatibility with Blender 5.2 and some documentation fixes.
+This is a feature release with:
+
+- New user UX with a "start here" panel
+- A new category "asym" with assymetry targets
+- Topology proxies can now be unequipped
 
 There is also a set of bug fixes:
 
@@ -28,7 +32,9 @@ There is also a set of bug fixes:
 - A randomization preset saved before a target section existed would fail to load in its entirety. Sections
   which a preset predates are now restored as disabled rather than raising an error, which reproduces
   exactly the character the preset gave before.
-- Topology proxies can now be unequipped, see below.
+- Hair editor updated to work with blender 5.2 (see below)
+
+There have also been a few updates for consistency and correctness of the system documentation.
 
 ## Downloads
 
@@ -76,7 +82,7 @@ modifier which was hiding the base mesh underneath it.
 As a part of this, a proxy loaded without rigging is now parented to the basemesh. Without that parenting
 MPFB did not consider the proxy an equipped asset at all, and it could thus never be unequipped.
 
-## Blender 5.2 compatibility
+## Hair editor Blender 5.2 compatibility
 
 Blender 5.2 changed how the inputs of a geometry nodes modifier are accessed. Up to 5.1 they are
 ID-properties on the modifier itself, and as of 5.2 reading them that way raises an exception. This broke
@@ -95,12 +101,8 @@ Both of these were contributed by GitHub user ashledombos.
 
 As GitHub user Shatur has noted, the 
 [target metadata documentation](https://github.com/makehumancommunity/mpfb2/blob/master/docs/fileformats/target_metadata.md) 
-as well as a few other pieces of documentation are confusing and in some cases outright wrong. Some attempts have been made
-to find these places and update them. 
+as well as a few other pieces of documentation are confusing and in some cases outright wrong. A spirited attempt at finding 
+and fixing these and similar problems have been made.
 
 This is quite far off from being able to promise that everything in the docs is correct (it is most likely not). Help with
 proof reading and suggesting changes is very welcome.
-
-The technical documentation in the `docs` directory has also been extended to cover the new functionality in
-this release: the start here panel, the proxy unequip operator, and the new methods in `ObjectService`,
-`ModifierService` and `UiService`.
