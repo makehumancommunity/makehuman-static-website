@@ -58,3 +58,7 @@ h3 {
 	font-weight: 400;
 }
 
+.footline {
+	display: none !important;
+}
+
