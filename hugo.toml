@@ -14,6 +14,9 @@ disableSearch = false
 showVisitedLinks = false
 themeVariant = "makehuman"
 collapsibleMenu = true
+# The theme stamps every dated page with its date. The news pages have one, the
+# readers did not ask for it, and CSS is not how one says no to a theme.
+hideAuthorDate = true
 primaryFilesUrl = "https://files2.makehumancommunity.org"
 secondaryFilesUrl = "https://files.makehumancommunity.org"
 
