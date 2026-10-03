@@ -35,11 +35,18 @@ These are frequently asked question about MPFB.
 
 * [Are there assets other than the asset packs?]({{% relref "other_assets" %}})
 * [Why can't you simply bundle all assets in the addon?]({{% relref "bundle_all_assets" %}})
-* [MPFB has no asset XYZ]({{% relref "missing_asset_xyz" %}})
+
+## MPFB and AI
+
+* [What is your stance on AI?]({{% relref "ai_stance" %}})
+* [Can I use MPFB in an AI toolchain (legally)?]({{% relref "ai_use_legally" %}})
+* [Can I use MPFB in an AI toolchain (technically)?]({{% relref "ai_use_technically" %}})
+* [Does MPFB have an MCP interface?]({{% relref "ai_use_mcp" %}})
 
 ## Misconceptions
 
 * [You can only create bland and generic humans with MPFB]({{% relref "only_bland_humans" %}})
+* [MPFB has no asset XYZ]({{% relref "missing_asset_xyz" %}})
 
 ## Bugs, errors and problems
 
