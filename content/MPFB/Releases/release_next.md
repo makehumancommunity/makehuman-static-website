@@ -34,7 +34,8 @@ There is also a set of bug fixes:
   exactly the character the preset gave before.
 - Hair editor updated to work with blender 5.2 (see below)
 
-There have also been a few updates for consistency and correctness of the system documentation.
+There have also been a few updates for consistency and correctness of the
+[system documentation](https://github.com/makehumancommunity/mpfb2/blob/master/docs/index.md).
 
 ## Downloads
 
