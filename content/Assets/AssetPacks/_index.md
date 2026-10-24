@@ -15,6 +15,7 @@ See the [asset packs FAQ]({{% relref "faq" %}}) for more information on asset pa
 
 These are release notes for major updates to asset packs:
 
+* Release 2026-10-24 - Updated [Hair editor]({{% relref "haireditor" %}}) asset pack. Fixes a few issues and prepepares for upcoming hair card bake feature of MPFB.
 * Release 2026-08-30 - Three poses packs with a total of 59 new poses: [Poses03]({{% relref "poses03" %}}), [Poses04]({{% relref "poses04" %}}) and [Poses05]({{% relref "poses05" %}}).
 * Release 2026-08-12 - Added two new jewelry asset packs: [Jewelry01]({{% relref "jewelry01" %}}) and [Jewelry02]({{% relref "jewelry02" %}})
 * Release 2026-08-10 - Created a new [MakeHuman system poses]({{% relref "makehuman_system_poses" %}}) pack. The poses bundled with makehuman
